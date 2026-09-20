@@ -23,6 +23,7 @@ export const App: React.FC = () => {
   const [filters, setFilters] = useState<FilterState>({
     searchQuery: '',
     selectedSectors: [],
+    selectedSources: [],
     visitedIslandOnly: false,
     flewPlaneOnly: false,
     visitedTownhouseOnly: false,
@@ -45,6 +46,20 @@ export const App: React.FC = () => {
     return counts;
   }, [peopleData]);
 
+  // Source counts
+  const sourceCounts = useMemo(() => {
+    const counts: Record<string, number> = {
+      files_list: 0,
+      connections_article: 0,
+      court_does_and_flights: 0,
+    };
+    peopleData.forEach(p => {
+      const src = p.source_dataset || 'files_list';
+      counts[src] = (counts[src] || 0) + 1;
+    });
+    return counts;
+  }, [peopleData]);
+
   // Filtered Person IDs based on active filters
   const filteredPersonIds = useMemo(() => {
     const query = filters.searchQuery.trim().toLowerCase();
@@ -60,6 +75,14 @@ export const App: React.FC = () => {
             const matchesOrgs = p.affiliated_organizations.some(o => o.toLowerCase().includes(query));
             const matchesText = p.full_text.toLowerCase().includes(query);
             if (!matchesName && !matchesAliases && !matchesTitle && !matchesOrgs && !matchesText) {
+              return false;
+            }
+          }
+
+          // Source filter
+          if (filters.selectedSources.length > 0) {
+            const pSource = p.source_dataset || 'files_list';
+            if (!filters.selectedSources.includes(pSource)) {
               return false;
             }
           }
@@ -153,6 +176,7 @@ export const App: React.FC = () => {
         filters={filters}
         setFilters={setFilters}
         sectorCounts={sectorCounts}
+        sourceCounts={sourceCounts}
         totalFiltered={filteredPersonIds.size}
         totalPeople={peopleData.length}
         allPeople={peopleData}

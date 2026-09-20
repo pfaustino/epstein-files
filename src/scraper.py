@@ -244,6 +244,9 @@ def parse_html_to_records(html: str) -> List[Dict[str, Any]]:
             "full_text": "\n\n".join(paragraphs),
             "links": links,
             "citations": citations,
+            "source_dataset": "files_list",
+            "source_label": "Wikipedia: Named in Files",
+            "legal_context": "Named in Files",
         })
 
     return records

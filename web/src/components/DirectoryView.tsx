@@ -133,12 +133,36 @@ export const DirectoryView: React.FC<DirectoryViewProps> = ({
                       {p.profession_summary}
                     </p>
 
-                    <div className="flex items-center gap-1.5 mt-2">
+                    <div className="flex flex-wrap items-center gap-1.5 mt-2">
                       <span
                         className={`text-[9.5px] font-semibold px-2 py-0.2 rounded-full border truncate max-w-[150px] ${sectorStyle.bg} ${sectorStyle.text} ${sectorStyle.border}`}
                       >
                         {p.sector}
                       </span>
+
+                      {/* Source Dataset Badge */}
+                      <span
+                        className={`text-[9px] font-mono px-1.5 py-0.2 rounded border ${
+                          p.source_dataset === 'connections_article'
+                            ? 'bg-emerald-950/50 text-emerald-300 border-emerald-800/60'
+                            : p.source_dataset === 'court_does_and_flights'
+                            ? 'bg-purple-950/50 text-purple-300 border-purple-800/60'
+                            : 'bg-blue-950/50 text-blue-300 border-blue-800/60'
+                        }`}
+                      >
+                        {p.source_dataset === 'connections_article'
+                          ? 'Connections'
+                          : p.source_dataset === 'court_does_and_flights'
+                          ? 'Court / Flights'
+                          : 'Files List'}
+                      </span>
+
+                      {/* Legal Context Tag if specialized */}
+                      {p.legal_context && p.legal_context !== 'Named in Files' && (
+                        <span className="text-[9px] font-mono px-1.5 py-0.2 rounded bg-slate-800/90 text-slate-300 border border-slate-700 truncate max-w-[140px]" title={p.legal_context}>
+                          {p.legal_context}
+                        </span>
+                      )}
                     </div>
                   </div>
                 </div>

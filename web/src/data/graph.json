@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "total_nodes": 181,
-    "total_edges": 440,
-    "people_count": 157,
+    "total_nodes": 210,
+    "total_edges": 564,
+    "people_count": 186,
     "organization_count": 18,
     "location_count": 5,
-    "peer_connection_count": 67
+    "peer_connection_count": 105
   },
   "nodes": [
     {
@@ -17,27 +17,7 @@
       "size": 35,
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Mugshot_of_Jeffrey_Epstein_in_2009.jpg/250px-Mugshot_of_Jeffrey_Epstein_in_2009.jpg",
       "description": "Financier and convicted sex offender who cultivated ties with influential figures.",
-      "degree": 162
-    },
-    {
-      "id": "loc-palm-beach",
-      "label": "Palm Beach Mansion",
-      "type": "location",
-      "category": "Property / Location",
-      "color": "#d97706",
-      "size": 26,
-      "description": "Epstein's waterfront estate at 358 El Brillo Way, Palm Beach, Florida.",
-      "degree": 3
-    },
-    {
-      "id": "loc-zorro-ranch",
-      "label": "Zorro Ranch (New Mexico)",
-      "type": "location",
-      "category": "Property / Location",
-      "color": "#ca8a04",
-      "size": 26,
-      "description": "Epstein's 10,000-acre ranch near Stanley, New Mexico.",
-      "degree": 3
+      "degree": 191
     },
     {
       "id": "loc-paris",
@@ -50,14 +30,14 @@
       "degree": 2
     },
     {
-      "id": "loc-little-saint-james",
-      "label": "Little Saint James (Private Island)",
+      "id": "loc-palm-beach",
+      "label": "Palm Beach Mansion",
       "type": "location",
       "category": "Property / Location",
-      "color": "#dc2626",
+      "color": "#d97706",
       "size": 26,
-      "description": "Epstein's private 70-acre island in the US Virgin Islands.",
-      "degree": 13
+      "description": "Epstein's waterfront estate at 358 El Brillo Way, Palm Beach, Florida.",
+      "degree": 14
     },
     {
       "id": "loc-nyc-townhouse",
@@ -67,7 +47,27 @@
       "color": "#ea580c",
       "size": 26,
       "description": "Epstein's 7-story, 28,000 sq ft mansion at 9 East 71st St, Manhattan.",
-      "degree": 6
+      "degree": 13
+    },
+    {
+      "id": "loc-zorro-ranch",
+      "label": "Zorro Ranch (New Mexico)",
+      "type": "location",
+      "category": "Property / Location",
+      "color": "#ca8a04",
+      "size": 26,
+      "description": "Epstein's 10,000-acre ranch near Stanley, New Mexico.",
+      "degree": 7
+    },
+    {
+      "id": "loc-little-saint-james",
+      "label": "Little Saint James (Private Island)",
+      "type": "location",
+      "category": "Property / Location",
+      "color": "#dc2626",
+      "size": 26,
+      "description": "Epstein's private 70-acre island in the US Virgin Islands.",
+      "degree": 21
     },
     {
       "id": "org-united-nations",
@@ -76,7 +76,7 @@
       "category": "Organization / Institution",
       "color": "#6366f1",
       "size": 18,
-      "degree": 118
+      "degree": 141
     },
     {
       "id": "org-bard-college",
@@ -94,7 +94,7 @@
       "category": "Organization / Institution",
       "color": "#6366f1",
       "size": 18,
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "org-cbs-news",
@@ -175,7 +175,7 @@
       "category": "Organization / Institution",
       "color": "#6366f1",
       "size": 18,
-      "degree": 10
+      "degree": 12
     },
     {
       "id": "org-l-brands---victoria's-secret",
@@ -193,7 +193,7 @@
       "category": "Organization / Institution",
       "color": "#6366f1",
       "size": 18,
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "org-microsoft",
@@ -247,6 +247,9 @@
       "size": 15,
       "citations_count": 2,
       "bio": "Dr. Stephen Alexander was Epstein's court-approved sex-addiction doctor when Epstein was convicted in Florida in 2008, and at that time Epstein used Alexander to woo government and law enforcement officials. Alexander delivered Epstein's messages, and in return Epstein gave Alexander business opportunities, stock tips, and trips to Little Saint James over the subsequent years.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -265,6 +268,9 @@
       "size": 19,
       "citations_count": 3,
       "bio": "Woody Allen was a guest at the townhouse from 2010 onward. He wrote a letter for Epstein's 63rd birthday. Photographs showed Allen and Epstein together, including on a private plane alongside Larry Summers. Emails showed Epstein helping Allen's daughter get into Bard College by connecting her to Leon Botstein.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 6
     },
     {
@@ -283,6 +289,9 @@
       "size": 17,
       "citations_count": 3,
       "bio": "Anil Ambani and Epstein were introduced by Sultan Ahmed bin Sulayem, Ambani seeking White House connections. In March 2017, Epstein offered a tall Swedish blonde woman to Anil, who agreed. The day Modi secured re-election in 2019, Ambani visited the townhouse.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 4
     },
     {
@@ -301,6 +310,9 @@
       "size": 17,
       "citations_count": 2,
       "bio": "Eva Andersson-Dubin was Epstein's girlfriend for 11 years before marrying Glenn Dubin. The Dubins flew on Epstein's planes at least 18 times between 1996 and 2005. In a 2010 email, Andersson-Dubin invited Epstein, saying her daughter \"will have 5 friends over\".",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -319,6 +331,9 @@
       "size": 15,
       "citations_count": 2,
       "bio": "Dan Ariely had a longstanding relationship with Epstein. In one email from 2012 Ariely asked Epstein for the name and email of a \"redhead\" he met earlier.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 1
     },
     {
@@ -337,6 +352,9 @@
       "size": 15,
       "citations_count": 5,
       "bio": "Peter Attia's name appeared over 1,700 times in the files. In one email, Attia told Epstein: \"the life you lead is so outrageous, and yet I can't tell a soul\". Attia stepped down from his position as science officer for a protein bar manufacturer and lost his position as an advisor for a sleep tech company, and as a contributor to CBS News.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -355,6 +373,9 @@
       "size": 15,
       "citations_count": 4,
       "bio": "Richard Axel is professor of biology at Columbia University who met Epstein in the 1980s. They corresponded from 2010 until 2019. Axel and his wife were invited to Epstein's island multiple times. Axel stepped down from his role at the Zuckerman Mind Brain Behavior Institute.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 4
     },
     {
@@ -373,6 +394,9 @@
       "size": 15,
       "citations_count": 1,
       "bio": "Joscha Bach is a cognitive scientist whose MIT Media Lab research has been subsidized by Epstein. Bach wrote to Epstein in 2016 that \"black kids in the US have slower cognitive development\" and that women \"tend to find abstract systems, conflicts and mechanisms intrinsically boring\". Bach stated he kept connected to Epstein after his conviction because academics recommended him as a funding source and vouched for his reformation.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -391,6 +415,9 @@
       "size": 15,
       "citations_count": 3,
       "bio": "Adam Back is a co-founder of blockchain company Blockstream. Back was invited by Epstein to his island in April 2014 and an email sent by Epstein to Amir Taaki indicated that Back visited the island. Epstein made a $500,000 investment in Blockstream through an investment fund he co-owned with Joichi Ito in 2014.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 4
     },
     {
@@ -409,6 +436,9 @@
       "size": 19,
       "citations_count": 4,
       "bio": "Doug Band is a former aide to Bill Clinton, whom he connected to Epstein. He exchanged flirtatious emails in 2002 with Maxwell. Maxwell and Epstein gifted Band a $35,000 Audemars Piguet watch in 2005; Band also flew on Epstein's private jet more than 35 times. In 2011, Band removed Maxwell from lists to Clinton-related events.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -427,6 +457,9 @@
       "size": 15,
       "citations_count": 3,
       "bio": "Pundit and former White House chief strategist Steve Bannon exchanged thousand of texts with Epstein. Epstein lent him multiple times the use of his Paris apartment, his Palm Beach house, and his plane; Bannon coached Epstein to face the early 2019 media. According to Politico, the files indicate Bannon had a relationship with Epstein after 2008. In 2019, Bannon discussed with Epstein opposition research on Pope Francis.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 7
     },
     {
@@ -445,7 +478,10 @@
       "size": 19,
       "citations_count": 4,
       "bio": "Ehud Barak is a former prime minister and Minister of Defense of Israel. Barak and Epstein regularly exchanged email communications, and met over 60 times between September 2010 and March 2019, including while Barak served as Minister of Defense of Israel. In a 2013 email chain where Barak told Epstein that Summers withdrew from the Federal Reserve chair race, Epstein scheduled Barak to meet with Ariane de Rothschild and some \"kissinger [sic] china [sic] guy\". In a 2013 recording, Epstein nudged Barak to work with Thiel's Palantir. In 2016, the Israeli government installed security equipment to a Manhattan building owned by his brother and managed by Epstein, for use by his associates and underage models; Barak frequented the building for extended stays.",
-      "degree": 8
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
+      "degree": 9
     },
     {
       "id": "barrack",
@@ -463,6 +499,9 @@
       "size": 23,
       "citations_count": 1,
       "bio": "Tom Barrack is the United States Ambassador to Turkey and longtime Trump confidante. By the early 2000s, Barrack and Epstein had business ties to the Middle East. They invited each other, introduced each other to diplomats and investors, and discussed business opportunities. According to CBS News, Epstein facilitated introductions between Barrack and Thiel, Barak, and Churkin.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 4
     },
     {
@@ -481,6 +520,9 @@
       "size": 23,
       "citations_count": 3,
       "bio": "Sergei Belyakov is a former Deputy Minister of Economic Development of Russia. Epstein emailed Sergei Belyakov that a \"Russian girl\" was attempting to blackmail Leon Black. After a year of friendship, Belyakov helped arrange a three-year visa for Epstein's visits to Russia, and Epstein introduced him to Peter Thiel, Reid Hoffman, and Ehud Barak. After Belyakov began working with his country's sovereign wealth fund, he asked Epstein for investment advice.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -496,9 +538,12 @@
       "image": null,
       "wikipedia_url": "https://en.wikipedia.org/wiki/Leon_Black",
       "color": "#f59e0b",
-      "size": 23,
+      "size": 25,
       "citations_count": 4,
       "bio": "Leon Black is an American private equity investor whom Epstein referred to as \"Mr. Big\" in emails. Weeks after Epstein's death, JPMorgan Chase filed a suspicious activity report for transactions conducted by Black, Dubin, Dershowitz, and Wexner, totalling about $1 billion. These reports were unsealed by a federal judge. Black, who paid Epstein $170 million for tax and estate planning advice, told investors after Epstein's death he was unaware of Epstein's misconduct; files listed more than $600,000 in \"gifts\" from Black to a former model connected to Epstein. In January 2021, Black stepped down from leadership roles at Apollo Global Management, the firm he co-founded. In March 2026, shareholders sued Apollo, Black, and co-founder Marc Rowan in a proposed class action.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 11
     },
     {
@@ -517,6 +562,9 @@
       "size": 15,
       "citations_count": 1,
       "bio": "David Blaine is an American magician. Files showed a years-long correspondence with Epstein and regular dinners between 2012 and 2016. In 2015, Blaine agreed to write a letter of support for a U.S. visa application for an unidentified woman.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -535,6 +583,9 @@
       "size": 17,
       "citations_count": 2,
       "bio": "Leonard Blavatnik is a British-American businessman. Blavatnik corresponded with Epstein and was invited to several of his gatherings. In a recorded conversation, Guzel Ganieva, a woman who accused Leon Black of rape, also accused Blavatnik of defamation and ruining her reputation.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -553,6 +604,9 @@
       "size": 17,
       "citations_count": 2,
       "bio": "Todd Boehly is chairman of Chelsea, part-owner of the Los Angeles Dodgers and Los Angeles Lakers, and was managing partner at Guggenheim. Emails from 2011 showed Epstein arranged two meetings; the second was a conference call in part to discuss Mandelson. The files showed that Epstein asked Mandelson to help with Boehly's bid to buy Silverstone.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 1
     },
     {
@@ -571,6 +625,9 @@
       "size": 19,
       "citations_count": 5,
       "bio": "Leon Botstein was Bard College president. He met Epstein numerous times after his 2008 conviction, soliciting donations. In 2011, Epstein donated Bard $75,000. Botstein invited Epstein to school events in 2013 and 2016; Epstein planned to bring young female assistants each time; Botstein stated they had security ready due to Epstein's criminal record. In 2016, Botstein gave Bard $150,000 he received from Epstein, who said was for being on the board of Gratitude America, an Epstein-created foundation. Emails also revealed Epstein connected Botstein with the daughter of Allen and Previn. Botstein stepped down from his role at Bard.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 5
     },
     {
@@ -589,6 +646,9 @@
       "size": 25,
       "citations_count": 1,
       "bio": "Edward Boyden is an American-French MIT neuroscientist. In August 2015, Reid Hoffman hosted a dinner in Palo Alto for Boyden. Epstein emailed Peter Attia about the event, and sent himself a photo with Elon Musk, Peter Thiel, Mark Zuckerberg, and his wife, Priscilla Chan. In an email to Tom Pritzker, Epstein described the dinner as \"wild\".",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -607,6 +667,9 @@
       "size": 19,
       "citations_count": 3,
       "bio": "Børge Brende is the CEO of the World Economic Forum who exchanged more than 120 emails and text messages with Epstein, and was a guest at several dinners at Epstein's townhouse in New York City. A photograph shows Brende at Epstein's New York home together with Steve Bannon and Terje Rød-Larsen, by whom Brende stated he was introduced to Epstein.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -625,6 +688,9 @@
       "size": 15,
       "citations_count": 1,
       "bio": "Flavio Briatore is an Italian businessman. Briatore maintained email contact with Epstein.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 1
     },
     {
@@ -643,6 +709,9 @@
       "size": 17,
       "citations_count": 1,
       "bio": "Sergey Brin is an American computer scientist and businessman who co-founded Google. Documents indicated Brin visited Epstein's private island and corresponded with Ghislaine Maxwell about attending dinners at Epstein's home.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -661,6 +730,9 @@
       "size": 15,
       "citations_count": 4,
       "bio": "John Brockman established the Edge Foundation. Epstein was its biggest donor; Brockman organized with Silicon Valley billionaires events Epstein funded and attended. Brockman boasted that the net worth of his 2014 dinner combined the wealth of 60% of Americans. Epstein told Brockman not to care about diversity, holding women as \"weak\" and \"a distraction\".",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 5
     },
     {
@@ -679,6 +751,9 @@
       "size": 15,
       "citations_count": 1,
       "bio": "Jean-Luc Brunel was a French model scout, and the founder of MC2 Model Management, with financing by Epstein. From 1998 to 2005, Brunel was listed as a passenger in flight logs for Epstein's private plane on 25 trips. In 2008, he visited the jail where Epstein was held at least 70 times. The files showed Brunel was listed in a 2019 FBI document as one of Epstein's \"co-conspirators\".",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 6
     },
     {
@@ -697,6 +772,9 @@
       "size": 15,
       "citations_count": 2,
       "bio": "Albert Bryan Jr. is the Governor of the United States Virgin Islands. Epstein reached out to Bryan about an \"unpermitted land clearing.\" Bryan denies any wrongdoing in his correspondence.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -715,6 +793,9 @@
       "size": 15,
       "citations_count": 2,
       "bio": "William Burns is a former director of the Central Intelligence Agency whose scheduling documents showed three meetings with Epstein in 2014 as deputy secretary of state. They first met at Steptoe & Johnson, and subsequently at the Manhattan townhouse. The CIA denied Burns had any relationship with Epstein. Burns stated he regretted the meetings.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -733,6 +814,9 @@
       "size": 15,
       "citations_count": 1,
       "bio": "Naomi Campbell is a British supermodel whose work included runway modeling for Victoria's Secret, where Wexner was CEO. Email exchanges showed Campbell inviting Epstein to events around the world and Epstein inviting Campbell to his island and to fly on his plane.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -748,9 +832,12 @@
       "image": null,
       "wikipedia_url": "https://en.wikipedia.org/wiki/Nick_Candy",
       "color": "#f59e0b",
-      "size": 17,
+      "size": 19,
       "citations_count": 2,
       "bio": "Nick Candy is a luxury property developer who serves as treasurer for Reform UK. Candy interacted with Epstein associates Sarah Kellen, Ghislaine Maxwell and Jed Garfield.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 1
     },
     {
@@ -766,9 +853,12 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Noam_Chomsky_portrait_2017_retouched.jpg/250px-Noam_Chomsky_portrait_2017_retouched.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Noam_Chomsky",
       "color": "#10b981",
-      "size": 17,
+      "size": 19,
       "citations_count": 9,
       "bio": "Noam Chomsky is an intellectual and linguist. In a 2015 email, Epstein offered Chomsky use of his residences in New York and New Mexico. An undated photograph showed Chomsky seated next to Epstein on a plane. Chomsky wrote a letter praising Epstein and recounted how he had arranged for him to meet Barak.\n\nChomsky hired Epstein as a financial advisor, to recover some retirement funds and to advise him on resolving a dispute he had with his children over control of a marital trust. To this end, in March 2018, Epstein transferred approximately $270,000 to Chomsky. After Virginia Giuffre's accusations in 2019, Chomsky told Epstein that commenting would cause additional negative attention. In 2026, Chomsky's wife wrote a public apology on behalf of them both.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 4
     },
     {
@@ -787,6 +877,9 @@
       "size": 15,
       "citations_count": 2,
       "bio": "Deepak Chopra is a New Age guru. Chopra met with Epstein at least a dozen times between 2016 and 2019. University of California, San Diego ended his affiliation with the school by the end of June 2026.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -805,6 +898,9 @@
       "size": 15,
       "citations_count": 2,
       "bio": "George Church is a Harvard University genetics professor. Files showed Church met with Epstein multiple times in 2014, and dined with him November along Ito, Hoffman, and Nowak. Church apologized in 2019, stating he was unaware of Epstein's crimes. Later reporting contradicted this.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -823,6 +919,9 @@
       "size": 15,
       "citations_count": 1,
       "bio": "Vitaly Churkin was a diplomat who served as the Permanent Representative of Russia to the UN from 2006 until his death in 2017. According to CNN, files suggested he regularly met with Epstein, and that Epstein offered to help Churkin's son Maxim find work at a wealth management firm there.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -845,7 +944,10 @@
       "size": 17,
       "citations_count": 3,
       "bio": "Bill Clinton traveled on Epstein's plane at least 16 times; communications between Maxwell and Clinton staffers from 2001 to 2004 pertained to travel and dining logistics; some emails between Maxwell and Clinton's office were flirtatious or lewd. Clinton stated he cut ties with Epstein before his 2006 charges, did not know about his crimes, and denied ever visiting Epstein's island. An unredacted message shows Doug Band saying he shared a Blackberry account with Clinton.",
-      "degree": 8
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
+      "degree": 12
     },
     {
       "id": "copperfield",
@@ -860,10 +962,13 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/DCatAGT.JPG/250px-DCatAGT.JPG?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
       "wikipedia_url": "https://en.wikipedia.org/wiki/David_Copperfield_(illusionist)",
       "color": "#ec4899",
-      "size": 15,
+      "size": 17,
       "citations_count": 5,
       "bio": "David Copperfield is an American illusionist. Johanna Sjoberg testified to attending a 2004 dinner at Epstein's home where Copperfield performed magic tricks. Phone message pads from 2005 showed Copperfield left messages for Epstein. An October 2007 email described Copperfield as \"Epstein's favorite cohort\" and said tickets with \"backstage passes\" were a frequent gift Epstein gave to girls. Copperfield denied Epstein's friendship. Undated photographs released in December 2025 showed Copperfield and Maxwell posing together in bathrobes.",
-      "degree": 2
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
+      "degree": 3
     },
     {
       "id": "francisco-d'agostino",
@@ -881,6 +986,9 @@
       "size": 15,
       "citations_count": 2,
       "bio": "Francisco D'Agostino is a businessman. From 2012–2018, he visited Epstein on his island and in New York, shared political intelligence, proposed business deals, introduced him to powerful Venezuelan figures, and inquired about some \"water gazelle\" he met on the island. On D'Agostino's advice, Epstein purchased at least $4.5 million in PDVSA bonds. By 2019, the US Treasury scrutinized D'Agostino for trying to evade US sanctions on PVDSA and Venezuelan oil.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -899,6 +1007,9 @@
       "size": 15,
       "citations_count": 1,
       "bio": "Lawrence Delson was a professor at the Fashion Institute of Technology. He and Epstein communicated for several years, writing to each other about how they cherished their friendship. Files also revealed financial transfers, but their context remains unclear. The school suspended Delson and launched an investigation.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -914,10 +1025,13 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Alan_dershowitz_2009_retouched_cropped.jpg/250px-Alan_dershowitz_2009_retouched_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Alan_Dershowitz",
       "color": "#64748b",
-      "size": 21,
+      "size": 23,
       "citations_count": 2,
       "bio": "Alan Dershowitz was part of the team that negotiated a non-prosecution agreement for Epstein in 2007. Weeks after Epstein's death, JPMorgan Chase filed a suspicious activity report for transactions conducted by Dershowitz as well as Glenn Dubin, Leon Black, and Leslie Wexner, totalling about $1 billion.",
-      "degree": 7
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
+      "degree": 8
     },
     {
       "id": "drokova",
@@ -935,6 +1049,9 @@
       "size": 15,
       "citations_count": 10,
       "bio": "Maria Drokova is a Russian investor and venture capitalist. Epstein paid Drokova for public relations work. In 2017 and 2018, Drokova set up meetings with Epstein and journalists to help rehabilitate Epstein's reputation. Drokova selected \"suitable\" journalists for publications about Epstein and coordinated preparation of his comments, including in contributor articles for publications including The Huffington Post, The Next Web, and Thrive Global. In a 2017 email, Drokova asked Epstein to introduce her to \"adequate Russian oligarchs\" to invest in her venture capital fund. Drokova and Epstein had a \"personal, at times flirtatious relationship\", with Epstein purchasing handbags and booking haircuts for Drokova.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -950,9 +1067,12 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/GlennDubin.jpg/250px-GlennDubin.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Glenn_Dubin",
       "color": "#f59e0b",
-      "size": 23,
+      "size": 25,
       "citations_count": 3,
       "bio": "Glenn Dubin is an American billionaire hedge fund manager and husband of Epstein's former girlfriend Eva Andersson-Dubin. Weeks after Epstein's death, JPMorgan Chase filed a suspicious activity report for transactions conducted by Dubin as well as Leon Black, Alan Dershowitz, and Leslie Wexner, totalling about $1 billion. Guiffre listed Dubin as one of the men with whom Maxwell and Epstein directed her to have sex. The Dubins' former household manager, Rinaldo Rizzo, recounted in released court documents an encounter with a 15-year-old girl who was allegedly trafficked by Epstein in 2005. Dubin denies the allegations made in these sworn testimonies.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 7
     },
     {
@@ -971,6 +1091,9 @@
       "size": 17,
       "citations_count": 4,
       "bio": "Edward Jay Epstein (no relation to Jeffrey Epstein) was an investigative journalist. His first contact with Jeffrey Epstein was from 1987–1989, when he wrote about what he believed were fraud and other instances of legal market manipulation. He identified Jeffrey as a grifter and fabulist without naming him, and Jeffrey broke contact afterward. Twenty-four years later, Jeffrey Epstein contacted Ed Epstein again, inviting him to tea to discuss an article Ed wrote about Nabokov, and an AI project named Sophia. David Hanson and Ben Goertzel both worked on the Sophia robot and solicited significant funding from Jeffrey Epstein.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -989,6 +1112,9 @@
       "size": 15,
       "citations_count": 2,
       "bio": "Andrew Farkas co-owned a marina with Epstein in St. Thomas. Documents showed the two men exchanged crude emails about women in 2010. As chair of the Hasty Pudding Club, Farkas solicited at least $375,000 from Epstein between 2013 and 2019 for the institute, which helped Epstein maintain connections with Harvard University. In a 2018 note, Farkas told Epstein he considered him one of his best friends. Farkas also stayed on Epstein's island. Farkas stated the relationship was purely business-related and regretted the association.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 4
     },
     {
@@ -1007,6 +1133,9 @@
       "size": 17,
       "citations_count": 2,
       "bio": "Sarah Ferguson, formerly Duchess of York, is the ex-wife of Mountbatten-Windsor. In a 2009 email, she called Epstein a \"brother\" and seemed to suggest she and her daughters met him. Other emails mentioned a \"Sarah Ferguson brand\". In 2011, Ferguson stated publicly that her relationship with Epstein had been a \"gigantic error of judgment\", but later apologized to him by email. After the 2026 release, the charity she established in 2020 closed.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -1029,7 +1158,10 @@
       "size": 15,
       "citations_count": 9,
       "bio": "Bill Gates co-founded Microsoft. Gates and Epstein met in 1992; according to The New York Times, they also had many meetings starting in 2011. In a January 2025 interview, Gates admitted it was a mistake to associate with Epstein. Gates appeared in the estate photos released in December 2025; the files also revealed a draft email in which Epstein made allegations that Gates rejects. On February 25, 2026, Gates admitted to two affairs, confirming one revealed by The Wall Street Journal in 2023 when it obtained an email in which Epstein appeared to blackmail Gates over that affair. He also reiterated that it was \"foolish\" to associate with Epstein, and clarified that one of the photos released were taken with two of Epstein's assistants.",
-      "degree": 6
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
+      "degree": 7
     },
     {
       "id": "gelernter",
@@ -1047,6 +1179,9 @@
       "size": 15,
       "citations_count": 2,
       "bio": "David Gelernter is a Yale professor who corresponded with Epstein from 2009 to 2015. Amid a review by Yale in February 2026, Gelernter has been relieved of teaching duties.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -1065,6 +1200,9 @@
       "size": 17,
       "citations_count": 1,
       "bio": "Gordon Getty is the billionaire heir of the Getty Oil fortune. He often funded Robert Trivers' research, and Trivers introduced Getty to Epstein. When learning of Epstein's criminal conviction, Getty commiserated and pointed to his own scandal (a secret second family). Getty and Epstein corresponded and spent time together from 2013–2018.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -1083,6 +1221,9 @@
       "size": 15,
       "citations_count": 4,
       "bio": "Ben Goertzel was the chief scientist at Hanson Robotics, to whom Epstein gave a $100,000 grant and additional funds over the next decade. Between 2010 and 2015, Epstein's non-profits channeled at least $113,000 to Goertzel's company. This maneuver made Goertzel eligible to secure over $1 million in grants from the Hong Kong government. The two corresponded between 2011 and at least through 2018.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -1101,6 +1242,9 @@
       "size": 17,
       "citations_count": 2,
       "bio": "Josh Harris co-founded Apollo Global Management and Harris Blitzer Sports & Entertainment. The American billionaire corresponded with Epstein from 2013–2016. Emails show that Harris met Epstein, Gates, and Ron Baron at Epstein's New York home in 2014. Harris denied having had a relationship with Epstein.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 4
     },
     {
@@ -1119,6 +1263,9 @@
       "size": 15,
       "citations_count": 4,
       "bio": "Stephen Hawking was a theoretical physicist who was mentioned in court documents released in 2024 during Maxwell's trial. Hawking has been reported as a guest on Epstein's island.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -1137,6 +1284,9 @@
       "size": 17,
       "citations_count": 2,
       "bio": "LinkedIn co-founder Reid Hoffman attended the dinner with Musk, Thiel and Zuckerberg. Documents showed he visited Epstein's island in November 2014, and had multiple Skype calls with him in 2013 and 2014 as per Epstein's calendar.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 5
     },
     {
@@ -1155,6 +1305,9 @@
       "size": 15,
       "citations_count": 3,
       "bio": "Jack Horner is a paleontologist who visited a New Mexico property owned by Epstein in 2012 and exchanged several emails with him thereafter. These messages contain expressions of thanks for hospitality and suggest possible financial or logistical support for some of Horner's scientific projects. In particular, Epstein had expressed interest in funding Horner's \"Dinochicken Project\", to bioengineer a dinosaur from chicken DNA. Horner's employment with Chapman University ended in February 2026.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -1173,6 +1326,9 @@
       "size": 17,
       "citations_count": 2,
       "bio": "Joi Ito is a former director of the MIT Media Lab who received $1.7 million from Epstein, including $1.2 million for his own investment funds. Internal emails showed Ito and other Media Lab officials took measures to conceal the lab's relationship with Epstein; in one 2014 email, Ito asked development staff to record a $100,000 donation from Epstein as \"anonymous\". He twice traveled to Epstein's island seeking donations. An October 2014 email showed Ito writing that a $2 million gift from Bill Gates had been \"directed by Jeffrey Epstein\"; Gates denied it. Ito resigned from MIT, from the boards of the MacArthur Foundation, the Knight Foundation, The New York Times Company, and a visiting professorship at Harvard.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 7
     },
     {
@@ -1190,9 +1346,12 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Thorbj%C3%B8rn_Jagland_2016_%28cropped%29.jpg/250px-Thorbj%C3%B8rn_Jagland_2016_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Thorbjørn_Jagland",
       "color": "#2563eb",
-      "size": 15,
+      "size": 17,
       "citations_count": 4,
       "bio": "Thorbjørn Jagland is a Norwegian politician who served as prime minister from 1996 to 1997. In a 2014 email to Epstein, Jagland had planned a family trip to Little Saint James island, while he was secretary general of the Council of Europe. The trip was eventually cancelled. Jagland was also the head of the Nobel Committee when he exchanged emails with Epstein. Norwegian Prime Minister Jonas Gahr Støre said Jagland had exercised \"poor judgement\". Epstein told Jagland that he could advise Putin on how to talk with Trump. After the Council of Europe lifted his diplomatic immunity, in February 2026 Jagland was charged with \"gross corruption\" over his links to Epstein by Norway's Økokrim prosecution service.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 4
     },
     {
@@ -1211,6 +1370,9 @@
       "size": 15,
       "citations_count": 1,
       "bio": "John de Jongh Jr. is an American businessman and former governor of the United States Virgin Islands (2007–2015). Emails in the files show that from 2008 to 2009 Epstein paid the tuition for John de Jongh's children. The tuition invoices covered multiple universities and excluded room and board. After his wife, Cecile de Jongh, thanked Epstein in June 2009, Epstein described the payments as \"a treat\" and said \"Its [sic] as if i [sic] had my own kids in college.\" Epstein also paid college tuition for a student identified as \"Thomas\", who was identified as the son of Jeanne Brennan Wiebracht, John de Jongh's former campaign accountant.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -1229,6 +1391,9 @@
       "size": 15,
       "citations_count": 2,
       "bio": "Grady Judd is an American law enforcement officer serving as the sheriff of Polk County, Florida since 2005. Among the released materials, an email from a female individual contained allegations against Judd.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -1247,6 +1412,9 @@
       "size": 15,
       "citations_count": 1,
       "bio": "Nicole Junkermann is a German entrepreneur and investor. Documents released as part of the files show that after his 2008 conviction Junkermann was in close friendship, and in repeated email correspondence with the financier and convicted sex offender over several years from the early 2010s.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -1265,6 +1433,9 @@
       "size": 17,
       "citations_count": 2,
       "bio": "Mona Juul is a Norwegian diplomat, former permanent representative to the United Nations, and wife of Terje Rød-Larsen. Juul resigned her position as ambassador to Jordan and Iraq on February 9, 2026, over her \"serious failure of judgement\" in her ties to Epstein.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -1283,6 +1454,9 @@
       "size": 19,
       "citations_count": 4,
       "bio": "Dean Kamen invented the Segway and iBOT. Photographs show Kamen with Epstein and Ghislaine Maxwell. Emails revealed he visited Epstein's private island in 2013, and discussed \"which flight Dean prefers the girls to be on\". That same year, Epstein connected Kamen with Nadia Marcinko and Kamen hired her to provide flight training for his employees at DEKA. She also started her own aviation company at that time, registered at DEKA's address. In February 2026, Kamen resigned from the board of Beta Technologies over his ties with Epstein. On March 11, 2026, Kamen voluntarily resigned from the FIRST Board of Directors and withdrew from all FIRST activities.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 6
     },
     {
@@ -1301,6 +1475,9 @@
       "size": 17,
       "citations_count": 5,
       "bio": "Brad S. Karp is the chair of Paul Weiss who attended dinners at Epstein's Upper East Side residence. In a 2015 email, Karp thanked Epstein for an immomerable evening; Epstein replied he'll often be reinvited. In a concurrent exchange, Epstein asked Karp about revoking a woman's visa; Karp acquiesced. Karp emailed Epstein in 2016 to help getting his son a job on an Allen movie. In February 2019, Karp and Epstein tried to find legal representation for Robert Kraft and former Citigroup president John Havens, both ensnared in a Florida prostitution crackdown; charges were later dropped. Paul Weiss stated the firm represented Leon Black in fee disputes with Epstein, and denied that they or Karp represented him. In February 2026, Karp resigned as chair of his law firm, and stepped down from the board of trustees at Union College.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 5
     },
     {
@@ -1323,6 +1500,9 @@
       "size": 17,
       "citations_count": 3,
       "bio": "Robert F. Kennedy Jr. is currently serving as the United States Secretary of Health and Human Services. Kennedy Jr. admitted during his presidential campaign that he flew on Epstein's plane. Emails and audio transcripts within the files reveal that Robert F. Kennedy Jr. had joined Epstein and Ghislaine Maxwell on two vacation trips c. 2012-2013.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -1341,6 +1521,9 @@
       "size": 15,
       "citations_count": 3,
       "bio": "Gary King is a lawyer and politician who was the attorney general of New Mexico from 2007–2015, and a nominee for New Mexico governor in 2014. Epstein purchased his Zorro Ranch from King's father, Governor Bruce King, in 1993.\n\nGary King nurtured a relationship with Epstein through private dinners and visits to Epstein's New Mexico ranch. Epstein made financial contributions to King's political campaigns from the early 1990s through at least 2014, sometimes funneling money through companies to avoid press coverage of the donations while King was running on the issue of prosecuting child sex offenders, and King flew on Epstein's private jet. King stated he didn't remember meeting Epstein, and didn't know the jet was his.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -1359,6 +1542,9 @@
       "size": 15,
       "citations_count": 4,
       "bio": "Stephen Kosslyn is an American psychologist and neuroscientist, former chair of the psychology department and dean of social sciences at Harvard University. Between 1998 and 2002, Epstein gave Kosslyn's psychology department $200,000 in donations. In 2008, Kosslyn visited Epstein in jail. Released emails show Epstein discussing the start of his jail sentence in Florida, and Kosslyn helping Epstein draft scripts for reporters, to restore Epstein's public image. In 2010, Kosslyn provided a referral to Epstein, when asked for the name of a New York child psychologist for a 15-year-old girl.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 4
     },
     {
@@ -1377,6 +1563,9 @@
       "size": 15,
       "citations_count": 2,
       "bio": "Bobby Kotick is an American former CEO of Activision Blizzard and Activision. Epstein invited Kotick to events with \"the girls\", and asked Kotick in May 2013 about adding microtransactions to Activision's game series Call of Duty, a month after they had been added.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 1
     },
     {
@@ -1395,6 +1584,9 @@
       "size": 21,
       "citations_count": 2,
       "bio": "Lawrence Krauss is a cosmologist. Krauss reached out to Epstein in 2017 for how to respond on sexual misconduct allegations; Epstein recommended to write a cover letter denying everything. In 2018, Epstein forwarded Krauss a list of attendees for the Women in the World Summit; Krauss responded, \"Let's do a men of the world conference\", with among others Kevin Spacey, Bill Clinton, Al Franken, and Woody Allen. Krauss announced his retirement from Arizona State University in 2018, and stated he never hid his association with Epstein.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 6
     },
     {
@@ -1413,6 +1605,9 @@
       "size": 15,
       "citations_count": 2,
       "bio": "Robert Lawrence Kuhn is an American investment banker and writer. Kuhn's Closer to Truth television series received partial funding from Epstein.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -1431,6 +1626,9 @@
       "size": 15,
       "citations_count": 6,
       "bio": "Miroslav Lajčák is a former President of the United Nations General Assembly with whom Epstein exchanged emails between 2017 and 2019. In one email, Lajčák asked Epstein to introduce him to young girls and to participate in Epstein's private games. Photographs showed them in Vienna and Bratislava. Lajčák and Epstein discussed expanding the establishment of a network of far-right political groups in Europe. Lajčák stepped down from his position as national security advisor after the release of his emails with Epstein.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -1449,6 +1647,9 @@
       "size": 17,
       "citations_count": 3,
       "bio": "Mark Landon is an OB-GYN specializing in high-risk pregnancies at the Ohio State University Wexner Medical Center and a professor at Ohio State University College of Medicine. He received payments from Epstein and his associates in the early 2000s, when Epstein owned property in New Albany, Ohio, adjacent to Leslie Wexler's.\n\nAfter his name appeared in the released Epstein files, Landon stated he was a paid consultant for Epstein's money management firm, advising on potential biotech investments from 2001 to 2005.\n\nIn a January 2006 email, Darren Indyke asked Epstein if they still were paying Landon, on the understanding that \"Landon's agreement requires quarterly payments of $30k to be made to Landon on the 15th of January, April, July and October\", Epstein responded: \"75 per year.\"",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -1467,6 +1668,9 @@
       "size": 17,
       "citations_count": 6,
       "bio": "Caroline Lang [fr] is a French film producer and the daughter of politician Jack Lang. The 2026 Epstein files release revealed that she was co-owner, with Epstein, of Prytanee LLC, a company based in the US Virgin Islands, which she had failed to declare to the tax authorities. She was also named as a recipient of US $5 million in Epstein's will, though she denied all knowledge of it. After the documents were made public and prosecutors opened a financial investigation for tax fraud and money laundering into Lang and her father, she resigned from the Syndicat des producteurs indépendants [fr], a French industry association for independent film-makers.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -1485,6 +1689,9 @@
       "size": 17,
       "citations_count": 2,
       "bio": "Jack Lang is a French politician who has served as minister of culture, minister of education, and in the National Assembly. He intermittently corresponded with Epstein between 2012 and 2019. On February 6, 2026, he resigned as head of the Paris-based Arab World Institute after their contacts were revealed and prosecutors opened a financial investigation for tax fraud and money laundering into Lang and his daughter Caroline Lang. His name appears in the files more than 600 times.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 4
     },
     {
@@ -1503,6 +1710,9 @@
       "size": 17,
       "citations_count": 2,
       "bio": "Ronald Lauder is an American businessman. The billionaire's name appears in the Epstein files over 900 times. In 2014, Epstein set up a limited liability company for Lauder to share ownership with Leon Black of a $25 million artwork by Kurt Schwitters.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -1521,6 +1731,9 @@
       "size": 15,
       "citations_count": 4,
       "bio": "Julian Leese is the younger son of Douglas Leese, one of the architects of the billion-dollar Al-Yamamah arms deal. Epstein was \"mentored\" by Douglas and befriended sons Julian and Nick while on a trip to England in the early 1980s after he left Bear Stearns. Julian and Sulayem invited Epstein on multiple shooting and hunting trips in England, Argentina, and many countries in Africa after Epstein's 2008 conviction which resulted in restricted access to guns in some countries. The emails included Epstein sharing a photo of one female who he said had \"obedience training\" to carry his guns and ammunition. Julian remained friends with Epstein until his death.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -1539,6 +1752,9 @@
       "size": 15,
       "citations_count": 2,
       "bio": "Nick Leese is a film producer and eldest son of Douglas Leese. Nick contributed to Epstein's birthday book a story about massage classes and their escapades at nightclubs and private clubs, including a story about his father and an associate sexually assaulting his father's mistress.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -1557,6 +1773,9 @@
       "size": 17,
       "citations_count": 2,
       "bio": "Shelley Anne Lewis reportedly is the daughter of the founder of the Cash Generator pawnbroking chain. She was working for Christie's auction house in New York when she met Epstein. They had a relationship from 1999–2002 and remained in contact until at least 2018. Her relationship with Epstein overlapped with the time Giuffre alleged she was coerced into having sex with Andrew Mountbatten-Windsor, and so in 2018 Maxwell and Epstein discussed asking her to serve as a witness for them.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -1572,10 +1791,13 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Howard_Lutnick_2025.jpg/250px-Howard_Lutnick_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Howard_Lutnick",
       "color": "#2563eb",
-      "size": 15,
+      "size": 17,
       "citations_count": 4,
       "bio": "Howard Lutnick is the United States Secretary of Commerce. In 2012, he coordinated a visit to Epstein's Caribbean compound, though he had previously said he severed ties with Epstein around 2005. CNN found other interactions: both invested in a venture in 2013, Lutnick invited Epstein to attend a Hillary Clinton 2015 fundraiser, Epstein donated US$50,000 for a 2017 dinner honouring Lutnick; they also exchanged in 2017 about the expansion of the Frick Collection in front of their homes.",
-      "degree": 2
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
+      "degree": 3
     },
     {
       "id": "magnani",
@@ -1593,6 +1815,9 @@
       "size": 19,
       "citations_count": 3,
       "bio": "Thomas Magnani was Epstein's personal dentist, a graduate of Columbia University's dental college, and a faculty member on their admissions review committee. After the dental college rejected Karyna Shuliak's admission application, Magnani used his influence with the vice-dean for academic affairs Moss-Salentijn to revive her application. Columbia removed Magnani from the faculty and admissions review committee.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 5
     },
     {
@@ -1608,10 +1833,13 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Lord_Mandelson_official_headshot_1_%2854367603918%29_%28cropped%29.jpg/250px-Lord_Mandelson_official_headshot_1_%2854367603918%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Peter_Mandelson",
       "color": "#2563eb",
-      "size": 19,
+      "size": 21,
       "citations_count": 17,
       "bio": "Peter Mandelson, Lord Mandelson is a British former politician and diplomat. Between 2003-4, three $25,000 payments referencing Mandelson were sent from Epstein's JP Morgan account. Mandelson stated he had no record or recollection of receiving the sums, and did not know whether the documents were authentic. In 2009, documents show Epstein sent £10,000 (~ $15578) to Mandelson's husband. While Epstein was serving jail term, Mandelson asked to stay at one of his properties. In June 2009, Mandelson allegedly leaked to Epstein a Downing Street asset sales proposal and tax policy plans. A December 2009 email from Mandelson suggested JPMorgan Chase boss Jamie Dimon should \"mildly threaten\" Alistair Darling over a bankers' tax by referring to US banks as buyers of UK gilts, as well as investment plans in London. Mandelson stands accused of lobbying the US government in 2010 to water down proposed restrictions on US bank trading, on behalf of Epstein and Jes Staley. On March 31, 2010, Mandelson allegedly forwarded meeting minutes between Darling and the National Economic Council director, Larry Summers, five minutes after receiving them. The following day, Mandelson met Summers and forwarded Epstein the meeting minutes after he received them. On May 9, 2010, Mandelson gave Epstein advance notice of a €500bn bailout from the EU to save the euro. The next day, Mandelson emailed Epstein saying \"finally got him to go today\", with Gordon Brown resigning a day later. Files releases included a redacted image of Mandelson in his underwear standing next to an unidentified woman; Mandelson said he could not place it. In September 2025, Mandelson was dismissed as the UK's ambassador to the US. In response to the document release, Mandelson stated he had been \"wrong\" to continue his association with Epstein, and apologised \"unequivocally to the women and girls who suffered\". In February 2026, Mandelson was forced to resign from the Labour Party and House of Lords. On 23 February, Mandelson was arrested on suspicion of misconduct in public office.",
-      "degree": 6
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
+      "degree": 7
     },
     {
       "id": "mapp",
@@ -1629,6 +1857,9 @@
       "size": 15,
       "citations_count": 1,
       "bio": "Kenneth Mapp is the former Governor of the United States Virgin Islands. An email shows that in 2016, Mapp asked Epstein in to borrow $275 million for the Virgin Islands government. Mapp reportedly met with Epstein numerous times in private.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -1647,6 +1878,9 @@
       "size": 17,
       "citations_count": 2,
       "bio": "Nadia Marcinko, also known as Nadia Marcinkova, is a Slovak-born model and pilot. In 2007, federal prosecutors identified Marcinko as a potential co-conspirator of Epstein's; as part of a plea deal, she was not prosecuted. In 2008, she visited Epstein dozens of times while he was in jail. It was around this time she began taking flight lessons; by 2010, she was an influencer under the moniker \"Gulfstream Girl\", and later \"Global Girl\". In 2013, Epstein connected her with Dean Kamen and Kamen hired her to provide flight training for his employees at DEKA. She also started her own aviation company at that time, registered at DEKA's address.\n\nA 2019 CNN article stated that Marcinko may be a \"victim\" of Epstein as well as an \"accomplice\".",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 4
     },
     {
@@ -1665,7 +1899,10 @@
       "size": 17,
       "citations_count": 1,
       "bio": "Ghislaine Maxwell is a British former socialite, convicted child sex trafficker, and daughter of Robert Maxwell. She was a prominent former business partner of Epstein. In 2021, she was found guilty of child sex trafficking and other offences in connection with Epstein. The Epstein files contain accounts of her crimes by victims as well as details about court testimonies from accusers and civil claims against her.",
-      "degree": 10
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
+      "degree": 15
     },
     {
       "id": "robert-maxwell",
@@ -1683,6 +1920,9 @@
       "size": 15,
       "citations_count": 1,
       "bio": "Robert Maxwell was a Czechoslovak-born British-French media proprietor and politician. Epstein wrote an email speculating about the circumstances surrounding Maxwell's 1991 death, alleging that Maxwell was a spy working for Mossad and was killed because he attempted to blackmail the agency for £400 million, threatening to reveal his spy activity if not paid.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -1701,6 +1941,9 @@
       "size": 15,
       "citations_count": 2,
       "bio": "Matthew Menchel was the chief criminal prosecutor who spearheaded Epstein's 2007 sweetheart deal, after which he left the Department of Justice and continued to befriend Epstein. They exchanged emails from 2010–2018 and shared multiple dinners and meetings. Some of these contacts included Epstein requesting advice or legal representation from Menchel in other legal disputes.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 1
     },
     {
@@ -1719,6 +1962,9 @@
       "size": 15,
       "citations_count": 5,
       "bio": "Queen Mette-Marit of Norway was mentioned over a thousand times in the Epstein files, with communications spanning 2011 to 2014. Documents showed she spent four days at Epstein's house in Palm Beach in January 2013; one message implied she was aware of his 2008 jail term. In one email from her account, Epstein was asked whether a mother should suggest naked women carrying a surfboard for her son's wallpaper. Mette-Marit expressed regret for her contact with Epstein, and solidarity with his victims.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -1734,9 +1980,12 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Marvin_Minsky_%28cropped%29.jpg/250px-Marvin_Minsky_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Marvin_Minsky",
       "color": "#10b981",
-      "size": 15,
+      "size": 17,
       "citations_count": 3,
       "bio": "Marvin Minsky was an American cognitive and computer scientist. In an unsealed deposition from May 2016, Virginia Giuffre stated that she had been directed to have sex with Minsky during a visit to Epstein's compound in the US Virgin Islands. Minsky's widow, Gloria Rudisch, denied this, claiming they were always together during their visits to the island. Minsky also organized two academic symposia on artificial intelligence at Epstein's compound: one in 2002, and another one in 2011.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -1752,9 +2001,12 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/George_John_Mitchell.jpg/250px-George_John_Mitchell.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
       "wikipedia_url": "https://en.wikipedia.org/wiki/George_J._Mitchell",
       "color": "#2563eb",
-      "size": 17,
+      "size": 19,
       "citations_count": 5,
       "bio": "George J. Mitchell is an American politician, diplomat, and lawyer. A 2003 handwritten letter in Epstein's \"birthday book \"showed the former U.S. Senate majority leader describing his friendship with Epstein as \"a blessing.\" Documents released in January 2026 showed a continued relationship between Mitchell and Epstein following Epstein's 2008 conviction, including emails and scheduled appointments; a November 2013 email listed \"10:30am Appt w/Senator George Mitchell\". The files also contained references to an allegation by Virginia Giuffre, first made in a May 2016 deposition, that Ghislaine Maxwell had directed her to have sex with Mitchell.\n\nA spokesperson for Mitchell stated that he never met, spoke to, or had any contact with Giuffre or any underage girls, and that the allegation was based on mistaken identity. Following the document release, the US–Ireland Alliance announced it would remove Mitchell's name from the George J. Mitchell Scholarship Program.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 5
     },
     {
@@ -1776,6 +2028,9 @@
       "size": 15,
       "citations_count": 1,
       "bio": "Mohammed bin Salman is the Crown Prince and Prime Minister of Saudi Arabia. In a 2016 email Epstein wrote that Mohammed had gifted him a tent, \"carpets and all\", following a trip to Saudi Arabia. Epstein also kept a framed photograph of himself and Mohammed in his New York townhouse.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 1
     },
     {
@@ -1794,6 +2049,9 @@
       "size": 15,
       "citations_count": 1,
       "bio": "Carol Montgomery was one of several United States Customs and Border Protection officers who maintained a friendship with Epstein. Montgomery sent Epstein a \"welcome home\" email after he was released from jail, asked for his advice and a $200,000 loan, and invited him to visit her in Washington state.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -1812,6 +2070,9 @@
       "size": 17,
       "citations_count": 2,
       "bio": "Dr. Bruce Moskowitz, a Palm Beach internist who was also part of Donald Trump's Mar-a-Lago Crowd, was Epstein's physician. He treated young women Epstein sent to him for gonorrhea and acne, and Moskowitz discussed the women's medical care with Epstein, helped Epstein evade government reporting of positive tests for venereal disease, and offered loyalty after Epstein's crimes were widely reported. In return, Epstein donated money to Moskowitz's foundations, invested venture capital in their son's efforts, and provided guest rooms for Moskowitz at Epstein's New Mexico ranch.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -1830,6 +2091,9 @@
       "size": 19,
       "citations_count": 2,
       "bio": "Letty Moss-Salentijn was the vice-dean for academic affairs at Columbia University's dental college. After the dental college rejected Karyna Shuliak's admission application, she and Thomas Magnani worked together to have her admitted anyway. She later stepped down from her administrative roles at Columbia.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 5
     },
     {
@@ -1848,10 +2112,13 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Prince_Andrew%2C_Duke_of_York_%28cropped%29.jpg/250px-Prince_Andrew%2C_Duke_of_York_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Andrew_Mountbatten-Windsor",
       "color": "#8b5cf6",
-      "size": 17,
+      "size": 19,
       "citations_count": 9,
       "bio": "Andrew Mountbatten-Windsor is a member of the British royal family and former Duke of York. In a 2010 email exchange, Epstein offered to introduce then-Prince Andrew to a 26-year-old Russian woman, to which he replied he would be \"delighted\" to meet her. The same exchange showed the former royal inviting Epstein to have dinner at Buckingham Palace; it is unclear whether such a visit occurred. Epstein and Mountbatten-Windsor were pictured walking together in Central Park three months later; Mountbatten-Windsor had claimed he travelled to the US to end his friendship with Epstein in person in light of his conviction. The former royal was photographed with a woman lying on the ground in three undated photos. A photo showing Virginia Giuffre, Andrew, and Ghislaine Maxwell, which had been disputed by Andrew and Maxwell, appears to have been referenced in a 2015 email. Emails appear to show that between 2010–11, Andrew may have shared confidential information with Epstein about his official work as UK trade envoy. In 2025, Mountbatten-Windsor was stripped of his titles and evicted from his royal residence. In February 2026, Andrew was arrested on suspicion of misconduct in public office. He was released from custody, without being charged, and remains under investigation.",
-      "degree": 4
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
+      "degree": 13
     },
     {
       "id": "mugabe",
@@ -1869,6 +2136,9 @@
       "size": 17,
       "citations_count": 3,
       "bio": "Robert Mugabe was the leader of Zimbabwe from 1980 to 2017. In a 2015 email exchange, Japanese financer Joi Ito suggested Epstein meet Mugabe to talk about providing a new currency due to the Zimbabwean dollar's collapse due to hyperinflation.\n\nAn FBI report dated November 2017 said Epstein had provided Mugabe (and Vladimir Putin) with personal wealth management services. According to the BBC, Mugabe \"may have had financial ties with Jeffrey Epstein\".",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -1887,6 +2157,9 @@
       "size": 15,
       "citations_count": 5,
       "bio": "Elon Musk is the world's first trillionaire. He and Epstein coordinated a possible holiday visit to Epstein's U.S. Virgin Islands compound in 2013-14. In 2012, Musk asked Epstein about his then-wife Talulah Riley and him attending \"the wildest party\" on his island. Musk also invited Epstein to talk with him at SpaceX near Long Beach, California. In an email to Tom Pritzker, Epstein described a dinner with Musk as \"wild\". Musk stated he declined Epstein's invitations to his island.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -1905,6 +2178,9 @@
       "size": 17,
       "citations_count": 5,
       "bio": "Kimbal Musk is a businessman referenced more than 140 times in emails exchanged between Epstein, his associates, and his brother Elon. Kimbal began socializing with Epstein in 2012. Emails revealed that Epstein engineered an intimate relationship between Kimbal and a young woman with the help of Boris Nikolic; Kimbal thanked them for connecting with the woman; they dated for six months in 2012 and 2013. Facing criticism over his Epstein tie, Kimbal resigned from the Burning Man Project.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -1923,6 +2199,9 @@
       "size": 15,
       "citations_count": 1,
       "bio": "Nathan Myhrvold is an American inventor, scientist, and businessman, who was formerly chief technology officer at Microsoft. Epstein and Myhrvold frequently emailed each other and regularly met, both in Seattle and New York City, from at least 2010 to 2018. Myhrvold invited Epstein to visit his investment company Intellectual Ventures in 2014; an email shows Myhrvold urging Epstein to bring a named female acquaintance. Other emails indicate that Myhrvold visited Epstein's compound in the US Virgin Islands in 2011. Furthermore, Myhrvold contributed what was described as \"several sexually explicit wildlife photos\" to Epstein's 50th birthday book in 2003.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -1941,6 +2220,9 @@
       "size": 15,
       "citations_count": 2,
       "bio": "Annabelle Neilson was a British model and socialite. Neilson was identified as having emailed Epstein numerous times between 2010 and 2012, Neilson agreed to \"put together a group of girls\" for Epstein and noted that some were \"unfortunately past their sell-by date\".",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -1959,6 +2241,9 @@
       "size": 15,
       "citations_count": 2,
       "bio": "Elisa New is a former professor at Harvard University. In 2015, New wrote to Epstein to thank him for a donation he had arranged. A 2020 Harvard review found that one of Epstein's foundations claimed on tax forms in 2016 that it had donated $110,000 to a nonprofit organization of which New was president. In November 2025, New issued an apology. The next month, Arizona State University cut ties with New and PBS dropped her show, Poetry in America.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -1974,10 +2259,13 @@
       "image": null,
       "wikipedia_url": "https://en.wikipedia.org/wiki/Estate_of_Jeffrey_Epstein#Management",
       "color": "#14b8a6",
-      "size": 19,
+      "size": 23,
       "citations_count": 4,
       "bio": "Boris Nikolic is a Croatian doctor, biotech investor, and former adviser to the Bill and Melinda Gates Foundation. Epstein named him the backup executor of his estate; Nikolic said he did not consent. In January 2010, Nikolic told Epstein that he met Nicolas Sarkozy, and two persons he described as Epstein's friends: Bill Clinton, Prince Andrew; Nikolic mentioned having flirted a 22-year-old woman but, after noticing she was with her husband, concluded that \"anything good is rented\". In October 2011, Epstein enjoined Nikolic to meet Christopher Poole.",
-      "degree": 4
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
+      "degree": 6
     },
     {
       "id": "nowak",
@@ -1992,10 +2280,13 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/20140528Martin_Nowak-AlpbachTalks2.jpg/250px-20140528Martin_Nowak-AlpbachTalks2.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Martin_Nowak",
       "color": "#10b981",
-      "size": 15,
+      "size": 17,
       "citations_count": 1,
       "bio": "Martin Nowak teaches mathematics and biology at Harvard University. In 2003, Epstein donated $6.5 million to establish Harvard's Program for Evolutionary Dynamics, which Nowak led. Epstein visited Harvard approximately 40 times after his release from jail in 2009, according to a university review. After publishing a report on its financial ties to Epstein in 2020, Harvard placed Nowak under sanctions for two years and shuttered the Program for Evolutionary Dynamics.",
-      "degree": 4
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
+      "degree": 5
     },
     {
       "id": "pastrana-arango",
@@ -2013,6 +2304,9 @@
       "size": 17,
       "citations_count": 2,
       "bio": "Andrés Pastrana Arango was President of Colombia from 1998 to 2002. According to flight logs from Epstein's private jet, Pastrana was present on a flight from Carabobo, Venezuela, to Nassau, the Bahamas, in 2003. Upon the release of the logs in 2019, Pastrana admitted to having flown with Epstein to the Bahamas for a stop-over, claiming their final destination was Havana, Cuba, at the invitation of Fidel Castro. A photograph showed Pastrana and Ghislaine Maxwell wearing Colombian Aerospace Force uniforms.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 4
     },
     {
@@ -2031,6 +2325,9 @@
       "size": 15,
       "citations_count": 4,
       "bio": "Brock Pierce is an American businessman and co-founder of the cryptocurrency Tether. Pierce and Epstein first met at a conference held on Little Saint James in 2011. In March 2012, Pierce emailed Epstein that he \"had a great time with the girls\" and in May 2012, Epstein offered to arrange a meeting between Pierce and \"my new Russian\". While Pierce was on a trip to Moscow, Kyiv, and Odessa in 2012, Epstein asked him to \"take photos and find me a present\". Pierce sent Epstein dozens of photographs of a Ukrainian woman named Anastasia. Pierce and Epstein also corresponded about bitcoin and other cryptocurrency.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -2049,6 +2346,9 @@
       "size": 15,
       "citations_count": 2,
       "bio": "Jean Pigozzi is a French-born Italian art collector and philanthropist who inherited his fortune from his father Henri. Pigozzi and Epstein had a substantial correspondance. In a 2013 exchange, Pigozzi told Epstein he liked \"the red head\". Pigozzi said he did not remember that discussion and that he regretted meeting Epstein.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -2067,6 +2367,9 @@
       "size": 25,
       "citations_count": 4,
       "bio": "Steven Pinker is a Canadian-American Harvard University professor of psychology and a public intellectual involved in the American culture wars. He has intersected with Epstein through Brockman, Dershowitz, Kosslyn, Krauss, and Nowak. He also helped Epstein with his legal defense. Video footage from the December 2025 files release has shown four seconds of Pinker riding with Epstein on his plane.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 8
     },
     {
@@ -2082,9 +2385,12 @@
       "image": null,
       "wikipedia_url": "https://en.wikipedia.org/wiki/Alberto_Pinto_(interior_designer)",
       "color": "#ec4899",
-      "size": 17,
+      "size": 19,
       "citations_count": 5,
       "bio": "Alberto Pinto and Linda Pinto created a famous design group in Paris. They worked on the Herbert N. Straus House when Wexner owned it; Epstein hired to design some of his other properties. Epstein and the Pintos also were friends, sharing birthday greetings and dinners, including a dinner with Maxwell and Giuffre. Epstein paid them millions of dollars over the years, and introduced them to other wealthy potential clients.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -2103,6 +2409,9 @@
       "size": 17,
       "citations_count": 1,
       "bio": "John Phelan is an American businessman who formerly served as United States Secretary of the Navy. His name is present in a flight manifest from Jeffrey Epstein's private airplane in 2006. Also on the flight manifest was Jean-Luc Brunel and six names redacted in the October 2025 release.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -2118,9 +2427,12 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Stacey_Plaskett_116th_Congress.jpg/250px-Stacey_Plaskett_116th_Congress.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Stacey_Plaskett",
       "color": "#2563eb",
-      "size": 15,
+      "size": 17,
       "citations_count": 1,
       "bio": "Stacey Plaskett is the U.S. Virgin Islands representative. Timestamps and contents of text messages revealed an exchange between Epstein and Plaskett during a February 2019 House Oversight Committee hearing in which Michael Cohen testified against Trump. Epstein noted that Cohen had mentioned Trump's executive assistant Rhona Graff; Plaskett asked Cohen about Graff during her questioning. Plaskett tried to normalize the exchange and emphasized her record against sexual crimes.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -2139,6 +2451,9 @@
       "size": 15,
       "citations_count": 2,
       "bio": "Christopher Poole (a.k.a. \"moot\") is an American Internet entrepreneur and founder of 4chan. In October 2011, Epstein met Poole. Epstein later wrote to the person who introduced that he liked him, and found him \"very bright\". Poole denied that Epstein had any involvement with the creation of /pol/.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -2157,6 +2472,9 @@
       "size": 19,
       "citations_count": 2,
       "bio": "Soon-Yi Previn is Woody Allen's wife. She maintained email correspondence with Epstein. She repeatedly said that the MeToo movement had \"gone too far\"; she also described a 15-year-old victim of Anthony Weiner as \"despicable and disgusting\", and she blamed the victim. Emails showed that Epstein helped Allen and Previn's daughter get into Bard College by connecting her to the school's president, a longtime acquaintance.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 4
     },
     {
@@ -2175,6 +2493,9 @@
       "size": 17,
       "citations_count": 3,
       "bio": "Thomas Pritzker is an American billionaire businessman. Pritzker originally downplayed his contact with Epstein, but the release of the Epstein files revealed continuous plans and exchanges, including one email in which he helps Karyna Shuliak arrange a trip to Southeast Asia to \"find a new girlfriend for Epstein.\" In February 2026, Pritzker stepped down from his position as executive chairman of Hyatt Hotels, and would concentrate on a science foundation he began. In December 2000, Epstein, Maxwell, Pritzker, and others, including an unnamed 'female', landed at Royal Air Force station, RAF Marham, reportedly for a two-day shooting party at Sandringham.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -2193,6 +2514,9 @@
       "size": 17,
       "citations_count": 4,
       "bio": "Mariya \"Masha\" Prusakova is a Russian snowboarder. Epstein and Prusakova first met in 2011. She helped Epstein recruit women, stating in a 2013 email: \"Sometimes I think that I am your Paris based Ghislaine Maxwell.\" Epstein financed some of Prusakova's law studies at a university in Paris and at UC Berkeley from 2016 to 2019.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 4
     },
     {
@@ -2211,6 +2535,9 @@
       "size": 15,
       "citations_count": 2,
       "bio": "Hardeep Singh Puri is an Indian politician and, since 2021, the Union Minister of Petroleum and Natural Gas. An email from Puri to Epstein in November 2014 detailed reasons for engaging with India following Prime Minister Narendra Modi's election. Puri did not deny sending the email to Epstein and admitted having met with Epstein a few times.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -2229,6 +2556,9 @@
       "size": 17,
       "citations_count": 1,
       "bio": "V. S. Ramachandran (also known as Vilayanur S. Ramachandran) is a director of University of California, San Diego's psychology department. In 2017, Deepak Chopra introduced Epstein to Ramachandran whose lab was conducting a study on an \"autistic savant who displays telepathy\". Ramachandran wrote that he had no problems accepting funding from Epstein, and desired $500,000 to $3 million. After lab visits, Epstein sent him $25,000.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -2247,6 +2577,9 @@
       "size": 17,
       "citations_count": 1,
       "bio": "Joshua Cooper Ramo is an American foreign policy consultant and co-chief executive of Kissinger Associates. Scheduling documents showed the then co-CEO of Henry Kissinger's corporate consulting firm had more than a dozen meetings with Epstein from 2013 to 2017, many in the evenings at Epstein's Manhattan townhouse. Ramo was invited to a breakfast at the townhouse in September 2013 with former Israeli prime minister Ehud Barak. At the time, Ramo served on the boards of Starbucks and FedEx.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -2265,6 +2598,9 @@
       "size": 17,
       "citations_count": 1,
       "bio": "Lisa Randall is a professor of physics at Harvard University who met with Epstein several times, including to his Caribbean island in 2014. They exchanged hundreds of messages. Randall claimed she was introduced to Epstein by her then-literary agent John Brockman in 2004; when Randall was considering leaving Harvard in 2009, Brockman emailed a number of people, including Epstein, seeking advice.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 4
     },
     {
@@ -2283,6 +2619,9 @@
       "size": 17,
       "citations_count": 2,
       "bio": "Brett Ratner is a film director and producer who appeared in undated photographs with Epstein and Jean-Luc Brunel. Additional images showed Ratner seated on a sofa beside Epstein and two women whose identities were obscured; a series of thumbnails showed Ratner, Epstein, and Brunel with different women.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -2301,6 +2640,9 @@
       "size": 15,
       "citations_count": 1,
       "bio": "Bill Richardson was a former governor of New Mexico. Records show that Richardson arranged to meet with Epstein at least nine times after 2006, when he publicly distanced himself from him. They also arranged to chat over the phone multiple times, according to the Santa Fe New Mexican. In 2002, Richardson denied having been on Little St. James; records indicate he went in 2010.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 1
     },
     {
@@ -2319,6 +2661,9 @@
       "size": 19,
       "citations_count": 3,
       "bio": "Terje Rød-Larsen is a Norwegian former diplomat, politician, and sociologist. The Epstein files indicated that each of Terje Rød-Larsen's children were to be given $5 million in Epstein's will. In a statement, Rød-Larsen's wife Mona Juul said that the family had not been aware of the contents of the will before the document release, and declined to comment further. Within the files, Rød-Larsen described Epstein as \"my best friend\" and \"a thoroughly good human being\". Larsen had introduced Epstein to Jean Todt.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -2337,6 +2682,9 @@
       "size": 15,
       "citations_count": 6,
       "bio": "David A. Ross is an art curator. His relationship with Epstein went back as far as the 1990s, when Ross was a director at the Whitney Museum of Art. After Epstein left jail in 2009, Ross emailed him, celebrating his release from an \"undeserved punishment foisted upon you by jealous creeps\". A few months later, Epstein offered to fund an exhibition titled Statutory; Ross responded: \"You are incredible!\" In 2015, Ross told Epstein he was \"still proud\" to call him a friend despite the ongoing revelations. After the files release, Ross stated befriending wealthy patrons was part of his job. Ross left his chair at the School of Visual Arts.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -2355,6 +2703,9 @@
       "size": 15,
       "citations_count": 1,
       "bio": "Ariane de Rothschild is a French banker and CEO of Edmond de Rothschild Group.\n\nScheduling documents indicate de Rothschild had more than a dozen meetings with Epstein from 2013 to 2019. She bought nearly $1 million worth of auction items on Epstein's behalf in 2014 and 2015, and in October 2015 negotiated a $25 million contract for Epstein's Southern Trust Co. to provide risk analysis services for the bank. In 2019, following Epstein's arrest, the bank initially stated that de Rothschild had never met Epstein and the bank had no business links with him; the bank later acknowledged to The Wall Street Journal that this statement was not accurate. The bank stated that de Rothschild had no knowledge of any legal proceedings against Epstein and \"was similarly unaware of any questions regarding his personal conduct\".",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -2370,10 +2721,13 @@
       "image": null,
       "wikipedia_url": "https://en.wikipedia.org/wiki/Lynn_Forester_de_Rothschild",
       "color": "#f59e0b",
-      "size": 21,
+      "size": 23,
       "citations_count": 4,
       "bio": "Lynn Forester de Rothschild is the chair of E.L. Rothschild. Epstein said that he had given her financial help in the 1990s during her divorce from her second husband Andrew Stein, but a spokesperson for de Rothschild said that this claim was \"one hundred percent false\". Epstein's lawyer, Alan Dershowitz, claimed he was introduced to Epstein by de Rothschild, who referred to him as an \"interesting autodidact\" who he would enjoy getting to know. According to Ghislaine Maxwell, de Rothschild introduced Prince Andrew to Epstein. Peter Mandelson was introduced to Epstein at de Rothschild's house on Martha's Vineyard.",
-      "degree": 5
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
+      "degree": 6
     },
     {
       "id": "nouriel-roubini",
@@ -2391,6 +2745,9 @@
       "size": 15,
       "citations_count": 1,
       "bio": "Nouriel Roubini is an economic consultant, economist, speaker, writer, and professor. Gino Yu, an academic, introduced Roubini to Epstein in 2018 by email. Roubini and Epstein met later that year.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 1
     },
     {
@@ -2409,6 +2766,9 @@
       "size": 15,
       "citations_count": 1,
       "bio": "Marc Rowan is the Apollo Global Management CEO. He corresponded with Epstein over the firm's tax arrangements throughout the 2010s. In 2015, an Apollo partner emailed Epstein to catch up with discussions about a tax \"inversion\" scheme involving domiciling Apollo overseas. In 2016, Rowan forwarded Epstein a detailed internal calculation regarding Apollo's tax receivable agreement. Rowan and another Apollo executive met people from Edmond de Rothschild Group at Epstein's Manhattan townhouse in early 2016. Apollo denied doing business with Epstein.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -2427,6 +2787,9 @@
       "size": 15,
       "citations_count": 1,
       "bio": "Kevin Rudd was prime minister of Australia, and since 2023 is Australia's ambassador to the US. Documents released in 2026 show a meeting between Rudd and Epstein in 2015. Rudd clarified it was for the International Peace Institute, a think tank to which Epstein donated. Rudd denied having met or corresponded with Epstein.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -2445,6 +2808,9 @@
       "size": 17,
       "citations_count": 8,
       "bio": "Kathryn Ruemmler is a former White House Counsel under Barack Obama, and as of 2026 general counsel of Goldman Sachs. The two were introduced in 2014 by Epstein's lawyer, Reid Weingarten. From then on documents Epstein sent gifts to Ruemmler. The two corresponded regularly. In 2015, Epstein asked her about the legalities of prostitution and consent for minors; she replied that they could not. In 2018, Epstein invited Ruemmler, Lajčák, and Bannon. When Epstein was arrested in July 2019, she was one of the three people he called. Ruemmler stated that her relationship with Epstein was professional, and expressed regret knowing him, and sympathy for his victims. She later resigned from Goldman Sachs, with four months notice.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 4
     },
     {
@@ -2463,6 +2829,9 @@
       "size": 17,
       "citations_count": 1,
       "bio": "David Schoen is an American attorney who served as one of Donald Trump's impeachment defense lawyers. In 2011, Schoen wrote to Epstein: \"These past couple of years you have to deal with horrible government agencies and folks who appear to be nothing less than extortionists posing as victims and that has to have been terrible.\" They continued to correspond until shortly before Epstein's death.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -2481,7 +2850,10 @@
       "size": 17,
       "citations_count": 9,
       "bio": "Al Seckel (died 2015) was an American writer and skeptic married to Ghislaine Maxwell's sister, Isabel Maxwell. In 2010, Seckel discussed reputation management with Epstein. Seckel charged Epstein tens of thousands of US dollars for search engine optimization, including downranking stories about his conviction, removing \"toxic suggested search engine terms\", and making edits to Epstein's Wikipedia article to add content about Epstein's philanthropic work, to remove mentions of Epstein's crimes and his mug shot from the lead section, and to get users who added unwanted material banned. In 2010, Seckel emailed scientists he was acquainted with to link to websites Epstein that promoted his philanthropy in order to improve their SEO score and bump negative coverage from the search engine's first page. In July 2015, Seckel's body was reportedly found at the bottom of a cliff near his home in southern France. As of December 2021, his death remained unconfirmed by French authorities.",
-      "degree": 5
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
+      "degree": 6
     },
     {
       "id": "mwcxm",
@@ -2499,6 +2871,9 @@
       "size": 15,
       "citations_count": 2,
       "bio": "Roger Schank (died 2023), was a Northwestern University Professor of computer science. Schank regularly defended Epstein publicly, asked him for the use of an apartment, and was twice offered access to \"a girl\" by Epstein. He and others in Epstein's circle repeatedly emailed each other deriding women's intelligence. Schank wrote \"intelligence comes about in part from real focus\" and that women are instead \"first and foremost focused on what others are thinking and feeling about her.\" He wrote \"Hard to be brilliant if you are worrying if you look fat or why another woman hates you or why you don't own a kelly bag [sic].\"",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -2517,6 +2892,9 @@
       "size": 17,
       "citations_count": 1,
       "bio": "Andres Serrano is an American photographer and artist. Serrano photographed Epstein shortly before Epstein's death in 2019. In 2016, Serrano emailed Epstein that he was considering a \"sympathy vote\" for Trump because of outrage about the Donald Trump Access Hollywood tape.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 1
     },
     {
@@ -2535,6 +2913,9 @@
       "size": 21,
       "citations_count": 1,
       "bio": "Dr. Rony Shimony was Epstein's cardiologist and he also socialized with Epstein in his New York mansion. He and Eva Andersson Dubin helped Epstein investigate how to buy ambulances for his New Mexico and Little Saint James properties. More notably, Epstein connected Shimony with Thorbjørn Jagland and paid for his visit, and connected him with Leon Black.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 4
     },
     {
@@ -2553,6 +2934,9 @@
       "size": 15,
       "citations_count": 2,
       "bio": "Karyna Shuliak is a Belarus-born dentist and was Epstein's girlfriend. Epstein gave her a 32.73-carat diamond ring and planned to give her all of his homes and $100 million in the event of his death.\n\nIn February 2012, Shuliak was denied admission to Columbia University's dental school. In August 2012, Epstein donated $100,000 to the dental school and was in contact with school administrators about admitting her.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 4
     },
     {
@@ -2571,6 +2955,9 @@
       "size": 17,
       "citations_count": 2,
       "bio": "Daniel Siad was a Swedish modeling scout who worked on commission for Jean-Luc Brunel and regularly set up meetings between Epstein and teenaged aspiring models. In over 1,000 files with Siad's name, he discusses finding teens in Sweden, Slovakia, France, Russia, Spain, Morocco, and other places. Siad has stated that the meetings he set up between girls and Epstein were legitimate model castings. Some have come forward to say they were procured for Epstein for sexual purposes. In a 2014 email to Epstein, Siad compared his recruitment activities to fishing, writing, \"In This busyness I feel like fisherman some time I cache quick, some time no fish\".",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -2589,6 +2976,9 @@
       "size": 15,
       "citations_count": 1,
       "bio": "Peggy Siegal is an American entertainment publicist. She had corresponded with Epstein in 2009 during a trip to Kenya. In the email correspondence, she had offered to \"bring a little baby back for you....or two\". She also stated that she planned to pose for photographs in \"mud huts\" and pretend that she had \"crashed the winter White House\" and posed \"with Obama's relatives\".",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -2607,6 +2997,9 @@
       "size": 17,
       "citations_count": 1,
       "bio": "Siroochenko is an art advisor and collector who met Epstein in 2010, when she was 22 and working as a model with Brunel's agency. Epstein coordinated her financial affairs from 2011 to 2018. Between 2011 and 2015, Black transferred at least $2.5 million to her. An accountant overseeing her finances resigned over concerns about how transactions and money flows were reported; other accountants have raised issues with the overlap of personal income and business dealings.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -2628,6 +3021,9 @@
       "size": 15,
       "citations_count": 3,
       "bio": "Princess Sofia is a Swedish royal and former model. She met Epstein on a few occasions in 2005, prior to her marriage, while living in New York City. A 2005 email showed that Epstein invited her to his Caribbean estate, which the Swedish Royal Court claims she declined. A 2010 photograph of Sofia was sent to Epstein by her mentor, financier Barbro Ehnbom. Epstein invited Sofia to a private Broadway screening in 2012.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 1
     },
     {
@@ -2646,7 +3042,10 @@
       "size": 19,
       "citations_count": 4,
       "bio": "Kevin Spacey is an American actor. Undated photographs showed him standing with Epstein. Other images showed Spacey visiting the Churchill War Rooms with Bill Clinton and Ghislaine Maxwell during a 2002 visit to the UK as part of a Clinton Foundation humanitarian trip. Spacey told journalist Piers Morgan in 2024 that he traveled on Epstein's plane for the foundation trip but that \"he never spent time with him\". He has not been accused of wrongdoing in relation to Epstein.",
-      "degree": 5
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
+      "degree": 7
     },
     {
       "id": "staley",
@@ -2664,6 +3063,9 @@
       "size": 15,
       "citations_count": 5,
       "bio": "Jes Staley is the former group CEO of Barclays. He was one of three trustees of Epstein's estate until 2015, counter to what Staley testified in court. In 2021, Staley stepped down from his position at Barclays. When he appealed the lifetime ban he received from the Financial Conduct Authority over this relationship, he was forced to testify about the content of emails exchanged with Epstein. In December 2025, it was revealed that Staley and Lawrence Summers had been appointed as executors by Epstein.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -2682,6 +3084,9 @@
       "size": 15,
       "citations_count": 4,
       "bio": "Ken Starr helped secure Epstein's 2008 plea deal. In 2012, Starr hosted Epstein at Baylor University. In released emails from 2016, Starr and Epstein are affectionate; they also discussed Baylor's sexual assault scandals. In 2017, Epstein asked Starr for advice on Krauss ' handling of sexual misconduct allegations.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -2697,10 +3102,13 @@
       "image": null,
       "wikipedia_url": "https://en.wikipedia.org/wiki/David_Stern_(German_businessman)",
       "color": "#ec4899",
-      "size": 15,
+      "size": 17,
       "citations_count": 1,
       "bio": "David Stern is a German businessman. In 2010, while UK trade envoy, Prince Andrew apparently passed on an email conversation about the Royal Bank of Scotland and Aston Martin to Stern, who allegedly passed it on to Epstein.",
-      "degree": 1
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
+      "degree": 2
     },
     {
       "id": "bin-sulayem",
@@ -2718,9 +3126,12 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Sultan_Ahmed_bin_Sulayem_%28born_1955%29_at_World_Economic_Forum_Annual_Meeting_2025.png/250px-Sultan_Ahmed_bin_Sulayem_%28born_1955%29_at_World_Economic_Forum_Annual_Meeting_2025.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Sultan_Ahmed_bin_Sulayem",
       "color": "#f59e0b",
-      "size": 19,
+      "size": 21,
       "citations_count": 6,
       "bio": "Sultan Ahmed bin Sulayem is an Emirati businessman to whom Epstein emailed in 2009: \"I loved the torture video\". The Department of Justice redacted his name, but Representative Thomas Massie revealed it. In 2014, Bin Sulayem had Epstein ask Peter Mandelson to join the board of one of his companies. In 2017, he introduced Ambani to Epstein. Other exchanges show Bin Sulayem facilitating the transfer of Epstein's masseuse to a spa in Turkey, and Epstein advising Bin Sulayem on attending Trump's first inauguration. Bin Sulayem has been replaced as chair and CEO of DP World.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 4
     },
     {
@@ -2739,6 +3150,9 @@
       "size": 15,
       "citations_count": 6,
       "bio": "Lawrence H. Summers is a former US treasury secretary and Harvard president. Summers discussed his romantic pursuit of a woman with Epstein. Their communications continued until days before Epstein's 2019 arrest. After Harvard began reviewing his ties, Summers took leave, then announced he would resign his academic and faculty appointments. He resigned his role at the Mossavar-Rahmani Center for Business and Government, and positions on the OpenAI board, the Center for American Progress, and Yale's Budget Lab. His contributor contract at The New York Times was not renewed.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -2757,6 +3171,9 @@
       "size": 15,
       "citations_count": 4,
       "bio": "Corina Tarnita met convicted sex offender Jeffrey Epstein while she was a graduate student working under Nowak at Harvard in 2008. She remained in contact with Epstein through 2012, including emails that refer to his 2008 conviction. In 2009, she helped Epstein anonymously wire transfer $10,000 and $5,000 respectively to two Romanian women for scholarships.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -2775,7 +3192,10 @@
       "size": 19,
       "citations_count": 3,
       "bio": "Peter Thiel co-founded PayPal and Palantir Technologies. Documents showed that an investment firm co-founded by Thiel accepted $40 million from Epstein and that the two corresponded for at least five years. In 2018, Epstein urged Thiel to \"Visit me Caribbean.\" A spokesman for Thiel said Thiel \"never went to Epstein's island\". Epstein called Thiel \"a great friend\" and offered fiscal advice. In an email to Tom Pritzker, Epstein described a dinner with Thiel, Zuckerberg, Musk, and Hoffman as \"wild\".",
-      "degree": 4
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
+      "degree": 5
     },
     {
       "id": "thirsk",
@@ -2793,6 +3213,9 @@
       "size": 17,
       "citations_count": 1,
       "bio": "Amanda Thirsk is a British business executive. She was Andrew Mountbatten-Windsor's private secretary and arranged meetings between Epstein and Mountbatten-Windsor.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -2811,6 +3234,9 @@
       "size": 15,
       "citations_count": 2,
       "bio": "Ting is a plastic surgeon since 2016. Hundreds of emails detailed visits to Epstein's homes and island, coordination for medical care to \"a few female associates\", and funding outreach for Mount Sinai.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -2829,6 +3255,9 @@
       "size": 15,
       "citations_count": 3,
       "bio": "Steve Tisch is a New York Giants co-owner. In 2013 he and Epstein discussed women, with Epstein describing their physical features. Tisch said he regretted \"associating with\" Epstein. The NFL stated they would weigh whether Tisch's emails violated its personal conduct policies.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 1
     },
     {
@@ -2847,6 +3276,9 @@
       "size": 17,
       "citations_count": 1,
       "bio": "Jean Todt is a French motor racing executive, former president of FIA, and UN Special Envoy. Todt visited Epstein's home in 2017. They had been introduced by Terje Rød-Larsen, who wrote to Epstein: \"Think it could be useful for you to meet Jean Todt... Call him and invite him for coffee.\" After the meeting, Epstein emailed Eduardo Teodorani, Italian Chamber of Commerce and Industry chairman for the UK, saying that Todt was an \"odd guy\".",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -2865,6 +3297,9 @@
       "size": 17,
       "citations_count": 6,
       "bio": "Mark Tramo is an adjunct professor at the UCLA department of neurology who corresponded with Epstein until the end. In October, Tramo sent a message pledging to stand by him. In 2010, he forwarded student emails to Epstein, who asked if any of the students were cute. The same year he agreed to Al Seckel's request to link to websites whitewashing Epstein. In 2017, one of Epstein's charities gave $100,000 to a research institution Tramo founded and directs. After his involvement with Epstein resurfaced, Tramo pleaded ignorance, and his profile was removed from UCLA's website.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -2883,6 +3318,9 @@
       "size": 17,
       "citations_count": 2,
       "bio": "Robert Trivers was an American evolutionary- and social- biologist. Much of his research was funded by Gordon Getty, and in 2013 he introduced Getty to Epstein, characterizing Epstein's crime as merely providing protection to young women. Trivers told Reuters in 2015 that Epstein gave him about $40,000 for his research. In December 2018, Trivers emailed Epstein about funding, writing that Epstein had once said he would \"never not support me\". In 2015, Trivers defended Epstein to Reuters, stating that girls \"mature sooner than they used to\" and that he did not \"see these acts as so heinous\".",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 3
     },
     {
@@ -2905,7 +3343,10 @@
       "size": 15,
       "citations_count": 3,
       "bio": "The New York Times identified more than 5,300 files containing over 38,000 references to Donald Trump and related terms in the January 2026 release. Trump was among half a dozen prominent men about whom the FBI's files included what an official described as \"salacious information\", according to internal correspondence. Democrats on the House Oversight Committee released a letter matching this description, and apparently signed by Trump, on September 8, 2025.",
-      "degree": 3
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
+      "degree": 7
     },
     {
       "id": "mwdos",
@@ -2923,6 +3364,9 @@
       "size": 15,
       "citations_count": 1,
       "bio": "Paul Tweed is an Irish lawyer who worked with Epstein on his UK media strategy.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 1
     },
     {
@@ -2941,6 +3385,9 @@
       "size": 15,
       "citations_count": 1,
       "bio": "Files revealed a correspondence between Brian Vickers with Epstein starting in 2012. Emails from 2013 showed Epstein working on NASCAR sponsorships for the former car racer after news of his wife's involvement with Epstein began to surface; Epstein said he contacted Michael Waltrip and Rob Kauffman.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 1
     },
     {
@@ -2959,6 +3406,9 @@
       "size": 15,
       "citations_count": 2,
       "bio": "Dr. Steven Victor is a dermatologist who was based in Manhattan. He treated girls and women referred by Epstein. His name is mentioned hundreds of times in emails. Victor treated some referred patients for free and pointedly did not give comments to reporters, and Epstein lent him $100,000 for his beauty-product company.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -2977,6 +3427,9 @@
       "size": 15,
       "citations_count": 2,
       "bio": "Karim Wade is a Senegalese politician. Emails indicate that Epstein assisted Wade with legal and lobbying fees in relation to a corruption case in 2013.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 1
     },
     {
@@ -2995,6 +3448,9 @@
       "size": 19,
       "citations_count": 4,
       "bio": "Casey Wasserman is an American entertainment executive and sports agent. Wasserman and Maxwell exchanged emails in March and April 2003. Other documents showed Wasserman and his then-wife flew on Epstein's jet in September 2002 with Maxwell, Epstein, Bill Clinton, Kevin Spacey, and others as part of a humanitarian trip by the Clinton Foundation. Wasserman published a regretful statement, and announced he was selling his talent agency after clients left.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 4
     },
     {
@@ -3010,9 +3466,12 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Leslie_Wexner_receives_woodrow_wilson_award_%28cropped%29.JPG/250px-Leslie_Wexner_receives_woodrow_wilson_award_%28cropped%29.JPG?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Les_Wexner",
       "color": "#f59e0b",
-      "size": 21,
+      "size": 23,
       "citations_count": 2,
       "bio": "Les Wexner is an American billionaire businessman. In an unsent draft letter that was released by the DOJ, Epstein wrote to Wexner, \"You and I had 'gang stuff' for over 15 years\" and then refers to secrets the two of them kept from Wexner's wife. Weeks after Epstein's death, JPMorgan Chase filed a suspicious activity report for transactions conducted by Wexner as well as Glenn Dubin, Leon Black, and Alan Dershowitz, totalling about $1 billion. These reports were unsealed by a federal judge.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 6
     },
     {
@@ -3031,6 +3490,9 @@
       "size": 15,
       "citations_count": 1,
       "bio": "Nathan Wolfe is a former professor of virology at Stanford University. He corresponded with Epstein between 2008 and 2013. His name appears almost 600 times in the released files, and include emails about \"female Viagra\", invitations to dinners with \"hottie interns\", and research into female sex drive and sexual behavior. Three years after Epstein pled guilty to felony minor prostitution charges, Wolfe urged him \"never to let the bastards get you down.\"",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
     },
     {
@@ -3046,10 +3508,13 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Michael_Wolff_-_NYC_Trump_court_trial_2024-05-28_264_%28cropped%29.jpg/250px-Michael_Wolff_-_NYC_Trump_court_trial_2024-05-28_264_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
       "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Wolff_(journalist)",
       "color": "#ec4899",
-      "size": 15,
+      "size": 17,
       "citations_count": 1,
       "bio": "Michael Wolff is a journalist with an extended correspondence with Epstein, whom Wolff previously said was a source for his 2018 book. In December 2015, Wolff told Epstein that CNN planned to ask Trump about his relationship with Epstein; when Epstein asked about crafting an answer, Wolff responded, \"I think you should let him hang himself.\" In October 2016, after the Access Hollywood tape surfaced, Wolff wrote to Epstein that there was an \"opportunity to come forward this week and talk about Trump in such a way that could garner you great sympathy and help finish him\". Wolff described the emails as \"embarrassing\" but defended his approach as \"playacting\" to obtain information about Trump.",
-      "degree": 2
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
+      "degree": 3
     },
     {
       "id": "zuckerberg",
@@ -3067,6 +3532,9 @@
       "size": 19,
       "citations_count": 2,
       "bio": "Mark Zuckerberg is an American billionaire businessman and co-founder of Meta. In an email to Thomas Pritzker, Epstein described a 2015 dinner with Zuckerberg, Musk, Thiel and Hoffman as \"wild\". Subsequent emails indicate that Zuckerberg asked for Epstein's contact, and that they discussed the idea that connectivity could help solve poverty.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 4
     },
     {
@@ -3085,14 +3553,671 @@
       "size": 15,
       "citations_count": 3,
       "bio": "Mortimer Zuckerman is a billionaire media proprietor. He signed Epstein's 2003 birthday book and partnered with Epstein in 2003–2004 in media ventures. Between 2013 and 2015 he paid Epstein millions for estate planning and financial services. After a 2015 meeting, Epstein urged Zuckerman to enter a guardianship or conservatorship.",
+      "source_dataset": "files_list",
+      "source_label": "Wikipedia: Named in Files",
+      "legal_context": "Named in Files",
       "degree": 2
+    },
+    {
+      "id": "john-casablancas",
+      "label": "John Casablancas",
+      "type": "person",
+      "category": "Entertainment, Arts & Media",
+      "profession": "Founder of Elite Model Management",
+      "sector": "Entertainment, Arts & Media",
+      "era": "Both Pre- & Post-2008",
+      "aliases": [
+        "Casablancas"
+      ],
+      "primary_connection": "Mentioned in Court Files / Email Archive",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/John_Casablancas_in_1990.jpg/250px-John_Casablancas_in_1990.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/John_Casablancas",
+      "color": "#ec4899",
+      "size": 15,
+      "citations_count": 2,
+      "bio": "The Guardian alleged that John Casablancas, founder of Elite Model Management, was connected to Jeffrey Epstein, and, according to a 2019 lawsuit, he had sent a 15-year-old female model in 1990 to meet a photographer later identified as Epstein, who sexually assaulted her. The newspaper had earlier published an obituary stating, \"Casablancas was frank about his personal preference for girls of only just legal age – 'child women'.\"",
+      "source_dataset": "connections_article",
+      "source_label": "Wikipedia: Connections",
+      "legal_context": "Documented Modeling Agency Connection",
+      "degree": 2
+    },
+    {
+      "id": "murray-gell-mann",
+      "label": "Murray Gell-Mann",
+      "type": "person",
+      "category": "Academia, Science & Research",
+      "profession": "Nobel laureate theoretical physicist",
+      "sector": "Academia, Science & Research",
+      "era": "Both Pre- & Post-2008",
+      "aliases": [
+        "Gell-Mann"
+      ],
+      "primary_connection": "Financial / Funding Recipient",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Murray_Gell-Mann_in_2007.jpg/250px-Murray_Gell-Mann_in_2007.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Murray_Gell-Mann",
+      "color": "#10b981",
+      "size": 19,
+      "citations_count": 8,
+      "bio": "American theoretical physicist Murray Gell-Mann was an associate and grant recipient of Epstein. Gell-Mann acknowledged financial support from Jeffrey Epstein, who contributed via the Santa Fe Institute. In 2003, Gell-Mann also contributed a letter to The First Fifty Years, a collection of birthday greetings for Epstein. Years later, in 2011, Gell-Mann reportedly attended the \"Mindshift Conference\" on Little Saint James, Epstein's private island. The gathering was organized by Epstein and science promoter Al Seckel. Gell-Mann's name also appeared in Epstein's so-called \"black book,\" a personal address book listing Epstein's close contacts. In 2025, Ghislaine Maxwell testified that Gell-Mann had originally been introduced to Epstein through her.",
+      "source_dataset": "connections_article",
+      "source_label": "Wikipedia: Connections",
+      "legal_context": "Financial / Grant Recipient",
+      "degree": 4
+    },
+    {
+      "id": "juleanna-glover",
+      "label": "Juleanna Glover",
+      "type": "person",
+      "category": "Politics, Government & Diplomacy",
+      "profession": "Corporate public affairs consultant and political strategist",
+      "sector": "Politics, Government & Diplomacy",
+      "era": "Undated / Ongoing",
+      "aliases": [],
+      "primary_connection": "Mentioned in Court Files / Email Archive",
+      "image": null,
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Juleanna_Glover",
+      "color": "#2563eb",
+      "size": 17,
+      "citations_count": 1,
+      "bio": "Juleanna Glover is an American corporate public affairs consultant, entrepreneur, former Republican lobbyist, and political strategist. Glover is a part of the Never Trump movement",
+      "source_dataset": "connections_article",
+      "source_label": "Wikipedia: Connections",
+      "legal_context": "Public Affairs / Social Connection",
+      "degree": 2
+    },
+    {
+      "id": "faith-kates",
+      "label": "Faith Kates",
+      "type": "person",
+      "category": "Entertainment, Arts & Media",
+      "profession": "Founder of Next Model Management",
+      "sector": "Entertainment, Arts & Media",
+      "era": "Post-2008 Only",
+      "aliases": [],
+      "primary_connection": "Mentioned in Court Files / Email Archive",
+      "image": null,
+      "wikipedia_url": null,
+      "color": "#ec4899",
+      "size": 17,
+      "citations_count": 1,
+      "bio": "Founder of Next Management, a modeling agency in New York. Kates appears to have met Epstein regularly, including on one occasion with the then Prince Andrew at a New York department store in December 2010. Kates took business advice and discussed multi-million dollar loans with Epstein.",
+      "source_dataset": "connections_article",
+      "source_label": "Wikipedia: Connections",
+      "legal_context": "Documented Modeling Agency Connection",
+      "degree": 3
+    },
+    {
+      "id": "mark-middleton",
+      "label": "Mark Middleton",
+      "type": "person",
+      "category": "Politics, Government & Diplomacy",
+      "profession": "White House special assistant to President Bill Clinton",
+      "sector": "Politics, Government & Diplomacy",
+      "era": "Both Pre- & Post-2008",
+      "aliases": [],
+      "primary_connection": "Mentioned in Court Files / Email Archive",
+      "image": null,
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mark_Middleton_(businessman)",
+      "color": "#2563eb",
+      "size": 17,
+      "citations_count": 3,
+      "bio": "American businessman and lawyer Mark Middleton was a mutual friend of both Bill Clinton and Epstein. Visitor logs indicate Epstein paid 17 visits to the White House, often to meet with Middleton, one of Clinton's top fundraisers and assistant to the White House chief of staff, between 1993 - 1995. Middleton, a friend of Clinton's from Arkansas, was later identified as having facilitated Epstein's White House access in at least three instances. Middleton also flew with Epstein on the Lolita Express, his private jet, in May 1994. On May 7, 2022, Middleton was found dead at the Heifer Ranch in Perryville, Arkansas, approximately 30 miles from his home. Authorities reported that he was found hanging from a tree with an extension cord around his neck and a shotgun wound to his chest.",
+      "source_dataset": "connections_article",
+      "source_label": "Wikipedia: Connections",
+      "legal_context": "White House Visitor Logs / Intermediary",
+      "degree": 4
+    },
+    {
+      "id": "jp-morgan-chase-bank",
+      "label": "JP Morgan Chase Bank",
+      "type": "person",
+      "category": "Finance, Business & Real Estate",
+      "profession": "Major Wall Street financial institution (banked Epstein 1998–2013)",
+      "sector": "Finance, Business & Real Estate",
+      "era": "Post-2008 Only",
+      "aliases": [
+        "JPMorgan",
+        "J.P. Morgan",
+        "JPMorgan Chase"
+      ],
+      "primary_connection": "Mentioned in Court Files / Email Archive",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/JPMorgan_Chase_Logo_2008.svg/250px-JPMorgan_Chase_Logo_2008.svg.png",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/JPMorgan_Chase",
+      "color": "#f59e0b",
+      "size": 15,
+      "citations_count": 2,
+      "bio": "The U.S. government sued JP Morgan Chase Bank in 2022, alleging that JP Morgan \"facilitated, sustained, and concealed the human trafficking network operated by Jeffrey Epstein.\" A related class action alleged that the bank assisted in the structuring of Epstein's withdrawals of large amounts of cash.",
+      "source_dataset": "connections_article",
+      "source_label": "Wikipedia: Connections & Orgs",
+      "legal_context": "Key Associated Financial Institution",
+      "degree": 3
+    },
+    {
+      "id": "deutsche-bank",
+      "label": "Deutsche Bank",
+      "type": "person",
+      "category": "Finance, Business & Real Estate",
+      "profession": "German multinational investment bank (banked Epstein 2013–2018 post-conviction)",
+      "sector": "Finance, Business & Real Estate",
+      "era": "Post-2008 Only",
+      "aliases": [
+        "Deutsche"
+      ],
+      "primary_connection": "Mentioned in Court Files / Email Archive",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Deutsche_Bank_logo_without_wordmark.svg/250px-Deutsche_Bank_logo_without_wordmark.svg.png",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Deutsche_Bank",
+      "color": "#f59e0b",
+      "size": 17,
+      "citations_count": 2,
+      "bio": "The U.S. government sued JP Morgan Chase Bank in 2022, alleging that JP Morgan \"facilitated, sustained, and concealed the human trafficking network operated by Jeffrey Epstein.\" A related class action alleged that the bank assisted in the structuring of Epstein's withdrawals of large amounts of cash.",
+      "source_dataset": "connections_article",
+      "source_label": "Wikipedia: Connections & Orgs",
+      "legal_context": "Key Associated Financial Institution",
+      "degree": 3
+    },
+    {
+      "id": "valar-ventures-and-carbyne",
+      "label": "Valar Ventures & Carbyne",
+      "type": "person",
+      "category": "Tech, Crypto & Venture Capital",
+      "profession": "Venture capital fund (Peter Thiel) and emergency response tech firm (Ehud Barak)",
+      "sector": "Tech, Crypto & Venture Capital",
+      "era": "Post-2008 Only",
+      "aliases": [],
+      "primary_connection": "Financial / Funding Recipient",
+      "image": null,
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Carbyne_(company)",
+      "color": "#06b6d4",
+      "size": 19,
+      "citations_count": 3,
+      "bio": "In 2015 and 2016, Epstein invested $40 million into funds managed by Valar Ventures, a venture capital fund founded by Peter Thiel. In 2016, Epstein pitched an Israeli technology company Carbyne (formerly Reporty) to Valar Ventures; the proposal was rejected on account of being premature, but a Valar Ventures spokesperson said they would try to reengage when the startup was more developed. Earlier, in 2015, former Israeli Prime Minister Ehud Barak invested in Carbyne; a large portion of the funds invested by Barak were supplied by Epstein.",
+      "source_dataset": "connections_article",
+      "source_label": "Wikipedia: Connections & Orgs",
+      "legal_context": "Investment & Venture Connection",
+      "degree": 4
+    },
+    {
+      "id": "program-for-evolutionary-dynamics",
+      "label": "Program for Evolutionary Dynamics",
+      "type": "person",
+      "category": "Academia, Science & Research",
+      "profession": "Harvard University academic research center directed by Martin Nowak ($30M donation)",
+      "sector": "Academia, Science & Research",
+      "era": "Post-2008 Only",
+      "aliases": [],
+      "primary_connection": "Mentioned in Court Files / Email Archive",
+      "image": null,
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Program_for_Evolutionary_Dynamics",
+      "color": "#10b981",
+      "size": 17,
+      "citations_count": 4,
+      "bio": "Epstein donated $30 million to Harvard University to fund the newly created Program for Evolutionary Dynamics which his friend Martin Nowak directed. Following Epstein's conviction, Harvard announced that it would not return any money. In response to revelations of Epstein's involvement with and support of the institute it was permanently closed in 2021.",
+      "source_dataset": "connections_article",
+      "source_label": "Wikipedia: Connections & Orgs",
+      "legal_context": "Epstein-Funded Academic Center",
+      "degree": 4
+    },
+    {
+      "id": "mount-sinai-hospital",
+      "label": "Mount Sinai Hospital",
+      "type": "person",
+      "category": "Healthcare & Medicine",
+      "profession": "New York medical center (recipient of over $250,000 post-conviction)",
+      "sector": "Healthcare & Medicine",
+      "era": "Undated / Ongoing",
+      "aliases": [],
+      "primary_connection": "Mentioned in Court Files / Email Archive",
+      "image": null,
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mount_Sinai_Hospital_(Manhattan)",
+      "color": "#14b8a6",
+      "size": 17,
+      "citations_count": 0,
+      "bio": "Revelations about former prince and Duke of York Andrew Mountbatten-Windsor's connections with Epstein led to the rescinding of his various royal titles, ranks, and duties.",
+      "source_dataset": "connections_article",
+      "source_label": "Wikipedia: Connections & Orgs",
+      "legal_context": "Donation Recipient",
+      "degree": 3
+    },
+    {
+      "id": "palm-beach-police-department",
+      "label": "Palm Beach Police Department",
+      "type": "person",
+      "category": "Law, Law Enforcement & Legal Defense",
+      "profession": "Law enforcement agency conducting 2005–2006 investigation into Epstein",
+      "sector": "Law, Law Enforcement & Legal Defense",
+      "era": "Undated / Ongoing",
+      "aliases": [],
+      "primary_connection": "Financial / Funding Recipient",
+      "image": null,
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Palm_Beach_Police_Department",
+      "color": "#64748b",
+      "size": 15,
+      "citations_count": 1,
+      "bio": "Epstein donated money to the Palm Beach Police Department, which they returned following his conviction.",
+      "source_dataset": "connections_article",
+      "source_label": "Wikipedia: Connections & Orgs",
+      "legal_context": "Investigative Agency / Returned Donations",
+      "degree": 1
+    },
+    {
+      "id": "virginia-giuffre",
+      "label": "Virginia Giuffre",
+      "type": "person",
+      "category": "Victims, Plaintiffs & Witnesses",
+      "profession": "Lead plaintiff in Giuffre v. Maxwell and victims' rights advocate",
+      "sector": "Victims, Plaintiffs & Witnesses",
+      "era": "Post-2008 Only",
+      "aliases": [
+        "Virginia Roberts",
+        "Jane Doe 102",
+        "Jane Doe 003"
+      ],
+      "primary_connection": "Mentioned in Court Files / Email Archive",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Virginia_Giuffre_%28cropped%29.jpg/250px-Virginia_Giuffre_%28cropped%29.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Virginia_Giuffre",
+      "color": "#f43f5e",
+      "size": 21,
+      "citations_count": 2,
+      "bio": "Virginia Giuffre (née Roberts, identified as Jane Doe 102 / 003 in court filings) is the primary plaintiff in the landmark defamation suit Giuffre v. Maxwell (15-cv-07433-LAP). She alleged she was recruited from Mar-a-Lago at age 16 and trafficked by Epstein and Ghislaine Maxwell to prominent figures including Prince Andrew and Alan Dershowitz. Her legal actions led directly to the unsealing of over 2,000 pages of court dockets and deposition exhibits in 2024.",
+      "source_dataset": "court_does_and_flights",
+      "source_label": "Court Dockets & Flight Logs",
+      "legal_context": "Civil Plaintiff & Key Accuser (Jane Doe 102)",
+      "degree": 9
+    },
+    {
+      "id": "sarah-kellen",
+      "label": "Sarah Kellen",
+      "type": "person",
+      "category": "Epstein Inner Circle & Staff",
+      "profession": "Epstein's chief scheduling assistant and office administrator",
+      "sector": "Epstein Inner Circle & Staff",
+      "era": "Undated / Ongoing",
+      "aliases": [
+        "Sarah Kensington",
+        "Kensington"
+      ],
+      "primary_connection": "Professional Service Provider",
+      "image": null,
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sarah_Kellen",
+      "color": "#e11d48",
+      "size": 15,
+      "citations_count": 2,
+      "bio": "Sarah Kellen (now Sarah Kensington) served as Jeffrey Epstein's chief administrative assistant and daily scheduler for nearly a decade. She was granted federal immunity as a named potential co-conspirator in the controversial 2008 Southern District of Florida Non-Prosecution Agreement (NPA). Depositions and phone logs describe her coordinating travel, appointments, and household operations.",
+      "source_dataset": "court_does_and_flights",
+      "source_label": "Court Dockets & Flight Logs",
+      "legal_context": "Executive Assistant / 2008 NPA Signatory",
+      "degree": 6
+    },
+    {
+      "id": "lesley-groff",
+      "label": "Lesley Groff",
+      "type": "person",
+      "category": "Epstein Inner Circle & Staff",
+      "profession": "Epstein's New York executive assistant of over twenty years",
+      "sector": "Epstein Inner Circle & Staff",
+      "era": "Undated / Ongoing",
+      "aliases": [],
+      "primary_connection": "Professional Service Provider",
+      "image": null,
+      "wikipedia_url": null,
+      "color": "#e11d48",
+      "size": 15,
+      "citations_count": 1,
+      "bio": "Lesley Groff was Jeffrey Epstein's executive secretary in his New York office for over twenty years. She was named in the 2008 Florida Non-Prosecution Agreement as a potential co-conspirator. Groff managed Epstein's daily calendar, flight bookings, and communications with high-profile business associates and scientists. Her attorneys have consistently maintained she worked strictly as an administrative employee without knowledge of illegal acts.",
+      "source_dataset": "court_does_and_flights",
+      "source_label": "Court Dockets & Flight Logs",
+      "legal_context": "Executive Assistant / 2008 NPA Signatory",
+      "degree": 4
+    },
+    {
+      "id": "johanna-sjoberg",
+      "label": "Johanna Sjoberg",
+      "type": "person",
+      "category": "Victims, Plaintiffs & Witnesses",
+      "profession": "Former college student and key deposition witness in Giuffre v. Maxwell",
+      "sector": "Victims, Plaintiffs & Witnesses",
+      "era": "Post-2008 Only",
+      "aliases": [],
+      "primary_connection": "Mentioned in Court Files / Email Archive",
+      "image": null,
+      "wikipedia_url": null,
+      "color": "#f43f5e",
+      "size": 21,
+      "citations_count": 1,
+      "bio": "Johanna Sjoberg was a college student recruited to work for Epstein in the early 2000s. Her detailed sworn deposition from 2016 was unsealed by court order in January 2024. She provided key factual accounts of the puppet photograph involving Prince Andrew, and testified about seeing visitors including David Copperfield and Michael Jackson at Epstein's properties.",
+      "source_dataset": "court_does_and_flights",
+      "source_label": "Court Dockets & Flight Logs",
+      "legal_context": "Deposition Witness",
+      "degree": 12
+    },
+    {
+      "id": "juan-alessi",
+      "label": "Juan Alessi",
+      "type": "person",
+      "category": "Epstein Inner Circle & Staff",
+      "profession": "Head butler and estate manager at Epstein's Palm Beach residence",
+      "sector": "Epstein Inner Circle & Staff",
+      "era": "Both Pre- & Post-2008",
+      "aliases": [],
+      "primary_connection": "Professional Service Provider",
+      "image": null,
+      "wikipedia_url": null,
+      "color": "#e11d48",
+      "size": 21,
+      "citations_count": 1,
+      "bio": "Juan Alessi was the head butler and estate manager at Jeffrey Epstein's Palm Beach mansion from 1990 until 2002. In civil depositions and at Ghislaine Maxwell's 2021 trial, Alessi provided extensive testimony regarding the visitors who stayed at the house, flight routines, household protocols, and celebrity guests including Prince Andrew and Donald Trump.",
+      "source_dataset": "court_does_and_flights",
+      "source_label": "Court Dockets & Flight Logs",
+      "legal_context": "Household Staff (Head Butler / Property Manager)",
+      "degree": 8
+    },
+    {
+      "id": "alfredo-rodriguez",
+      "label": "Alfredo Rodriguez",
+      "type": "person",
+      "category": "Epstein Inner Circle & Staff",
+      "profession": "Palm Beach security guard and author of handwritten contact notes",
+      "sector": "Epstein Inner Circle & Staff",
+      "era": "Pre-2008 Only",
+      "aliases": [],
+      "primary_connection": "Professional Service Provider",
+      "image": null,
+      "wikipedia_url": null,
+      "color": "#e11d48",
+      "size": 15,
+      "citations_count": 1,
+      "bio": "Alfredo Rodriguez was a security guard and butler at Epstein's Palm Beach estate in 2004–2005. During the initial police investigation, Rodriguez compiled a handwritten journal documenting names, telephone numbers, and notes about visitors to the estate. The journal later became a key exhibit in federal and civil litigation.",
+      "source_dataset": "court_does_and_flights",
+      "source_label": "Court Dockets & Flight Logs",
+      "legal_context": "Household Staff / Note Author",
+      "degree": 2
+    },
+    {
+      "id": "david-rodgers",
+      "label": "David Rodgers",
+      "type": "person",
+      "category": "Epstein Inner Circle & Staff",
+      "profession": "Chief pilot of Epstein's Boeing 727 and maintainer of primary flight logs",
+      "sector": "Epstein Inner Circle & Staff",
+      "era": "Pre-2008 Only",
+      "aliases": [
+        "Pilot Dave Rodgers",
+        "Dave Rodgers"
+      ],
+      "primary_connection": "Professional Service Provider",
+      "image": null,
+      "wikipedia_url": null,
+      "color": "#e11d48",
+      "size": 15,
+      "citations_count": 1,
+      "bio": "David Rodgers was Jeffrey Epstein's chief corporate pilot who flew his Boeing 727-100 (nicknamed the 'Lolita Express', tail number N908JE) from 1991 until 2006. Rodgers meticulously maintained the bound flight log manifests detailing every takeoff, destination, passenger list, and date. His logs were subpoenaed by federal prosecutors and civil attorneys, forming the definitive public travel record of Epstein's associates.",
+      "source_dataset": "court_does_and_flights",
+      "source_label": "Court Dockets & Flight Logs",
+      "legal_context": "Chief Pilot / Flight Manifest Keeper",
+      "degree": 5
+    },
+    {
+      "id": "larry-visoski",
+      "label": "Larry Visoski",
+      "type": "person",
+      "category": "Epstein Inner Circle & Staff",
+      "profession": "Longtime corporate pilot of Epstein's Gulfstream and Boeing aircraft",
+      "sector": "Epstein Inner Circle & Staff",
+      "era": "Both Pre- & Post-2008",
+      "aliases": [
+        "Pilot Larry Visoski",
+        "Visoski"
+      ],
+      "primary_connection": "Professional Service Provider",
+      "image": null,
+      "wikipedia_url": null,
+      "color": "#e11d48",
+      "size": 25,
+      "citations_count": 1,
+      "bio": "Larry Visoski was a primary commercial pilot who flew Jeffrey Epstein's private planes for nearly thirty years, starting in 1991. Visoski was the first witness called by federal prosecutors at the 2021 sex-trafficking trial of Ghislaine Maxwell. He testified under oath regarding prominent passengers he flew, including Donald Trump, Bill Clinton, Prince Andrew, and Kevin Spacey.",
+      "source_dataset": "court_does_and_flights",
+      "source_label": "Court Dockets & Flight Logs",
+      "legal_context": "Longtime Corporate Pilot",
+      "degree": 11
+    },
+    {
+      "id": "tony-blair",
+      "label": "Tony Blair",
+      "type": "person",
+      "category": "Politics, Government & Diplomacy",
+      "profession": "Former Prime Minister of the United Kingdom",
+      "sector": "Politics, Government & Diplomacy",
+      "era": "Both Pre- & Post-2008",
+      "aliases": [
+        "Prime Minister Blair"
+      ],
+      "primary_connection": "Mentioned in Court Files / Email Archive",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Tony_Blair_at_the_European_Commission_-_2024_%28cropped%29.jpg/250px-Tony_Blair_at_the_European_Commission_-_2024_%28cropped%29.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tony_Blair",
+      "color": "#2563eb",
+      "size": 17,
+      "citations_count": 1,
+      "bio": "Tony Blair was Prime Minister of the United Kingdom from 1997 to 2007. In unsealed 2024 court filings and released correspondence, Blair is mentioned in connection with meetings involving Middle East peace envoy contacts and mutual acquaintances such as Peter Mandelson. Blair has stated he had no personal relationship with Epstein and never accepted money or hospitality from him.",
+      "source_dataset": "court_does_and_flights",
+      "source_label": "Court Dockets & Flight Logs",
+      "legal_context": "Government Figure / Meeting Mention",
+      "degree": 3
+    },
+    {
+      "id": "michael-jackson",
+      "label": "Michael Jackson",
+      "type": "person",
+      "category": "Entertainment, Arts & Media",
+      "profession": "American pop singer and cultural icon",
+      "sector": "Entertainment, Arts & Media",
+      "era": "Post-2008 Only",
+      "aliases": [],
+      "primary_connection": "Mentioned in Court Files / Email Archive",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Michael_Jackson_in_1988.jpg/250px-Michael_Jackson_in_1988.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Jackson",
+      "color": "#ec4899",
+      "size": 17,
+      "citations_count": 1,
+      "bio": "Michael Jackson's name appeared in unsealed deposition transcripts from Johanna Sjoberg released in January 2024. Sjoberg testified that she met Jackson at Jeffrey Epstein's Palm Beach home in the early 2000s. When asked whether she ever gave Jackson a massage or if any inappropriate conduct occurred, Sjoberg testified under oath that nothing improper occurred.",
+      "source_dataset": "court_does_and_flights",
+      "source_label": "Court Dockets & Flight Logs",
+      "legal_context": "Deposition Mention (No Misconduct Alleged)",
+      "degree": 4
+    },
+    {
+      "id": "leonardo-dicaprio",
+      "label": "Leonardo DiCaprio",
+      "type": "person",
+      "category": "Entertainment, Arts & Media",
+      "profession": "Academy Award-winning American actor and film producer",
+      "sector": "Entertainment, Arts & Media",
+      "era": "Undated / Ongoing",
+      "aliases": [],
+      "primary_connection": "Professional Service Provider",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Leonardo_Dicaprio_Cannes_2019.jpg/250px-Leonardo_Dicaprio_Cannes_2019.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Leonardo_DiCaprio",
+      "color": "#ec4899",
+      "size": 17,
+      "citations_count": 1,
+      "bio": "Leonardo DiCaprio was mentioned in unsealed deposition testimony during the questioning of witness Johanna Sjoberg in Giuffre v. Maxwell. The attorney asked Sjoberg if Epstein ever spoke about DiCaprio. Sjoberg responded that Epstein would frequently name-drop celebrities during phone calls, but confirmed she never met DiCaprio. No allegation of wrongdoing was made against him.",
+      "source_dataset": "court_does_and_flights",
+      "source_label": "Court Dockets & Flight Logs",
+      "legal_context": "Incidental Deposition Questioning (No Misconduct Alleged)",
+      "degree": 3
+    },
+    {
+      "id": "chris-tucker",
+      "label": "Chris Tucker",
+      "type": "person",
+      "category": "Entertainment, Arts & Media",
+      "profession": "American comedian and actor",
+      "sector": "Entertainment, Arts & Media",
+      "era": "Pre-2008 Only",
+      "aliases": [],
+      "primary_connection": "Professional Service Provider",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Chris_Tucker_%2814881023759%29_%28cropped%29.jpg/250px-Chris_Tucker_%2814881023759%29_%28cropped%29.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Tucker",
+      "color": "#ec4899",
+      "size": 19,
+      "citations_count": 1,
+      "bio": "Chris Tucker is an American actor and stand-up comedian whose name appears on the pilot manifests for Epstein's Boeing 727. In September 2002, Tucker traveled on the plane as part of a high-profile humanitarian trip to Africa focused on HIV/AIDS awareness and poverty, alongside former President Bill Clinton, Kevin Spacey, and Jeffrey Epstein. Tucker has not been accused of any misconduct.",
+      "source_dataset": "court_does_and_flights",
+      "source_label": "Court Dockets & Flight Logs",
+      "legal_context": "Flight Manifest Passenger (2002 Africa Trip)",
+      "degree": 3
+    },
+    {
+      "id": "itzhak-perlman",
+      "label": "Itzhak Perlman",
+      "type": "person",
+      "category": "Entertainment, Arts & Media",
+      "profession": "World-renowned Israeli-American concert violinist and conductor",
+      "sector": "Entertainment, Arts & Media",
+      "era": "Undated / Ongoing",
+      "aliases": [],
+      "primary_connection": "Mentioned in Court Files / Email Archive",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Itzhak_Perlman_1984.jpg/250px-Itzhak_Perlman_1984.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Itzhak_Perlman",
+      "color": "#ec4899",
+      "size": 15,
+      "citations_count": 1,
+      "bio": "Itzhak Perlman is a world-renowned virtuoso violinist whose name appears on flight manifests for Jeffrey Epstein's private aircraft in the late 1990s. The travel logs document Perlman flying between New York and concert/music festival locations, including the Interlochen Arts Camp in Michigan and Tanglewood in Massachusetts. Perlman has not been accused of any misconduct.",
+      "source_dataset": "court_does_and_flights",
+      "source_label": "Court Dockets & Flight Logs",
+      "legal_context": "Flight Manifest Passenger",
+      "degree": 1
+    },
+    {
+      "id": "cameron-diaz",
+      "label": "Cameron Diaz",
+      "type": "person",
+      "category": "Entertainment, Arts & Media",
+      "profession": "American actress and author",
+      "sector": "Entertainment, Arts & Media",
+      "era": "Undated / Ongoing",
+      "aliases": [],
+      "primary_connection": "Professional Service Provider",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Cameron_Diaz_WE_2014_-_cropped.jpg/250px-Cameron_Diaz_WE_2014_-_cropped.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cameron_Diaz",
+      "color": "#ec4899",
+      "size": 17,
+      "citations_count": 1,
+      "bio": "Cameron Diaz was named in unsealed deposition transcripts from Giuffre v. Maxwell during the cross-examination of witness Johanna Sjoberg. The attorney asked Sjoberg if she had ever met Diaz or if Epstein ever introduced her to Diaz. Sjoberg responded that she had never met her. Diaz issued a statement reiterating she never met Epstein and had no connection to him.",
+      "source_dataset": "court_does_and_flights",
+      "source_label": "Court Dockets & Flight Logs",
+      "legal_context": "Incidental Deposition Questioning (No Misconduct Alleged)",
+      "degree": 3
+    },
+    {
+      "id": "cate-blanchett",
+      "label": "Cate Blanchett",
+      "type": "person",
+      "category": "Entertainment, Arts & Media",
+      "profession": "Academy Award-winning Australian actress and producer",
+      "sector": "Entertainment, Arts & Media",
+      "era": "Undated / Ongoing",
+      "aliases": [],
+      "primary_connection": "Professional Service Provider",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cate_Blanchett_Cannes_2018_2_%28cropped%29.jpg/250px-Cate_Blanchett_Cannes_2018_2_%28cropped%29.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cate_Blanchett",
+      "color": "#ec4899",
+      "size": 17,
+      "citations_count": 1,
+      "bio": "Cate Blanchett was mentioned in unsealed deposition transcripts from Giuffre v. Maxwell when an attorney questioned Johanna Sjoberg about names Epstein may have claimed to know. Sjoberg testified that she had never met Blanchett. Blanchett's representatives confirmed she had zero contact or involvement with Epstein.",
+      "source_dataset": "court_does_and_flights",
+      "source_label": "Court Dockets & Flight Logs",
+      "legal_context": "Incidental Deposition Questioning (No Misconduct Alleged)",
+      "degree": 3
+    },
+    {
+      "id": "george-lucas",
+      "label": "George Lucas",
+      "type": "person",
+      "category": "Entertainment, Arts & Media",
+      "profession": "American filmmaker and creator of Star Wars and Indiana Jones",
+      "sector": "Entertainment, Arts & Media",
+      "era": "Undated / Ongoing",
+      "aliases": [],
+      "primary_connection": "Professional Service Provider",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/George_Lucas_cropped_2009.jpg/250px-George_Lucas_cropped_2009.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/George_Lucas",
+      "color": "#ec4899",
+      "size": 17,
+      "citations_count": 1,
+      "bio": "George Lucas was mentioned in unsealed court deposition transcripts in Giuffre v. Maxwell during the questioning of witness Johanna Sjoberg. The attorney asked Sjoberg if she had ever met George Lucas through Epstein. Sjoberg responded that she had not. Lucas has had no allegations of wrongdoing made against him.",
+      "source_dataset": "court_does_and_flights",
+      "source_label": "Court Dockets & Flight Logs",
+      "legal_context": "Incidental Deposition Questioning (No Misconduct Alleged)",
+      "degree": 3
+    },
+    {
+      "id": "emmy-tayler",
+      "label": "Emmy Tayler",
+      "type": "person",
+      "category": "Epstein Inner Circle & Staff",
+      "profession": "Ghislaine Maxwell's longtime personal assistant",
+      "sector": "Epstein Inner Circle & Staff",
+      "era": "Undated / Ongoing",
+      "aliases": [],
+      "primary_connection": "Professional Service Provider",
+      "image": null,
+      "wikipedia_url": null,
+      "color": "#e11d48",
+      "size": 17,
+      "citations_count": 1,
+      "bio": "Emmy Tayler was Ghislaine Maxwell's personal assistant in the early 2000s and was named in unsealed civil exhibits and flight records. She frequently traveled with Maxwell between London, New York, and the Virgin Islands. Her attorneys have denied any wrongdoing on her part.",
+      "source_dataset": "court_does_and_flights",
+      "source_label": "Court Dockets & Flight Logs",
+      "legal_context": "Personal Assistant to Maxwell",
+      "degree": 6
+    },
+    {
+      "id": "adriana-ross",
+      "label": "Adriana Ross",
+      "type": "person",
+      "category": "Epstein Inner Circle & Staff",
+      "profession": "Former Polish model and assistant named in 2008 NPA",
+      "sector": "Epstein Inner Circle & Staff",
+      "era": "Undated / Ongoing",
+      "aliases": [],
+      "primary_connection": "Professional Service Provider",
+      "image": null,
+      "wikipedia_url": null,
+      "color": "#e11d48",
+      "size": 15,
+      "citations_count": 1,
+      "bio": "Adriana Ross was a Polish model who worked as an assistant to Epstein and was granted federal immunity as a named potential co-conspirator in the 2008 Florida Non-Prosecution Agreement. She was frequently logged on flight manifests traveling between New York, Florida, and the Caribbean.",
+      "source_dataset": "court_does_and_flights",
+      "source_label": "Court Dockets & Flight Logs",
+      "legal_context": "Assistant / 2008 NPA Signatory",
+      "degree": 5
     }
   ],
   "edges": [
     {
+      "id": "epstein-owns-loc-paris",
+      "source": "jeffrey-epstein",
+      "target": "loc-paris",
+      "type": "OWNS_PROPERTY",
+      "label": "Owned / Controlled",
+      "style": "solid",
+      "color": "#9ca3af",
+      "weight": 2
+    },
+    {
       "id": "epstein-owns-loc-palm-beach",
       "source": "jeffrey-epstein",
       "target": "loc-palm-beach",
+      "type": "OWNS_PROPERTY",
+      "label": "Owned / Controlled",
+      "style": "solid",
+      "color": "#9ca3af",
+      "weight": 2
+    },
+    {
+      "id": "epstein-owns-loc-nyc-townhouse",
+      "source": "jeffrey-epstein",
+      "target": "loc-nyc-townhouse",
       "type": "OWNS_PROPERTY",
       "label": "Owned / Controlled",
       "style": "solid",
@@ -3110,29 +4235,9 @@
       "weight": 2
     },
     {
-      "id": "epstein-owns-loc-paris",
-      "source": "jeffrey-epstein",
-      "target": "loc-paris",
-      "type": "OWNS_PROPERTY",
-      "label": "Owned / Controlled",
-      "style": "solid",
-      "color": "#9ca3af",
-      "weight": 2
-    },
-    {
       "id": "epstein-owns-loc-little-saint-james",
       "source": "jeffrey-epstein",
       "target": "loc-little-saint-james",
-      "type": "OWNS_PROPERTY",
-      "label": "Owned / Controlled",
-      "style": "solid",
-      "color": "#9ca3af",
-      "weight": 2
-    },
-    {
-      "id": "epstein-owns-loc-nyc-townhouse",
-      "source": "jeffrey-epstein",
-      "target": "loc-nyc-townhouse",
       "type": "OWNS_PROPERTY",
       "label": "Owned / Controlled",
       "style": "solid",
@@ -5368,6 +6473,15 @@
       "weight": 1
     },
     {
+      "id": "peer-lutnick-clinton",
+      "source": "lutnick",
+      "target": "clinton",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
       "id": "magnani-to-epstein",
       "source": "magnani",
       "target": "jeffrey-epstein",
@@ -6035,9 +7149,27 @@
       "weight": 1
     },
     {
+      "id": "peer-nikolic-bill-gates",
+      "source": "nikolic",
+      "target": "bill-gates",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
       "id": "peer-nikolic-clinton",
       "source": "nikolic",
       "target": "clinton",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "peer-nikolic-mountbatten-windsor",
+      "source": "nikolic",
+      "target": "mountbatten-windsor",
       "type": "PEER_CONNECTION",
       "label": "Mentioned / Connected",
       "color": "#38bdf8",
@@ -6744,6 +7876,15 @@
       "weight": 2
     },
     {
+      "id": "peer-lynn-forester-de-rothschild-mountbatten-windsor",
+      "source": "lynn-forester-de-rothschild",
+      "target": "mountbatten-windsor",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
       "id": "nouriel-roubini-to-epstein",
       "source": "nouriel-roubini",
       "target": "jeffrey-epstein",
@@ -7233,6 +8374,15 @@
       "style": "dashed",
       "color": "#ec4899",
       "weight": 1
+    },
+    {
+      "id": "peer-stern-mountbatten-windsor",
+      "source": "stern",
+      "target": "mountbatten-windsor",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
     },
     {
       "id": "bin-sulayem-to-epstein",
@@ -7786,6 +8936,15 @@
       "weight": 1
     },
     {
+      "id": "peer-wolff-donald-trump",
+      "source": "wolff",
+      "target": "donald-trump",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
       "id": "zuckerberg-to-epstein",
       "source": "zuckerberg",
       "target": "jeffrey-epstein",
@@ -7844,6 +9003,1237 @@
     {
       "id": "zuckerman-org-united-nations",
       "source": "zuckerman",
+      "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "john-casablancas-to-epstein",
+      "source": "john-casablancas",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Mentioned in Court Files / Email Archive",
+      "era": "Both Pre- & Post-2008",
+      "channels": [],
+      "style": "dashed",
+      "color": "#ec4899",
+      "weight": 1
+    },
+    {
+      "id": "john-casablancas-org-united-nations",
+      "source": "john-casablancas",
+      "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "murray-gell-mann-to-epstein",
+      "source": "murray-gell-mann",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Financial / Funding Recipient",
+      "era": "Both Pre- & Post-2008",
+      "channels": [],
+      "style": "solid",
+      "color": "#10b981",
+      "weight": 1
+    },
+    {
+      "id": "murray-gell-mann-org-first-robotics",
+      "source": "murray-gell-mann",
+      "target": "org-first-robotics",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "peer-murray-gell-mann-ghislaine-maxwell",
+      "source": "murray-gell-mann",
+      "target": "ghislaine-maxwell",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "peer-murray-gell-mann-seckel",
+      "source": "murray-gell-mann",
+      "target": "seckel",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "juleanna-glover-to-epstein",
+      "source": "juleanna-glover",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Mentioned in Court Files / Email Archive",
+      "era": "Undated / Ongoing",
+      "channels": [],
+      "style": "dashed",
+      "color": "#2563eb",
+      "weight": 1
+    },
+    {
+      "id": "peer-juleanna-glover-donald-trump",
+      "source": "juleanna-glover",
+      "target": "donald-trump",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "faith-kates-to-epstein",
+      "source": "faith-kates",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Mentioned in Court Files / Email Archive",
+      "era": "Post-2008 Only",
+      "channels": [
+        "In-Person Meetings"
+      ],
+      "style": "dashed",
+      "color": "#ec4899",
+      "weight": 1
+    },
+    {
+      "id": "faith-kates-org-united-nations",
+      "source": "faith-kates",
+      "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "peer-faith-kates-mountbatten-windsor",
+      "source": "faith-kates",
+      "target": "mountbatten-windsor",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "mark-middleton-to-epstein",
+      "source": "mark-middleton",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Mentioned in Court Files / Email Archive",
+      "era": "Both Pre- & Post-2008",
+      "channels": [
+        "Private Flight"
+      ],
+      "style": "dashed",
+      "color": "#2563eb",
+      "weight": 1
+    },
+    {
+      "id": "mark-middleton-org-united-nations",
+      "source": "mark-middleton",
+      "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "mark-middleton-org-white-house",
+      "source": "mark-middleton",
+      "target": "org-white-house",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "peer-mark-middleton-clinton",
+      "source": "mark-middleton",
+      "target": "clinton",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "jp-morgan-chase-bank-to-epstein",
+      "source": "jp-morgan-chase-bank",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Mentioned in Court Files / Email Archive",
+      "era": "Post-2008 Only",
+      "channels": [],
+      "style": "dashed",
+      "color": "#f59e0b",
+      "weight": 1
+    },
+    {
+      "id": "jp-morgan-chase-bank-org-united-nations",
+      "source": "jp-morgan-chase-bank",
+      "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "deutsche-bank-to-epstein",
+      "source": "deutsche-bank",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Mentioned in Court Files / Email Archive",
+      "era": "Post-2008 Only",
+      "channels": [],
+      "style": "dashed",
+      "color": "#f59e0b",
+      "weight": 1
+    },
+    {
+      "id": "deutsche-bank-org-united-nations",
+      "source": "deutsche-bank",
+      "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "peer-deutsche-bank-jp-morgan-chase-bank",
+      "source": "deutsche-bank",
+      "target": "jp-morgan-chase-bank",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "valar-ventures-and-carbyne-to-epstein",
+      "source": "valar-ventures-and-carbyne",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Financial / Funding Recipient",
+      "era": "Post-2008 Only",
+      "channels": [],
+      "style": "solid",
+      "color": "#06b6d4",
+      "weight": 1
+    },
+    {
+      "id": "valar-ventures-and-carbyne-org-united-nations",
+      "source": "valar-ventures-and-carbyne",
+      "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "peer-valar-ventures-and-carbyne-barak",
+      "source": "valar-ventures-and-carbyne",
+      "target": "barak",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "peer-valar-ventures-and-carbyne-thiel",
+      "source": "valar-ventures-and-carbyne",
+      "target": "thiel",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "program-for-evolutionary-dynamics-to-epstein",
+      "source": "program-for-evolutionary-dynamics",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Mentioned in Court Files / Email Archive",
+      "era": "Post-2008 Only",
+      "channels": [],
+      "style": "dashed",
+      "color": "#10b981",
+      "weight": 1
+    },
+    {
+      "id": "program-for-evolutionary-dynamics-org-harvard-university",
+      "source": "program-for-evolutionary-dynamics",
+      "target": "org-harvard-university",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "program-for-evolutionary-dynamics-org-united-nations",
+      "source": "program-for-evolutionary-dynamics",
+      "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "peer-program-for-evolutionary-dynamics-nowak",
+      "source": "program-for-evolutionary-dynamics",
+      "target": "nowak",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "mount-sinai-hospital-to-epstein",
+      "source": "mount-sinai-hospital",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Mentioned in Court Files / Email Archive",
+      "era": "Undated / Ongoing",
+      "channels": [],
+      "style": "dashed",
+      "color": "#14b8a6",
+      "weight": 1
+    },
+    {
+      "id": "mount-sinai-hospital-org-united-nations",
+      "source": "mount-sinai-hospital",
+      "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "peer-mount-sinai-hospital-mountbatten-windsor",
+      "source": "mount-sinai-hospital",
+      "target": "mountbatten-windsor",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "palm-beach-police-department-to-epstein",
+      "source": "palm-beach-police-department",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Financial / Funding Recipient",
+      "era": "Undated / Ongoing",
+      "channels": [],
+      "style": "solid",
+      "color": "#64748b",
+      "weight": 1
+    },
+    {
+      "id": "virginia-giuffre-to-epstein",
+      "source": "virginia-giuffre",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Mentioned in Court Files / Email Archive",
+      "era": "Post-2008 Only",
+      "channels": [],
+      "style": "dashed",
+      "color": "#f43f5e",
+      "weight": 1
+    },
+    {
+      "id": "virginia-giuffre-island",
+      "source": "virginia-giuffre",
+      "target": "loc-little-saint-james",
+      "type": "PROPERTY_VISIT",
+      "label": "Island (Visited)",
+      "status": "Visited",
+      "notes": "Documented in depositions and travel manifests traveling to Little Saint James.",
+      "color": "#dc2626",
+      "weight": 2
+    },
+    {
+      "id": "virginia-giuffre-townhouse",
+      "source": "virginia-giuffre",
+      "target": "loc-nyc-townhouse",
+      "type": "PROPERTY_VISIT",
+      "label": "Townhouse (Visited)",
+      "status": "Visited",
+      "notes": "Documented visiting the NYC townhouse on 71st Street.",
+      "color": "#ea580c",
+      "weight": 2
+    },
+    {
+      "id": "virginia-giuffre-palmbeach",
+      "source": "virginia-giuffre",
+      "target": "loc-palm-beach",
+      "type": "PROPERTY_VISIT",
+      "label": "Stayed in Palm Beach",
+      "notes": "Recruited while working as a spa attendant at Mar-a-Lago in Palm Beach.",
+      "color": "#d97706",
+      "weight": 2
+    },
+    {
+      "id": "virginia-giuffre-zorroranch",
+      "source": "virginia-giuffre",
+      "target": "loc-zorro-ranch",
+      "type": "PROPERTY_VISIT",
+      "label": "Stayed at Zorro Ranch",
+      "notes": "Testified to visiting Zorro Ranch in New Mexico.",
+      "color": "#ca8a04",
+      "weight": 2
+    },
+    {
+      "id": "virginia-giuffre-org-united-nations",
+      "source": "virginia-giuffre",
+      "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "peer-virginia-giuffre-dershowitz",
+      "source": "virginia-giuffre",
+      "target": "dershowitz",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "peer-virginia-giuffre-ghislaine-maxwell",
+      "source": "virginia-giuffre",
+      "target": "ghislaine-maxwell",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "peer-virginia-giuffre-mountbatten-windsor",
+      "source": "virginia-giuffre",
+      "target": "mountbatten-windsor",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "sarah-kellen-to-epstein",
+      "source": "sarah-kellen",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Professional Service Provider",
+      "era": "Undated / Ongoing",
+      "channels": [
+        "Text / Phone"
+      ],
+      "style": "solid",
+      "color": "#e11d48",
+      "weight": 1
+    },
+    {
+      "id": "sarah-kellen-island",
+      "source": "sarah-kellen",
+      "target": "loc-little-saint-james",
+      "type": "PROPERTY_VISIT",
+      "label": "Island (Visited)",
+      "status": "Visited",
+      "notes": "Traveled frequently to Little Saint James managing island staff.",
+      "color": "#dc2626",
+      "weight": 2
+    },
+    {
+      "id": "sarah-kellen-townhouse",
+      "source": "sarah-kellen",
+      "target": "loc-nyc-townhouse",
+      "type": "PROPERTY_VISIT",
+      "label": "Townhouse (Visited)",
+      "status": "Visited",
+      "notes": "Worked regularly at the 71st Street townhouse office.",
+      "color": "#ea580c",
+      "weight": 2
+    },
+    {
+      "id": "sarah-kellen-palmbeach",
+      "source": "sarah-kellen",
+      "target": "loc-palm-beach",
+      "type": "PROPERTY_VISIT",
+      "label": "Stayed in Palm Beach",
+      "notes": "Stationed at the Palm Beach mansion during Epstein's Florida stays.",
+      "color": "#d97706",
+      "weight": 2
+    },
+    {
+      "id": "sarah-kellen-zorroranch",
+      "source": "sarah-kellen",
+      "target": "loc-zorro-ranch",
+      "type": "PROPERTY_VISIT",
+      "label": "Stayed at Zorro Ranch",
+      "notes": "Managed logistics during ranch visits.",
+      "color": "#ca8a04",
+      "weight": 2
+    },
+    {
+      "id": "sarah-kellen-org-united-nations",
+      "source": "sarah-kellen",
+      "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "lesley-groff-to-epstein",
+      "source": "lesley-groff",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Professional Service Provider",
+      "era": "Undated / Ongoing",
+      "channels": [
+        "Private Flight"
+      ],
+      "style": "solid",
+      "color": "#e11d48",
+      "weight": 1
+    },
+    {
+      "id": "lesley-groff-townhouse",
+      "source": "lesley-groff",
+      "target": "loc-nyc-townhouse",
+      "type": "PROPERTY_VISIT",
+      "label": "Townhouse (Visited)",
+      "status": "Visited",
+      "notes": "Primary work location in Manhattan.",
+      "color": "#ea580c",
+      "weight": 2
+    },
+    {
+      "id": "lesley-groff-palmbeach",
+      "source": "lesley-groff",
+      "target": "loc-palm-beach",
+      "type": "PROPERTY_VISIT",
+      "label": "Stayed in Palm Beach",
+      "notes": "Visited during seasonal relocations.",
+      "color": "#d97706",
+      "weight": 2
+    },
+    {
+      "id": "lesley-groff-org-united-nations",
+      "source": "lesley-groff",
+      "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "johanna-sjoberg-to-epstein",
+      "source": "johanna-sjoberg",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Mentioned in Court Files / Email Archive",
+      "era": "Post-2008 Only",
+      "channels": [],
+      "style": "dashed",
+      "color": "#f43f5e",
+      "weight": 1
+    },
+    {
+      "id": "johanna-sjoberg-island",
+      "source": "johanna-sjoberg",
+      "target": "loc-little-saint-james",
+      "type": "PROPERTY_VISIT",
+      "label": "Island (Visited)",
+      "status": "Visited",
+      "notes": "Testified to traveling to Little Saint James.",
+      "color": "#dc2626",
+      "weight": 2
+    },
+    {
+      "id": "johanna-sjoberg-townhouse",
+      "source": "johanna-sjoberg",
+      "target": "loc-nyc-townhouse",
+      "type": "PROPERTY_VISIT",
+      "label": "Townhouse (Visited)",
+      "status": "Visited",
+      "notes": "Present during the Spitting Image puppet incident with Prince Andrew.",
+      "color": "#ea580c",
+      "weight": 2
+    },
+    {
+      "id": "johanna-sjoberg-palmbeach",
+      "source": "johanna-sjoberg",
+      "target": "loc-palm-beach",
+      "type": "PROPERTY_VISIT",
+      "label": "Stayed in Palm Beach",
+      "notes": "Recruited and stayed at the Palm Beach mansion.",
+      "color": "#d97706",
+      "weight": 2
+    },
+    {
+      "id": "johanna-sjoberg-org-united-nations",
+      "source": "johanna-sjoberg",
+      "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "peer-johanna-sjoberg-copperfield",
+      "source": "johanna-sjoberg",
+      "target": "copperfield",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "peer-johanna-sjoberg-mountbatten-windsor",
+      "source": "johanna-sjoberg",
+      "target": "mountbatten-windsor",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "juan-alessi-to-epstein",
+      "source": "juan-alessi",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Professional Service Provider",
+      "era": "Both Pre- & Post-2008",
+      "channels": [
+        "Private Flight"
+      ],
+      "style": "solid",
+      "color": "#e11d48",
+      "weight": 1
+    },
+    {
+      "id": "juan-alessi-island",
+      "source": "juan-alessi",
+      "target": "loc-little-saint-james",
+      "type": "PROPERTY_VISIT",
+      "label": "Island (Visited)",
+      "status": "Visited",
+      "notes": "Assisted with setup on Little Saint James.",
+      "color": "#dc2626",
+      "weight": 2
+    },
+    {
+      "id": "juan-alessi-townhouse",
+      "source": "juan-alessi",
+      "target": "loc-nyc-townhouse",
+      "type": "PROPERTY_VISIT",
+      "label": "Townhouse (Visited)",
+      "status": "Visited",
+      "notes": "Coordinated with Manhattan staff.",
+      "color": "#ea580c",
+      "weight": 2
+    },
+    {
+      "id": "juan-alessi-palmbeach",
+      "source": "juan-alessi",
+      "target": "loc-palm-beach",
+      "type": "PROPERTY_VISIT",
+      "label": "Stayed in Palm Beach",
+      "notes": "Primary place of employment for 12 years.",
+      "color": "#d97706",
+      "weight": 2
+    },
+    {
+      "id": "juan-alessi-org-united-nations",
+      "source": "juan-alessi",
+      "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "peer-juan-alessi-donald-trump",
+      "source": "juan-alessi",
+      "target": "donald-trump",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "peer-juan-alessi-ghislaine-maxwell",
+      "source": "juan-alessi",
+      "target": "ghislaine-maxwell",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "peer-juan-alessi-mountbatten-windsor",
+      "source": "juan-alessi",
+      "target": "mountbatten-windsor",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "alfredo-rodriguez-to-epstein",
+      "source": "alfredo-rodriguez",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Professional Service Provider",
+      "era": "Pre-2008 Only",
+      "channels": [
+        "Text / Phone"
+      ],
+      "style": "solid",
+      "color": "#e11d48",
+      "weight": 1
+    },
+    {
+      "id": "alfredo-rodriguez-palmbeach",
+      "source": "alfredo-rodriguez",
+      "target": "loc-palm-beach",
+      "type": "PROPERTY_VISIT",
+      "label": "Stayed in Palm Beach",
+      "notes": "Stationed as gate security and house guard in Palm Beach.",
+      "color": "#d97706",
+      "weight": 2
+    },
+    {
+      "id": "david-rodgers-to-epstein",
+      "source": "david-rodgers",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Professional Service Provider",
+      "era": "Pre-2008 Only",
+      "channels": [
+        "Private Flight"
+      ],
+      "style": "solid",
+      "color": "#e11d48",
+      "weight": 1
+    },
+    {
+      "id": "david-rodgers-island",
+      "source": "david-rodgers",
+      "target": "loc-little-saint-james",
+      "type": "PROPERTY_VISIT",
+      "label": "Island (Visited)",
+      "status": "Visited",
+      "notes": "Flew regularly into St. Thomas Cyril E. King Airport serving Little Saint James.",
+      "color": "#dc2626",
+      "weight": 2
+    },
+    {
+      "id": "david-rodgers-palmbeach",
+      "source": "david-rodgers",
+      "target": "loc-palm-beach",
+      "type": "PROPERTY_VISIT",
+      "label": "Stayed in Palm Beach",
+      "notes": "Stationed at Palm Beach International Airport.",
+      "color": "#d97706",
+      "weight": 2
+    },
+    {
+      "id": "david-rodgers-zorroranch",
+      "source": "david-rodgers",
+      "target": "loc-zorro-ranch",
+      "type": "PROPERTY_VISIT",
+      "label": "Stayed at Zorro Ranch",
+      "notes": "Flew into Santa Fe Airport serving Zorro Ranch.",
+      "color": "#ca8a04",
+      "weight": 2
+    },
+    {
+      "id": "david-rodgers-org-united-nations",
+      "source": "david-rodgers",
+      "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "larry-visoski-to-epstein",
+      "source": "larry-visoski",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Professional Service Provider",
+      "era": "Both Pre- & Post-2008",
+      "channels": [
+        "Private Flight"
+      ],
+      "style": "solid",
+      "color": "#e11d48",
+      "weight": 1
+    },
+    {
+      "id": "larry-visoski-island",
+      "source": "larry-visoski",
+      "target": "loc-little-saint-james",
+      "type": "PROPERTY_VISIT",
+      "label": "Island (Visited)",
+      "status": "Visited",
+      "notes": "Piloted flights to St. Thomas for island visits.",
+      "color": "#dc2626",
+      "weight": 2
+    },
+    {
+      "id": "larry-visoski-palmbeach",
+      "source": "larry-visoski",
+      "target": "loc-palm-beach",
+      "type": "PROPERTY_VISIT",
+      "label": "Stayed in Palm Beach",
+      "notes": "Piloted flights between Palm Beach and Teterboro.",
+      "color": "#d97706",
+      "weight": 2
+    },
+    {
+      "id": "larry-visoski-zorroranch",
+      "source": "larry-visoski",
+      "target": "loc-zorro-ranch",
+      "type": "PROPERTY_VISIT",
+      "label": "Stayed at Zorro Ranch",
+      "notes": "Piloted flights to New Mexico.",
+      "color": "#ca8a04",
+      "weight": 2
+    },
+    {
+      "id": "larry-visoski-org-first-robotics",
+      "source": "larry-visoski",
+      "target": "org-first-robotics",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "larry-visoski-org-united-nations",
+      "source": "larry-visoski",
+      "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "peer-larry-visoski-clinton",
+      "source": "larry-visoski",
+      "target": "clinton",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "peer-larry-visoski-donald-trump",
+      "source": "larry-visoski",
+      "target": "donald-trump",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "peer-larry-visoski-ghislaine-maxwell",
+      "source": "larry-visoski",
+      "target": "ghislaine-maxwell",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "peer-larry-visoski-mountbatten-windsor",
+      "source": "larry-visoski",
+      "target": "mountbatten-windsor",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "peer-larry-visoski-spacey",
+      "source": "larry-visoski",
+      "target": "spacey",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "tony-blair-to-epstein",
+      "source": "tony-blair",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Mentioned in Court Files / Email Archive",
+      "era": "Both Pre- & Post-2008",
+      "channels": [
+        "In-Person Meetings"
+      ],
+      "style": "dashed",
+      "color": "#2563eb",
+      "weight": 1
+    },
+    {
+      "id": "tony-blair-org-united-nations",
+      "source": "tony-blair",
+      "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "peer-tony-blair-mandelson",
+      "source": "tony-blair",
+      "target": "mandelson",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "michael-jackson-to-epstein",
+      "source": "michael-jackson",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Mentioned in Court Files / Email Archive",
+      "era": "Post-2008 Only",
+      "channels": [
+        "In-Person Meetings"
+      ],
+      "style": "dashed",
+      "color": "#ec4899",
+      "weight": 1
+    },
+    {
+      "id": "michael-jackson-palmbeach",
+      "source": "michael-jackson",
+      "target": "loc-palm-beach",
+      "type": "PROPERTY_VISIT",
+      "label": "Stayed in Palm Beach",
+      "notes": "Sjoberg testified meeting Jackson once at the Palm Beach home.",
+      "color": "#d97706",
+      "weight": 2
+    },
+    {
+      "id": "michael-jackson-org-united-nations",
+      "source": "michael-jackson",
+      "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "peer-michael-jackson-johanna-sjoberg",
+      "source": "michael-jackson",
+      "target": "johanna-sjoberg",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "leonardo-dicaprio-to-epstein",
+      "source": "leonardo-dicaprio",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Professional Service Provider",
+      "era": "Undated / Ongoing",
+      "channels": [
+        "Text / Phone",
+        "In-Person Meetings"
+      ],
+      "style": "solid",
+      "color": "#ec4899",
+      "weight": 1
+    },
+    {
+      "id": "leonardo-dicaprio-org-united-nations",
+      "source": "leonardo-dicaprio",
+      "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "peer-leonardo-dicaprio-johanna-sjoberg",
+      "source": "leonardo-dicaprio",
+      "target": "johanna-sjoberg",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "chris-tucker-to-epstein",
+      "source": "chris-tucker",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Professional Service Provider",
+      "era": "Pre-2008 Only",
+      "channels": [
+        "Private Flight"
+      ],
+      "style": "solid",
+      "color": "#ec4899",
+      "weight": 1
+    },
+    {
+      "id": "peer-chris-tucker-clinton",
+      "source": "chris-tucker",
+      "target": "clinton",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "peer-chris-tucker-spacey",
+      "source": "chris-tucker",
+      "target": "spacey",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "itzhak-perlman-to-epstein",
+      "source": "itzhak-perlman",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Mentioned in Court Files / Email Archive",
+      "era": "Undated / Ongoing",
+      "channels": [
+        "Private Flight"
+      ],
+      "style": "dashed",
+      "color": "#ec4899",
+      "weight": 1
+    },
+    {
+      "id": "cameron-diaz-to-epstein",
+      "source": "cameron-diaz",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Professional Service Provider",
+      "era": "Undated / Ongoing",
+      "channels": [
+        "In-Person Meetings"
+      ],
+      "style": "solid",
+      "color": "#ec4899",
+      "weight": 1
+    },
+    {
+      "id": "cameron-diaz-org-united-nations",
+      "source": "cameron-diaz",
+      "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "peer-cameron-diaz-johanna-sjoberg",
+      "source": "cameron-diaz",
+      "target": "johanna-sjoberg",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "cate-blanchett-to-epstein",
+      "source": "cate-blanchett",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Professional Service Provider",
+      "era": "Undated / Ongoing",
+      "channels": [
+        "In-Person Meetings"
+      ],
+      "style": "solid",
+      "color": "#ec4899",
+      "weight": 1
+    },
+    {
+      "id": "cate-blanchett-org-united-nations",
+      "source": "cate-blanchett",
+      "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "peer-cate-blanchett-johanna-sjoberg",
+      "source": "cate-blanchett",
+      "target": "johanna-sjoberg",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "george-lucas-to-epstein",
+      "source": "george-lucas",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Professional Service Provider",
+      "era": "Undated / Ongoing",
+      "channels": [
+        "In-Person Meetings"
+      ],
+      "style": "solid",
+      "color": "#ec4899",
+      "weight": 1
+    },
+    {
+      "id": "george-lucas-org-united-nations",
+      "source": "george-lucas",
+      "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "peer-george-lucas-johanna-sjoberg",
+      "source": "george-lucas",
+      "target": "johanna-sjoberg",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "emmy-tayler-to-epstein",
+      "source": "emmy-tayler",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Professional Service Provider",
+      "era": "Undated / Ongoing",
+      "channels": [
+        "Private Flight"
+      ],
+      "style": "solid",
+      "color": "#e11d48",
+      "weight": 1
+    },
+    {
+      "id": "emmy-tayler-island",
+      "source": "emmy-tayler",
+      "target": "loc-little-saint-james",
+      "type": "PROPERTY_VISIT",
+      "label": "Island (Visited)",
+      "status": "Visited",
+      "notes": "Traveled to Little Saint James with Maxwell.",
+      "color": "#dc2626",
+      "weight": 2
+    },
+    {
+      "id": "emmy-tayler-townhouse",
+      "source": "emmy-tayler",
+      "target": "loc-nyc-townhouse",
+      "type": "PROPERTY_VISIT",
+      "label": "Townhouse (Visited)",
+      "status": "Visited",
+      "notes": "Visited Manhattan residence.",
+      "color": "#ea580c",
+      "weight": 2
+    },
+    {
+      "id": "emmy-tayler-palmbeach",
+      "source": "emmy-tayler",
+      "target": "loc-palm-beach",
+      "type": "PROPERTY_VISIT",
+      "label": "Stayed in Palm Beach",
+      "notes": "Stayed during Florida trips.",
+      "color": "#d97706",
+      "weight": 2
+    },
+    {
+      "id": "emmy-tayler-org-united-nations",
+      "source": "emmy-tayler",
+      "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1
+    },
+    {
+      "id": "peer-emmy-tayler-ghislaine-maxwell",
+      "source": "emmy-tayler",
+      "target": "ghislaine-maxwell",
+      "type": "PEER_CONNECTION",
+      "label": "Mentioned / Connected",
+      "color": "#38bdf8",
+      "weight": 2
+    },
+    {
+      "id": "adriana-ross-to-epstein",
+      "source": "adriana-ross",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Professional Service Provider",
+      "era": "Undated / Ongoing",
+      "channels": [
+        "Private Flight"
+      ],
+      "style": "solid",
+      "color": "#e11d48",
+      "weight": 1
+    },
+    {
+      "id": "adriana-ross-island",
+      "source": "adriana-ross",
+      "target": "loc-little-saint-james",
+      "type": "PROPERTY_VISIT",
+      "label": "Island (Visited)",
+      "status": "Visited",
+      "notes": "Visited Little Saint James.",
+      "color": "#dc2626",
+      "weight": 2
+    },
+    {
+      "id": "adriana-ross-townhouse",
+      "source": "adriana-ross",
+      "target": "loc-nyc-townhouse",
+      "type": "PROPERTY_VISIT",
+      "label": "Townhouse (Visited)",
+      "status": "Visited",
+      "notes": "Visited Manhattan townhouse.",
+      "color": "#ea580c",
+      "weight": 2
+    },
+    {
+      "id": "adriana-ross-palmbeach",
+      "source": "adriana-ross",
+      "target": "loc-palm-beach",
+      "type": "PROPERTY_VISIT",
+      "label": "Stayed in Palm Beach",
+      "notes": "Stayed at Palm Beach mansion.",
+      "color": "#d97706",
+      "weight": 2
+    },
+    {
+      "id": "adriana-ross-org-united-nations",
+      "source": "adriana-ross",
       "target": "org-united-nations",
       "type": "AFFILIATED_WITH",
       "label": "Affiliated",

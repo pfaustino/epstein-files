@@ -58,7 +58,10 @@
         "ref_id": "cite_note-Buffenbarger-8",
         "label": "[8]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "allen",
@@ -135,7 +138,10 @@
         "ref_id": "cite_note-Patel-11",
         "label": "[11]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "ambani",
@@ -207,7 +213,10 @@
         "ref_id": "cite_note-WireIn-Ambani2-12",
         "label": "[12]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "andersson-dubin",
@@ -275,7 +284,10 @@
         "ref_id": "cite_note-15",
         "label": "[15]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "ariely",
@@ -336,7 +348,10 @@
         "ref_id": "cite_note-17",
         "label": "[17]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "attia",
@@ -408,7 +423,10 @@
         "ref_id": "cite_note-22",
         "label": "[22]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "axel",
@@ -480,7 +498,10 @@
         "ref_id": "cite_note-26",
         "label": "[26]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "bach",
@@ -537,7 +558,10 @@
         "ref_id": "cite_note-Arsenault-27",
         "label": "[27]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "adam-back",
@@ -607,7 +631,10 @@
         "ref_id": "cite_note-30",
         "label": "[30]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "band",
@@ -687,7 +714,10 @@
         "ref_id": "cite_note-HakimNYT-31",
         "label": "[31]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "bannon",
@@ -756,7 +786,10 @@
         "ref_id": "cite_note-Bannon-courted-Epstein-35",
         "label": "[35]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "barak",
@@ -840,7 +873,10 @@
         "ref_id": "cite_note-39",
         "label": "[39]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "barrack",
@@ -914,7 +950,10 @@
         "ref_id": "cite_note-Ruetenik-40",
         "label": "[40]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "belyakov",
@@ -995,7 +1034,10 @@
         "ref_id": "cite_note-MyersVasilyeva-43",
         "label": "[43]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "black",
@@ -1059,6 +1101,10 @@
         "target_name": "Glenn Dubin"
       },
       {
+        "target_id": "jp-morgan-chase-bank",
+        "target_name": "JP Morgan Chase Bank"
+      },
+      {
         "target_id": "rowan",
         "target_name": "Marc Rowan"
       },
@@ -1086,7 +1132,10 @@
         "ref_id": "cite_note-47",
         "label": "[47]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "blaine",
@@ -1146,7 +1195,10 @@
         "ref_id": "cite_note-48",
         "label": "[48]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "leonard-blavatnik",
@@ -1207,7 +1259,10 @@
         "ref_id": "cite_note-:2-49",
         "label": "[49]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "todd-boehly",
@@ -1273,7 +1328,10 @@
         "ref_id": "cite_note-51",
         "label": "[51]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "botstein",
@@ -1362,7 +1420,10 @@
         "ref_id": "cite_note-54",
         "label": "[54]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "ed-boyden",
@@ -1442,7 +1503,10 @@
         "ref_id": "cite_note-Epstein-wild-diners-55",
         "label": "[55]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "brende",
@@ -1516,7 +1580,10 @@
         "ref_id": "cite_note-Dokumenter-57",
         "label": "[57]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "briatore",
@@ -1570,7 +1637,10 @@
         "ref_id": "cite_note-Austin-58",
         "label": "[58]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "brin",
@@ -1631,7 +1701,10 @@
         "ref_id": "cite_note-NYT-powerful-men-2",
         "label": "[2]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "brockman",
@@ -1703,7 +1776,10 @@
         "ref_id": "cite_note-epstein-thiel-musk-trump-metoo-61",
         "label": "[61]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "brunel",
@@ -1765,7 +1841,10 @@
         "ref_id": "cite_note-Epstein-co-conspirators-62",
         "label": "[62]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "bryan",
@@ -1824,7 +1903,10 @@
         "ref_id": "cite_note-64",
         "label": "[64]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "burns",
@@ -1886,7 +1968,10 @@
         "ref_id": "cite_note-65",
         "label": "[65]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "naomi-campbell",
@@ -1944,7 +2029,10 @@
         "ref_id": "cite_note-66",
         "label": "[66]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "candy",
@@ -1992,6 +2080,10 @@
       {
         "target_id": "ghislaine-maxwell",
         "target_name": "Ghislaine Maxwell"
+      },
+      {
+        "target_id": "sarah-kellen",
+        "target_name": "Sarah Kellen"
       }
     ],
     "aliases": [],
@@ -2005,7 +2097,10 @@
         "ref_id": "cite_note-68",
         "label": "[68]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "chomsky",
@@ -2064,6 +2159,10 @@
       {
         "target_id": "barak",
         "target_name": "Ehud Barak"
+      },
+      {
+        "target_id": "virginia-giuffre",
+        "target_name": "Virginia Giuffre"
       }
     ],
     "aliases": [],
@@ -2105,7 +2204,10 @@
         "ref_id": "cite_note-76",
         "label": "[76]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "chopra",
@@ -2169,7 +2271,10 @@
         "ref_id": "cite_note-78",
         "label": "[78]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "church",
@@ -2233,7 +2338,10 @@
         "ref_id": "cite_note-80",
         "label": "[80]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "churkin",
@@ -2292,7 +2400,10 @@
         "ref_id": "cite_note-Epstein-Russian-officials-81",
         "label": "[81]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "clinton",
@@ -2370,7 +2481,10 @@
         "ref_id": "cite_note-CNN-Clintons2-82",
         "label": "[82]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "copperfield",
@@ -2425,7 +2539,12 @@
     "affiliated_organizations": [
       "United Nations"
     ],
-    "connected_individuals": [],
+    "connected_individuals": [
+      {
+        "target_id": "johanna-sjoberg",
+        "target_name": "Johanna Sjoberg"
+      }
+    ],
     "aliases": [],
     "citations_count": 5,
     "citations": [
@@ -2449,7 +2568,10 @@
         "ref_id": "cite_note-Robinson-85",
         "label": "[85]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "francisco-d'agostino",
@@ -2512,7 +2634,10 @@
         "ref_id": "cite_note-87",
         "label": "[87]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "delson",
@@ -2568,7 +2693,10 @@
         "ref_id": "cite_note-88",
         "label": "[88]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "dershowitz",
@@ -2626,6 +2754,10 @@
         "target_name": "Glenn Dubin"
       },
       {
+        "target_id": "jp-morgan-chase-bank",
+        "target_name": "JP Morgan Chase Bank"
+      },
+      {
         "target_id": "wexner",
         "target_name": "Les Wexner"
       }
@@ -2641,7 +2773,10 @@
         "ref_id": "cite_note-Goldstein-44",
         "label": "[44]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "drokova",
@@ -2737,7 +2872,10 @@
         "ref_id": "cite_note-:1-91",
         "label": "[91]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "dubin",
@@ -2800,6 +2938,10 @@
         "target_name": "Alan Dershowitz"
       },
       {
+        "target_id": "jp-morgan-chase-bank",
+        "target_name": "JP Morgan Chase Bank"
+      },
+      {
         "target_id": "wexner",
         "target_name": "Les Wexner"
       }
@@ -2819,7 +2961,10 @@
         "ref_id": "cite_note-94",
         "label": "[94]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "edwardepstein",
@@ -2891,7 +3036,10 @@
         "ref_id": "cite_note-tea-with-epstein-96",
         "label": "[96]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "farkas",
@@ -2957,7 +3105,10 @@
         "ref_id": "cite_note-Confessore-45",
         "label": "[45]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "ferguson",
@@ -3028,7 +3179,10 @@
         "ref_id": "cite_note-ShamsianWhiteHouseCarterEdmonds-21",
         "label": "[21]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "bill-gates",
@@ -3129,7 +3283,10 @@
         "ref_id": "cite_note-Gates-admit-foolish-101",
         "label": "[101]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "gelernter",
@@ -3191,7 +3348,10 @@
         "ref_id": "cite_note-109",
         "label": "[109]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "gordon-getty",
@@ -3254,7 +3414,10 @@
         "ref_id": "cite_note-Hunter-Hart-110",
         "label": "[110]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "goertzel",
@@ -3325,7 +3488,10 @@
         "ref_id": "cite_note-Langley-111",
         "label": "[111]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "josh-harris",
@@ -3396,7 +3562,10 @@
         "ref_id": "cite_note-114",
         "label": "[114]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "hawking",
@@ -3462,7 +3631,10 @@
         "ref_id": "cite_note-what-really-happened-118",
         "label": "[118]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "hoffman",
@@ -3531,7 +3703,10 @@
         "ref_id": "cite_note-119",
         "label": "[119]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "jack-horner",
@@ -3599,7 +3774,10 @@
         "ref_id": "cite_note-122",
         "label": "[122]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "ito",
@@ -3669,7 +3847,10 @@
         "ref_id": "cite_note-YourishGamio-46",
         "label": "[46]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "jagland",
@@ -3723,7 +3904,12 @@
       "MIT",
       "United Nations"
     ],
-    "connected_individuals": [],
+    "connected_individuals": [
+      {
+        "target_id": "donald-trump",
+        "target_name": "Donald Trump"
+      }
+    ],
     "aliases": [
       "Thorbjorn Jagland"
     ],
@@ -3745,7 +3931,10 @@
         "ref_id": "cite_note-126",
         "label": "[126]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "de-jongh",
@@ -3806,7 +3995,10 @@
         "ref_id": "cite_note-127",
         "label": "[127]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "judd",
@@ -3868,7 +4060,10 @@
         "ref_id": "cite_note-129",
         "label": "[129]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "junkermann",
@@ -3926,7 +4121,10 @@
         "ref_id": "cite_note-130",
         "label": "[130]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "juul",
@@ -3991,7 +4189,10 @@
         "ref_id": "cite_note-132",
         "label": "[132]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "kamen",
@@ -4075,7 +4276,10 @@
         "ref_id": "cite_note-136",
         "label": "[136]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "karp",
@@ -4159,7 +4363,10 @@
         "ref_id": "cite_note-ShamsianWhiteHouseCarterEdmonds-21",
         "label": "[21]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "robert-f.-kennedy-jr.",
@@ -4237,7 +4444,10 @@
         "ref_id": "cite_note-dozen-Trump-officials-141",
         "label": "[141]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "gary-king",
@@ -4309,7 +4519,10 @@
         "ref_id": "cite_note-144",
         "label": "[144]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "kosslyn",
@@ -4384,7 +4597,10 @@
         "ref_id": "cite_note-KucheriaDolce-145",
         "label": "[145]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "kotick",
@@ -4442,7 +4658,10 @@
         "ref_id": "cite_note-147",
         "label": "[147]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "krauss",
@@ -4517,7 +4736,10 @@
         "ref_id": "cite_note-Arsenault-27",
         "label": "[27]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "robert-lawrence-kuhn",
@@ -4575,7 +4797,10 @@
         "ref_id": "cite_note-149",
         "label": "[149]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "lajčák",
@@ -4654,7 +4879,10 @@
         "ref_id": "cite_note-YourishGamio-46",
         "label": "[46]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "landon",
@@ -4727,7 +4955,10 @@
         "ref_id": "cite_note-157",
         "label": "[157]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "caroline-lang",
@@ -4808,7 +5039,10 @@
         "ref_id": "cite_note-Guardian-Lang-158",
         "label": "[158]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "jack-lang",
@@ -4876,7 +5110,10 @@
         "ref_id": "cite_note-figaro-lang-161",
         "label": "[161]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "lauder",
@@ -4941,7 +5178,10 @@
         "ref_id": "cite_note-163",
         "label": "[163]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "julian-leese",
@@ -5012,7 +5252,10 @@
         "ref_id": "cite_note-GadherPogrundPattison-164",
         "label": "[164]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "nick-leese",
@@ -5070,7 +5313,10 @@
         "ref_id": "cite_note-GadherPogrundPattison-164",
         "label": "[164]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "lewis",
@@ -5139,7 +5385,10 @@
         "ref_id": "cite_note-168",
         "label": "[168]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "lutnick",
@@ -5194,7 +5443,12 @@
     "affiliated_organizations": [
       "United Nations"
     ],
-    "connected_individuals": [],
+    "connected_individuals": [
+      {
+        "target_id": "clinton",
+        "target_name": "Bill Clinton"
+      }
+    ],
     "aliases": [],
     "citations_count": 4,
     "citations": [
@@ -5214,7 +5468,10 @@
         "ref_id": "cite_note-170",
         "label": "[170]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "magnani",
@@ -5287,7 +5544,10 @@
         "ref_id": "cite_note-DasTopalianCullen-173",
         "label": "[173]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "mandelson",
@@ -5345,6 +5605,10 @@
       "United Nations"
     ],
     "connected_individuals": [
+      {
+        "target_id": "jp-morgan-chase-bank",
+        "target_name": "JP Morgan Chase Bank"
+      },
       {
         "target_id": "staley",
         "target_name": "Jes Staley"
@@ -5425,7 +5689,10 @@
         "ref_id": "cite_note-Gdn23Feb2026-184",
         "label": "[184]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "mapp",
@@ -5484,7 +5751,10 @@
         "ref_id": "cite_note-185",
         "label": "[185]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "marcinko",
@@ -5558,7 +5828,10 @@
         "ref_id": "cite_note-186",
         "label": "[186]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "ghislaine-maxwell",
@@ -5619,7 +5892,10 @@
         "ref_id": "cite_note-187",
         "label": "[187]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "robert-maxwell",
@@ -5677,7 +5953,10 @@
         "ref_id": "cite_note-Molot-2-188",
         "label": "[188]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "matthew-menchel",
@@ -5741,7 +6020,10 @@
         "ref_id": "cite_note-190",
         "label": "[190]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "mette-marit",
@@ -5818,7 +6100,10 @@
         "ref_id": "cite_note-BBC-Norway-PM2-125",
         "label": "[125]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "minsky",
@@ -5868,7 +6153,12 @@
     "affiliated_organizations": [
       "United Nations"
     ],
-    "connected_individuals": [],
+    "connected_individuals": [
+      {
+        "target_id": "virginia-giuffre",
+        "target_name": "Virginia Giuffre"
+      }
+    ],
     "aliases": [],
     "citations_count": 3,
     "citations": [
@@ -5884,7 +6174,10 @@
         "ref_id": "cite_note-MinskyVerge-194",
         "label": "[194]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "mitchell",
@@ -5944,6 +6237,10 @@
       {
         "target_id": "ghislaine-maxwell",
         "target_name": "Ghislaine Maxwell"
+      },
+      {
+        "target_id": "virginia-giuffre",
+        "target_name": "Virginia Giuffre"
       }
     ],
     "aliases": [],
@@ -5969,7 +6266,10 @@
         "ref_id": "cite_note-BBC-Mitchelle-scholarship2-197",
         "label": "[197]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "mwb60",
@@ -6028,7 +6328,10 @@
         "ref_id": "cite_note-199",
         "label": "[199]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "carol-montgomery",
@@ -6084,7 +6387,10 @@
         "ref_id": "cite_note-200",
         "label": "[200]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "moskowitz",
@@ -6150,7 +6456,10 @@
         "ref_id": "cite_note-FahrentholdGhorayshiAstor-202",
         "label": "[202]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "moss-salentijn",
@@ -6219,7 +6528,10 @@
         "ref_id": "cite_note-Shanahan-171",
         "label": "[171]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "mountbatten-windsor",
@@ -6277,6 +6589,10 @@
       {
         "target_id": "ghislaine-maxwell",
         "target_name": "Ghislaine Maxwell"
+      },
+      {
+        "target_id": "virginia-giuffre",
+        "target_name": "Virginia Giuffre"
       }
     ],
     "aliases": [
@@ -6321,7 +6637,10 @@
         "ref_id": "cite_note-207",
         "label": "[207]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "mugabe",
@@ -6391,7 +6710,10 @@
         "ref_id": "cite_note-Nyoka-208",
         "label": "[208]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "musk",
@@ -6468,7 +6790,10 @@
         "ref_id": "cite_note-Safdar-4-169",
         "label": "[169]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "kimbal-musk",
@@ -6548,7 +6873,10 @@
         "ref_id": "cite_note-215",
         "label": "[215]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "myhrvold",
@@ -6613,7 +6941,10 @@
         "ref_id": "cite_note-216",
         "label": "[216]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "neilson",
@@ -6676,7 +7007,10 @@
         "ref_id": "cite_note-218",
         "label": "[218]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "new",
@@ -6740,7 +7074,10 @@
         "ref_id": "cite_note-YourishGamio-46",
         "label": "[46]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "nikolic",
@@ -6794,8 +7131,16 @@
     ],
     "connected_individuals": [
       {
+        "target_id": "bill-gates",
+        "target_name": "Bill Gates"
+      },
+      {
         "target_id": "clinton",
         "target_name": "Bill Clinton"
+      },
+      {
+        "target_id": "mountbatten-windsor",
+        "target_name": "Andrew Mountbatten-Windsor"
       },
       {
         "target_id": "poole",
@@ -6821,7 +7166,10 @@
         "ref_id": "cite_note-Molot-220",
         "label": "[220]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "nowak",
@@ -6874,7 +7222,12 @@
       "Harvard University",
       "United Nations"
     ],
-    "connected_individuals": [],
+    "connected_individuals": [
+      {
+        "target_id": "program-for-evolutionary-dynamics",
+        "target_name": "Program for Evolutionary Dynamics"
+      }
+    ],
     "aliases": [],
     "citations_count": 1,
     "citations": [
@@ -6882,7 +7235,10 @@
         "ref_id": "cite_note-Arsenault-27",
         "label": "[27]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "pastrana-arango",
@@ -6953,7 +7309,10 @@
         "ref_id": "cite_note-222",
         "label": "[222]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "brock-pierce",
@@ -7026,7 +7385,10 @@
         "ref_id": "cite_note-:0-29",
         "label": "[29]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "jean-pigozzi",
@@ -7088,7 +7450,10 @@
         "ref_id": "cite_note-225",
         "label": "[225]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "pinker",
@@ -7180,7 +7545,10 @@
         "ref_id": "cite_note-229",
         "label": "[229]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "alberto-pinto-and-linda-pinto",
@@ -7231,6 +7599,10 @@
       {
         "target_id": "ghislaine-maxwell",
         "target_name": "Ghislaine Maxwell"
+      },
+      {
+        "target_id": "virginia-giuffre",
+        "target_name": "Virginia Giuffre"
       }
     ],
     "aliases": [],
@@ -7256,7 +7628,10 @@
         "ref_id": "cite_note-234",
         "label": "[234]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "phelan",
@@ -7320,7 +7695,10 @@
         "ref_id": "cite_note-235",
         "label": "[235]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "plaskett",
@@ -7370,7 +7748,12 @@
     "affiliated_organizations": [
       "MIT"
     ],
-    "connected_individuals": [],
+    "connected_individuals": [
+      {
+        "target_id": "donald-trump",
+        "target_name": "Donald Trump"
+      }
+    ],
     "aliases": [],
     "citations_count": 1,
     "citations": [
@@ -7378,7 +7761,10 @@
         "ref_id": "cite_note-Vazquez-37",
         "label": "[37]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "poole",
@@ -7440,7 +7826,10 @@
         "ref_id": "cite_note-236",
         "label": "[236]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "previn",
@@ -7510,7 +7899,10 @@
         "ref_id": "cite_note-Patel-11",
         "label": "[11]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "thomas-pritzker",
@@ -7582,7 +7974,10 @@
         "ref_id": "cite_note-240",
         "label": "[240]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "mariya-prusakova",
@@ -7662,7 +8057,10 @@
         "ref_id": "cite_note-:0-29",
         "label": "[29]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "hardeep-singh-puri",
@@ -7727,7 +8125,10 @@
         "ref_id": "cite_note-242",
         "label": "[242]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "v.-s.-ramachandran",
@@ -7789,7 +8190,10 @@
         "ref_id": "cite_note-243",
         "label": "[243]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "ramo",
@@ -7851,7 +8255,10 @@
         "ref_id": "cite_note-Safdar-2-53",
         "label": "[53]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "randall",
@@ -7918,7 +8325,10 @@
         "ref_id": "cite_note-244",
         "label": "[244]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "ratner",
@@ -7981,7 +8391,10 @@
         "ref_id": "cite_note-246",
         "label": "[246]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "richardson",
@@ -8039,7 +8452,10 @@
         "ref_id": "cite_note-247",
         "label": "[247]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "rød-larsen",
@@ -8108,7 +8524,10 @@
         "ref_id": "cite_note-Austin-58",
         "label": "[58]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "rothschild",
@@ -8187,7 +8606,10 @@
         "ref_id": "cite_note-252",
         "label": "[252]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "ariane-de-rothschild",
@@ -8248,7 +8670,10 @@
         "ref_id": "cite_note-Safdar-2-53",
         "label": "[53]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "lynn-forester-de-rothschild",
@@ -8306,6 +8731,10 @@
       {
         "target_id": "mandelson",
         "target_name": "Peter Mandelson"
+      },
+      {
+        "target_id": "mountbatten-windsor",
+        "target_name": "Andrew Mountbatten-Windsor"
       }
     ],
     "aliases": [],
@@ -8327,7 +8756,10 @@
         "ref_id": "cite_note-256",
         "label": "[256]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "nouriel-roubini",
@@ -8384,7 +8816,10 @@
         "ref_id": "cite_note-257",
         "label": "[257]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "rowan",
@@ -8444,7 +8879,10 @@
         "ref_id": "cite_note-258",
         "label": "[258]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "rudd",
@@ -8504,7 +8942,10 @@
         "ref_id": "cite_note-259",
         "label": "[259]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "ruemmler",
@@ -8599,7 +9040,10 @@
         "ref_id": "cite_note-ShamsianWhiteHouseCarterEdmonds-21",
         "label": "[21]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "schoen",
@@ -8661,7 +9105,10 @@
         "ref_id": "cite_note-Safdar-3-75",
         "label": "[75]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "seckel",
@@ -8759,7 +9206,10 @@
         "ref_id": "cite_note-Maxwell-skeletons-271",
         "label": "[271]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "mwcxm",
@@ -8822,7 +9272,10 @@
         "ref_id": "cite_note-273",
         "label": "[273]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "serrano",
@@ -8884,7 +9337,10 @@
         "ref_id": "cite_note-274",
         "label": "[274]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "shimony",
@@ -8949,7 +9405,10 @@
         "ref_id": "cite_note-anything-is-possible-275",
         "label": "[275]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "shuliak",
@@ -9011,7 +9470,10 @@
         "ref_id": "cite_note-DasTopalianCullen-173",
         "label": "[173]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "siad",
@@ -9079,7 +9541,10 @@
         "ref_id": "cite_note-278",
         "label": "[278]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "siegal",
@@ -9137,7 +9602,10 @@
         "ref_id": "cite_note-Molot-2-188",
         "label": "[188]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "anastasiya-siroochenko",
@@ -9203,7 +9671,10 @@
         "ref_id": "cite_note-279",
         "label": "[279]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "princess-sofia",
@@ -9273,7 +9744,10 @@
         "ref_id": "cite_note-281",
         "label": "[281]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "spacey",
@@ -9353,7 +9827,10 @@
         "ref_id": "cite_note-Ensor-283",
         "label": "[283]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "staley",
@@ -9429,7 +9906,10 @@
         "ref_id": "cite_note-288",
         "label": "[288]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "starr",
@@ -9503,7 +9983,10 @@
         "ref_id": "cite_note-Whitford-89",
         "label": "[89]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "stern",
@@ -9551,7 +10034,12 @@
       "flight_notes": null
     },
     "affiliated_organizations": [],
-    "connected_individuals": [],
+    "connected_individuals": [
+      {
+        "target_id": "mountbatten-windsor",
+        "target_name": "Andrew Mountbatten-Windsor"
+      }
+    ],
     "aliases": [],
     "citations_count": 1,
     "citations": [
@@ -9559,7 +10047,10 @@
         "ref_id": "cite_note-291",
         "label": "[291]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "bin-sulayem",
@@ -9617,6 +10108,10 @@
         "target_name": "Anil Ambani"
       },
       {
+        "target_id": "donald-trump",
+        "target_name": "Donald Trump"
+      },
+      {
         "target_id": "mandelson",
         "target_name": "Peter Mandelson"
       }
@@ -9651,7 +10146,10 @@
         "ref_id": "cite_note-ShamsianWhiteHouseCarterEdmonds-21",
         "label": "[21]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "summers",
@@ -9728,7 +10226,10 @@
         "ref_id": "cite_note-297",
         "label": "[297]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "tarnita",
@@ -9802,7 +10303,10 @@
         "ref_id": "cite_note-301",
         "label": "[301]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "thiel",
@@ -9879,7 +10383,10 @@
         "ref_id": "cite_note-Epstein-wild-diners-55",
         "label": "[55]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "thirsk",
@@ -9940,7 +10447,10 @@
         "ref_id": "cite_note-303",
         "label": "[303]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "ting",
@@ -10002,7 +10512,10 @@
         "ref_id": "cite_note-anything-is-possible-275",
         "label": "[275]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "tisch",
@@ -10066,7 +10579,10 @@
         "ref_id": "cite_note-ShamsianWhiteHouseCarterEdmonds-21",
         "label": "[21]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "todt",
@@ -10130,7 +10646,10 @@
         "ref_id": "cite_note-Austin-58",
         "label": "[58]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "tramo",
@@ -10214,7 +10733,10 @@
         "ref_id": "cite_note-307",
         "label": "[307]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "trivers",
@@ -10284,7 +10806,10 @@
         "ref_id": "cite_note-Arsenault-27",
         "label": "[27]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "donald-trump",
@@ -10354,7 +10879,10 @@
         "ref_id": "cite_note-310",
         "label": "[310]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "mwdos",
@@ -10406,7 +10934,10 @@
         "ref_id": "cite_note-311",
         "label": "[311]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "vickers",
@@ -10463,7 +10994,10 @@
         "ref_id": "cite_note-312",
         "label": "[312]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "victor",
@@ -10523,7 +11057,10 @@
         "ref_id": "cite_note-Dickson-313",
         "label": "[313]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "karim-wade",
@@ -10583,7 +11120,10 @@
         "ref_id": "cite_note-LeCam-315",
         "label": "[315]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "wasserman",
@@ -10664,7 +11204,10 @@
         "ref_id": "cite_note-ShamsianWhiteHouseCarterEdmonds-21",
         "label": "[21]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "wexner",
@@ -10723,6 +11266,10 @@
       {
         "target_id": "dubin",
         "target_name": "Glenn Dubin"
+      },
+      {
+        "target_id": "jp-morgan-chase-bank",
+        "target_name": "JP Morgan Chase Bank"
       }
     ],
     "aliases": [],
@@ -10736,7 +11283,10 @@
         "ref_id": "cite_note-Goldstein-44",
         "label": "[44]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "nathan-wolfe",
@@ -10796,7 +11346,10 @@
         "ref_id": "cite_note-319",
         "label": "[319]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "wolff",
@@ -10848,7 +11401,12 @@
     "affiliated_organizations": [
       "United Nations"
     ],
-    "connected_individuals": [],
+    "connected_individuals": [
+      {
+        "target_id": "donald-trump",
+        "target_name": "Donald Trump"
+      }
+    ],
     "aliases": [],
     "citations_count": 1,
     "citations": [
@@ -10856,7 +11414,10 @@
         "ref_id": "cite_note-Vazquez-37",
         "label": "[37]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "zuckerberg",
@@ -10929,7 +11490,10 @@
         "ref_id": "cite_note-320",
         "label": "[320]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
   },
   {
     "id": "zuckerman",
@@ -11000,6 +11564,2001 @@
         "ref_id": "cite_note-Power-321",
         "label": "[321]"
       }
-    ]
+    ],
+    "source_dataset": "files_list",
+    "source_label": "Wikipedia: Named in Files",
+    "legal_context": "Named in Files"
+  },
+  {
+    "id": "john-casablancas",
+    "name": "John Casablancas",
+    "anchor": "John_Casablancas",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/John_Casablancas",
+    "image_thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/John_Casablancas_in_1990.jpg/250px-John_Casablancas_in_1990.jpg",
+    "image_full": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/John_Casablancas_in_1990.jpg/250px-John_Casablancas_in_1990.jpg",
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Entertainment, Arts & Media",
+    "profession_summary": "Founder of Elite Model Management",
+    "full_text": "The Guardian alleged that John Casablancas, founder of Elite Model Management, was connected to Jeffrey Epstein, and, according to a 2019 lawsuit, he had sent a 15-year-old female model in 1990 to meet a photographer later identified as Epstein, who sexually assaulted her. The newspaper had earlier published an obituary stating, \"Casablancas was frank about his personal preference for girls of only just legal age – 'child women'.\"",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Mentioned in Court Files / Email Archive"
+      ],
+      "primary_nature": "Mentioned in Court Files / Email Archive",
+      "era": "Both Pre- & Post-2008",
+      "has_pre_2008_ties": true,
+      "has_post_2008_ties": true,
+      "years_mentioned": [
+        1990,
+        2019
+      ],
+      "interaction_channels": []
+    },
+    "property_visits": {
+      "island_status": "None",
+      "island_notes": null,
+      "townhouse_status": "None",
+      "townhouse_notes": null,
+      "palm_beach_status": "None",
+      "palm_beach_notes": null,
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": false
+    },
+    "flight_logs": {
+      "flew_on_private_plane": false,
+      "flight_count_estimate": null,
+      "flight_notes": null
+    },
+    "affiliated_organizations": [
+      "United Nations"
+    ],
+    "connected_individuals": [],
+    "aliases": [
+      "Casablancas"
+    ],
+    "citations_count": 2,
+    "citations": [
+      {
+        "ref_id": "cite_note-:12-60",
+        "label": "[60]"
+      },
+      {
+        "ref_id": "cite_note-guardian2-96",
+        "label": "[96]"
+      }
+    ],
+    "source_dataset": "connections_article",
+    "source_label": "Wikipedia: Connections",
+    "legal_context": "Documented Modeling Agency Connection"
+  },
+  {
+    "id": "murray-gell-mann",
+    "name": "Murray Gell-Mann",
+    "anchor": "Murray_Gell-Mann",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Murray_Gell-Mann",
+    "image_thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Murray_Gell-Mann_in_2007.jpg/250px-Murray_Gell-Mann_in_2007.jpg",
+    "image_full": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Murray_Gell-Mann_in_2007.jpg/250px-Murray_Gell-Mann_in_2007.jpg",
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Academia, Science & Research",
+    "profession_summary": "Nobel laureate theoretical physicist",
+    "full_text": "American theoretical physicist Murray Gell-Mann was an associate and grant recipient of Epstein. Gell-Mann acknowledged financial support from Jeffrey Epstein, who contributed via the Santa Fe Institute. In 2003, Gell-Mann also contributed a letter to The First Fifty Years, a collection of birthday greetings for Epstein. Years later, in 2011, Gell-Mann reportedly attended the \"Mindshift Conference\" on Little Saint James, Epstein's private island. The gathering was organized by Epstein and science promoter Al Seckel. Gell-Mann's name also appeared in Epstein's so-called \"black book,\" a personal address book listing Epstein's close contacts. In 2025, Ghislaine Maxwell testified that Gell-Mann had originally been introduced to Epstein through her.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Financial / Funding Recipient",
+        "Intermediary / Introduced Others"
+      ],
+      "primary_nature": "Financial / Funding Recipient",
+      "era": "Both Pre- & Post-2008",
+      "has_pre_2008_ties": true,
+      "has_post_2008_ties": true,
+      "years_mentioned": [
+        2003,
+        2011,
+        2025
+      ],
+      "interaction_channels": []
+    },
+    "property_visits": {
+      "island_status": "Referenced",
+      "island_notes": "Years later, in 2011, Gell-Mann reportedly attended the \"Mindshift Conference\" on Little Saint James, Epstein's private island.",
+      "townhouse_status": "None",
+      "townhouse_notes": null,
+      "palm_beach_status": "None",
+      "palm_beach_notes": null,
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": false
+    },
+    "flight_logs": {
+      "flew_on_private_plane": false,
+      "flight_count_estimate": null,
+      "flight_notes": null
+    },
+    "affiliated_organizations": [
+      "FIRST Robotics"
+    ],
+    "connected_individuals": [
+      {
+        "target_id": "ghislaine-maxwell",
+        "target_name": "Ghislaine Maxwell"
+      },
+      {
+        "target_id": "seckel",
+        "target_name": "Al Seckel"
+      }
+    ],
+    "aliases": [
+      "Gell-Mann"
+    ],
+    "citations_count": 8,
+    "citations": [
+      {
+        "ref_id": "cite_note-h618-112",
+        "label": "[112]"
+      },
+      {
+        "ref_id": "cite_note-f963-113",
+        "label": "[113]"
+      },
+      {
+        "ref_id": "cite_note-114",
+        "label": "[114]"
+      },
+      {
+        "ref_id": "cite_note-115",
+        "label": "[115]"
+      },
+      {
+        "ref_id": "cite_note-:32-116",
+        "label": "[116]"
+      },
+      {
+        "ref_id": "cite_note-117",
+        "label": "[117]"
+      },
+      {
+        "ref_id": "cite_note-k858-118",
+        "label": "[118]"
+      },
+      {
+        "ref_id": "cite_note-o893-119",
+        "label": "[119]"
+      }
+    ],
+    "source_dataset": "connections_article",
+    "source_label": "Wikipedia: Connections",
+    "legal_context": "Financial / Grant Recipient"
+  },
+  {
+    "id": "juleanna-glover",
+    "name": "Juleanna Glover",
+    "anchor": "Juleanna_Glover",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Juleanna_Glover",
+    "image_thumb": null,
+    "image_full": null,
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Politics, Government & Diplomacy",
+    "profession_summary": "Corporate public affairs consultant and political strategist",
+    "full_text": "Juleanna Glover is an American corporate public affairs consultant, entrepreneur, former Republican lobbyist, and political strategist. Glover is a part of the Never Trump movement",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Mentioned in Court Files / Email Archive"
+      ],
+      "primary_nature": "Mentioned in Court Files / Email Archive",
+      "era": "Undated / Ongoing",
+      "has_pre_2008_ties": false,
+      "has_post_2008_ties": false,
+      "years_mentioned": [],
+      "interaction_channels": []
+    },
+    "property_visits": {
+      "island_status": "None",
+      "island_notes": null,
+      "townhouse_status": "None",
+      "townhouse_notes": null,
+      "palm_beach_status": "None",
+      "palm_beach_notes": null,
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": false
+    },
+    "flight_logs": {
+      "flew_on_private_plane": false,
+      "flight_count_estimate": null,
+      "flight_notes": null
+    },
+    "affiliated_organizations": [],
+    "connected_individuals": [
+      {
+        "target_id": "donald-trump",
+        "target_name": "Donald Trump"
+      }
+    ],
+    "aliases": [],
+    "citations_count": 1,
+    "citations": [
+      {
+        "ref_id": "cite_note-120",
+        "label": "[120]"
+      }
+    ],
+    "source_dataset": "connections_article",
+    "source_label": "Wikipedia: Connections",
+    "legal_context": "Public Affairs / Social Connection"
+  },
+  {
+    "id": "faith-kates",
+    "name": "Faith Kates",
+    "anchor": "Faith_Kates",
+    "wikipedia_url": null,
+    "image_thumb": null,
+    "image_full": null,
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Entertainment, Arts & Media",
+    "profession_summary": "Founder of Next Model Management",
+    "full_text": "Founder of Next Management, a modeling agency in New York. Kates appears to have met Epstein regularly, including on one occasion with the then Prince Andrew at a New York department store in December 2010. Kates took business advice and discussed multi-million dollar loans with Epstein.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Mentioned in Court Files / Email Archive"
+      ],
+      "primary_nature": "Mentioned in Court Files / Email Archive",
+      "era": "Post-2008 Only",
+      "has_pre_2008_ties": false,
+      "has_post_2008_ties": true,
+      "years_mentioned": [
+        2010
+      ],
+      "interaction_channels": [
+        "In-Person Meetings"
+      ]
+    },
+    "property_visits": {
+      "island_status": "None",
+      "island_notes": null,
+      "townhouse_status": "None",
+      "townhouse_notes": null,
+      "palm_beach_status": "None",
+      "palm_beach_notes": null,
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": false
+    },
+    "flight_logs": {
+      "flew_on_private_plane": false,
+      "flight_count_estimate": null,
+      "flight_notes": null
+    },
+    "affiliated_organizations": [
+      "United Nations"
+    ],
+    "connected_individuals": [
+      {
+        "target_id": "mountbatten-windsor",
+        "target_name": "Andrew Mountbatten-Windsor"
+      }
+    ],
+    "aliases": [],
+    "citations_count": 1,
+    "citations": [
+      {
+        "ref_id": "cite_note-123",
+        "label": "[123]"
+      }
+    ],
+    "source_dataset": "connections_article",
+    "source_label": "Wikipedia: Connections",
+    "legal_context": "Documented Modeling Agency Connection"
+  },
+  {
+    "id": "mark-middleton",
+    "name": "Mark Middleton",
+    "anchor": "Mark_Middleton",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mark_Middleton_(businessman)",
+    "image_thumb": null,
+    "image_full": null,
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Politics, Government & Diplomacy",
+    "profession_summary": "White House special assistant to President Bill Clinton",
+    "full_text": "American businessman and lawyer Mark Middleton was a mutual friend of both Bill Clinton and Epstein. Visitor logs indicate Epstein paid 17 visits to the White House, often to meet with Middleton, one of Clinton's top fundraisers and assistant to the White House chief of staff, between 1993 - 1995. Middleton, a friend of Clinton's from Arkansas, was later identified as having facilitated Epstein's White House access in at least three instances. Middleton also flew with Epstein on the Lolita Express, his private jet, in May 1994. On May 7, 2022, Middleton was found dead at the Heifer Ranch in Perryville, Arkansas, approximately 30 miles from his home. Authorities reported that he was found hanging from a tree with an extension cord around his neck and a shotgun wound to his chest.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Mentioned in Court Files / Email Archive"
+      ],
+      "primary_nature": "Mentioned in Court Files / Email Archive",
+      "era": "Both Pre- & Post-2008",
+      "has_pre_2008_ties": true,
+      "has_post_2008_ties": true,
+      "years_mentioned": [
+        1993,
+        1994,
+        1995,
+        2022
+      ],
+      "interaction_channels": [
+        "Private Flight"
+      ]
+    },
+    "property_visits": {
+      "island_status": "None",
+      "island_notes": null,
+      "townhouse_status": "None",
+      "townhouse_notes": null,
+      "palm_beach_status": "None",
+      "palm_beach_notes": null,
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": false
+    },
+    "flight_logs": {
+      "flew_on_private_plane": true,
+      "flight_count_estimate": null,
+      "flight_notes": "Middleton also flew with Epstein on the Lolita Express, his private jet, in May 1994."
+    },
+    "affiliated_organizations": [
+      "United Nations",
+      "White House"
+    ],
+    "connected_individuals": [
+      {
+        "target_id": "clinton",
+        "target_name": "Bill Clinton"
+      }
+    ],
+    "aliases": [],
+    "citations_count": 3,
+    "citations": [
+      {
+        "ref_id": "cite_note-:7-99",
+        "label": "[99]"
+      },
+      {
+        "ref_id": "cite_note-FOOTNOTEWebb2022882-151",
+        "label": "[151]"
+      },
+      {
+        "ref_id": "cite_note-152",
+        "label": "[152]"
+      }
+    ],
+    "source_dataset": "connections_article",
+    "source_label": "Wikipedia: Connections",
+    "legal_context": "White House Visitor Logs / Intermediary"
+  },
+  {
+    "id": "jp-morgan-chase-bank",
+    "name": "JP Morgan Chase Bank",
+    "anchor": "JP_Morgan_Chase_Bank",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/JPMorgan_Chase",
+    "image_thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/JPMorgan_Chase_Logo_2008.svg/250px-JPMorgan_Chase_Logo_2008.svg.png",
+    "image_full": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/JPMorgan_Chase_Logo_2008.svg/250px-JPMorgan_Chase_Logo_2008.svg.png",
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Finance, Business & Real Estate",
+    "profession_summary": "Major Wall Street financial institution (banked Epstein 1998–2013)",
+    "full_text": "The U.S. government sued JP Morgan Chase Bank in 2022, alleging that JP Morgan \"facilitated, sustained, and concealed the human trafficking network operated by Jeffrey Epstein.\" A related class action alleged that the bank assisted in the structuring of Epstein's withdrawals of large amounts of cash.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Mentioned in Court Files / Email Archive"
+      ],
+      "primary_nature": "Mentioned in Court Files / Email Archive",
+      "era": "Post-2008 Only",
+      "has_pre_2008_ties": false,
+      "has_post_2008_ties": true,
+      "years_mentioned": [
+        2022
+      ],
+      "interaction_channels": []
+    },
+    "property_visits": {
+      "island_status": "None",
+      "island_notes": null,
+      "townhouse_status": "None",
+      "townhouse_notes": null,
+      "palm_beach_status": "None",
+      "palm_beach_notes": null,
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": false
+    },
+    "flight_logs": {
+      "flew_on_private_plane": false,
+      "flight_count_estimate": null,
+      "flight_notes": null
+    },
+    "affiliated_organizations": [
+      "United Nations"
+    ],
+    "connected_individuals": [],
+    "aliases": [
+      "JPMorgan",
+      "J.P. Morgan",
+      "JPMorgan Chase"
+    ],
+    "citations_count": 2,
+    "citations": [
+      {
+        "ref_id": "cite_note-201",
+        "label": "[201]"
+      },
+      {
+        "ref_id": "cite_note-202",
+        "label": "[202]"
+      }
+    ],
+    "source_dataset": "connections_article",
+    "source_label": "Wikipedia: Connections & Orgs",
+    "legal_context": "Key Associated Financial Institution"
+  },
+  {
+    "id": "deutsche-bank",
+    "name": "Deutsche Bank",
+    "anchor": "Deutsche_Bank",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Deutsche_Bank",
+    "image_thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Deutsche_Bank_logo_without_wordmark.svg/250px-Deutsche_Bank_logo_without_wordmark.svg.png",
+    "image_full": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Deutsche_Bank_logo_without_wordmark.svg/250px-Deutsche_Bank_logo_without_wordmark.svg.png",
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Finance, Business & Real Estate",
+    "profession_summary": "German multinational investment bank (banked Epstein 2013–2018 post-conviction)",
+    "full_text": "The U.S. government sued JP Morgan Chase Bank in 2022, alleging that JP Morgan \"facilitated, sustained, and concealed the human trafficking network operated by Jeffrey Epstein.\" A related class action alleged that the bank assisted in the structuring of Epstein's withdrawals of large amounts of cash.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Mentioned in Court Files / Email Archive"
+      ],
+      "primary_nature": "Mentioned in Court Files / Email Archive",
+      "era": "Post-2008 Only",
+      "has_pre_2008_ties": false,
+      "has_post_2008_ties": true,
+      "years_mentioned": [
+        2022
+      ],
+      "interaction_channels": []
+    },
+    "property_visits": {
+      "island_status": "None",
+      "island_notes": null,
+      "townhouse_status": "None",
+      "townhouse_notes": null,
+      "palm_beach_status": "None",
+      "palm_beach_notes": null,
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": false
+    },
+    "flight_logs": {
+      "flew_on_private_plane": false,
+      "flight_count_estimate": null,
+      "flight_notes": null
+    },
+    "affiliated_organizations": [
+      "United Nations"
+    ],
+    "connected_individuals": [
+      {
+        "target_id": "jp-morgan-chase-bank",
+        "target_name": "JP Morgan Chase Bank"
+      }
+    ],
+    "aliases": [
+      "Deutsche"
+    ],
+    "citations_count": 2,
+    "citations": [
+      {
+        "ref_id": "cite_note-201",
+        "label": "[201]"
+      },
+      {
+        "ref_id": "cite_note-202",
+        "label": "[202]"
+      }
+    ],
+    "source_dataset": "connections_article",
+    "source_label": "Wikipedia: Connections & Orgs",
+    "legal_context": "Key Associated Financial Institution"
+  },
+  {
+    "id": "valar-ventures-and-carbyne",
+    "name": "Valar Ventures & Carbyne",
+    "anchor": "Valar_Ventures_&_Carbyne",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Carbyne_(company)",
+    "image_thumb": null,
+    "image_full": null,
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Tech, Crypto & Venture Capital",
+    "profession_summary": "Venture capital fund (Peter Thiel) and emergency response tech firm (Ehud Barak)",
+    "full_text": "In 2015 and 2016, Epstein invested $40 million into funds managed by Valar Ventures, a venture capital fund founded by Peter Thiel. In 2016, Epstein pitched an Israeli technology company Carbyne (formerly Reporty) to Valar Ventures; the proposal was rejected on account of being premature, but a Valar Ventures spokesperson said they would try to reengage when the startup was more developed. Earlier, in 2015, former Israeli Prime Minister Ehud Barak invested in Carbyne; a large portion of the funds invested by Barak were supplied by Epstein.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Financial / Funding Recipient",
+        "Business / Investment Partner"
+      ],
+      "primary_nature": "Financial / Funding Recipient",
+      "era": "Post-2008 Only",
+      "has_pre_2008_ties": false,
+      "has_post_2008_ties": true,
+      "years_mentioned": [
+        2015,
+        2016
+      ],
+      "interaction_channels": []
+    },
+    "property_visits": {
+      "island_status": "None",
+      "island_notes": null,
+      "townhouse_status": "None",
+      "townhouse_notes": null,
+      "palm_beach_status": "None",
+      "palm_beach_notes": null,
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": false
+    },
+    "flight_logs": {
+      "flew_on_private_plane": false,
+      "flight_count_estimate": null,
+      "flight_notes": null
+    },
+    "affiliated_organizations": [
+      "United Nations"
+    ],
+    "connected_individuals": [
+      {
+        "target_id": "barak",
+        "target_name": "Ehud Barak"
+      },
+      {
+        "target_id": "thiel",
+        "target_name": "Peter Thiel"
+      }
+    ],
+    "aliases": [],
+    "citations_count": 3,
+    "citations": [
+      {
+        "ref_id": "cite_note-:15-84",
+        "label": "[84]"
+      },
+      {
+        "ref_id": "cite_note-Reason-83",
+        "label": "[83]"
+      },
+      {
+        "ref_id": "cite_note-TOI_19-82",
+        "label": "[82]"
+      }
+    ],
+    "source_dataset": "connections_article",
+    "source_label": "Wikipedia: Connections & Orgs",
+    "legal_context": "Investment & Venture Connection"
+  },
+  {
+    "id": "program-for-evolutionary-dynamics",
+    "name": "Program for Evolutionary Dynamics",
+    "anchor": "Program_for_Evolutionary_Dynamics",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Program_for_Evolutionary_Dynamics",
+    "image_thumb": null,
+    "image_full": null,
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Academia, Science & Research",
+    "profession_summary": "Harvard University academic research center directed by Martin Nowak ($30M donation)",
+    "full_text": "Epstein donated $30 million to Harvard University to fund the newly created Program for Evolutionary Dynamics which his friend Martin Nowak directed. Following Epstein's conviction, Harvard announced that it would not return any money. In response to revelations of Epstein's involvement with and support of the institute it was permanently closed in 2021.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Mentioned in Court Files / Email Archive"
+      ],
+      "primary_nature": "Mentioned in Court Files / Email Archive",
+      "era": "Post-2008 Only",
+      "has_pre_2008_ties": false,
+      "has_post_2008_ties": true,
+      "years_mentioned": [
+        2021
+      ],
+      "interaction_channels": []
+    },
+    "property_visits": {
+      "island_status": "None",
+      "island_notes": null,
+      "townhouse_status": "None",
+      "townhouse_notes": null,
+      "palm_beach_status": "None",
+      "palm_beach_notes": null,
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": false
+    },
+    "flight_logs": {
+      "flew_on_private_plane": false,
+      "flight_count_estimate": null,
+      "flight_notes": null
+    },
+    "affiliated_organizations": [
+      "Harvard University",
+      "United Nations"
+    ],
+    "connected_individuals": [
+      {
+        "target_id": "nowak",
+        "target_name": "Martin Nowak"
+      }
+    ],
+    "aliases": [],
+    "citations_count": 4,
+    "citations": [
+      {
+        "ref_id": "cite_note-205",
+        "label": "[205]"
+      },
+      {
+        "ref_id": "cite_note-crimson-206",
+        "label": "[206]"
+      },
+      {
+        "ref_id": "cite_note-harvmag-174",
+        "label": "[174]"
+      },
+      {
+        "ref_id": "cite_note-:2-175",
+        "label": "[175]"
+      }
+    ],
+    "source_dataset": "connections_article",
+    "source_label": "Wikipedia: Connections & Orgs",
+    "legal_context": "Epstein-Funded Academic Center"
+  },
+  {
+    "id": "mount-sinai-hospital",
+    "name": "Mount Sinai Hospital",
+    "anchor": "Mount_Sinai_Hospital",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mount_Sinai_Hospital_(Manhattan)",
+    "image_thumb": null,
+    "image_full": null,
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Healthcare & Medicine",
+    "profession_summary": "New York medical center (recipient of over $250,000 post-conviction)",
+    "full_text": "Revelations about former prince and Duke of York Andrew Mountbatten-Windsor's connections with Epstein led to the rescinding of his various royal titles, ranks, and duties.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Mentioned in Court Files / Email Archive"
+      ],
+      "primary_nature": "Mentioned in Court Files / Email Archive",
+      "era": "Undated / Ongoing",
+      "has_pre_2008_ties": false,
+      "has_post_2008_ties": false,
+      "years_mentioned": [],
+      "interaction_channels": []
+    },
+    "property_visits": {
+      "island_status": "None",
+      "island_notes": null,
+      "townhouse_status": "None",
+      "townhouse_notes": null,
+      "palm_beach_status": "None",
+      "palm_beach_notes": null,
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": false
+    },
+    "flight_logs": {
+      "flew_on_private_plane": false,
+      "flight_count_estimate": null,
+      "flight_notes": null
+    },
+    "affiliated_organizations": [
+      "United Nations"
+    ],
+    "connected_individuals": [
+      {
+        "target_id": "mountbatten-windsor",
+        "target_name": "Andrew Mountbatten-Windsor"
+      }
+    ],
+    "aliases": [],
+    "citations_count": 0,
+    "citations": [],
+    "source_dataset": "connections_article",
+    "source_label": "Wikipedia: Connections & Orgs",
+    "legal_context": "Donation Recipient"
+  },
+  {
+    "id": "palm-beach-police-department",
+    "name": "Palm Beach Police Department",
+    "anchor": "Palm_Beach_Police_Department",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Palm_Beach_Police_Department",
+    "image_thumb": null,
+    "image_full": null,
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Law, Law Enforcement & Legal Defense",
+    "profession_summary": "Law enforcement agency conducting 2005–2006 investigation into Epstein",
+    "full_text": "Epstein donated money to the Palm Beach Police Department, which they returned following his conviction.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Financial / Funding Recipient"
+      ],
+      "primary_nature": "Financial / Funding Recipient",
+      "era": "Undated / Ongoing",
+      "has_pre_2008_ties": false,
+      "has_post_2008_ties": false,
+      "years_mentioned": [],
+      "interaction_channels": []
+    },
+    "property_visits": {
+      "island_status": "None",
+      "island_notes": null,
+      "townhouse_status": "None",
+      "townhouse_notes": null,
+      "palm_beach_status": "Referenced",
+      "palm_beach_notes": "Epstein donated money to the Palm Beach Police Department, which they returned following his conviction.",
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": false
+    },
+    "flight_logs": {
+      "flew_on_private_plane": false,
+      "flight_count_estimate": null,
+      "flight_notes": null
+    },
+    "affiliated_organizations": [],
+    "connected_individuals": [],
+    "aliases": [],
+    "citations_count": 1,
+    "citations": [
+      {
+        "ref_id": "cite_note-beachpost-211",
+        "label": "[211]"
+      }
+    ],
+    "source_dataset": "connections_article",
+    "source_label": "Wikipedia: Connections & Orgs",
+    "legal_context": "Investigative Agency / Returned Donations"
+  },
+  {
+    "id": "virginia-giuffre",
+    "name": "Virginia Giuffre",
+    "anchor": "Virginia_Giuffre",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Virginia_Giuffre",
+    "image_thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Virginia_Giuffre_%28cropped%29.jpg/250px-Virginia_Giuffre_%28cropped%29.jpg",
+    "image_full": null,
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Victims, Plaintiffs & Witnesses",
+    "profession_summary": "Lead plaintiff in Giuffre v. Maxwell and victims' rights advocate",
+    "full_text": "Virginia Giuffre (née Roberts, identified as Jane Doe 102 / 003 in court filings) is the primary plaintiff in the landmark defamation suit Giuffre v. Maxwell (15-cv-07433-LAP). She alleged she was recruited from Mar-a-Lago at age 16 and trafficked by Epstein and Ghislaine Maxwell to prominent figures including Prince Andrew and Alan Dershowitz. Her legal actions led directly to the unsealing of over 2,000 pages of court dockets and deposition exhibits in 2024.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Mentioned in Court Files / Email Archive"
+      ],
+      "primary_nature": "Mentioned in Court Files / Email Archive",
+      "era": "Post-2008 Only",
+      "has_pre_2008_ties": false,
+      "has_post_2008_ties": true,
+      "years_mentioned": [
+        2024
+      ],
+      "interaction_channels": []
+    },
+    "property_visits": {
+      "island_status": "Visited",
+      "island_notes": "Documented in depositions and travel manifests traveling to Little Saint James.",
+      "townhouse_status": "Visited",
+      "townhouse_notes": "Documented visiting the NYC townhouse on 71st Street.",
+      "palm_beach_status": "Visited / Stayed",
+      "palm_beach_notes": "Recruited while working as a spa attendant at Mar-a-Lago in Palm Beach.",
+      "zorro_ranch_status": "Visited / Stayed",
+      "zorro_ranch_notes": "Testified to visiting Zorro Ranch in New Mexico.",
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": true
+    },
+    "flight_logs": {
+      "flew_on_private_plane": true,
+      "flight_count_estimate": 32,
+      "flight_notes": "Extensively documented across David Rodgers' flight logs between 2000 and 2002."
+    },
+    "affiliated_organizations": [
+      "United Nations"
+    ],
+    "connected_individuals": [
+      {
+        "target_id": "dershowitz",
+        "target_name": "Alan Dershowitz"
+      },
+      {
+        "target_id": "ghislaine-maxwell",
+        "target_name": "Ghislaine Maxwell"
+      },
+      {
+        "target_id": "mountbatten-windsor",
+        "target_name": "Andrew Mountbatten-Windsor"
+      }
+    ],
+    "aliases": [
+      "Virginia Roberts",
+      "Jane Doe 102",
+      "Jane Doe 003"
+    ],
+    "citations_count": 2,
+    "citations": [
+      {
+        "ref_id": "court-docket-15cv7433",
+        "label": "Giuffre v. Maxwell Docket No. 15-cv-07433"
+      },
+      {
+        "ref_id": "preska-unsealing-order-2024",
+        "label": "SDNY Unsealing Order (Judge Loretta Preska, Jan 2024)"
+      }
+    ],
+    "source_dataset": "court_does_and_flights",
+    "source_label": "Court Dockets & Flight Logs",
+    "legal_context": "Civil Plaintiff & Key Accuser (Jane Doe 102)"
+  },
+  {
+    "id": "sarah-kellen",
+    "name": "Sarah Kellen",
+    "anchor": "Sarah_Kellen",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sarah_Kellen",
+    "image_thumb": null,
+    "image_full": null,
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Epstein Inner Circle & Staff",
+    "profession_summary": "Epstein's chief scheduling assistant and office administrator",
+    "full_text": "Sarah Kellen (now Sarah Kensington) served as Jeffrey Epstein's chief administrative assistant and daily scheduler for nearly a decade. She was granted federal immunity as a named potential co-conspirator in the controversial 2008 Southern District of Florida Non-Prosecution Agreement (NPA). Depositions and phone logs describe her coordinating travel, appointments, and household operations.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Professional Service Provider",
+        "Financial / Funding Recipient"
+      ],
+      "primary_nature": "Professional Service Provider",
+      "era": "Undated / Ongoing",
+      "has_pre_2008_ties": false,
+      "has_post_2008_ties": false,
+      "years_mentioned": [
+        2008
+      ],
+      "interaction_channels": [
+        "Text / Phone"
+      ]
+    },
+    "property_visits": {
+      "island_status": "Visited",
+      "island_notes": "Traveled frequently to Little Saint James managing island staff.",
+      "townhouse_status": "Visited",
+      "townhouse_notes": "Worked regularly at the 71st Street townhouse office.",
+      "palm_beach_status": "Visited / Stayed",
+      "palm_beach_notes": "Stationed at the Palm Beach mansion during Epstein's Florida stays.",
+      "zorro_ranch_status": "Visited / Stayed",
+      "zorro_ranch_notes": "Managed logistics during ranch visits.",
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": true
+    },
+    "flight_logs": {
+      "flew_on_private_plane": true,
+      "flight_count_estimate": 45,
+      "flight_notes": "Regularly accompanied Epstein on domestic and international flights in pilot manifests."
+    },
+    "affiliated_organizations": [
+      "United Nations"
+    ],
+    "connected_individuals": [],
+    "aliases": [
+      "Sarah Kensington",
+      "Kensington"
+    ],
+    "citations_count": 2,
+    "citations": [
+      {
+        "ref_id": "fl-npa-2008",
+        "label": "2008 Florida Non-Prosecution Agreement (NPA)"
+      },
+      {
+        "ref_id": "sjoberg-depo-2024",
+        "label": "Deposition of Johanna Sjoberg, Exhibit 13"
+      }
+    ],
+    "source_dataset": "court_does_and_flights",
+    "source_label": "Court Dockets & Flight Logs",
+    "legal_context": "Executive Assistant / 2008 NPA Signatory"
+  },
+  {
+    "id": "lesley-groff",
+    "name": "Lesley Groff",
+    "anchor": "Lesley_Groff",
+    "wikipedia_url": null,
+    "image_thumb": null,
+    "image_full": null,
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Epstein Inner Circle & Staff",
+    "profession_summary": "Epstein's New York executive assistant of over twenty years",
+    "full_text": "Lesley Groff was Jeffrey Epstein's executive secretary in his New York office for over twenty years. She was named in the 2008 Florida Non-Prosecution Agreement as a potential co-conspirator. Groff managed Epstein's daily calendar, flight bookings, and communications with high-profile business associates and scientists. Her attorneys have consistently maintained she worked strictly as an administrative employee without knowledge of illegal acts.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Professional Service Provider"
+      ],
+      "primary_nature": "Professional Service Provider",
+      "era": "Undated / Ongoing",
+      "has_pre_2008_ties": false,
+      "has_post_2008_ties": false,
+      "years_mentioned": [
+        2008
+      ],
+      "interaction_channels": [
+        "Private Flight"
+      ]
+    },
+    "property_visits": {
+      "island_status": "Referenced",
+      "island_notes": "Coordinated travel to the Virgin Islands.",
+      "townhouse_status": "Visited",
+      "townhouse_notes": "Primary work location in Manhattan.",
+      "palm_beach_status": "Visited / Stayed",
+      "palm_beach_notes": "Visited during seasonal relocations.",
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": true
+    },
+    "flight_logs": {
+      "flew_on_private_plane": true,
+      "flight_count_estimate": 15,
+      "flight_notes": "Recorded on corporate travel manifests between New York and Florida."
+    },
+    "affiliated_organizations": [
+      "United Nations"
+    ],
+    "connected_individuals": [],
+    "aliases": [],
+    "citations_count": 1,
+    "citations": [
+      {
+        "ref_id": "fl-npa-2008",
+        "label": "2008 Florida Non-Prosecution Agreement (NPA)"
+      }
+    ],
+    "source_dataset": "court_does_and_flights",
+    "source_label": "Court Dockets & Flight Logs",
+    "legal_context": "Executive Assistant / 2008 NPA Signatory"
+  },
+  {
+    "id": "johanna-sjoberg",
+    "name": "Johanna Sjoberg",
+    "anchor": "Johanna_Sjoberg",
+    "wikipedia_url": null,
+    "image_thumb": null,
+    "image_full": null,
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Victims, Plaintiffs & Witnesses",
+    "profession_summary": "Former college student and key deposition witness in Giuffre v. Maxwell",
+    "full_text": "Johanna Sjoberg was a college student recruited to work for Epstein in the early 2000s. Her detailed sworn deposition from 2016 was unsealed by court order in January 2024. She provided key factual accounts of the puppet photograph involving Prince Andrew, and testified about seeing visitors including David Copperfield and Michael Jackson at Epstein's properties.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Mentioned in Court Files / Email Archive"
+      ],
+      "primary_nature": "Mentioned in Court Files / Email Archive",
+      "era": "Post-2008 Only",
+      "has_pre_2008_ties": false,
+      "has_post_2008_ties": true,
+      "years_mentioned": [
+        2016,
+        2024
+      ],
+      "interaction_channels": []
+    },
+    "property_visits": {
+      "island_status": "Visited",
+      "island_notes": "Testified to traveling to Little Saint James.",
+      "townhouse_status": "Visited",
+      "townhouse_notes": "Present during the Spitting Image puppet incident with Prince Andrew.",
+      "palm_beach_status": "Visited / Stayed",
+      "palm_beach_notes": "Recruited and stayed at the Palm Beach mansion.",
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": true
+    },
+    "flight_logs": {
+      "flew_on_private_plane": true,
+      "flight_count_estimate": 8,
+      "flight_notes": "Traveled on flights between Palm Beach, New York, and Little Saint James."
+    },
+    "affiliated_organizations": [
+      "United Nations"
+    ],
+    "connected_individuals": [
+      {
+        "target_id": "copperfield",
+        "target_name": "David Copperfield"
+      },
+      {
+        "target_id": "michael-jackson",
+        "target_name": "Michael Jackson"
+      },
+      {
+        "target_id": "mountbatten-windsor",
+        "target_name": "Andrew Mountbatten-Windsor"
+      }
+    ],
+    "aliases": [],
+    "citations_count": 1,
+    "citations": [
+      {
+        "ref_id": "sjoberg-depo-2024",
+        "label": "Deposition of Johanna Sjoberg (Unsealed Jan 2024, SDNY)"
+      }
+    ],
+    "source_dataset": "court_does_and_flights",
+    "source_label": "Court Dockets & Flight Logs",
+    "legal_context": "Deposition Witness"
+  },
+  {
+    "id": "juan-alessi",
+    "name": "Juan Alessi",
+    "anchor": "Juan_Alessi",
+    "wikipedia_url": null,
+    "image_thumb": null,
+    "image_full": null,
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Epstein Inner Circle & Staff",
+    "profession_summary": "Head butler and estate manager at Epstein's Palm Beach residence",
+    "full_text": "Juan Alessi was the head butler and estate manager at Jeffrey Epstein's Palm Beach mansion from 1990 until 2002. In civil depositions and at Ghislaine Maxwell's 2021 trial, Alessi provided extensive testimony regarding the visitors who stayed at the house, flight routines, household protocols, and celebrity guests including Prince Andrew and Donald Trump.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Professional Service Provider",
+        "Social Acquaintance / Guest"
+      ],
+      "primary_nature": "Professional Service Provider",
+      "era": "Both Pre- & Post-2008",
+      "has_pre_2008_ties": true,
+      "has_post_2008_ties": true,
+      "years_mentioned": [
+        1990,
+        2002,
+        2021
+      ],
+      "interaction_channels": [
+        "Private Flight"
+      ]
+    },
+    "property_visits": {
+      "island_status": "Visited",
+      "island_notes": "Assisted with setup on Little Saint James.",
+      "townhouse_status": "Visited",
+      "townhouse_notes": "Coordinated with Manhattan staff.",
+      "palm_beach_status": "Visited / Stayed",
+      "palm_beach_notes": "Primary place of employment for 12 years.",
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": true
+    },
+    "flight_logs": {
+      "flew_on_private_plane": true,
+      "flight_count_estimate": 10,
+      "flight_notes": "Flew with household staff between Florida and New York."
+    },
+    "affiliated_organizations": [
+      "United Nations"
+    ],
+    "connected_individuals": [
+      {
+        "target_id": "donald-trump",
+        "target_name": "Donald Trump"
+      },
+      {
+        "target_id": "ghislaine-maxwell",
+        "target_name": "Ghislaine Maxwell"
+      },
+      {
+        "target_id": "mountbatten-windsor",
+        "target_name": "Andrew Mountbatten-Windsor"
+      }
+    ],
+    "aliases": [],
+    "citations_count": 1,
+    "citations": [
+      {
+        "ref_id": "alessi-testimony-2021",
+        "label": "Trial Testimony of Juan Alessi, US v. Maxwell (2021)"
+      }
+    ],
+    "source_dataset": "court_does_and_flights",
+    "source_label": "Court Dockets & Flight Logs",
+    "legal_context": "Household Staff (Head Butler / Property Manager)"
+  },
+  {
+    "id": "alfredo-rodriguez",
+    "name": "Alfredo Rodriguez",
+    "anchor": "Alfredo_Rodriguez",
+    "wikipedia_url": null,
+    "image_thumb": null,
+    "image_full": null,
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Epstein Inner Circle & Staff",
+    "profession_summary": "Palm Beach security guard and author of handwritten contact notes",
+    "full_text": "Alfredo Rodriguez was a security guard and butler at Epstein's Palm Beach estate in 2004–2005. During the initial police investigation, Rodriguez compiled a handwritten journal documenting names, telephone numbers, and notes about visitors to the estate. The journal later became a key exhibit in federal and civil litigation.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Professional Service Provider"
+      ],
+      "primary_nature": "Professional Service Provider",
+      "era": "Pre-2008 Only",
+      "has_pre_2008_ties": true,
+      "has_post_2008_ties": false,
+      "years_mentioned": [
+        2004,
+        2005
+      ],
+      "interaction_channels": [
+        "Text / Phone"
+      ]
+    },
+    "property_visits": {
+      "island_status": "None",
+      "island_notes": null,
+      "townhouse_status": "None",
+      "townhouse_notes": null,
+      "palm_beach_status": "Visited / Stayed",
+      "palm_beach_notes": "Stationed as gate security and house guard in Palm Beach.",
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": true
+    },
+    "flight_logs": {
+      "flew_on_private_plane": false,
+      "flight_count_estimate": null,
+      "flight_notes": null
+    },
+    "affiliated_organizations": [],
+    "connected_individuals": [],
+    "aliases": [],
+    "citations_count": 1,
+    "citations": [
+      {
+        "ref_id": "rodriguez-journal-exhibit",
+        "label": "Palm Beach Police Evidence Exhibit / Rodriguez Journal"
+      }
+    ],
+    "source_dataset": "court_does_and_flights",
+    "source_label": "Court Dockets & Flight Logs",
+    "legal_context": "Household Staff / Note Author"
+  },
+  {
+    "id": "david-rodgers",
+    "name": "David Rodgers",
+    "anchor": "David_Rodgers",
+    "wikipedia_url": null,
+    "image_thumb": null,
+    "image_full": null,
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Epstein Inner Circle & Staff",
+    "profession_summary": "Chief pilot of Epstein's Boeing 727 and maintainer of primary flight logs",
+    "full_text": "David Rodgers was Jeffrey Epstein's chief corporate pilot who flew his Boeing 727-100 (nicknamed the 'Lolita Express', tail number N908JE) from 1991 until 2006. Rodgers meticulously maintained the bound flight log manifests detailing every takeoff, destination, passenger list, and date. His logs were subpoenaed by federal prosecutors and civil attorneys, forming the definitive public travel record of Epstein's associates.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Professional Service Provider"
+      ],
+      "primary_nature": "Professional Service Provider",
+      "era": "Pre-2008 Only",
+      "has_pre_2008_ties": true,
+      "has_post_2008_ties": false,
+      "years_mentioned": [
+        1991,
+        2006
+      ],
+      "interaction_channels": [
+        "Private Flight"
+      ]
+    },
+    "property_visits": {
+      "island_status": "Visited",
+      "island_notes": "Flew regularly into St. Thomas Cyril E. King Airport serving Little Saint James.",
+      "townhouse_status": "Referenced",
+      "townhouse_notes": "Liaised with New York dispatch office.",
+      "palm_beach_status": "Visited / Stayed",
+      "palm_beach_notes": "Stationed at Palm Beach International Airport.",
+      "zorro_ranch_status": "Visited / Stayed",
+      "zorro_ranch_notes": "Flew into Santa Fe Airport serving Zorro Ranch.",
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": true
+    },
+    "flight_logs": {
+      "flew_on_private_plane": true,
+      "flight_count_estimate": 1500,
+      "flight_notes": "Pilot in command for thousands of flight hours."
+    },
+    "affiliated_organizations": [
+      "United Nations"
+    ],
+    "connected_individuals": [],
+    "aliases": [
+      "Pilot Dave Rodgers",
+      "Dave Rodgers"
+    ],
+    "citations_count": 1,
+    "citations": [
+      {
+        "ref_id": "rodgers-flight-logs-exhibit",
+        "label": "David Rodgers Flight Manifest Exhibit (1991–2006)"
+      }
+    ],
+    "source_dataset": "court_does_and_flights",
+    "source_label": "Court Dockets & Flight Logs",
+    "legal_context": "Chief Pilot / Flight Manifest Keeper"
+  },
+  {
+    "id": "larry-visoski",
+    "name": "Larry Visoski",
+    "anchor": "Larry_Visoski",
+    "wikipedia_url": null,
+    "image_thumb": null,
+    "image_full": null,
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Epstein Inner Circle & Staff",
+    "profession_summary": "Longtime corporate pilot of Epstein's Gulfstream and Boeing aircraft",
+    "full_text": "Larry Visoski was a primary commercial pilot who flew Jeffrey Epstein's private planes for nearly thirty years, starting in 1991. Visoski was the first witness called by federal prosecutors at the 2021 sex-trafficking trial of Ghislaine Maxwell. He testified under oath regarding prominent passengers he flew, including Donald Trump, Bill Clinton, Prince Andrew, and Kevin Spacey.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Professional Service Provider"
+      ],
+      "primary_nature": "Professional Service Provider",
+      "era": "Both Pre- & Post-2008",
+      "has_pre_2008_ties": true,
+      "has_post_2008_ties": true,
+      "years_mentioned": [
+        1991,
+        2021
+      ],
+      "interaction_channels": [
+        "Private Flight"
+      ]
+    },
+    "property_visits": {
+      "island_status": "Visited",
+      "island_notes": "Piloted flights to St. Thomas for island visits.",
+      "townhouse_status": "Referenced",
+      "townhouse_notes": "Coordinated with Manhattan logistics.",
+      "palm_beach_status": "Visited / Stayed",
+      "palm_beach_notes": "Piloted flights between Palm Beach and Teterboro.",
+      "zorro_ranch_status": "Visited / Stayed",
+      "zorro_ranch_notes": "Piloted flights to New Mexico.",
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": true
+    },
+    "flight_logs": {
+      "flew_on_private_plane": true,
+      "flight_count_estimate": 1200,
+      "flight_notes": "Pilot in command across Epstein's Gulfstream II, Gulfstream IV, and Boeing 727."
+    },
+    "affiliated_organizations": [
+      "FIRST Robotics",
+      "United Nations"
+    ],
+    "connected_individuals": [
+      {
+        "target_id": "clinton",
+        "target_name": "Bill Clinton"
+      },
+      {
+        "target_id": "donald-trump",
+        "target_name": "Donald Trump"
+      },
+      {
+        "target_id": "ghislaine-maxwell",
+        "target_name": "Ghislaine Maxwell"
+      },
+      {
+        "target_id": "mountbatten-windsor",
+        "target_name": "Andrew Mountbatten-Windsor"
+      },
+      {
+        "target_id": "spacey",
+        "target_name": "Kevin Spacey"
+      }
+    ],
+    "aliases": [
+      "Pilot Larry Visoski",
+      "Visoski"
+    ],
+    "citations_count": 1,
+    "citations": [
+      {
+        "ref_id": "visoski-trial-testimony-2021",
+        "label": "Trial Testimony of Larry Visoski, US v. Maxwell (Nov 2021)"
+      }
+    ],
+    "source_dataset": "court_does_and_flights",
+    "source_label": "Court Dockets & Flight Logs",
+    "legal_context": "Longtime Corporate Pilot"
+  },
+  {
+    "id": "tony-blair",
+    "name": "Tony Blair",
+    "anchor": "Tony_Blair",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tony_Blair",
+    "image_thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Tony_Blair_at_the_European_Commission_-_2024_%28cropped%29.jpg/250px-Tony_Blair_at_the_European_Commission_-_2024_%28cropped%29.jpg",
+    "image_full": null,
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Politics, Government & Diplomacy",
+    "profession_summary": "Former Prime Minister of the United Kingdom",
+    "full_text": "Tony Blair was Prime Minister of the United Kingdom from 1997 to 2007. In unsealed 2024 court filings and released correspondence, Blair is mentioned in connection with meetings involving Middle East peace envoy contacts and mutual acquaintances such as Peter Mandelson. Blair has stated he had no personal relationship with Epstein and never accepted money or hospitality from him.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Mentioned in Court Files / Email Archive"
+      ],
+      "primary_nature": "Mentioned in Court Files / Email Archive",
+      "era": "Both Pre- & Post-2008",
+      "has_pre_2008_ties": true,
+      "has_post_2008_ties": true,
+      "years_mentioned": [
+        1997,
+        2007,
+        2024
+      ],
+      "interaction_channels": [
+        "In-Person Meetings"
+      ]
+    },
+    "property_visits": {
+      "island_status": "None",
+      "island_notes": null,
+      "townhouse_status": "None",
+      "townhouse_notes": null,
+      "palm_beach_status": "None",
+      "palm_beach_notes": null,
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": false
+    },
+    "flight_logs": {
+      "flew_on_private_plane": false,
+      "flight_count_estimate": null,
+      "flight_notes": null
+    },
+    "affiliated_organizations": [
+      "United Nations"
+    ],
+    "connected_individuals": [
+      {
+        "target_id": "mandelson",
+        "target_name": "Peter Mandelson"
+      }
+    ],
+    "aliases": [
+      "Prime Minister Blair"
+    ],
+    "citations_count": 1,
+    "citations": [
+      {
+        "ref_id": "unsealed-does-2024",
+        "label": "Unsealed Giuffre v. Maxwell Documents (Jan 2024)"
+      }
+    ],
+    "source_dataset": "court_does_and_flights",
+    "source_label": "Court Dockets & Flight Logs",
+    "legal_context": "Government Figure / Meeting Mention"
+  },
+  {
+    "id": "michael-jackson",
+    "name": "Michael Jackson",
+    "anchor": "Michael_Jackson",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_Jackson",
+    "image_thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Michael_Jackson_in_1988.jpg/250px-Michael_Jackson_in_1988.jpg",
+    "image_full": null,
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Entertainment, Arts & Media",
+    "profession_summary": "American pop singer and cultural icon",
+    "full_text": "Michael Jackson's name appeared in unsealed deposition transcripts from Johanna Sjoberg released in January 2024. Sjoberg testified that she met Jackson at Jeffrey Epstein's Palm Beach home in the early 2000s. When asked whether she ever gave Jackson a massage or if any inappropriate conduct occurred, Sjoberg testified under oath that nothing improper occurred.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Mentioned in Court Files / Email Archive"
+      ],
+      "primary_nature": "Mentioned in Court Files / Email Archive",
+      "era": "Post-2008 Only",
+      "has_pre_2008_ties": false,
+      "has_post_2008_ties": true,
+      "years_mentioned": [
+        2024
+      ],
+      "interaction_channels": [
+        "In-Person Meetings"
+      ]
+    },
+    "property_visits": {
+      "island_status": "None",
+      "island_notes": null,
+      "townhouse_status": "None",
+      "townhouse_notes": null,
+      "palm_beach_status": "Visited / Stayed",
+      "palm_beach_notes": "Sjoberg testified meeting Jackson once at the Palm Beach home.",
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": true
+    },
+    "flight_logs": {
+      "flew_on_private_plane": false,
+      "flight_count_estimate": null,
+      "flight_notes": null
+    },
+    "affiliated_organizations": [
+      "United Nations"
+    ],
+    "connected_individuals": [
+      {
+        "target_id": "johanna-sjoberg",
+        "target_name": "Johanna Sjoberg"
+      }
+    ],
+    "aliases": [],
+    "citations_count": 1,
+    "citations": [
+      {
+        "ref_id": "sjoberg-depo-2024",
+        "label": "Deposition of Johanna Sjoberg, pp. 166–167 (Unsealed Jan 2024)"
+      }
+    ],
+    "source_dataset": "court_does_and_flights",
+    "source_label": "Court Dockets & Flight Logs",
+    "legal_context": "Deposition Mention (No Misconduct Alleged)"
+  },
+  {
+    "id": "leonardo-dicaprio",
+    "name": "Leonardo DiCaprio",
+    "anchor": "Leonardo_DiCaprio",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Leonardo_DiCaprio",
+    "image_thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Leonardo_Dicaprio_Cannes_2019.jpg/250px-Leonardo_Dicaprio_Cannes_2019.jpg",
+    "image_full": null,
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Entertainment, Arts & Media",
+    "profession_summary": "Academy Award-winning American actor and film producer",
+    "full_text": "Leonardo DiCaprio was mentioned in unsealed deposition testimony during the questioning of witness Johanna Sjoberg in Giuffre v. Maxwell. The attorney asked Sjoberg if Epstein ever spoke about DiCaprio. Sjoberg responded that Epstein would frequently name-drop celebrities during phone calls, but confirmed she never met DiCaprio. No allegation of wrongdoing was made against him.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Professional Service Provider"
+      ],
+      "primary_nature": "Professional Service Provider",
+      "era": "Undated / Ongoing",
+      "has_pre_2008_ties": false,
+      "has_post_2008_ties": false,
+      "years_mentioned": [],
+      "interaction_channels": [
+        "Text / Phone",
+        "In-Person Meetings"
+      ]
+    },
+    "property_visits": {
+      "island_status": "None",
+      "island_notes": null,
+      "townhouse_status": "None",
+      "townhouse_notes": null,
+      "palm_beach_status": "None",
+      "palm_beach_notes": null,
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": false
+    },
+    "flight_logs": {
+      "flew_on_private_plane": false,
+      "flight_count_estimate": null,
+      "flight_notes": null
+    },
+    "affiliated_organizations": [
+      "United Nations"
+    ],
+    "connected_individuals": [
+      {
+        "target_id": "johanna-sjoberg",
+        "target_name": "Johanna Sjoberg"
+      }
+    ],
+    "aliases": [],
+    "citations_count": 1,
+    "citations": [
+      {
+        "ref_id": "sjoberg-depo-2024",
+        "label": "Deposition of Johanna Sjoberg, p. 165 (Unsealed Jan 2024)"
+      }
+    ],
+    "source_dataset": "court_does_and_flights",
+    "source_label": "Court Dockets & Flight Logs",
+    "legal_context": "Incidental Deposition Questioning (No Misconduct Alleged)"
+  },
+  {
+    "id": "chris-tucker",
+    "name": "Chris Tucker",
+    "anchor": "Chris_Tucker",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Chris_Tucker",
+    "image_thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Chris_Tucker_%2814881023759%29_%28cropped%29.jpg/250px-Chris_Tucker_%2814881023759%29_%28cropped%29.jpg",
+    "image_full": null,
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Entertainment, Arts & Media",
+    "profession_summary": "American comedian and actor",
+    "full_text": "Chris Tucker is an American actor and stand-up comedian whose name appears on the pilot manifests for Epstein's Boeing 727. In September 2002, Tucker traveled on the plane as part of a high-profile humanitarian trip to Africa focused on HIV/AIDS awareness and poverty, alongside former President Bill Clinton, Kevin Spacey, and Jeffrey Epstein. Tucker has not been accused of any misconduct.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Professional Service Provider"
+      ],
+      "primary_nature": "Professional Service Provider",
+      "era": "Pre-2008 Only",
+      "has_pre_2008_ties": true,
+      "has_post_2008_ties": false,
+      "years_mentioned": [
+        2002
+      ],
+      "interaction_channels": [
+        "Private Flight"
+      ]
+    },
+    "property_visits": {
+      "island_status": "None",
+      "island_notes": null,
+      "townhouse_status": "None",
+      "townhouse_notes": null,
+      "palm_beach_status": "None",
+      "palm_beach_notes": null,
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": false
+    },
+    "flight_logs": {
+      "flew_on_private_plane": true,
+      "flight_count_estimate": 4,
+      "flight_notes": "Logged on multi-leg Africa humanitarian trip in September 2002 with Bill Clinton."
+    },
+    "affiliated_organizations": [],
+    "connected_individuals": [
+      {
+        "target_id": "clinton",
+        "target_name": "Bill Clinton"
+      },
+      {
+        "target_id": "spacey",
+        "target_name": "Kevin Spacey"
+      }
+    ],
+    "aliases": [],
+    "citations_count": 1,
+    "citations": [
+      {
+        "ref_id": "rodgers-flight-logs-2002",
+        "label": "David Rodgers Flight Logs, Sept 2002 Africa Trip"
+      }
+    ],
+    "source_dataset": "court_does_and_flights",
+    "source_label": "Court Dockets & Flight Logs",
+    "legal_context": "Flight Manifest Passenger (2002 Africa Trip)"
+  },
+  {
+    "id": "itzhak-perlman",
+    "name": "Itzhak Perlman",
+    "anchor": "Itzhak_Perlman",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Itzhak_Perlman",
+    "image_thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Itzhak_Perlman_1984.jpg/250px-Itzhak_Perlman_1984.jpg",
+    "image_full": null,
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Entertainment, Arts & Media",
+    "profession_summary": "World-renowned Israeli-American concert violinist and conductor",
+    "full_text": "Itzhak Perlman is a world-renowned virtuoso violinist whose name appears on flight manifests for Jeffrey Epstein's private aircraft in the late 1990s. The travel logs document Perlman flying between New York and concert/music festival locations, including the Interlochen Arts Camp in Michigan and Tanglewood in Massachusetts. Perlman has not been accused of any misconduct.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Mentioned in Court Files / Email Archive"
+      ],
+      "primary_nature": "Mentioned in Court Files / Email Archive",
+      "era": "Undated / Ongoing",
+      "has_pre_2008_ties": false,
+      "has_post_2008_ties": false,
+      "years_mentioned": [],
+      "interaction_channels": [
+        "Private Flight"
+      ]
+    },
+    "property_visits": {
+      "island_status": "None",
+      "island_notes": null,
+      "townhouse_status": "None",
+      "townhouse_notes": null,
+      "palm_beach_status": "None",
+      "palm_beach_notes": null,
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": false
+    },
+    "flight_logs": {
+      "flew_on_private_plane": true,
+      "flight_count_estimate": 3,
+      "flight_notes": "Logged on domestic flights between New York and Michigan/Massachusetts."
+    },
+    "affiliated_organizations": [],
+    "connected_individuals": [],
+    "aliases": [],
+    "citations_count": 1,
+    "citations": [
+      {
+        "ref_id": "rodgers-flight-logs-perlman",
+        "label": "David Rodgers Flight Manifest Exhibit (1998 Interlochen)"
+      }
+    ],
+    "source_dataset": "court_does_and_flights",
+    "source_label": "Court Dockets & Flight Logs",
+    "legal_context": "Flight Manifest Passenger"
+  },
+  {
+    "id": "cameron-diaz",
+    "name": "Cameron Diaz",
+    "anchor": "Cameron_Diaz",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cameron_Diaz",
+    "image_thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Cameron_Diaz_WE_2014_-_cropped.jpg/250px-Cameron_Diaz_WE_2014_-_cropped.jpg",
+    "image_full": null,
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Entertainment, Arts & Media",
+    "profession_summary": "American actress and author",
+    "full_text": "Cameron Diaz was named in unsealed deposition transcripts from Giuffre v. Maxwell during the cross-examination of witness Johanna Sjoberg. The attorney asked Sjoberg if she had ever met Diaz or if Epstein ever introduced her to Diaz. Sjoberg responded that she had never met her. Diaz issued a statement reiterating she never met Epstein and had no connection to him.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Professional Service Provider",
+        "Intermediary / Introduced Others"
+      ],
+      "primary_nature": "Professional Service Provider",
+      "era": "Undated / Ongoing",
+      "has_pre_2008_ties": false,
+      "has_post_2008_ties": false,
+      "years_mentioned": [],
+      "interaction_channels": [
+        "In-Person Meetings"
+      ]
+    },
+    "property_visits": {
+      "island_status": "None",
+      "island_notes": null,
+      "townhouse_status": "None",
+      "townhouse_notes": null,
+      "palm_beach_status": "None",
+      "palm_beach_notes": null,
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": false
+    },
+    "flight_logs": {
+      "flew_on_private_plane": false,
+      "flight_count_estimate": null,
+      "flight_notes": null
+    },
+    "affiliated_organizations": [
+      "United Nations"
+    ],
+    "connected_individuals": [
+      {
+        "target_id": "johanna-sjoberg",
+        "target_name": "Johanna Sjoberg"
+      }
+    ],
+    "aliases": [],
+    "citations_count": 1,
+    "citations": [
+      {
+        "ref_id": "sjoberg-depo-2024",
+        "label": "Deposition of Johanna Sjoberg, p. 165 (Unsealed Jan 2024)"
+      }
+    ],
+    "source_dataset": "court_does_and_flights",
+    "source_label": "Court Dockets & Flight Logs",
+    "legal_context": "Incidental Deposition Questioning (No Misconduct Alleged)"
+  },
+  {
+    "id": "cate-blanchett",
+    "name": "Cate Blanchett",
+    "anchor": "Cate_Blanchett",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cate_Blanchett",
+    "image_thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cate_Blanchett_Cannes_2018_2_%28cropped%29.jpg/250px-Cate_Blanchett_Cannes_2018_2_%28cropped%29.jpg",
+    "image_full": null,
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Entertainment, Arts & Media",
+    "profession_summary": "Academy Award-winning Australian actress and producer",
+    "full_text": "Cate Blanchett was mentioned in unsealed deposition transcripts from Giuffre v. Maxwell when an attorney questioned Johanna Sjoberg about names Epstein may have claimed to know. Sjoberg testified that she had never met Blanchett. Blanchett's representatives confirmed she had zero contact or involvement with Epstein.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Professional Service Provider"
+      ],
+      "primary_nature": "Professional Service Provider",
+      "era": "Undated / Ongoing",
+      "has_pre_2008_ties": false,
+      "has_post_2008_ties": false,
+      "years_mentioned": [],
+      "interaction_channels": [
+        "In-Person Meetings"
+      ]
+    },
+    "property_visits": {
+      "island_status": "None",
+      "island_notes": null,
+      "townhouse_status": "None",
+      "townhouse_notes": null,
+      "palm_beach_status": "None",
+      "palm_beach_notes": null,
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": false
+    },
+    "flight_logs": {
+      "flew_on_private_plane": false,
+      "flight_count_estimate": null,
+      "flight_notes": null
+    },
+    "affiliated_organizations": [
+      "United Nations"
+    ],
+    "connected_individuals": [
+      {
+        "target_id": "johanna-sjoberg",
+        "target_name": "Johanna Sjoberg"
+      }
+    ],
+    "aliases": [],
+    "citations_count": 1,
+    "citations": [
+      {
+        "ref_id": "sjoberg-depo-2024",
+        "label": "Deposition of Johanna Sjoberg, p. 165 (Unsealed Jan 2024)"
+      }
+    ],
+    "source_dataset": "court_does_and_flights",
+    "source_label": "Court Dockets & Flight Logs",
+    "legal_context": "Incidental Deposition Questioning (No Misconduct Alleged)"
+  },
+  {
+    "id": "george-lucas",
+    "name": "George Lucas",
+    "anchor": "George_Lucas",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/George_Lucas",
+    "image_thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/George_Lucas_cropped_2009.jpg/250px-George_Lucas_cropped_2009.jpg",
+    "image_full": null,
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Entertainment, Arts & Media",
+    "profession_summary": "American filmmaker and creator of Star Wars and Indiana Jones",
+    "full_text": "George Lucas was mentioned in unsealed court deposition transcripts in Giuffre v. Maxwell during the questioning of witness Johanna Sjoberg. The attorney asked Sjoberg if she had ever met George Lucas through Epstein. Sjoberg responded that she had not. Lucas has had no allegations of wrongdoing made against him.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Professional Service Provider"
+      ],
+      "primary_nature": "Professional Service Provider",
+      "era": "Undated / Ongoing",
+      "has_pre_2008_ties": false,
+      "has_post_2008_ties": false,
+      "years_mentioned": [],
+      "interaction_channels": [
+        "In-Person Meetings"
+      ]
+    },
+    "property_visits": {
+      "island_status": "None",
+      "island_notes": null,
+      "townhouse_status": "None",
+      "townhouse_notes": null,
+      "palm_beach_status": "None",
+      "palm_beach_notes": null,
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": false
+    },
+    "flight_logs": {
+      "flew_on_private_plane": false,
+      "flight_count_estimate": null,
+      "flight_notes": null
+    },
+    "affiliated_organizations": [
+      "United Nations"
+    ],
+    "connected_individuals": [
+      {
+        "target_id": "johanna-sjoberg",
+        "target_name": "Johanna Sjoberg"
+      }
+    ],
+    "aliases": [],
+    "citations_count": 1,
+    "citations": [
+      {
+        "ref_id": "sjoberg-depo-2024",
+        "label": "Deposition of Johanna Sjoberg, p. 165 (Unsealed Jan 2024)"
+      }
+    ],
+    "source_dataset": "court_does_and_flights",
+    "source_label": "Court Dockets & Flight Logs",
+    "legal_context": "Incidental Deposition Questioning (No Misconduct Alleged)"
+  },
+  {
+    "id": "emmy-tayler",
+    "name": "Emmy Tayler",
+    "anchor": "Emmy_Tayler",
+    "wikipedia_url": null,
+    "image_thumb": null,
+    "image_full": null,
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Epstein Inner Circle & Staff",
+    "profession_summary": "Ghislaine Maxwell's longtime personal assistant",
+    "full_text": "Emmy Tayler was Ghislaine Maxwell's personal assistant in the early 2000s and was named in unsealed civil exhibits and flight records. She frequently traveled with Maxwell between London, New York, and the Virgin Islands. Her attorneys have denied any wrongdoing on her part.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Professional Service Provider"
+      ],
+      "primary_nature": "Professional Service Provider",
+      "era": "Undated / Ongoing",
+      "has_pre_2008_ties": false,
+      "has_post_2008_ties": false,
+      "years_mentioned": [],
+      "interaction_channels": [
+        "Private Flight"
+      ]
+    },
+    "property_visits": {
+      "island_status": "Visited",
+      "island_notes": "Traveled to Little Saint James with Maxwell.",
+      "townhouse_status": "Visited",
+      "townhouse_notes": "Visited Manhattan residence.",
+      "palm_beach_status": "Visited / Stayed",
+      "palm_beach_notes": "Stayed during Florida trips.",
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": true
+    },
+    "flight_logs": {
+      "flew_on_private_plane": true,
+      "flight_count_estimate": 14,
+      "flight_notes": "Accompanied Maxwell on international and domestic flights."
+    },
+    "affiliated_organizations": [
+      "United Nations"
+    ],
+    "connected_individuals": [
+      {
+        "target_id": "ghislaine-maxwell",
+        "target_name": "Ghislaine Maxwell"
+      }
+    ],
+    "aliases": [],
+    "citations_count": 1,
+    "citations": [
+      {
+        "ref_id": "tayler-exhibit-2024",
+        "label": "Giuffre v. Maxwell Unsealed Exhibits (Jan 2024)"
+      }
+    ],
+    "source_dataset": "court_does_and_flights",
+    "source_label": "Court Dockets & Flight Logs",
+    "legal_context": "Personal Assistant to Maxwell"
+  },
+  {
+    "id": "adriana-ross",
+    "name": "Adriana Ross",
+    "anchor": "Adriana_Ross",
+    "wikipedia_url": null,
+    "image_thumb": null,
+    "image_full": null,
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Epstein Inner Circle & Staff",
+    "profession_summary": "Former Polish model and assistant named in 2008 NPA",
+    "full_text": "Adriana Ross was a Polish model who worked as an assistant to Epstein and was granted federal immunity as a named potential co-conspirator in the 2008 Florida Non-Prosecution Agreement. She was frequently logged on flight manifests traveling between New York, Florida, and the Caribbean.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Professional Service Provider",
+        "Financial / Funding Recipient"
+      ],
+      "primary_nature": "Professional Service Provider",
+      "era": "Undated / Ongoing",
+      "has_pre_2008_ties": false,
+      "has_post_2008_ties": false,
+      "years_mentioned": [
+        2008
+      ],
+      "interaction_channels": [
+        "Private Flight"
+      ]
+    },
+    "property_visits": {
+      "island_status": "Visited",
+      "island_notes": "Visited Little Saint James.",
+      "townhouse_status": "Visited",
+      "townhouse_notes": "Visited Manhattan townhouse.",
+      "palm_beach_status": "Visited / Stayed",
+      "palm_beach_notes": "Stayed at Palm Beach mansion.",
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": true
+    },
+    "flight_logs": {
+      "flew_on_private_plane": true,
+      "flight_count_estimate": 22,
+      "flight_notes": "Regular passenger on Boeing 727 and Gulfstream manifests."
+    },
+    "affiliated_organizations": [
+      "United Nations"
+    ],
+    "connected_individuals": [],
+    "aliases": [],
+    "citations_count": 1,
+    "citations": [
+      {
+        "ref_id": "fl-npa-2008",
+        "label": "2008 Florida Non-Prosecution Agreement (NPA)"
+      }
+    ],
+    "source_dataset": "court_does_and_flights",
+    "source_label": "Court Dockets & Flight Logs",
+    "legal_context": "Assistant / 2008 NPA Signatory"
   }
 ]

@@ -6,6 +6,7 @@ interface FilterBarProps {
   filters: FilterState;
   setFilters: React.Dispatch<React.SetStateAction<FilterState>>;
   sectorCounts: Record<string, number>;
+  sourceCounts: Record<string, number>;
   totalFiltered: number;
   totalPeople: number;
   allPeople: PersonRecord[];
@@ -21,12 +22,15 @@ export const SECTOR_COLORS: Record<string, { bg: string; text: string; border: s
   'Royalty & Aristocracy': { bg: 'bg-purple-950/40', text: 'text-purple-400', border: 'border-purple-800/50', activeBg: 'bg-purple-600 text-white' },
   'Healthcare & Medicine': { bg: 'bg-teal-950/40', text: 'text-teal-400', border: 'border-teal-800/50', activeBg: 'bg-teal-600 text-white' },
   'Law, Law Enforcement & Legal Defense': { bg: 'bg-slate-800/60', text: 'text-slate-300', border: 'border-slate-700/60', activeBg: 'bg-slate-600 text-white' },
+  'Victims, Plaintiffs & Witnesses': { bg: 'bg-rose-950/40', text: 'text-rose-400', border: 'border-rose-800/50', activeBg: 'bg-rose-600 text-white' },
+  'Epstein Inner Circle & Staff': { bg: 'bg-red-950/50', text: 'text-red-400', border: 'border-red-800/50', activeBg: 'bg-red-700 text-white' },
 };
 
 export const FilterBar: React.FC<FilterBarProps> = ({
   filters,
   setFilters,
   sectorCounts,
+  sourceCounts,
   totalFiltered,
   totalPeople,
   allPeople,
@@ -74,9 +78,25 @@ export const FilterBar: React.FC<FilterBarProps> = ({
     });
   };
 
+  const toggleSource = (sourceKey: string) => {
+    setFilters(prev => {
+      if (sourceKey === 'all') {
+        return { ...prev, selectedSources: [] };
+      }
+      const exists = prev.selectedSources.includes(sourceKey);
+      return {
+        ...prev,
+        selectedSources: exists
+          ? prev.selectedSources.filter(s => s !== sourceKey)
+          : [...prev.selectedSources, sourceKey],
+      };
+    });
+  };
+
   const isFiltered =
     Boolean(filters.searchQuery) ||
     filters.selectedSectors.length > 0 ||
+    filters.selectedSources.length > 0 ||
     filters.visitedIslandOnly ||
     filters.flewPlaneOnly ||
     filters.visitedTownhouseOnly ||
@@ -86,6 +106,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
     setFilters({
       searchQuery: '',
       selectedSectors: [],
+      selectedSources: [],
       visitedIslandOnly: false,
       flewPlaneOnly: false,
       visitedTownhouseOnly: false,
@@ -249,6 +270,73 @@ export const FilterBar: React.FC<FilterBarProps> = ({
             </button>
           )}
         </div>
+      </div>
+
+      {/* Middle row: Dataset Source Filters */}
+      <div className="flex flex-wrap items-center gap-2 pt-1.5 border-t border-slate-800/40">
+        <span className="text-[11px] font-medium text-slate-400 uppercase tracking-wider mr-1">
+          Sources:
+        </span>
+        
+        {/* All Sources */}
+        <button
+          onClick={() => toggleSource('all')}
+          className={`flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-medium border transition-all ${
+            filters.selectedSources.length === 0
+              ? 'bg-slate-700 text-white border-slate-500 shadow-sm'
+              : 'bg-slate-900/60 text-slate-400 border-slate-800 hover:text-white hover:border-slate-700'
+          }`}
+        >
+          <span>All Datasets</span>
+          <span className="text-[10px] px-1.5 rounded-full bg-black/40 text-slate-300 font-mono">
+            {totalPeople}
+          </span>
+        </button>
+
+        {/* Source 1: Wikipedia Files List */}
+        <button
+          onClick={() => toggleSource('files_list')}
+          className={`flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-medium border transition-all ${
+            filters.selectedSources.includes('files_list')
+              ? 'bg-blue-600 text-white border-blue-400 shadow-md shadow-blue-600/30'
+              : 'bg-slate-900/60 text-blue-300 border-slate-800 hover:border-blue-800/80 hover:bg-blue-950/30'
+          }`}
+        >
+          <span>📑 Named in Files</span>
+          <span className="text-[10px] px-1.5 rounded-full bg-black/40 text-blue-200 font-mono">
+            {sourceCounts.files_list || 157}
+          </span>
+        </button>
+
+        {/* Source 2: Wikipedia Connections */}
+        <button
+          onClick={() => toggleSource('connections_article')}
+          className={`flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-medium border transition-all ${
+            filters.selectedSources.includes('connections_article')
+              ? 'bg-emerald-600 text-white border-emerald-400 shadow-md shadow-emerald-600/30'
+              : 'bg-slate-900/60 text-emerald-300 border-slate-800 hover:border-emerald-800/80 hover:bg-emerald-950/30'
+          }`}
+        >
+          <span>🔗 Connections & Orgs</span>
+          <span className="text-[10px] px-1.5 rounded-full bg-black/40 text-emerald-200 font-mono">
+            {sourceCounts.connections_article || 11}
+          </span>
+        </button>
+
+        {/* Source 3: Court Does & Flights */}
+        <button
+          onClick={() => toggleSource('court_does_and_flights')}
+          className={`flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-medium border transition-all ${
+            filters.selectedSources.includes('court_does_and_flights')
+              ? 'bg-purple-600 text-white border-purple-400 shadow-md shadow-purple-600/30'
+              : 'bg-slate-900/60 text-purple-300 border-slate-800 hover:border-purple-800/80 hover:bg-purple-950/30'
+          }`}
+        >
+          <span>⚖️ Court Does & Flight Logs</span>
+          <span className="text-[10px] px-1.5 rounded-full bg-black/40 text-purple-200 font-mono">
+            {sourceCounts.court_does_and_flights || 18}
+          </span>
+        </button>
       </div>
 
       {/* Bottom row: Sector Pill Buttons */}

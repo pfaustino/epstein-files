@@ -77,13 +77,43 @@ export const NetworkGraph: React.FC<NetworkGraphProps> = ({
 
   // Filter nodes & edges for graph visualization
   const filteredData = useMemo(() => {
-    const visibleNodes = graphData.nodes.filter(n => {
-      if (n.id === 'jeffrey-epstein') return true;
-      if (n.type === 'location' || n.type === 'organization') return true;
-      return filteredNodeIds.has(n.id);
+    // Collect all valid person node IDs that match the active filters + hub
+    const visiblePersonIds = new Set<string>();
+    visiblePersonIds.add('jeffrey-epstein');
+    graphData.nodes.forEach(n => {
+      if (filteredNodeIds.has(n.id)) {
+        visiblePersonIds.add(n.id);
+      }
     });
 
-    const visibleNodeIdSet = new Set(visibleNodes.map(n => n.id));
+    // Find active orgs and locations that have edges to at least one visible person
+    const connectedAuxNodeIds = new Set<string>();
+    graphData.edges.forEach(e => {
+      const sourceId = typeof e.source === 'object' ? (e.source as GraphNode).id : e.source;
+      const targetId = typeof e.target === 'object' ? (e.target as GraphNode).id : e.target;
+      
+      if (visiblePersonIds.has(sourceId) && sourceId !== 'jeffrey-epstein') {
+        connectedAuxNodeIds.add(targetId);
+      }
+      if (visiblePersonIds.has(targetId) && targetId !== 'jeffrey-epstein') {
+        connectedAuxNodeIds.add(sourceId);
+      }
+    });
+
+    const isUnfiltered = filteredNodeIds.size >= graphData.nodes.filter(n => n.type === 'person').length;
+    const visibleNodeIdSet = new Set<string>();
+
+    graphData.nodes.forEach(n => {
+      if (n.id === 'jeffrey-epstein' || visiblePersonIds.has(n.id)) {
+        visibleNodeIdSet.add(n.id);
+      } else if (n.type === 'organization' || n.type === 'location') {
+        if (isUnfiltered || connectedAuxNodeIds.has(n.id)) {
+          visibleNodeIdSet.add(n.id);
+        }
+      }
+    });
+
+    const visibleNodes = graphData.nodes.filter(n => visibleNodeIdSet.has(n.id));
 
     const visibleEdges = graphData.edges.filter(e => {
       const sourceId = typeof e.source === 'object' ? (e.source as GraphNode).id : e.source;

@@ -22,6 +22,8 @@ if sys.platform == "win32":
     sys.stdout.reconfigure(encoding="utf-8")
 
 RAW_FILE = Path("data/raw/parsed_people_raw.json")
+CONNECTIONS_FILE = Path("data/raw/parsed_connections_raw.json")
+COURT_FILE = Path("data/raw/parsed_court_and_flight_records.json")
 PROCESSED_DIR = Path("data/processed")
 JSON_OUTPUT = PROCESSED_DIR / "people.json"
 CSV_OUTPUT = PROCESSED_DIR / "people.csv"
@@ -120,6 +122,15 @@ ALIASES = {
     "Thorbjørn Jagland": ["Thorbjorn Jagland"],
     "Princess Sofia, Duchess of Värmland": ["Princess Sofia", "Duchess of Varmland"],
     "Sultan Ahmed bin Sulayem": ["Sultan bin Sulayem", "Bin Sulayem"],
+    "Virginia Giuffre": ["Virginia Roberts", "Jane Doe 102", "Jane Doe 003"],
+    "Sarah Kellen": ["Sarah Kensington", "Kensington"],
+    "David Rodgers": ["Pilot Dave Rodgers", "Dave Rodgers"],
+    "Larry Visoski": ["Pilot Larry Visoski", "Visoski"],
+    "Tony Blair": ["Prime Minister Blair"],
+    "John Casablancas": ["Casablancas"],
+    "Murray Gell-Mann": ["Gell-Mann"],
+    "JP Morgan Chase Bank": ["JPMorgan", "J.P. Morgan", "JPMorgan Chase"],
+    "Deutsche Bank": ["Deutsche"],
 }
 
 
@@ -441,9 +452,9 @@ def resolve_cross_references(records: List[Dict[str, Any]]) -> Dict[str, List[Di
         connected_ids: Set[str] = set()
 
         # In-page anchor links
-        for l in r["links"]:
-            if l["type"] == "in_page_anchor":
-                target_key = l["target"].lower()
+        for l in r.get("links", []):
+            if l.get("type") == "in_page_anchor" or "target" in l:
+                target_key = l.get("target", "").lower()
                 if target_key in anchor_to_id:
                     connected_ids.add(anchor_to_id[target_key])
                 elif target_key in name_to_id:
@@ -451,13 +462,20 @@ def resolve_cross_references(records: List[Dict[str, Any]]) -> Dict[str, List[Di
                 elif target_key in last_names and len(last_names[target_key]) == 1:
                     connected_ids.add(last_names[target_key][0])
 
-        # Text mentions of other full names
+        # Text mentions of other full names and aliases
         for other in records:
             if other["id"] == source_id:
                 continue
             other_name = other["name"]
+            matched = False
             if len(other_name) >= 5 and re.search(r"\b" + re.escape(other_name) + r"\b", source_text, re.IGNORECASE):
                 connected_ids.add(other["id"])
+                matched = True
+            if not matched and other_name in ALIASES:
+                for alias in ALIASES[other_name]:
+                    if len(alias) >= 4 and re.search(r"\b" + re.escape(alias) + r"\b", source_text, re.IGNORECASE):
+                        connected_ids.add(other["id"])
+                        break
 
         for target_id in sorted(list(connected_ids)):
             if target_id != source_id and target_id in id_to_name:
@@ -474,31 +492,56 @@ def run():
     with open(RAW_FILE, "r", encoding="utf-8") as f:
         records = json.load(f)
 
+    if CONNECTIONS_FILE.exists():
+        print(f"Loading connections records from {CONNECTIONS_FILE}...")
+        with open(CONNECTIONS_FILE, "r", encoding="utf-8") as f:
+            connections_records = json.load(f)
+            records.extend(connections_records)
+
+    if COURT_FILE.exists():
+        print(f"Loading court & flight records from {COURT_FILE}...")
+        with open(COURT_FILE, "r", encoding="utf-8") as f:
+            court_records = json.load(f)
+            records.extend(court_records)
+
+    print(f"Total unified raw records: {len(records)}")
+
     connections_map = resolve_cross_references(records)
 
     enriched_records = []
     flattened_rows = []
 
     for r in records:
-        text = r["full_text"]
+        text = r.get("full_text", "")
         category_tag = r.get("category_tag")
         name = r["name"]
 
-        profession, sector = extract_profession_and_sector(name, text, category_tag)
-        connection = analyze_epstein_connection(text)
-        properties = analyze_property_visits(text)
-        flights = analyze_flight_logs(text)
-        orgs = detect_affiliated_organizations(text, r["links"])
+        # Preserve pre-existing sector/profession or extract
+        sector = r.get("sector")
+        profession = r.get("profession_summary")
+        if not sector or not profession:
+            extracted_prof, extracted_sec = extract_profession_and_sector(name, text, category_tag)
+            sector = sector or extracted_sec
+            profession = profession or extracted_prof
+
+        connection = r.get("connection_to_epstein") or analyze_epstein_connection(text)
+        properties = r.get("property_visits") or analyze_property_visits(text)
+        flights = r.get("flight_logs") or analyze_flight_logs(text)
+        orgs = detect_affiliated_organizations(text, r.get("links", []))
         peers = connections_map.get(r["id"], [])
+
+        source_dataset = r.get("source_dataset", "files_list")
+        source_label = r.get("source_label", "Wikipedia: Named in Files")
+        legal_context = r.get("legal_context", "Named in Files")
 
         enriched = {
             "id": r["id"],
             "name": name,
-            "anchor": r["anchor"],
-            "wikipedia_url": r["wikipedia_url"],
-            "image_thumb": r["image_thumb"],
-            "image_full": r["image_full"],
-            "image_caption": r["image_caption"],
+            "anchor": r.get("anchor", name.replace(" ", "_")),
+            "wikipedia_url": r.get("wikipedia_url"),
+            "image_thumb": r.get("image_thumb"),
+            "image_full": r.get("image_full"),
+            "image_caption": r.get("image_caption"),
             "category_tag": category_tag,
             "sector": sector,
             "profession_summary": profession,
@@ -509,42 +552,48 @@ def run():
             "affiliated_organizations": orgs,
             "connected_individuals": peers,
             "aliases": ALIASES.get(name, []),
-            "citations_count": len(r["citations"]),
-            "citations": r["citations"],
+            "citations_count": len(r.get("citations", [])),
+            "citations": r.get("citations", []),
+            "source_dataset": source_dataset,
+            "source_label": source_label,
+            "legal_context": legal_context,
         }
         enriched_records.append(enriched)
 
         flattened_rows.append({
             "id": r["id"],
             "name": name,
+            "source_dataset": source_dataset,
+            "source_label": source_label,
+            "legal_context": legal_context,
             "aliases": "; ".join(ALIASES.get(name, [])),
             "sector": sector,
             "profession": profession,
-            "primary_connection_type": connection["primary_nature"],
-            "all_connection_types": "; ".join(connection["relationship_types"]),
-            "era": connection["era"],
-            "post_2008_contact": connection["has_post_2008_ties"],
-            "pre_2008_contact": connection["has_pre_2008_ties"],
-            "island_status": properties["island_status"],
-            "island_notes": properties["island_notes"] or "",
-            "townhouse_status": properties["townhouse_status"],
-            "townhouse_notes": properties["townhouse_notes"] or "",
-            "palm_beach_status": properties["palm_beach_status"],
-            "palm_beach_notes": properties["palm_beach_notes"] or "",
-            "zorro_ranch_status": properties["zorro_ranch_status"],
-            "zorro_ranch_notes": properties["zorro_ranch_notes"] or "",
-            "paris_status": properties["paris_status"],
-            "paris_notes": properties["paris_notes"] or "",
-            "any_property_visited_or_offered": properties["any_property_visited_or_offered"],
-            "flew_private_plane": flights["flew_on_private_plane"],
-            "flight_count_estimate": flights["flight_count_estimate"] or "",
-            "flight_notes": flights["flight_notes"] or "",
+            "primary_connection_type": connection.get("primary_nature", "Unknown"),
+            "all_connection_types": "; ".join(connection.get("relationship_types", [])),
+            "era": connection.get("era", "Undated / Ongoing"),
+            "post_2008_contact": connection.get("has_post_2008_ties", False),
+            "pre_2008_contact": connection.get("has_pre_2008_ties", False),
+            "island_status": properties.get("island_status", "None"),
+            "island_notes": properties.get("island_notes") or "",
+            "townhouse_status": properties.get("townhouse_status", "None"),
+            "townhouse_notes": properties.get("townhouse_notes") or "",
+            "palm_beach_status": properties.get("palm_beach_status", "None"),
+            "palm_beach_notes": properties.get("palm_beach_notes") or "",
+            "zorro_ranch_status": properties.get("zorro_ranch_status", "None"),
+            "zorro_ranch_notes": properties.get("zorro_ranch_notes") or "",
+            "paris_status": properties.get("paris_status", "None"),
+            "paris_notes": properties.get("paris_notes") or "",
+            "any_property_visited_or_offered": properties.get("any_property_visited_or_offered", False),
+            "flew_private_plane": flights.get("flew_on_private_plane", False),
+            "flight_count_estimate": flights.get("flight_count_estimate") or "",
+            "flight_notes": flights.get("flight_notes") or "",
             "organizations": "; ".join(orgs),
             "connected_people_count": len(peers),
             "connected_people": "; ".join(p["target_name"] for p in peers),
-            "wikipedia_url": r["wikipedia_url"] or "",
-            "has_photo": bool(r["image_thumb"]),
-            "citations_count": len(r["citations"]),
+            "wikipedia_url": r.get("wikipedia_url") or "",
+            "has_photo": bool(r.get("image_thumb")),
+            "citations_count": len(r.get("citations", [])),
             "bio_excerpt": (text[:160] + "...") if len(text) > 160 else text,
         })
 
@@ -560,18 +609,17 @@ def run():
 
     # Dataset Insights
     print("\n=== Dataset Insights ===")
-    print(f"Total individuals:             {len(enriched_records)}")
+    print(f"Total individuals & entities:  {len(enriched_records)}")
     print(f"Individuals with photo:        {df['has_photo'].sum()}")
+    print("\n--- By Source Dataset ---")
+    print(df["source_label"].value_counts().to_string())
     print("\n--- By Standardized Sector ---")
     print(df["sector"].value_counts().to_string())
-    print("\n--- By Connection Era ---")
-    print(df["era"].value_counts().to_string())
+    print("\n--- By Legal / Investigative Context ---")
+    print(df["legal_context"].value_counts().head(10).to_string())
     print("\n--- Little Saint James / Island Status ---")
     print(df["island_status"].value_counts().to_string())
-    print("\n--- NYC Townhouse Status ---")
-    print(df["townhouse_status"].value_counts().to_string())
-    print("\n--- Travel & Properties ---")
-    print(f"Flew on Private Jet:           {df['flew_private_plane'].sum()}")
+    print(f"Total Cross-Person Edges:      {sum(len(r['connected_individuals']) for r in enriched_records)}")
     print(f"Stayed at Palm Beach:          {(df['palm_beach_status'] != 'None').sum()}")
     print(f"Stayed at Zorro Ranch (NM):    {(df['zorro_ranch_status'] != 'None').sum()}")
     print(f"Used Paris Apartment:          {(df['paris_status'] != 'None').sum()}")

@@ -58,6 +58,9 @@ export interface PersonRecord {
   aliases?: string[];
   citations_count: number;
   citations: Citation[];
+  source_dataset?: 'files_list' | 'connections_article' | 'court_does_and_flights';
+  source_label?: string;
+  legal_context?: string;
 }
 
 export interface GraphNode {
@@ -78,6 +81,9 @@ export interface GraphNode {
   citations_count?: number;
   bio?: string;
   description?: string;
+  source_dataset?: 'files_list' | 'connections_article' | 'court_does_and_flights';
+  source_label?: string;
+  legal_context?: string;
   x?: number;
   y?: number;
   vx?: number;
@@ -117,6 +123,7 @@ export interface GraphData {
 export interface FilterState {
   searchQuery: string;
   selectedSectors: string[];
+  selectedSources: string[];
   visitedIslandOnly: boolean;
   flewPlaneOnly: boolean;
   visitedTownhouseOnly: boolean;

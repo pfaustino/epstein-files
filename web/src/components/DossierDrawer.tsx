@@ -126,6 +126,46 @@ export const DossierDrawer: React.FC<DossierDrawerProps> = ({
         {/* If Person Record is available */}
         {personRecord && (
           <>
+            {/* Data Provenance & Legal Context Box */}
+            <div className="bg-[#0b0e17] rounded-xl p-3 border border-slate-800 space-y-2">
+              <div className="flex items-center justify-between">
+                <span className="text-[10px] font-mono uppercase tracking-wider text-slate-400">
+                  Data Provenance
+                </span>
+                <span
+                  className={`text-[10px] font-mono px-2 py-0.5 rounded border ${
+                    personRecord.source_dataset === 'connections_article'
+                      ? 'bg-emerald-950/60 text-emerald-300 border-emerald-800/60'
+                      : personRecord.source_dataset === 'court_does_and_flights'
+                      ? 'bg-purple-950/60 text-purple-300 border-purple-800/60'
+                      : 'bg-blue-950/60 text-blue-300 border-blue-800/60'
+                  }`}
+                >
+                  {personRecord.source_label || 'Wikipedia: Named in Files'}
+                </span>
+              </div>
+
+              {personRecord.legal_context && (
+                <div className="pt-0.5 flex items-start gap-2">
+                  <span className="text-[11px] font-semibold text-slate-300 shrink-0">
+                    Role / Context:
+                  </span>
+                  <span className="text-[11px] text-slate-200 font-mono bg-slate-900 px-2 py-0.5 rounded border border-slate-800">
+                    {personRecord.legal_context}
+                  </span>
+                </div>
+              )}
+
+              {personRecord.legal_context?.includes('No Misconduct Alleged') && (
+                <div className="text-[11px] text-amber-300/90 bg-amber-950/20 border border-amber-900/40 rounded-lg p-2 leading-relaxed flex items-start gap-2 mt-1">
+                  <AlertTriangle className="w-3.5 h-3.5 text-amber-400 shrink-0 mt-0.5" />
+                  <span>
+                    Mentioned in court deposition questioning; no allegation of misconduct or improper involvement was made against this individual.
+                  </span>
+                </div>
+              )}
+            </div>
+
             {/* Primary Connection to Epstein Box */}
             <div className="bg-slate-900/80 rounded-xl p-3.5 border border-slate-800 space-y-2">
               <div className="flex items-center justify-between text-xs font-semibold text-slate-200">

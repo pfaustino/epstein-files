@@ -27,6 +27,8 @@ SECTOR_COLORS = {
     "Entertainment, Arts & Media": "#ec4899",            # Pink
     "Law, Law Enforcement & Legal Defense": "#64748b",   # Slate Gray
     "Healthcare & Medicine": "#14b8a6",                  # Teal
+    "Victims, Plaintiffs & Witnesses": "#f43f5e",        # Rose / Coral
+    "Epstein Inner Circle & Staff": "#e11d48",           # Crimson
     "Public Figure / Associate": "#6b7280",              # Gray
 }
 
@@ -170,6 +172,9 @@ def build_graph() -> Dict[str, Any]:
             "size": 15 + min(len(p["connected_individuals"]) * 2, 16),
             "citations_count": p["citations_count"],
             "bio": p["full_text"],
+            "source_dataset": p.get("source_dataset", "files_list"),
+            "source_label": p.get("source_label", "Wikipedia: Named in Files"),
+            "legal_context": p.get("legal_context", "Named in Files"),
         })
         node_ids.add(pid)
 
