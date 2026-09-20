@@ -74,6 +74,31 @@ def get_full_res_image_url(thumb_url: str) -> str:
     return url
 
 
+def clean_paragraph_text(p_elem) -> str:
+    """Extract text from a <p> or caption element preserving spaces around inline tags,
+    removing citations [123], and normalizing whitespace and punctuation."""
+    p_copy = BeautifulSoup(str(p_elem), "html.parser")
+    for sup in p_copy.find_all(["sup", "sub"]):
+        sup.decompose()
+    text = p_copy.get_text(separator=" ")
+    text = re.sub(r"\s+", " ", text)
+    # Remove space before punctuation marks: , . ; : ! ? %
+    text = re.sub(r"\s+([,.;:!?%])", r"\1", text)
+    # Clean inner bracket/parenthesis spacing
+    text = re.sub(r"\(\s+", "(", text)
+    text = re.sub(r"\s+\)", ")", text)
+    text = re.sub(r"\[\s+", "[", text)
+    text = re.sub(r"\s+\]", "]", text)
+    # Contractions / possessives: Epstein 's -> Epstein's
+    text = re.sub(r"\b\s+'(s|t|re|ve|m|ll|d)\b", r"'\1", text, flags=re.IGNORECASE)
+    # Quotes: remove space after opening quote and before closing quote if followed by space or punctuation
+    text = re.sub(r'(?<=\s)"\s+([A-Za-z0-9])', r'"\1', text)
+    text = re.sub(r'([A-Za-z0-9.,;!?])\s+"(?=\s|[.,;!?]|$)', r'\1"', text)
+    # Currency symbols: $ 1.7 -> $1.7
+    text = re.sub(r"([$£€])\s+(\d)", r"\1\2", text)
+    return text.strip()
+
+
 def extract_person_wiki_url(paragraphs: List[Any], person_name: str) -> Optional[str]:
     """Identify the standalone Wikipedia article URL for the person."""
     name_parts = person_name.lower().split()
@@ -89,7 +114,7 @@ def extract_person_wiki_url(paragraphs: List[Any], person_name: str) -> Optional
                 "/wiki/File:", "/wiki/Help:", "/wiki/Wikipedia:", "/wiki/Special:", "/wiki/Category:", "/wiki/Template:"
             ]):
                 continue
-            link_text = a.get_text(strip=True).lower()
+            link_text = a.get_text(separator=" ", strip=True).lower()
             if link_text == person_name.lower():
                 return href if href.startswith("http") else f"https://en.wikipedia.org{href}"
 
@@ -103,7 +128,7 @@ def extract_person_wiki_url(paragraphs: List[Any], person_name: str) -> Optional
                 "/wiki/File:", "/wiki/Help:", "/wiki/Wikipedia:", "/wiki/Special:", "/wiki/Category:"
             ]):
                 continue
-            link_text = a.get_text(strip=True).lower()
+            link_text = a.get_text(separator=" ", strip=True).lower()
             slug = href.split("/wiki/")[-1].lower()
             if last_name and (last_name in link_text or last_name in slug):
                 return href if href.startswith("http") else f"https://en.wikipedia.org{href}"
@@ -161,18 +186,18 @@ def parse_html_to_records(html: str) -> List[Dict[str, Any]]:
 
             cap = fig.find(["figcaption", "div"], class_=lambda c: c and "caption" in c)
             if cap:
-                image_caption = cap.get_text(strip=True)
+                image_caption = clean_paragraph_text(cap)
 
         # Paragraphs
         p_tags = sec.find_all("p")
-        paragraphs = [p.get_text(strip=True) for p in p_tags if p.get_text(strip=True)]
+        paragraphs = [clean_paragraph_text(p) for p in p_tags if clean_paragraph_text(p)]
 
         # Links
         links = []
         for p in p_tags:
             for a in p.find_all("a", href=True):
                 href = a["href"]
-                link_text = a.get_text(strip=True)
+                link_text = a.get_text(separator=" ", strip=True)
                 if re.match(r"^\[\d+\]$", link_text):
                     continue
 

@@ -99,6 +99,14 @@ SECTOR_OVERRIDES = {
     "Thomas Magnani": "Healthcare & Medicine",
     "Karyna Shuliak": "Healthcare & Medicine",
     "Andrew Mountbatten-Windsor": "Royalty & Aristocracy",
+    "Ghislaine Maxwell": "Finance, Business & Real Estate",
+    "Sergey Brin": "Tech, Crypto & Venture Capital",
+    "Joi Ito": "Academia, Science & Research",
+    "Stephen Hawking": "Academia, Science & Research",
+    "Boris Nikolic": "Healthcare & Medicine",
+    "Thomas Pritzker": "Finance, Business & Real Estate",
+    "Lynn Forester de Rothschild": "Finance, Business & Real Estate",
+    "David Stern": "Entertainment, Arts & Media",
 }
 
 # Known aliases and alternative names for search matching
@@ -135,40 +143,28 @@ def extract_profession_and_sector(name: str, text: str, category_tag: Optional[s
                 sector = "Entertainment, Arts & Media"
 
         if sector == "Public Figure / Associate":
-            if any(w in text_lower for w in [
-                "prime minister", "president", "ambassador", "minister", "senator", "governor",
-                "white house", "politician", "pundit", "chief strategist", "foreign minister",
-                "diplomat", "representative to the un"
-            ]):
+            if re.search(r"\b(prime minister|president|ambassador|minister|senator|governor|white house|politician|pundit|chief strategist|foreign minister|diplomat|representative to the un)\b", text_lower):
                 sector = "Politics, Government & Diplomacy"
-            elif any(w in text_lower for w in ["prince", "princess", "royal", "duchess", "duke", "queen", "king", "crown prince", "crown princess"]):
+            elif re.search(r"\b(prince|princess|royal|royals|royalty|duchess|duke|dukes|queen|king|crown prince|crown princess)\b", text_lower):
                 sector = "Royalty & Aristocracy"
-            elif any(w in text_lower for w in [
-                "professor", "scientist", "cognitive scientist", "biologist", "physicist",
-                "mathematician", "mit", "harvard", "columbia", "nobel", "researcher", "scholar", "linguist", "paleontologist"
-            ]):
+            elif re.search(r"\b(professor|scientist|cognitive scientist|biologist|physicist|mathematician|mit|harvard|columbia|nobel|researcher|scholar|linguist|paleontologist|academic)\b", text_lower):
                 sector = "Academia, Science & Research"
-            elif any(w in text_lower for w in ["blockchain", "tech", "software", "crypto", "silicon valley", "paypal", "palantir"]):
+            elif re.search(r"\b(blockchain|tech|software|crypto|silicon valley|paypal|palantir)\b", text_lower):
                 sector = "Tech, Crypto & Venture Capital"
-            elif any(w in text_lower for w in [
-                "investor", "private equity", "hedge fund", "banker", "ceo", "founder",
-                "billionaire", "financier", "executive", "venture capital", "businessman", "businesswoman", "property developer"
-            ]):
+            elif re.search(r"\b(investor|private equity|hedge fund|banker|ceo|founder|billionaire|financier|executive|venture capital|businessman|businesswoman|property developer)\b", text_lower):
                 sector = "Finance, Business & Real Estate"
-            elif any(w in text_lower for w in [
-                "actor", "director", "filmmaker", "author", "journalist", "model",
-                "musician", "producer", "magician", "artist", "celebrity", "illusionist"
-            ]):
+            elif re.search(r"\b(actor|director|filmmaker|author|journalist|model|musician|producer|magician|artist|celebrity|illusionist)\b", text_lower):
                 sector = "Entertainment, Arts & Media"
-            elif any(w in text_lower for w in ["lawyer", "attorney", "prosecutor", "judge", "counsel", "law firm", "sheriff", "customs"]):
+            elif re.search(r"\b(lawyer|attorney|prosecutor|judge|counsel|law firm|sheriff|customs)\b", text_lower):
                 sector = "Law, Law Enforcement & Legal Defense"
-            elif any(w in text_lower for w in ["doctor", "physician", "surgeon", "dermatologist", "internist", "psychologist", "therapist"]):
+            elif re.search(r"\b(doctor|physician|surgeon|dermatologist|internist|psychologist|therapist)\b", text_lower):
                 sector = "Healthcare & Medicine"
-            elif any(w in text_lower for w in ["victim", "accuser", "survivor"]):
+            elif re.search(r"\b(victim|accuser|survivor)\b", text_lower):
                 sector = "Victims & Witnesses"
 
-    # Profession summary from opening sentence
-    first_sentence = text.split(".")[0].strip() if text else ""
+    # Profession summary from opening sentence, avoiding split on honorifics (Dr., Mr., etc.)
+    sentences = re.split(r"(?<!\bDr)(?<!\bMr)(?<!\bMs)(?<!\bJr)(?<!\bSr)\.\s+", text)
+    first_sentence = sentences[0].strip() if sentences else (text or "")
     profession = ""
     title_match = re.search(
         r"(?:is|was)\s+(?:an?|the|former)\s+([A-Za-z0-9\s,\-–—]+?)(?:\s+(?:who|whose|whom|at|when|and Epstein|\.|,))\b",
