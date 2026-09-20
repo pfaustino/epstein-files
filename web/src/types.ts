@@ -131,3 +131,116 @@ export interface FilterState {
 }
 
 export type ViewMode = 'graph' | 'directory' | 'pathfinder';
+export type ActiveTab = 'core' | 'black_book' | 'flights' | 'court_does';
+
+// --- Black Book Types ---
+export interface BlackBookPhone {
+  number: string;
+  type: string;
+}
+
+export interface BlackBookEntry {
+  id: string;
+  name: string;
+  raw_name: string;
+  page_number: number;
+  alphabetical_section: string;
+  first_letter: string;
+  category: string;
+  phones: BlackBookPhone[];
+  emails: string[];
+  addresses: string[];
+  notes: string[];
+  matched_person_id: string | null;
+  matched_person_name: string | null;
+  has_core_dossier: boolean;
+}
+
+export interface BlackBookData {
+  metadata: {
+    source: string;
+    total_entries: number;
+    total_pages: number;
+    matched_core_figures: number;
+  };
+  entries: BlackBookEntry[];
+}
+
+// --- Flight Manifest Types ---
+export interface FlightPassenger {
+  name: string;
+  matched_person_id: string | null;
+  matched_person_name: string | null;
+  has_core_dossier: boolean;
+}
+
+export interface FlightRecord {
+  id: string;
+  page_number: number;
+  date: string;
+  aircraft: {
+    tail_number: string;
+    make_model: string;
+  };
+  route: {
+    from: string;
+    to: string;
+    from_description: string;
+    to_description: string;
+    display: string;
+  };
+  remarks: string;
+  passengers: FlightPassenger[];
+  passenger_count: number;
+}
+
+export interface PassengerLeaderboardItem {
+  name: string;
+  flight_count: number;
+  first_flight: string | null;
+  last_flight: string | null;
+  aircraft_flown: string[];
+  top_routes: { route: string; count: number }[];
+  top_co_passengers: { name: string; count: number }[];
+  matched_person_id: string | null;
+  matched_person_name: string | null;
+  has_core_dossier: boolean;
+}
+
+export interface FlightManifestsData {
+  metadata: {
+    source: string;
+    total_flights: number;
+    total_passengers_tracked: number;
+    top_destinations: { destination: string; flights: number }[];
+  };
+  flights: FlightRecord[];
+  passengers_leaderboard: PassengerLeaderboardItem[];
+}
+
+// --- Court Does Types ---
+export interface CourtDoeRecord {
+  id: string;
+  doe_number: number;
+  doe_label: string;
+  name: string;
+  status: string;
+  role: string;
+  ruling_summary: string;
+  matched_person_id: string | null;
+  matched_person_name: string | null;
+  has_core_dossier: boolean;
+  docket_number: string;
+  primary_order: string;
+}
+
+export interface CourtDoesData {
+  metadata: {
+    source: string;
+    total_does: number;
+    unsealed_count: number;
+    sealed_count: number;
+    matched_core_figures: number;
+  };
+  does: CourtDoeRecord[];
+}

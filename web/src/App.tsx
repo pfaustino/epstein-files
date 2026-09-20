@@ -1,25 +1,49 @@
 import React, { useState, useMemo } from 'react';
 import rawGraphData from './data/graph.json';
 import rawPeopleData from './data/people.json';
-import { GraphData, GraphNode, PersonRecord, FilterState, ViewMode } from './types';
+import rawBlackBookData from './data/black_book.json';
+import rawFlightsData from './data/flight_manifests.json';
+import rawDoesData from './data/court_does.json';
+
+import {
+  GraphData,
+  GraphNode,
+  PersonRecord,
+  FilterState,
+  ViewMode,
+  ActiveTab,
+  BlackBookData,
+  FlightManifestsData,
+  CourtDoesData,
+} from './types';
+
 import { Header } from './components/Header';
 import { FilterBar } from './components/FilterBar';
 import { NetworkGraph } from './components/NetworkGraph';
 import { DirectoryView } from './components/DirectoryView';
 import { DossierDrawer } from './components/DossierDrawer';
 import { PathFinderModal } from './components/PathFinderModal';
+import { BlackBookView } from './components/BlackBookView';
+import { FlightLogsView } from './components/FlightLogsView';
+import { CourtDoesView } from './components/CourtDoesView';
 
 export const App: React.FC = () => {
   const graphData = rawGraphData as unknown as GraphData;
   const peopleData = rawPeopleData as unknown as PersonRecord[];
+  const blackBookData = rawBlackBookData as unknown as BlackBookData;
+  const flightsData = rawFlightsData as unknown as FlightManifestsData;
+  const doesData = rawDoesData as unknown as CourtDoesData;
 
-  // App State
+  // Active Navigation Tab
+  const [activeTab, setActiveTab] = useState<ActiveTab>('core');
+
+  // Core Network App State
   const [viewMode, setViewMode] = useState<ViewMode>('graph');
   const [selectedNode, setSelectedNode] = useState<GraphNode | null>(null);
   const [isPathFinderOpen, setIsPathFinderOpen] = useState(false);
   const [highlightPathNodeIds, setHighlightPathNodeIds] = useState<Set<string> | undefined>(undefined);
 
-  // Filters State
+  // Filters State for Core Network
   const [filters, setFilters] = useState<FilterState>({
     searchQuery: '',
     selectedSectors: [],
@@ -153,6 +177,12 @@ export const App: React.FC = () => {
     }
   };
 
+  // Cross-Tab Navigation Handler: Jump from Black Book / Flights / Does to Core Network dossier
+  const handleCrossTabNavigate = (personId: string) => {
+    setActiveTab('core');
+    handleSelectPeer(personId);
+  };
+
   const handleApplyPathHighlight = (nodeIds: string[]) => {
     setHighlightPathNodeIds(new Set(nodeIds));
     setViewMode('graph');
@@ -162,56 +192,86 @@ export const App: React.FC = () => {
 
   return (
     <div className="flex flex-col h-screen w-screen overflow-hidden bg-[#090a0f] text-slate-100">
-      {/* Header */}
+      {/* Universal Top Header */}
       <Header
+        activeTab={activeTab}
+        setActiveTab={setActiveTab}
         viewMode={viewMode}
         setViewMode={setViewMode}
         totalPeople={peopleData.length}
         totalFiltered={filteredPersonIds.size}
+        blackBookCount={blackBookData.metadata.total_entries}
+        flightsCount={flightsData.metadata.total_flights}
+        doesCount={doesData.metadata.total_does}
         onOpenPathFinder={() => setIsPathFinderOpen(true)}
       />
 
-      {/* Filter Toolbar */}
-      <FilterBar
-        filters={filters}
-        setFilters={setFilters}
-        sectorCounts={sectorCounts}
-        sourceCounts={sourceCounts}
-        totalFiltered={filteredPersonIds.size}
-        totalPeople={peopleData.length}
-        allPeople={peopleData}
-        onSelectPerson={handleSelectPersonFromSearch}
-      />
-
-      {/* Main View Area */}
-      <main className="flex-1 relative overflow-hidden flex">
-        {viewMode === 'graph' ? (
-          <NetworkGraph
-            graphData={graphData}
-            selectedNode={selectedNode}
-            onSelectNode={setSelectedNode}
-            filteredNodeIds={filteredPersonIds}
-            highlightPathNodeIds={highlightPathNodeIds}
+      {/* Main View Area Switcher */}
+      {activeTab === 'core' && (
+        <>
+          {/* Filter Toolbar for Core Network */}
+          <FilterBar
+            filters={filters}
+            setFilters={setFilters}
+            sectorCounts={sectorCounts}
+            sourceCounts={sourceCounts}
+            totalFiltered={filteredPersonIds.size}
+            totalPeople={peopleData.length}
+            allPeople={peopleData}
+            onSelectPerson={handleSelectPersonFromSearch}
           />
-        ) : (
-          <DirectoryView
-            people={peopleData}
-            onSelectPerson={setSelectedNode}
-            filteredIds={filteredPersonIds}
-          />
-        )}
 
-        {/* Dossier Drawer */}
-        <DossierDrawer
-          selectedNode={selectedNode}
-          personRecord={selectedPersonRecord}
-          onClose={() => {
-            setSelectedNode(null);
-            setHighlightPathNodeIds(undefined);
-          }}
-          onSelectPeer={handleSelectPeer}
+          <main className="flex-1 relative overflow-hidden flex">
+            {viewMode === 'graph' ? (
+              <NetworkGraph
+                graphData={graphData}
+                selectedNode={selectedNode}
+                onSelectNode={setSelectedNode}
+                filteredNodeIds={filteredPersonIds}
+                highlightPathNodeIds={highlightPathNodeIds}
+              />
+            ) : (
+              <DirectoryView
+                people={peopleData}
+                onSelectPerson={setSelectedNode}
+                filteredIds={filteredPersonIds}
+              />
+            )}
+          </main>
+        </>
+      )}
+
+      {activeTab === 'black_book' && (
+        <BlackBookView
+          data={blackBookData}
+          onSelectCorePerson={handleCrossTabNavigate}
         />
-      </main>
+      )}
+
+      {activeTab === 'flights' && (
+        <FlightLogsView
+          data={flightsData}
+          onSelectCorePerson={handleCrossTabNavigate}
+        />
+      )}
+
+      {activeTab === 'court_does' && (
+        <CourtDoesView
+          data={doesData}
+          onSelectCorePerson={handleCrossTabNavigate}
+        />
+      )}
+
+      {/* Global Slide-Over Dossier Drawer (Accessible across all tabs) */}
+      <DossierDrawer
+        selectedNode={selectedNode}
+        personRecord={selectedPersonRecord}
+        onClose={() => {
+          setSelectedNode(null);
+          setHighlightPathNodeIds(undefined);
+        }}
+        onSelectPeer={handleSelectPeer}
+      />
 
       {/* Path Finder Modal */}
       <PathFinderModal

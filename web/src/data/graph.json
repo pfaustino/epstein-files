@@ -30,16 +30,6 @@
       "degree": 2
     },
     {
-      "id": "loc-palm-beach",
-      "label": "Palm Beach Mansion",
-      "type": "location",
-      "category": "Property / Location",
-      "color": "#d97706",
-      "size": 26,
-      "description": "Epstein's waterfront estate at 358 El Brillo Way, Palm Beach, Florida.",
-      "degree": 14
-    },
-    {
       "id": "loc-nyc-townhouse",
       "label": "NYC Townhouse (Herbert N. Straus House)",
       "type": "location",
@@ -48,6 +38,16 @@
       "size": 26,
       "description": "Epstein's 7-story, 28,000 sq ft mansion at 9 East 71st St, Manhattan.",
       "degree": 13
+    },
+    {
+      "id": "loc-palm-beach",
+      "label": "Palm Beach Mansion",
+      "type": "location",
+      "category": "Property / Location",
+      "color": "#d97706",
+      "size": 26,
+      "description": "Epstein's waterfront estate at 358 El Brillo Way, Palm Beach, Florida.",
+      "degree": 14
     },
     {
       "id": "loc-zorro-ranch",
@@ -4205,9 +4205,9 @@
       "weight": 2
     },
     {
-      "id": "epstein-owns-loc-palm-beach",
+      "id": "epstein-owns-loc-nyc-townhouse",
       "source": "jeffrey-epstein",
-      "target": "loc-palm-beach",
+      "target": "loc-nyc-townhouse",
       "type": "OWNS_PROPERTY",
       "label": "Owned / Controlled",
       "style": "solid",
@@ -4215,9 +4215,9 @@
       "weight": 2
     },
     {
-      "id": "epstein-owns-loc-nyc-townhouse",
+      "id": "epstein-owns-loc-palm-beach",
       "source": "jeffrey-epstein",
-      "target": "loc-nyc-townhouse",
+      "target": "loc-palm-beach",
       "type": "OWNS_PROPERTY",
       "label": "Owned / Controlled",
       "style": "solid",
