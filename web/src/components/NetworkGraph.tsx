@@ -1,6 +1,7 @@
 import React, { useRef, useEffect, useState, useMemo, useCallback } from 'react';
 import ForceGraph2D, { ForceGraphMethods } from 'react-force-graph-2d';
-import { ZoomIn, ZoomOut, Maximize2, Crosshair } from 'lucide-react';
+import { forceCollide } from 'd3-force';
+import { ZoomIn, ZoomOut, Maximize2, Crosshair, SlidersHorizontal, Sparkles } from 'lucide-react';
 import { GraphNode, GraphEdge, GraphData } from '../types';
 
 interface NetworkGraphProps {
@@ -14,6 +15,8 @@ interface NetworkGraphProps {
 // Global image cache for canvas avatar drawing
 const imageCache: Record<string, HTMLImageElement> = {};
 
+export type SpacingMode = 'compact' | 'balanced' | 'spacious';
+
 export const NetworkGraph: React.FC<NetworkGraphProps> = ({
   graphData,
   selectedNode,
@@ -25,6 +28,8 @@ export const NetworkGraph: React.FC<NetworkGraphProps> = ({
   const containerRef = useRef<HTMLDivElement>(null);
   const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
   const [hoveredNode, setHoveredNode] = useState<GraphNode | null>(null);
+  const [spacingMode, setSpacingMode] = useState<SpacingMode>('spacious');
+  const initialFitDone = useRef(false);
 
   // Resize listener
   useEffect(() => {
@@ -72,10 +77,6 @@ export const NetworkGraph: React.FC<NetworkGraphProps> = ({
 
   // Filter nodes & edges for graph visualization
   const filteredData = useMemo(() => {
-    // If no filter, show everything
-    const isFiltered = filteredNodeIds.size < graphData.nodes.length;
-
-    // Node is visible if in filtered list OR is Epstein OR is connected to a filtered node
     const visibleNodes = graphData.nodes.filter(n => {
       if (n.id === 'jeffrey-epstein') return true;
       if (n.type === 'location' || n.type === 'organization') return true;
@@ -96,22 +97,72 @@ export const NetworkGraph: React.FC<NetworkGraphProps> = ({
     };
   }, [graphData, filteredNodeIds]);
 
+  // Configure D3 Forces: Repulsion, Link Distances, and Non-Overlapping Collision
+  useEffect(() => {
+    if (!fgRef.current) return;
+
+    // 1. Repulsion Charge (Much stronger negative charge pushes nodes far apart)
+    const chargeStrength = spacingMode === 'spacious' ? -1000 : spacingMode === 'balanced' ? -650 : -350;
+    const chargeForce: any = fgRef.current.d3Force('charge');
+    if (chargeForce) {
+      chargeForce.strength(chargeStrength);
+      chargeForce.distanceMax(1800);
+    }
+
+    // 2. Link Distance (Loosens the connection length between nodes)
+    const distMultiplier = spacingMode === 'spacious' ? 1.8 : spacingMode === 'balanced' ? 1.35 : 1.0;
+    const linkForce: any = fgRef.current.d3Force('link');
+    if (linkForce) {
+      linkForce.distance((link: any) => {
+        if (link.type === 'PROPERTY_VISIT') return 200 * distMultiplier;
+        if (link.type === 'PEER_CONNECTION') return 180 * distMultiplier;
+        return 140 * distMultiplier;
+      });
+    }
+
+    // 3. Collision Force (STRICT OVERLAP PREVENTION)
+    const collisionPadding = spacingMode === 'spacious' ? 38 : spacingMode === 'balanced' ? 26 : 16;
+    fgRef.current.d3Force(
+      'collide',
+      forceCollide()
+        .radius((node: any) => {
+          const r = Math.max((node.size || 15) * 0.65, 7);
+          if (node.type === 'location' || node.type === 'organization') {
+            return r * 2.4;
+          }
+          return r + collisionPadding;
+        })
+        .iterations(4)
+    );
+
+    // Reheat simulation so new spacing takes effect smoothly
+    fgRef.current.d3ReheatSimulation();
+  }, [filteredData, spacingMode]);
+
   // Zoom controls
   const handleZoomIn = () => fgRef.current?.zoom(fgRef.current.zoom() * 1.3, 300);
   const handleZoomOut = () => fgRef.current?.zoom(fgRef.current.zoom() * 0.7, 300);
-  const handleFitView = () => fgRef.current?.zoomToFit(400, 50);
+  const handleFitView = () => fgRef.current?.zoomToFit(500, 80);
   const handleRecenter = () => {
     fgRef.current?.centerAt(0, 0, 400);
-    fgRef.current?.zoom(1.2, 400);
+    fgRef.current?.zoom(0.85, 400);
   };
 
   // Focus on selected node
   useEffect(() => {
     if (selectedNode && fgRef.current && selectedNode.x !== undefined && selectedNode.y !== undefined) {
       fgRef.current.centerAt(selectedNode.x, selectedNode.y, 500);
-      fgRef.current.zoom(2.0, 500);
+      fgRef.current.zoom(1.8, 500);
     }
   }, [selectedNode]);
+
+  // Initial fit when simulation settles
+  const handleEngineStop = useCallback(() => {
+    if (!initialFitDone.current) {
+      fgRef.current?.zoomToFit(600, 80);
+      initialFitDone.current = true;
+    }
+  }, []);
 
   // Node Canvas Rendering
   const drawNode = useCallback(
@@ -129,7 +180,7 @@ export const NetworkGraph: React.FC<NetworkGraphProps> = ({
         } else if (isNeighbor) {
           opacity = 0.9;
         } else {
-          opacity = 0.15;
+          opacity = 0.12;
         }
       }
 
@@ -141,26 +192,26 @@ export const NetworkGraph: React.FC<NetworkGraphProps> = ({
       // Special Node: Central Hub (Epstein)
       if (node.type === 'central_hub') {
         ctx.beginPath();
-        ctx.arc(node.x, node.y, r * 1.5, 0, 2 * Math.PI, false);
+        ctx.arc(node.x, node.y, r * 1.6, 0, 2 * Math.PI, false);
         ctx.fillStyle = '#090a0f';
         ctx.fill();
-        ctx.lineWidth = 3;
+        ctx.lineWidth = 3.5;
         ctx.strokeStyle = '#ef4444';
         ctx.stroke();
 
-        // Icon ring
+        // Pulsing border ring
         ctx.beginPath();
-        ctx.arc(node.x, node.y, r * 1.8, 0, 2 * Math.PI, false);
-        ctx.lineWidth = 1;
-        ctx.setLineDash([4, 4]);
-        ctx.strokeStyle = '#ef444488';
+        ctx.arc(node.x, node.y, r * 2.0, 0, 2 * Math.PI, false);
+        ctx.lineWidth = 1.5;
+        ctx.setLineDash([5, 5]);
+        ctx.strokeStyle = '#ef444499';
         ctx.stroke();
         ctx.setLineDash([]);
       }
       // Special Node: Locations
       else if (node.type === 'location') {
-        const w = r * 2.8;
-        const h = r * 1.6;
+        const w = r * 3.2;
+        const h = r * 1.7;
         ctx.fillStyle = node.color || '#ea580c';
         ctx.beginPath();
         ctx.roundRect(node.x - w / 2, node.y - h / 2, w, h, 6);
@@ -181,8 +232,8 @@ export const NetworkGraph: React.FC<NetworkGraphProps> = ({
       }
       // Special Node: Organizations
       else if (node.type === 'organization') {
-        const w = r * 2.6;
-        const h = r * 1.4;
+        const w = r * 2.8;
+        const h = r * 1.5;
         ctx.fillStyle = '#312e81';
         ctx.beginPath();
         ctx.roundRect(node.x - w / 2, node.y - h / 2, w, h, 5);
@@ -204,10 +255,10 @@ export const NetworkGraph: React.FC<NetworkGraphProps> = ({
         // Outer selection / highlight glow
         if (isTarget || isPath) {
           ctx.beginPath();
-          ctx.arc(node.x, node.y, r + 5, 0, 2 * Math.PI, false);
+          ctx.arc(node.x, node.y, r + 6, 0, 2 * Math.PI, false);
           ctx.fillStyle = isPath ? '#38bdf844' : '#6366f144';
           ctx.fill();
-          ctx.lineWidth = 2.5;
+          ctx.lineWidth = 3;
           ctx.strokeStyle = isPath ? '#38bdf8' : '#a855f7';
           ctx.stroke();
         }
@@ -244,13 +295,13 @@ export const NetworkGraph: React.FC<NetworkGraphProps> = ({
         // Colored ring by sector
         ctx.beginPath();
         ctx.arc(node.x, node.y, r, 0, 2 * Math.PI, false);
-        ctx.lineWidth = isTarget ? 3 : 2;
+        ctx.lineWidth = isTarget ? 3.5 : 2;
         ctx.strokeStyle = isTarget ? '#ffffff' : node.color || '#64748b';
         ctx.stroke();
       }
 
       // Draw label below node if zoomed in or highlighted
-      if (globalScale > 0.7 || isTarget || isPath || isNeighbor) {
+      if (globalScale > 0.65 || isTarget || isPath || isNeighbor) {
         ctx.font = `${isTarget ? 'bold' : 'normal'} ${Math.max(10 / globalScale, 7.5)}px Inter, sans-serif`;
         const text = node.label;
         const textWidth = ctx.measureText(text).width;
@@ -260,10 +311,10 @@ export const NetworkGraph: React.FC<NetworkGraphProps> = ({
         ctx.fillStyle = 'rgba(9, 10, 15, 0.85)';
         ctx.beginPath();
         ctx.roundRect(
-          node.x - textWidth / 2 - 3,
+          node.x - textWidth / 2 - 4,
           labelY - 5 / globalScale,
-          textWidth + 6,
-          10 / globalScale + 2,
+          textWidth + 8,
+          10 / globalScale + 3,
           3
         );
         ctx.fill();
@@ -291,7 +342,7 @@ export const NetworkGraph: React.FC<NetworkGraphProps> = ({
         nodePointerAreaPaint={(node: any, color, ctx) => {
           ctx.fillStyle = color;
           ctx.beginPath();
-          ctx.arc(node.x, node.y, (node.size || 15) * 0.7 + 3, 0, 2 * Math.PI, false);
+          ctx.arc(node.x, node.y, (node.size || 15) * 0.7 + 4, 0, 2 * Math.PI, false);
           ctx.fill();
         }}
         linkColor={(edge: any) => {
@@ -307,12 +358,12 @@ export const NetworkGraph: React.FC<NetworkGraphProps> = ({
             if (sId === target.id || tId === target.id) {
               return edge.color || '#818cf8';
             }
-            return 'rgba(51, 65, 85, 0.08)';
+            return 'rgba(51, 65, 85, 0.06)';
           }
 
           if (edge.type === 'PROPERTY_VISIT') return '#dc2626aa';
           if (edge.type === 'PEER_CONNECTION') return '#38bdf888';
-          return 'rgba(100, 116, 139, 0.22)';
+          return 'rgba(100, 116, 139, 0.18)';
         }}
         linkWidth={(edge: any) => {
           const sId = typeof edge.source === 'object' ? edge.source.id : edge.source;
@@ -348,55 +399,97 @@ export const NetworkGraph: React.FC<NetworkGraphProps> = ({
           }
         }}
         onBackgroundClick={() => onSelectNode(null)}
-        cooldownTicks={120}
-        d3AlphaDecay={0.02}
-        d3VelocityDecay={0.3}
+        onEngineStop={handleEngineStop}
+        cooldownTicks={250}
+        d3AlphaDecay={0.015}
+        d3VelocityDecay={0.25}
       />
 
-      {/* Floating Canvas Controls */}
-      <div className="absolute bottom-5 left-5 flex flex-col gap-2 bg-[#0f131d]/90 backdrop-blur-md p-1.5 rounded-xl border border-slate-800 shadow-xl z-10">
-        <button
-          onClick={handleZoomIn}
-          className="p-2 text-slate-300 hover:text-white hover:bg-slate-800/80 rounded-lg transition-colors"
-          title="Zoom In"
-        >
-          <ZoomIn className="w-4 h-4" />
-        </button>
-        <button
-          onClick={handleZoomOut}
-          className="p-2 text-slate-300 hover:text-white hover:bg-slate-800/80 rounded-lg transition-colors"
-          title="Zoom Out"
-        >
-          <ZoomOut className="w-4 h-4" />
-        </button>
-        <button
-          onClick={handleFitView}
-          className="p-2 text-slate-300 hover:text-white hover:bg-slate-800/80 rounded-lg transition-colors"
-          title="Fit All Nodes"
-        >
-          <Maximize2 className="w-4 h-4" />
-        </button>
-        <button
-          onClick={handleRecenter}
-          className="p-2 text-slate-300 hover:text-cyan-400 hover:bg-slate-800/80 rounded-lg transition-colors"
-          title="Recenter on Jeffrey Epstein"
-        >
-          <Crosshair className="w-4 h-4" />
-        </button>
+      {/* Floating Canvas Controls + Spacing Presets */}
+      <div className="absolute bottom-5 left-5 flex flex-col gap-2.5 z-10">
+        {/* Spacing Selector Pills */}
+        <div className="flex items-center gap-1.5 bg-[#0f131d]/90 backdrop-blur-md p-1.5 rounded-xl border border-slate-800 shadow-xl text-xs">
+          <span className="text-[11px] font-semibold text-slate-400 px-2 flex items-center gap-1">
+            <SlidersHorizontal className="w-3.5 h-3.5 text-cyan-400" />
+            Spacing:
+          </span>
+          <button
+            onClick={() => setSpacingMode('compact')}
+            className={`px-2.5 py-1 rounded-lg text-xs font-medium transition-all ${
+              spacingMode === 'compact'
+                ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
+            }`}
+          >
+            Compact
+          </button>
+          <button
+            onClick={() => setSpacingMode('balanced')}
+            className={`px-2.5 py-1 rounded-lg text-xs font-medium transition-all ${
+              spacingMode === 'balanced'
+                ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
+            }`}
+          >
+            Balanced
+          </button>
+          <button
+            onClick={() => setSpacingMode('spacious')}
+            className={`px-2.5 py-1 rounded-lg text-xs font-medium transition-all ${
+              spacingMode === 'spacious'
+                ? 'bg-cyan-600 text-white shadow-md shadow-cyan-600/30 font-semibold'
+                : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
+            }`}
+          >
+            Spacious (Loosest)
+          </button>
+        </div>
+
+        {/* Zoom & Navigation Actions */}
+        <div className="flex items-center gap-1 bg-[#0f131d]/90 backdrop-blur-md p-1.5 rounded-xl border border-slate-800 shadow-xl w-fit">
+          <button
+            onClick={handleZoomIn}
+            className="p-2 text-slate-300 hover:text-white hover:bg-slate-800/80 rounded-lg transition-colors"
+            title="Zoom In"
+          >
+            <ZoomIn className="w-4 h-4" />
+          </button>
+          <button
+            onClick={handleZoomOut}
+            className="p-2 text-slate-300 hover:text-white hover:bg-slate-800/80 rounded-lg transition-colors"
+            title="Zoom Out"
+          >
+            <ZoomOut className="w-4 h-4" />
+          </button>
+          <button
+            onClick={handleFitView}
+            className="p-2 text-slate-300 hover:text-white hover:bg-slate-800/80 rounded-lg transition-colors"
+            title="Fit All Nodes in View"
+          >
+            <Maximize2 className="w-4 h-4" />
+          </button>
+          <button
+            onClick={handleRecenter}
+            className="p-2 text-slate-300 hover:text-cyan-400 hover:bg-slate-800/80 rounded-lg transition-colors"
+            title="Recenter on Jeffrey Epstein"
+          >
+            <Crosshair className="w-4 h-4" />
+          </button>
+        </div>
       </div>
 
       {/* Graph Legend / Help Indicator */}
-      <div className="absolute top-4 right-4 hidden md:flex items-center gap-3 bg-[#0f131d]/80 backdrop-blur-sm px-3.5 py-1.5 rounded-xl border border-slate-800/70 text-[11px] text-slate-400 z-10">
+      <div className="absolute top-4 right-4 hidden md:flex items-center gap-3 bg-[#0f131d]/85 backdrop-blur-md px-3.5 py-1.5 rounded-xl border border-slate-800/80 text-[11px] text-slate-400 z-10 shadow-lg">
         <div className="flex items-center gap-1.5">
-          <span className="w-2.5 h-2.5 rounded-full bg-rose-500 inline-block"></span>
+          <span className="w-2.5 h-2.5 rounded-full bg-rose-500 inline-block shadow-sm shadow-rose-500/50"></span>
           <span>Properties</span>
         </div>
         <div className="flex items-center gap-1.5">
-          <span className="w-2.5 h-2.5 rounded-md bg-indigo-500 inline-block"></span>
+          <span className="w-2.5 h-2.5 rounded-md bg-indigo-500 inline-block shadow-sm shadow-indigo-500/50"></span>
           <span>Institutions</span>
         </div>
         <div className="flex items-center gap-1.5">
-          <span className="w-2.5 h-2.5 rounded-full bg-cyan-500 inline-block"></span>
+          <span className="w-2.5 h-2.5 rounded-full bg-cyan-500 inline-block shadow-sm shadow-cyan-500/50"></span>
           <span>Mutual Ties</span>
         </div>
       </div>
