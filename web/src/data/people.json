@@ -47,6 +47,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -119,6 +120,7 @@
         "target_name": "Larry Summers"
       }
     ],
+    "aliases": [],
     "citations_count": 3,
     "citations": [
       {
@@ -190,6 +192,7 @@
         "target_name": "Sultan Ahmed bin Sulayem"
       }
     ],
+    "aliases": [],
     "citations_count": 3,
     "citations": [
       {
@@ -261,6 +264,7 @@
         "target_name": "Glenn Dubin"
       }
     ],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -321,6 +325,7 @@
     },
     "affiliated_organizations": [],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -380,6 +385,7 @@
       "CBS News"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 5,
     "citations": [
       {
@@ -455,6 +461,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 4,
     "citations": [
       {
@@ -523,6 +530,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -584,6 +592,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 3,
     "citations": [
       {
@@ -659,6 +668,7 @@
         "target_name": "Ghislaine Maxwell"
       }
     ],
+    "aliases": [],
     "citations_count": 4,
     "citations": [
       {
@@ -731,6 +741,7 @@
       "White House"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 3,
     "citations": [
       {
@@ -810,6 +821,7 @@
         "target_name": "Larry Summers"
       }
     ],
+    "aliases": [],
     "citations_count": 4,
     "citations": [
       {
@@ -895,6 +907,7 @@
         "target_name": "Peter Thiel"
       }
     ],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -967,6 +980,7 @@
         "target_name": "Peter Thiel"
       }
     ],
+    "aliases": [],
     "citations_count": 3,
     "citations": [
       {
@@ -1049,6 +1063,7 @@
         "target_name": "Les Wexner"
       }
     ],
+    "aliases": [],
     "citations_count": 4,
     "citations": [
       {
@@ -1120,6 +1135,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -1176,6 +1192,7 @@
         "target_name": "Leon Black"
       }
     ],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -1241,6 +1258,7 @@
         "target_name": "Peter Mandelson"
       }
     ],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -1317,6 +1335,7 @@
         "target_name": "Soon-Yi Previn"
       }
     ],
+    "aliases": [],
     "citations_count": 5,
     "citations": [
       {
@@ -1412,6 +1431,7 @@
         "target_name": "Mark Zuckerberg"
       }
     ],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -1477,6 +1497,7 @@
         "target_name": "Terje Rød-Larsen"
       }
     ],
+    "aliases": [],
     "citations_count": 3,
     "citations": [
       {
@@ -1538,6 +1559,7 @@
     },
     "affiliated_organizations": [],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -1598,6 +1620,7 @@
         "target_name": "Ghislaine Maxwell"
       }
     ],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -1615,7 +1638,7 @@
     "image_full": "https://upload.wikimedia.org/wikipedia/commons/d/de/John_Brockman_at_DLD.jpg",
     "image_caption": null,
     "category_tag": "academic",
-    "sector": "Academia, Science & Research",
+    "sector": "Entertainment, Arts & Media",
     "profession_summary": "John Brockmanestablished theEdge Foundation",
     "full_text": "John Brockmanestablished theEdge Foundation. Epstein was its biggest donor;[59]Brockman organized with Silicon Valley billionaires events Epstein funded and attended.[3]Brockman boasted that the net worth of his 2014 dinner combined the wealth of 60% of Americans.[60]Epstein told Brockman not to care about diversity, holding women as \"weak\" and \"a distraction\".[61]",
     "connection_to_epstein": {
@@ -1657,6 +1680,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 4,
     "citations": [
       {
@@ -1730,6 +1754,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -1784,6 +1809,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -1845,6 +1871,7 @@
       "FIRST Robotics"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -1906,6 +1933,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -1962,6 +1990,7 @@
         "target_name": "Ghislaine Maxwell"
       }
     ],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -2033,6 +2062,7 @@
         "target_name": "Ehud Barak"
       }
     ],
+    "aliases": [],
     "citations_count": 9,
     "citations": [
       {
@@ -2124,6 +2154,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -2187,6 +2218,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -2249,6 +2281,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -2309,6 +2342,11 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [
+      "Clinton",
+      "President Clinton",
+      "William J. Clinton"
+    ],
     "citations_count": 3,
     "citations": [
       {
@@ -2379,6 +2417,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 5,
     "citations": [
       {
@@ -2453,6 +2492,7 @@
     },
     "affiliated_organizations": [],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -2512,6 +2552,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -2580,6 +2621,7 @@
         "target_name": "Les Wexner"
       }
     ],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -2643,6 +2685,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 10,
     "citations": [
       {
@@ -2752,6 +2795,7 @@
         "target_name": "Les Wexner"
       }
     ],
+    "aliases": [],
     "citations_count": 3,
     "citations": [
       {
@@ -2819,6 +2863,7 @@
         "target_name": "Ben Goertzel"
       }
     ],
+    "aliases": [],
     "citations_count": 4,
     "citations": [
       {
@@ -2848,7 +2893,7 @@
     "image_full": null,
     "image_caption": null,
     "category_tag": null,
-    "sector": "Academia, Science & Research",
+    "sector": "Finance, Business & Real Estate",
     "profession_summary": "Andrew Farkasco-owned a marina with Epstein in St",
     "full_text": "Andrew Farkasco-owned a marina with Epstein in St. Thomas. Documents showed the two men exchanged crude emails about women in 2010. As chair of theHasty Pudding Club, Farkas solicited at least $375,000 from Epstein between 2013 and 2019 for the institute, which helped Epstein maintain connections withHarvard University.[98]In a 2018 note, Farkas told Epstein he considered him one of his best friends. Farkas also stayed on Epstein's island. Farkas stated the relationship was purely business-related and regretted the association.[45]",
     "connection_to_epstein": {
@@ -2892,6 +2937,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -2962,6 +3008,7 @@
         "target_name": "Andrew Mountbatten-Windsor"
       }
     ],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -2983,7 +3030,7 @@
     "image_full": "https://upload.wikimedia.org/wikipedia/commons/8/88/Bill_Gates_at_the_European_Commission_-_2025_-_P067383-987995_%28cropped%29.jpg",
     "image_caption": null,
     "category_tag": null,
-    "sector": "Academia, Science & Research",
+    "sector": "Tech, Crypto & Venture Capital",
     "profession_summary": "Bill Gatesco-foundedMicrosoft",
     "full_text": "Bill Gatesco-foundedMicrosoft. Gates and Epstein met in 1992; according toThe New York Times, they also had many meetings starting in 2011.[100]In a January 2025 interview, Gates admitted it was a mistake to associate with Epstein.[101]Gates appeared in the estate photos released in December 2025;[102]the files also revealed a draft email in which Epstein made allegations that Gates rejects.[103][104][105]On February 25, 2026, Gates admitted to two affairs, confirming one revealed byThe Wall Street Journalin 2023 when it obtained an email in which Epstein appeared to blackmail Gates over that affair.[106]He also reiterated that it was \"foolish\" to associate with Epstein, and clarified that one of the photos released were taken with two of Epstein's assistants.[107][101]",
     "connection_to_epstein": {
@@ -3030,6 +3077,11 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [
+      "William Henry Gates",
+      "William Gates",
+      "Gates"
+    ],
     "citations_count": 9,
     "citations": [
       {
@@ -3119,6 +3171,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -3180,6 +3233,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -3197,7 +3251,7 @@
     "image_full": "https://upload.wikimedia.org/wikipedia/commons/9/95/Ben_Goertzel_%28CEO_and_FounderSingularityNET%29_%2854921528929%29_%28cropped%29.jpg",
     "image_caption": null,
     "category_tag": null,
-    "sector": "Academia, Science & Research",
+    "sector": "Tech, Crypto & Venture Capital",
     "profession_summary": "chief scientist atHanson Robotics, to",
     "full_text": "Ben Goertzelwas the chief scientist atHanson Robotics, to whom Epstein gave a $100,000 grant and additional funds over the next decade. Between 2010 and 2015, Epstein's non-profits channeled at least $113,000 to Goertzel's company.[111]This maneuver made Goertzel eligible to secure over $1 million in grants from the Hong Kong government.[112][113]The two corresponded between 2011 and at least through 2018.[111]",
     "connection_to_epstein": {
@@ -3238,6 +3292,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 4,
     "citations": [
       {
@@ -3316,6 +3371,7 @@
         "target_name": "Bill Gates"
       }
     ],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -3373,6 +3429,7 @@
     },
     "affiliated_organizations": [],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 4,
     "citations": [
       {
@@ -3402,7 +3459,7 @@
     "image_full": "https://upload.wikimedia.org/wikipedia/commons/8/8e/2022_Reid_Hoffman_%28cropped%29.jpg",
     "image_caption": null,
     "category_tag": null,
-    "sector": "Finance, Business & Real Estate",
+    "sector": "Tech, Crypto & Venture Capital",
     "profession_summary": "LinkedInco-founderReid Hoffmanattended the dinner withMusk,ThielandZuckerberg",
     "full_text": "LinkedInco-founderReid Hoffmanattended the dinner withMusk,ThielandZuckerberg.[55]Documents showed he visited Epstein's island in November 2014, and had multipleSkypecalls with him in 2013 and 2014 as per Epstein's calendar.[119]",
     "connection_to_epstein": {
@@ -3449,6 +3506,7 @@
         "target_name": "Mark Zuckerberg"
       }
     ],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -3512,6 +3570,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 3,
     "citations": [
       {
@@ -3585,6 +3644,7 @@
         "target_name": "Bill Gates"
       }
     ],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -3650,6 +3710,9 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [
+      "Thorbjorn Jagland"
+    ],
     "citations_count": 4,
     "citations": [
       {
@@ -3722,6 +3785,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -3779,6 +3843,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -3840,6 +3905,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -3900,6 +3966,7 @@
         "target_name": "Terje Rød-Larsen"
       }
     ],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -3975,6 +4042,7 @@
         "target_name": "Nadia Marcinko"
       }
     ],
+    "aliases": [],
     "citations_count": 4,
     "citations": [
       {
@@ -4049,6 +4117,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 5,
     "citations": [
       {
@@ -4130,6 +4199,11 @@
         "target_name": "Ghislaine Maxwell"
       }
     ],
+    "aliases": [
+      "RFK Jr",
+      "Bobby Kennedy",
+      "Robert Kennedy"
+    ],
     "citations_count": 3,
     "citations": [
       {
@@ -4201,6 +4275,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 3,
     "citations": [
       {
@@ -4271,6 +4346,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 4,
     "citations": [
       {
@@ -4336,6 +4412,7 @@
     },
     "affiliated_organizations": [],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -4402,6 +4479,7 @@
         "target_name": "Bill Clinton"
       }
     ],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -4459,6 +4537,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -4521,6 +4600,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 6,
     "citations": [
       {
@@ -4558,7 +4638,7 @@
     "image_full": null,
     "image_caption": null,
     "category_tag": null,
-    "sector": "Academia, Science & Research",
+    "sector": "Healthcare & Medicine",
     "profession_summary": "Mark Landon is anOB-GYNspecializing in high-risk pregnancies at theOhio State University Wexner...",
     "full_text": "Mark Landon is anOB-GYNspecializing in high-risk pregnancies at theOhio State University Wexner Medical Centerand a professor atOhio State University College of Medicine. He received payments from Epstein and his associates in the early 2000s, when Epstein owned property inNew Albany, Ohio, adjacent toLeslie Wexler's.[155]\n\nAfter his name appeared in the released Epstein files, Landon stated he was a paid consultant for Epstein's money management firm, advising on potential biotech investments from 2001 to 2005.[156]\n\nIn a January 2006 email, Darren Indyke asked Epstein if they still were paying Landon, on the understanding that \"Landon's agreement requires quarterly payments of $30k to be made to Landon on the 15th of January, April, July and October\", Epstein responded: \"75 per year.\"[157]",
     "connection_to_epstein": {
@@ -4605,6 +4685,7 @@
         "target_name": "Les Wexner"
       }
     ],
+    "aliases": [],
     "citations_count": 3,
     "citations": [
       {
@@ -4673,6 +4754,7 @@
         "target_name": "Jack Lang"
       }
     ],
+    "aliases": [],
     "citations_count": 6,
     "citations": [
       {
@@ -4756,6 +4838,7 @@
         "target_name": "Caroline Lang"
       }
     ],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -4777,7 +4860,7 @@
     "image_full": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Ronald_S_Lauder_-_Rally_against_anti-Semitism_-_Berlin_14_September_2014_-_1_-_c_MichaelThaidigsmann_%28cropped%29.jpg",
     "image_caption": null,
     "category_tag": null,
-    "sector": "Academia, Science & Research",
+    "sector": "Finance, Business & Real Estate",
     "profession_summary": "Ronald Lauderis an American businessman",
     "full_text": "Ronald Lauderis an American businessman. The billionaire's name appears in the Epstein files over 900times.[162]In 2014, Epstein set up alimited liability companyfor Lauder to share ownership withLeon Blackof a $25 million artwork byKurt Schwitters.[163]",
     "connection_to_epstein": {
@@ -4815,6 +4898,7 @@
       "MIT"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -4877,6 +4961,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 4,
     "citations": [
       {
@@ -4940,6 +5025,7 @@
     },
     "affiliated_organizations": [],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -5008,6 +5094,7 @@
         "target_name": "Andrew Mountbatten-Windsor"
       }
     ],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -5073,6 +5160,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 4,
     "citations": [
       {
@@ -5102,7 +5190,7 @@
     "image_full": null,
     "image_caption": null,
     "category_tag": null,
-    "sector": "Academia, Science & Research",
+    "sector": "Healthcare & Medicine",
     "profession_summary": "Thomas Magnani was Epstein's personal dentist, a graduate of Columbia University's dental...",
     "full_text": "Thomas Magnani was Epstein's personal dentist, a graduate of Columbia University's dental college, and a faculty member on their admissions review committee. After the dental college rejectedKaryna Shuliak'sadmission application, Magnani used his influence with the vice-dean for academic affairsMoss-Salentijnto revive her application.[171][172]Columbia removed Magnani from the faculty and admissions review committee.[173]",
     "connection_to_epstein": {
@@ -5149,6 +5237,7 @@
         "target_name": "Karyna Shuliak"
       }
     ],
+    "aliases": [],
     "citations_count": 3,
     "citations": [
       {
@@ -5225,6 +5314,7 @@
         "target_name": "Larry Summers"
       }
     ],
+    "aliases": [],
     "citations_count": 17,
     "citations": [
       {
@@ -5347,6 +5437,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -5410,6 +5501,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -5474,6 +5566,7 @@
         "target_name": "Robert Maxwell"
       }
     ],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -5531,6 +5624,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -5590,6 +5684,7 @@
     },
     "affiliated_organizations": [],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -5654,6 +5749,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 5,
     "citations": [
       {
@@ -5727,6 +5823,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 3,
     "citations": [
       {
@@ -5803,6 +5900,7 @@
         "target_name": "Ghislaine Maxwell"
       }
     ],
+    "aliases": [],
     "citations_count": 5,
     "citations": [
       {
@@ -5874,6 +5972,10 @@
     },
     "affiliated_organizations": [],
     "connected_individuals": [],
+    "aliases": [
+      "MBS",
+      "Mohammed bin Salman"
+    ],
     "citations_count": 1,
     "citations": [
       {
@@ -5929,6 +6031,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -5990,6 +6093,7 @@
         "target_name": "Donald Trump"
       }
     ],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -6058,6 +6162,7 @@
         "target_name": "Karyna Shuliak"
       }
     ],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -6127,6 +6232,10 @@
         "target_id": "ghislaine-maxwell",
         "target_name": "Ghislaine Maxwell"
       }
+    ],
+    "aliases": [
+      "Prince Andrew",
+      "Duke of York"
     ],
     "citations_count": 9,
     "citations": [
@@ -6216,6 +6325,7 @@
     },
     "affiliated_organizations": [],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 3,
     "citations": [
       {
@@ -6284,6 +6394,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 5,
     "citations": [
       {
@@ -6358,6 +6469,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 5,
     "citations": [
       {
@@ -6391,7 +6503,7 @@
     "image_full": "https://upload.wikimedia.org/wikipedia/commons/0/08/-NRCRIC2019_-_Special_Guest_Nathan_Myhrvold_%2840403705463%29_%28cropped%29.jpg",
     "image_caption": null,
     "category_tag": null,
-    "sector": "Academia, Science & Research",
+    "sector": "Tech, Crypto & Venture Capital",
     "profession_summary": "American inventor, scientist, and businessman,",
     "full_text": "Nathan Myhrvoldis an American inventor, scientist, and businessman, who was formerlychief technology officeratMicrosoft. Epstein and Myhrvold frequently emailed each other and regularly met, both inSeattleand New York City, from at least 2010 to 2018. Myhrvold invited Epstein to visit his investment companyIntellectual Venturesin 2014; an email shows Myhrvold urging Epstein to bring a named female acquaintance. Other emails indicate that Myhrvold visited Epstein's compound in the US Virgin Islands in 2011. Furthermore, Myhrvold contributed what was described as \"several sexually explicit wildlife photos\" to Epstein's50th birthday bookin 2003.[216]",
     "connection_to_epstein": {
@@ -6438,6 +6550,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -6496,6 +6609,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -6559,6 +6673,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -6629,6 +6744,7 @@
         "target_name": "Christopher Poole"
       }
     ],
+    "aliases": [],
     "citations_count": 4,
     "citations": [
       {
@@ -6701,6 +6817,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -6767,6 +6884,7 @@
         "target_name": "Ghislaine Maxwell"
       }
     ],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -6831,6 +6949,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 4,
     "citations": [
       {
@@ -6900,6 +7019,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -6983,6 +7103,7 @@
         "target_name": "Martin Nowak"
       }
     ],
+    "aliases": [],
     "citations_count": 4,
     "citations": [
       {
@@ -7054,6 +7175,7 @@
         "target_name": "Ghislaine Maxwell"
       }
     ],
+    "aliases": [],
     "citations_count": 5,
     "citations": [
       {
@@ -7128,6 +7250,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -7145,7 +7268,7 @@
     "image_full": "https://upload.wikimedia.org/wikipedia/commons/9/94/Stacey_Plaskett_116th_Congress.jpg",
     "image_caption": null,
     "category_tag": null,
-    "sector": "Academia, Science & Research",
+    "sector": "Politics, Government & Diplomacy",
     "profession_summary": "Stacey Plaskettis the U",
     "full_text": "Stacey Plaskettis the U.S. Virgin Islands representative. Timestamps and contents of text messages revealed an exchange between Epstein and Plaskett during a February 2019 House Oversight Committee hearing in whichMichael Cohentestified against Trump. Epstein noted that Cohen had mentioned Trump's executive assistantRhona Graff; Plaskett asked Cohen about Graff during her questioning. Plaskett tried to normalize the exchange and emphasized her record against sexual crimes.[37]",
     "connection_to_epstein": {
@@ -7185,6 +7308,7 @@
       "MIT"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -7242,6 +7366,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -7311,6 +7436,7 @@
         "target_name": "Leon Botstein"
       }
     ],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -7373,6 +7499,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 3,
     "citations": [
       {
@@ -7448,6 +7575,7 @@
         "target_name": "Ghislaine Maxwell"
       }
     ],
+    "aliases": [],
     "citations_count": 4,
     "citations": [
       {
@@ -7520,6 +7648,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -7580,6 +7709,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -7636,6 +7766,7 @@
     },
     "affiliated_organizations": [],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -7702,6 +7833,7 @@
         "target_name": "John Brockman"
       }
     ],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -7760,6 +7892,7 @@
         "target_name": "Jean-Luc Brunel"
       }
     ],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -7821,6 +7954,7 @@
     },
     "affiliated_organizations": [],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -7881,6 +8015,7 @@
         "target_name": "Jean Todt"
       }
     ],
+    "aliases": [],
     "citations_count": 3,
     "citations": [
       {
@@ -7947,6 +8082,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 6,
     "citations": [
       {
@@ -8027,6 +8163,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -8093,6 +8230,7 @@
         "target_name": "Peter Mandelson"
       }
     ],
+    "aliases": [],
     "citations_count": 4,
     "citations": [
       {
@@ -8122,7 +8260,7 @@
     "image_full": "https://upload.wikimedia.org/wikipedia/commons/d/d6/2024-08-07_Nouriel_Roubini_no_Fronteiras_do_Pensamento_2024_em_Porto_Alegre_%2853910686865%29.jpg",
     "image_caption": null,
     "category_tag": null,
-    "sector": "Academia, Science & Research",
+    "sector": "Finance, Business & Real Estate",
     "profession_summary": "Nouriel Roubiniis an economic consultant, economist, speaker, writer, and professor",
     "full_text": "Nouriel Roubiniis an economic consultant, economist, speaker, writer, and professor. Gino Yu, an academic, introduced Roubini to Epstein in 2018 by email. Roubini and Epstein met later that year.[257]",
     "connection_to_epstein": {
@@ -8161,6 +8299,7 @@
     },
     "affiliated_organizations": [],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -8220,6 +8359,7 @@
       "Apollo Global Management"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -8279,6 +8419,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -8345,6 +8486,7 @@
         "target_name": "Steve Bannon"
       }
     ],
+    "aliases": [],
     "citations_count": 8,
     "citations": [
       {
@@ -8434,6 +8576,7 @@
         "target_name": "Donald Trump"
       }
     ],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -8499,6 +8642,7 @@
         "target_name": "Ghislaine Maxwell"
       }
     ],
+    "aliases": [],
     "citations_count": 9,
     "citations": [
       {
@@ -8589,6 +8733,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -8649,6 +8794,7 @@
     },
     "affiliated_organizations": [],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -8713,6 +8859,7 @@
         "target_name": "Thorbjørn Jagland"
       }
     ],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -8730,7 +8877,7 @@
     "image_full": null,
     "image_caption": null,
     "category_tag": null,
-    "sector": "Academia, Science & Research",
+    "sector": "Healthcare & Medicine",
     "profession_summary": "Karyna Shuliakis a Belarus-born dentist and was Epstein's girlfriend",
     "full_text": "Karyna Shuliakis a Belarus-born dentist and was Epstein's girlfriend. Epstein gave her a 32.73-carat diamond ring and planned to give her all of his homes and $100million in the event of his death.[276]\n\nIn February 2012, Shuliak was denied admission to Columbia University's dental school. In August 2012, Epstein donated $100,000 to the dental school and was in contact with school administrators about admitting her.[173]",
     "connection_to_epstein": {
@@ -8770,6 +8917,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -8837,6 +8985,7 @@
         "target_name": "Jean-Luc Brunel"
       }
     ],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -8898,6 +9047,7 @@
       "White House"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -8963,6 +9113,7 @@
         "target_name": "Jean-Luc Brunel"
       }
     ],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -9021,6 +9172,10 @@
     },
     "affiliated_organizations": [],
     "connected_individuals": [],
+    "aliases": [
+      "Princess Sofia",
+      "Duchess of Varmland"
+    ],
     "citations_count": 3,
     "citations": [
       {
@@ -9096,6 +9251,7 @@
         "target_name": "Ghislaine Maxwell"
       }
     ],
+    "aliases": [],
     "citations_count": 4,
     "citations": [
       {
@@ -9167,6 +9323,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 5,
     "citations": [
       {
@@ -9244,6 +9401,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 4,
     "citations": [
       {
@@ -9311,6 +9469,7 @@
     },
     "affiliated_organizations": [],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -9374,6 +9533,10 @@
         "target_id": "ambani",
         "target_name": "Anil Ambani"
       }
+    ],
+    "aliases": [
+      "Sultan bin Sulayem",
+      "Bin Sulayem"
     ],
     "citations_count": 6,
     "citations": [
@@ -9451,6 +9614,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 6,
     "citations": [
       {
@@ -9532,6 +9696,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 4,
     "citations": [
       {
@@ -9612,6 +9777,7 @@
         "target_name": "Mark Zuckerberg"
       }
     ],
+    "aliases": [],
     "citations_count": 3,
     "citations": [
       {
@@ -9680,6 +9846,7 @@
         "target_name": "Andrew Mountbatten-Windsor"
       }
     ],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -9737,6 +9904,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -9796,6 +9964,7 @@
     },
     "affiliated_organizations": [],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 3,
     "citations": [
       {
@@ -9867,6 +10036,7 @@
         "target_name": "Terje Rød-Larsen"
       }
     ],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -9930,6 +10100,7 @@
         "target_name": "Al Seckel"
       }
     ],
+    "aliases": [],
     "citations_count": 6,
     "citations": [
       {
@@ -10015,6 +10186,7 @@
         "target_name": "Gordon Getty"
       }
     ],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -10036,7 +10208,7 @@
     "image_full": "https://upload.wikimedia.org/wikipedia/commons/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg",
     "image_caption": null,
     "category_tag": null,
-    "sector": "Academia, Science & Research",
+    "sector": "Politics, Government & Diplomacy",
     "profession_summary": "The New York Timesidentified more than 5,300files containing over 38,000references toDonald Trumpand...",
     "full_text": "The New York Timesidentified more than 5,300files containing over 38,000references toDonald Trumpand related terms in the January 2026 release. Trump was among half a dozen prominent men about whom the FBI's files included what an official described as \"salacious information\", according to internal correspondence.[308]Democrats on theHouse Oversight Committeereleased a letter matching this description, and apparently signed by Trump, on September 8, 2025.[309][310]",
     "connection_to_epstein": {
@@ -10076,6 +10248,11 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [
+      "Trump",
+      "Donald J. Trump",
+      "President Trump"
+    ],
     "citations_count": 3,
     "citations": [
       {
@@ -10135,6 +10312,7 @@
     },
     "affiliated_organizations": [],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -10191,6 +10369,7 @@
     },
     "affiliated_organizations": [],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -10246,6 +10425,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -10305,6 +10485,7 @@
     },
     "affiliated_organizations": [],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -10377,6 +10558,7 @@
         "target_name": "Kevin Spacey"
       }
     ],
+    "aliases": [],
     "citations_count": 4,
     "citations": [
       {
@@ -10456,6 +10638,7 @@
         "target_name": "Glenn Dubin"
       }
     ],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -10519,6 +10702,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -10577,6 +10761,7 @@
       "United Nations"
     ],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 1,
     "citations": [
       {
@@ -10594,7 +10779,7 @@
     "image_full": "https://upload.wikimedia.org/wikipedia/commons/2/21/Mark_Zuckerberg_in_September_2025_%28cropped%29.jpg",
     "image_caption": null,
     "category_tag": null,
-    "sector": "Finance, Business & Real Estate",
+    "sector": "Tech, Crypto & Venture Capital",
     "profession_summary": "Mark Zuckerbergis an American billionaire businessman and co-founder ofMeta",
     "full_text": "Mark Zuckerbergis an American billionaire businessman and co-founder ofMeta. In an email toThomas Pritzker, Epstein described a 2015 dinner with Zuckerberg,Musk,ThielandHoffmanas \"wild\".[55]Subsequent emails indicate that Zuckerberg asked for Epstein's contact, and that they discussed the idea that connectivity could help solve poverty.[320]",
     "connection_to_epstein": {
@@ -10645,6 +10830,7 @@
         "target_name": "Thomas Pritzker"
       }
     ],
+    "aliases": [],
     "citations_count": 2,
     "citations": [
       {
@@ -10709,6 +10895,7 @@
     },
     "affiliated_organizations": [],
     "connected_individuals": [],
+    "aliases": [],
     "citations_count": 3,
     "citations": [
       {

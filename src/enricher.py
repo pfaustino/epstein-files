@@ -84,6 +84,34 @@ SECTOR_OVERRIDES = {
     "Bruce Moskowitz": "Healthcare & Medicine",
     "Stephen Alexander": "Healthcare & Medicine",
     "Peter Attia": "Healthcare & Medicine",
+    "Bill Gates": "Tech, Crypto & Venture Capital",
+    "Donald Trump": "Politics, Government & Diplomacy",
+    "Stacey Plaskett": "Politics, Government & Diplomacy",
+    "Mark Zuckerberg": "Tech, Crypto & Venture Capital",
+    "Reid Hoffman": "Tech, Crypto & Venture Capital",
+    "Nathan Myhrvold": "Tech, Crypto & Venture Capital",
+    "Ben Goertzel": "Tech, Crypto & Venture Capital",
+    "Andrew Farkas": "Finance, Business & Real Estate",
+    "Ronald Lauder": "Finance, Business & Real Estate",
+    "Nouriel Roubini": "Finance, Business & Real Estate",
+    "John Brockman": "Entertainment, Arts & Media",
+    "Mark Landon": "Healthcare & Medicine",
+    "Thomas Magnani": "Healthcare & Medicine",
+    "Karyna Shuliak": "Healthcare & Medicine",
+    "Andrew Mountbatten-Windsor": "Royalty & Aristocracy",
+}
+
+# Known aliases and alternative names for search matching
+ALIASES = {
+    "Andrew Mountbatten-Windsor": ["Prince Andrew", "Duke of York"],
+    "Bill Gates": ["William Henry Gates", "William Gates", "Gates"],
+    "Donald Trump": ["Trump", "Donald J. Trump", "President Trump"],
+    "Bill Clinton": ["Clinton", "President Clinton", "William J. Clinton"],
+    "Robert F. Kennedy Jr.": ["RFK Jr", "Bobby Kennedy", "Robert Kennedy"],
+    "Mohammed bin Salman, Crown Prince of Saudi Arabia": ["MBS", "Mohammed bin Salman"],
+    "Thorbjørn Jagland": ["Thorbjorn Jagland"],
+    "Princess Sofia, Duchess of Värmland": ["Princess Sofia", "Duchess of Varmland"],
+    "Sultan Ahmed bin Sulayem": ["Sultan bin Sulayem", "Bin Sulayem"],
 }
 
 
@@ -484,6 +512,7 @@ def run():
             "flight_logs": flights,
             "affiliated_organizations": orgs,
             "connected_individuals": peers,
+            "aliases": ALIASES.get(name, []),
             "citations_count": len(r["citations"]),
             "citations": r["citations"],
         }
@@ -492,6 +521,7 @@ def run():
         flattened_rows.append({
             "id": r["id"],
             "name": name,
+            "aliases": "; ".join(ALIASES.get(name, [])),
             "sector": sector,
             "profession": profession,
             "primary_connection_type": connection["primary_nature"],

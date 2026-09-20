@@ -162,6 +162,7 @@ def build_graph() -> Dict[str, Any]:
             "profession": p["profession_summary"],
             "sector": sector,
             "era": conn["era"],
+            "aliases": p.get("aliases", []),
             "primary_connection": conn["primary_nature"],
             "image": p["image_thumb"],
             "wikipedia_url": p["wikipedia_url"],

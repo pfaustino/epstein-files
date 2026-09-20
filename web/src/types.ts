@@ -55,6 +55,7 @@ export interface PersonRecord {
   flight_logs: FlightLogs;
   affiliated_organizations: string[];
   connected_individuals: ConnectedPeer[];
+  aliases?: string[];
   citations_count: number;
   citations: Citation[];
 }
@@ -67,6 +68,7 @@ export interface GraphNode {
   profession?: string;
   sector?: string;
   era?: string;
+  aliases?: string[];
   primary_connection?: string;
   image?: string | null;
   wikipedia_url?: string | null;

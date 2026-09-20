@@ -55,10 +55,11 @@ export const App: React.FC = () => {
           // Search query matching
           if (query) {
             const matchesName = p.name.toLowerCase().includes(query);
+            const matchesAliases = (p.aliases || []).some(a => a.toLowerCase().includes(query));
             const matchesTitle = p.profession_summary.toLowerCase().includes(query);
             const matchesOrgs = p.affiliated_organizations.some(o => o.toLowerCase().includes(query));
             const matchesText = p.full_text.toLowerCase().includes(query);
-            if (!matchesName && !matchesTitle && !matchesOrgs && !matchesText) {
+            if (!matchesName && !matchesAliases && !matchesTitle && !matchesOrgs && !matchesText) {
               return false;
             }
           }
@@ -95,6 +96,15 @@ export const App: React.FC = () => {
   }, [peopleData, filters]);
 
   // Handlers
+  const handleSelectPersonFromSearch = (person: PersonRecord) => {
+    const node = graphData.nodes.find(n => n.id === person.id);
+    if (node) {
+      setSelectedNode(node);
+    } else {
+      handleSelectPeer(person.id);
+    }
+  };
+
   const handleSelectPeer = (peerId: string) => {
     const peerNode = graphData.nodes.find(n => n.id === peerId);
     if (peerNode) {
@@ -145,6 +155,8 @@ export const App: React.FC = () => {
         sectorCounts={sectorCounts}
         totalFiltered={filteredPersonIds.size}
         totalPeople={peopleData.length}
+        allPeople={peopleData}
+        onSelectPerson={handleSelectPersonFromSearch}
       />
 
       {/* Main View Area */}
