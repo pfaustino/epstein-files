@@ -148,8 +148,13 @@ export const FlightRouteMap: React.FC<FlightRouteMapProps> = ({
       zoomControl: false
     });
 
-    // Sleek Dark Basemap from CARTO
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    // Sleek Dark Basemap from CARTO (authenticated with free API key to eliminate watermarks)
+    const cartoKey = import.meta.env.VITE_CARTO_API_KEY || 'cb1_3t2t_1_2424eb687249634069b4df9f';
+    const tileUrl = cartoKey
+      ? `https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=${cartoKey}`
+      : 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png';
+
+    L.tileLayer(tileUrl, {
       attribution: '&copy; <a href="https://carto.com/">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
       subdomains: 'abcd',
       maxZoom: 19
