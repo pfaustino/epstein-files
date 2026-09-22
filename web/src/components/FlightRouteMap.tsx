@@ -134,6 +134,12 @@ export const FlightRouteMap: React.FC<FlightRouteMapProps> = ({
     return airports.filter(a => activeAirportCodes.has(a.code) || a.hub_type !== 'standard');
   }, [airports, activeAirportCodes]);
 
+  // Connecting routes for the currently selected airport
+  const selectedAirportRoutes = useMemo(() => {
+    if (!activeAirport) return [];
+    return routes.filter(r => r.origin === activeAirport.code || r.destination === activeAirport.code);
+  }, [routes, activeAirport]);
+
   // 1. Initialize Leaflet Map
   useEffect(() => {
     if (!mapContainerRef.current || mapRef.current) return;
@@ -302,12 +308,14 @@ export const FlightRouteMap: React.FC<FlightRouteMapProps> = ({
         L.DomEvent.stopPropagation(e);
         setActiveAirport(airport);
         setActiveRoute(null);
-        if (onSelectAirport) onSelectAirport(airport.code);
+        if (mapRef.current) {
+          mapRef.current.panTo([airport.lat, airport.lon], { animate: true, duration: 0.5 });
+        }
       });
 
       airportsLayerGroupRef.current?.addLayer(marker);
     });
-  }, [visibleAirports, activeAirport, onSelectAirport]);
+  }, [visibleAirports, activeAirport]);
 
   // Jump to specific landmark coordinate
   const jumpTo = (lat: number, lon: number, zoom: number = 9) => {
@@ -554,9 +562,10 @@ export const FlightRouteMap: React.FC<FlightRouteMapProps> = ({
                     onClick={() => {
                       onSelectAirport(activeRoute.destination);
                     }}
-                    className="w-full mt-2 py-1.5 px-3 rounded-lg bg-sky-600 hover:bg-sky-500 text-white font-medium text-xs shadow-md shadow-sky-600/20 transition-all flex items-center justify-center gap-1.5"
+                    className="w-full mt-2 py-2 px-3 rounded-lg bg-sky-600 hover:bg-sky-500 text-white font-medium text-xs shadow-md shadow-sky-600/20 transition-all flex items-center justify-center gap-1.5"
                   >
-                    <span>Inspect Destination Manifests</span>
+                    <Plane className="w-3.5 h-3.5" />
+                    <span>View {activeRoute.flight_count} Flights in Manifest Table ➔</span>
                   </button>
                 )}
               </div>
@@ -606,14 +615,39 @@ export const FlightRouteMap: React.FC<FlightRouteMapProps> = ({
                   </div>
                 </div>
 
+                {/* Connecting routes for this airport */}
+                {selectedAirportRoutes.length > 0 && (
+                  <div>
+                    <div className="text-[10px] uppercase tracking-wider text-slate-400 font-semibold mb-1">
+                      Connecting Flight Legs ({selectedAirportRoutes.length}):
+                    </div>
+                    <div className="space-y-1 max-h-36 overflow-y-auto pr-1">
+                      {selectedAirportRoutes.slice(0, 8).map(r => (
+                        <button
+                          key={r.id}
+                          onClick={() => {
+                            setActiveRoute(r);
+                            setActiveAirport(null);
+                          }}
+                          className="w-full flex items-center justify-between text-[11px] bg-slate-900/80 hover:bg-slate-800 px-2 py-1 rounded border border-slate-800/60 text-slate-300 text-left transition-colors"
+                        >
+                          <span className="font-mono">{r.origin} ➔ {r.destination}</span>
+                          <span className="text-sky-400 font-mono text-[10px]">{r.flight_count}x</span>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
                 {onSelectAirport && (
                   <button
                     onClick={() => {
                       onSelectAirport(activeAirport.code);
                     }}
-                    className="w-full mt-2 py-1.5 px-3 rounded-lg bg-sky-600 hover:bg-sky-500 text-white font-medium text-xs shadow-md shadow-sky-600/20 transition-all flex items-center justify-center gap-1.5"
+                    className="w-full mt-2 py-2 px-3 rounded-lg bg-sky-600 hover:bg-sky-500 text-white font-medium text-xs shadow-md shadow-sky-600/20 transition-all flex items-center justify-center gap-1.5"
                   >
-                    <span>Filter Manifest Table to {activeAirport.code}</span>
+                    <Plane className="w-3.5 h-3.5" />
+                    <span>View {activeAirport.total_traffic} Flights in Manifest Table ➔</span>
                   </button>
                 )}
               </div>

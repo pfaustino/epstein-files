@@ -33,30 +33,35 @@ export const FlightLogsView: React.FC<FlightLogsViewProps> = ({ data, onSelectCo
 
   // Filter flights for manifest table
   const filteredFlights = useMemo(() => {
-    return data.flights.filter(fl => {
+    return (data.flights || []).filter(fl => {
       // Core figures only filter
-      if (coreOnly && !fl.passengers.some(p => p.has_core_dossier)) {
+      if (coreOnly && !(fl.passengers || []).some(p => p.has_core_dossier)) {
         return false;
       }
 
       // Route filter
       if (selectedRoute !== 'ALL') {
+        const sel = selectedRoute.toLowerCase();
+        const rFrom = (fl.route?.from || '').toLowerCase();
+        const rTo = (fl.route?.to || '').toLowerCase();
+        const rFromDesc = (fl.route?.from_description || '').toLowerCase();
+        const rToDesc = (fl.route?.to_description || '').toLowerCase();
         const matchesRoute =
-          fl.route.from.toLowerCase().includes(selectedRoute.toLowerCase()) ||
-          fl.route.to.toLowerCase().includes(selectedRoute.toLowerCase()) ||
-          fl.route.from_description.toLowerCase().includes(selectedRoute.toLowerCase()) ||
-          fl.route.to_description.toLowerCase().includes(selectedRoute.toLowerCase());
+          rFrom.includes(sel) ||
+          rTo.includes(sel) ||
+          rFromDesc.includes(sel) ||
+          rToDesc.includes(sel);
         if (!matchesRoute) return false;
       }
 
       // Search query
       if (searchQuery.trim()) {
         const q = searchQuery.toLowerCase();
-        const dateMatch = fl.date.toLowerCase().includes(q);
-        const tailMatch = fl.aircraft.tail_number.toLowerCase().includes(q);
-        const routeMatch = fl.route.display.toLowerCase().includes(q);
-        const passMatch = fl.passengers.some(p => p.name.toLowerCase().includes(q));
-        const remarksMatch = fl.remarks.toLowerCase().includes(q);
+        const dateMatch = (fl.date || '').toLowerCase().includes(q);
+        const tailMatch = (fl.aircraft?.tail_number || '').toLowerCase().includes(q);
+        const routeMatch = (fl.route?.display || '').toLowerCase().includes(q);
+        const passMatch = (fl.passengers || []).some(p => (p?.name || '').toLowerCase().includes(q));
+        const remarksMatch = (fl.remarks || '').toLowerCase().includes(q);
         if (!dateMatch && !tailMatch && !routeMatch && !passMatch && !remarksMatch) {
           return false;
         }
@@ -395,57 +400,75 @@ export const FlightLogsView: React.FC<FlightLogsViewProps> = ({ data, onSelectCo
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-slate-800/60 text-slate-200">
-                  {paginatedFlights.map(fl => (
-                    <tr key={fl.id} className="hover:bg-slate-800/40 transition-colors">
-                      <td className="py-3 px-4 font-mono text-sky-400 whitespace-nowrap">
-                        {fl.date || 'Undated'}
-                      </td>
-                      <td className="py-3 px-4 whitespace-nowrap">
-                        <div className="font-mono font-medium text-white">{fl.aircraft.tail_number}</div>
-                        {fl.aircraft.make_model && (
-                          <div className="text-[10px] text-slate-400">{fl.aircraft.make_model}</div>
+                  {paginatedFlights.length === 0 ? (
+                    <tr>
+                      <td colSpan={6} className="py-12 text-center text-slate-400">
+                        <Plane className="w-8 h-8 text-slate-600 mx-auto mb-2 opacity-50" />
+                        <p className="text-sm font-medium text-slate-300">No flights match the current filter</p>
+                        <p className="text-xs text-slate-500 mt-1">Try clearing the route filter or adjusting your search query.</p>
+                        {selectedRoute !== 'ALL' && (
+                          <button
+                            onClick={() => setSelectedRoute('ALL')}
+                            className="mt-3 px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-sky-400 text-xs font-mono border border-slate-700 transition-all"
+                          >
+                            Reset route filter to "All Airports & Routes"
+                          </button>
                         )}
                       </td>
-                      <td className="py-3 px-4 whitespace-nowrap">
-                        <div className="font-mono text-white flex items-center gap-1.5">
-                          <span>{fl.route.from}</span>
-                          <span className="text-slate-500">➔</span>
-                          <span>{fl.route.to}</span>
-                        </div>
-                        <div className="text-[10px] text-slate-400">
-                          {fl.route.to_description !== fl.route.to && fl.route.to_description}
-                        </div>
-                      </td>
-                      <td className="py-3 px-4">
-                        <div className="flex flex-wrap gap-1 max-w-md">
-                          {fl.passengers.length === 0 ? (
-                            <span className="text-slate-500 italic">No passengers listed</span>
-                          ) : (
-                            fl.passengers.map((p, idx) => (
-                              <span
-                                key={idx}
-                                onClick={() => p.matched_person_id && onSelectCorePerson(p.matched_person_id)}
-                                className={`text-[11px] px-2 py-0.5 rounded-full border transition-all ${
-                                  p.has_core_dossier
-                                    ? 'bg-sky-950 text-sky-300 border-sky-700/80 cursor-pointer hover:bg-sky-900 font-semibold'
-                                    : 'bg-slate-800/80 text-slate-300 border-slate-700'
-                                }`}
-                              >
-                                {p.name}
-                                {p.has_core_dossier && ' ↗'}
-                              </span>
-                            ))
-                          )}
-                        </div>
-                      </td>
-                      <td className="py-3 px-4 text-slate-400 max-w-xs truncate">
-                        {fl.remarks || '—'}
-                      </td>
-                      <td className="py-3 px-4 text-right font-mono text-slate-500">
-                        p. {fl.page_number}
-                      </td>
                     </tr>
-                  ))}
+                  ) : (
+                    paginatedFlights.map(fl => (
+                      <tr key={fl.id} className="hover:bg-slate-800/40 transition-colors">
+                        <td className="py-3 px-4 font-mono text-sky-400 whitespace-nowrap">
+                          {fl.date || 'Undated'}
+                        </td>
+                        <td className="py-3 px-4 whitespace-nowrap">
+                          <div className="font-mono font-medium text-white">{fl.aircraft?.tail_number || 'Unknown'}</div>
+                          {fl.aircraft?.make_model && (
+                            <div className="text-[10px] text-slate-400">{fl.aircraft.make_model}</div>
+                          )}
+                        </td>
+                        <td className="py-3 px-4 whitespace-nowrap">
+                          <div className="font-mono text-white flex items-center gap-1.5">
+                            <span>{fl.route?.from || '—'}</span>
+                            <span className="text-slate-500">➔</span>
+                            <span>{fl.route?.to || '—'}</span>
+                          </div>
+                          <div className="text-[10px] text-slate-400">
+                            {fl.route?.to_description && fl.route.to_description !== fl.route?.to && fl.route.to_description}
+                          </div>
+                        </td>
+                        <td className="py-3 px-4">
+                          <div className="flex flex-wrap gap-1 max-w-md">
+                            {(fl.passengers || []).length === 0 ? (
+                              <span className="text-slate-500 italic">No passengers listed</span>
+                            ) : (
+                              (fl.passengers || []).map((p, idx) => (
+                                <span
+                                  key={idx}
+                                  onClick={() => p.matched_person_id && onSelectCorePerson(p.matched_person_id)}
+                                  className={`text-[11px] px-2 py-0.5 rounded-full border transition-all ${
+                                    p.has_core_dossier
+                                      ? 'bg-sky-950 text-sky-300 border-sky-700/80 cursor-pointer hover:bg-sky-900 font-semibold'
+                                      : 'bg-slate-800/80 text-slate-300 border-slate-700'
+                                  }`}
+                                >
+                                  {p.name}
+                                  {p.has_core_dossier && ' ↗'}
+                                </span>
+                              ))
+                            )}
+                          </div>
+                        </td>
+                        <td className="py-3 px-4 text-slate-400 max-w-xs truncate">
+                          {fl.remarks || '—'}
+                        </td>
+                        <td className="py-3 px-4 text-right font-mono text-slate-500">
+                          p. {fl.page_number}
+                        </td>
+                      </tr>
+                    ))
+                  )}
                 </tbody>
               </table>
             </div>

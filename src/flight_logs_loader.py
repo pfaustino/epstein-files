@@ -180,12 +180,12 @@ def run():
             make_model = aircraft_obj.get("make_model", "")
 
             route_obj = fl.get("route", {})
-            origin = route_obj.get("from", "Unknown")
-            destination = route_obj.get("to", "Unknown")
+            origin = (route_obj.get("from") or "Unknown").strip()
+            destination = (route_obj.get("to") or "Unknown").strip()
 
             # Clean and classify route
-            origin_desc = AIRPORT_MAPPINGS.get(origin, origin)
-            dest_desc = AIRPORT_MAPPINGS.get(destination, destination)
+            origin_desc = AIRPORT_MAPPINGS.get(origin, origin) or origin
+            dest_desc = AIRPORT_MAPPINGS.get(destination, destination) or destination
             route_label = f"{origin} → {destination}"
             destination_counts[dest_desc] += 1
 

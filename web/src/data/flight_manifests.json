@@ -9790,11 +9790,11 @@
         "make_model": ""
       },
       "route": {
-        "from": "",
-        "to": "",
-        "from_description": "",
-        "to_description": "",
-        "display": " → "
+        "from": "Unknown",
+        "to": "Unknown",
+        "from_description": "Unknown",
+        "to_description": "Unknown",
+        "display": "Unknown → Unknown"
       },
       "remarks": "TOTALS SENT FROM TYPE POINT, PURCHASING FORM, FLIGHT FENCE AND TYPE TO",
       "passengers": [],
@@ -17460,10 +17460,10 @@
       },
       "route": {
         "from": "SIMULATOR",
-        "to": null,
+        "to": "Unknown",
         "from_description": "SIMULATOR",
-        "to_description": null,
-        "display": "SIMULATOR → None"
+        "to_description": "Unknown",
+        "display": "SIMULATOR → Unknown"
       },
       "remarks": "RECURRING TRAINING HS125-ILG",
       "passengers": [],
@@ -17479,10 +17479,10 @@
       },
       "route": {
         "from": "SIMULATOR",
-        "to": null,
+        "to": "Unknown",
         "from_description": "SIMULATOR",
-        "to_description": null,
-        "display": "SIMULATOR → None"
+        "to_description": "Unknown",
+        "display": "SIMULATOR → Unknown"
       },
       "remarks": "RECURRENT TRAINING G1159-SAV",
       "passengers": [],
