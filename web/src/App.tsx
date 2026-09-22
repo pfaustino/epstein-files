@@ -4,6 +4,8 @@ import rawPeopleData from './data/people.json';
 import rawBlackBookData from './data/black_book.json';
 import rawFlightsData from './data/flight_manifests.json';
 import rawDoesData from './data/court_does.json';
+import rawEftaDatasets from './data/efta_datasets.json';
+import rawEftaReports from './data/efta_reports.json';
 
 import {
   GraphData,
@@ -15,6 +17,8 @@ import {
   BlackBookData,
   FlightManifestsData,
   CourtDoesData,
+  EftaDataset,
+  EftaReport,
 } from './types';
 
 import { Header } from './components/Header';
@@ -26,6 +30,7 @@ import { PathFinderModal } from './components/PathFinderModal';
 import { BlackBookView } from './components/BlackBookView';
 import { FlightLogsView } from './components/FlightLogsView';
 import { CourtDoesView } from './components/CourtDoesView';
+import { EftaReportsView } from './components/EftaReportsView';
 
 export const App: React.FC = () => {
   const graphData = rawGraphData as unknown as GraphData;
@@ -33,6 +38,8 @@ export const App: React.FC = () => {
   const blackBookData = rawBlackBookData as unknown as BlackBookData;
   const flightsData = rawFlightsData as unknown as FlightManifestsData;
   const doesData = rawDoesData as unknown as CourtDoesData;
+  const eftaDatasetsData = rawEftaDatasets as unknown as EftaDataset[];
+  const eftaReportsData = rawEftaReports as unknown as EftaReport[];
 
   // Active Navigation Tab
   const [activeTab, setActiveTab] = useState<ActiveTab>('core');
@@ -54,6 +61,7 @@ export const App: React.FC = () => {
     flewPlaneOnly: false,
     visitedTownhouseOnly: false,
     post2008Only: false,
+    extendedNetwork: false,
   });
 
   // People map by id
@@ -237,6 +245,7 @@ export const App: React.FC = () => {
         blackBookCount={blackBookData.metadata.total_entries}
         flightsCount={flightsData.metadata.total_flights}
         doesCount={doesData.metadata.total_does}
+        eftaReportsCount={eftaReportsData.length}
         onOpenPathFinder={() => setIsPathFinderOpen(true)}
       />
 
@@ -264,6 +273,7 @@ export const App: React.FC = () => {
                 onSelectNode={setSelectedNode}
                 filteredNodeIds={filteredPersonIds}
                 highlightPathNodeIds={highlightPathNodeIds}
+                extendedNetwork={filters.extendedNetwork}
               />
             ) : (
               <DirectoryView
@@ -294,6 +304,14 @@ export const App: React.FC = () => {
         <CourtDoesView
           data={doesData}
           onSelectCorePerson={handleCrossTabNavigate}
+        />
+      )}
+
+      {activeTab === 'efta_reports' && (
+        <EftaReportsView
+          reports={eftaReportsData}
+          datasets={eftaDatasetsData}
+          onSelectPerson={handleCrossTabNavigate}
         />
       )}
 

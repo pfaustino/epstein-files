@@ -1,5 +1,5 @@
 import React from 'react';
-import { Network, LayoutGrid, Route, BookOpen, Plane, Scale, ExternalLink } from 'lucide-react';
+import { Network, LayoutGrid, Route, BookOpen, Plane, Scale, ExternalLink, FileText } from 'lucide-react';
 import { ViewMode, ActiveTab } from '../types';
 
 interface HeaderProps {
@@ -12,6 +12,7 @@ interface HeaderProps {
   blackBookCount: number;
   flightsCount: number;
   doesCount: number;
+  eftaReportsCount?: number;
   onOpenPathFinder: () => void;
 }
 
@@ -25,6 +26,7 @@ export const Header: React.FC<HeaderProps> = ({
   blackBookCount,
   flightsCount,
   doesCount,
+  eftaReportsCount = 201,
   onOpenPathFinder,
 }) => {
   return (
@@ -37,6 +39,7 @@ export const Header: React.FC<HeaderProps> = ({
             {activeTab === 'black_book' && <BookOpen className="w-5 h-5 text-amber-300" />}
             {activeTab === 'flights' && <Plane className="w-5 h-5 text-sky-300" />}
             {activeTab === 'court_does' && <Scale className="w-5 h-5 text-rose-300" />}
+            {activeTab === 'efta_reports' && <FileText className="w-5 h-5 text-emerald-300" />}
           </div>
           <div>
             <div className="flex items-center gap-2">
@@ -76,6 +79,13 @@ export const Header: React.FC<HeaderProps> = ({
                   <span className="font-mono text-rose-400">{doesCount} Does (1–187)</span>
                 </>
               )}
+              {activeTab === 'efta_reports' && (
+                <>
+                  <span>DOJ EFTA Forensic Reports & Releases</span>
+                  <span className="text-slate-600">•</span>
+                  <span className="font-mono text-emerald-400">{eftaReportsCount} Reports • 12 DOJ Datasets</span>
+                </>
+              )}
             </p>
           </div>
         </div>
@@ -93,8 +103,8 @@ export const Header: React.FC<HeaderProps> = ({
 
       {/* Primary Tab Navigation & View Mode Sub-Controls */}
       <div className="flex items-center flex-wrap gap-2 justify-between md:justify-end">
-        {/* 4 Primary Navigation Tabs */}
-        <div className="flex items-center bg-slate-950/80 p-1 rounded-xl border border-slate-800 shadow-inner">
+        {/* 5 Primary Navigation Tabs */}
+        <div className="flex items-center flex-wrap bg-slate-950/80 p-1 rounded-xl border border-slate-800 shadow-inner">
           {/* Tab 1: Core Network */}
           <button
             onClick={() => setActiveTab('core')}
@@ -164,6 +174,24 @@ export const Header: React.FC<HeaderProps> = ({
               activeTab === 'court_does' ? 'bg-black/30 text-white' : 'bg-slate-800 text-slate-400'
             }`}>
               {doesCount}
+            </span>
+          </button>
+
+          {/* Tab 5: EFTA Archives */}
+          <button
+            onClick={() => setActiveTab('efta_reports')}
+            className={`flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+              activeTab === 'efta_reports'
+                ? 'bg-gradient-to-r from-emerald-600 to-teal-600 text-white shadow-md shadow-emerald-600/30'
+                : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
+            }`}
+          >
+            <FileText className="w-3.5 h-3.5 text-emerald-400" />
+            <span>EFTA Archives</span>
+            <span className={`text-[10px] px-1.5 py-0.2 rounded-full font-mono ${
+              activeTab === 'efta_reports' ? 'bg-black/30 text-white' : 'bg-slate-800 text-slate-400'
+            }`}>
+              {eftaReportsCount}
             </span>
           </button>
         </div>

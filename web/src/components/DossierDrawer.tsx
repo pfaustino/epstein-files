@@ -16,6 +16,7 @@ import {
   Ban,
   ShieldAlert,
   Scale,
+  FolderArchive,
 } from 'lucide-react';
 import { PersonRecord, GraphNode } from '../types';
 import { SECTOR_COLORS, LEGAL_STANDING_CONFIG } from './FilterBar';
@@ -203,6 +204,82 @@ export const DossierDrawer: React.FC<DossierDrawerProps> = ({
                 </div>
               )}
             </div>
+
+            {/* DOJ EFTA Forensic Records Card */}
+            {(Boolean(personRecord.efta_mentions) ||
+              Boolean(personRecord.fbi_notes) ||
+              (personRecord.efta_citations && personRecord.efta_citations.length > 0) ||
+              (personRecord.linked_reports && personRecord.linked_reports.length > 0)) && (
+              <div className="bg-[#0c1220] rounded-xl p-3.5 border border-indigo-900/60 space-y-2.5 shadow-md">
+                <div className="flex items-center justify-between">
+                  <span className="text-xs font-bold uppercase tracking-wider text-indigo-300 flex items-center gap-1.5">
+                    <FolderArchive className="w-3.5 h-3.5 text-indigo-400" />
+                    DOJ EFTA Forensic Records
+                  </span>
+                  {personRecord.efta_mentions !== undefined && personRecord.efta_mentions > 0 && (
+                    <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-indigo-950 text-indigo-300 border border-indigo-700">
+                      {personRecord.efta_mentions.toLocaleString()} mentions in DS10
+                    </span>
+                  )}
+                </div>
+
+                {/* FBI Briefing Notes if available */}
+                {personRecord.fbi_notes && (
+                  <div className="text-xs text-slate-200 bg-black/40 p-2.5 rounded-lg border border-slate-800 leading-relaxed italic">
+                    "{personRecord.fbi_notes}"
+                  </div>
+                )}
+
+                {/* EFTA Bates Document Citations */}
+                {personRecord.efta_citations && personRecord.efta_citations.length > 0 && (
+                  <div className="space-y-1">
+                    <span className="text-[10px] font-mono uppercase tracking-wider text-slate-400">
+                      Official Bates Citations:
+                    </span>
+                    <div className="flex flex-wrap gap-1.5 pt-0.5">
+                      {personRecord.efta_citations.map(cit => (
+                        <a
+                          key={cit}
+                          href={`https://www.justice.gov/epstein/files/DataSet%2010/${cit}.pdf`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-1 text-[10px] font-mono px-2 py-0.5 rounded bg-slate-900 text-indigo-300 border border-indigo-800/80 hover:bg-indigo-900 hover:text-white transition-colors"
+                          title="View official DOJ PDF on justice.gov"
+                        >
+                          <span>{cit}</span>
+                          <ExternalLink className="w-2.5 h-2.5" />
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Linked Investigation Reports */}
+                {personRecord.linked_reports && personRecord.linked_reports.length > 0 && (
+                  <div className="space-y-1 pt-1 border-t border-slate-800/60">
+                    <span className="text-[10px] font-mono uppercase tracking-wider text-slate-400">
+                      Topical Forensic Reports:
+                    </span>
+                    <div className="space-y-1 pt-0.5">
+                      {personRecord.linked_reports.map(rep => (
+                        <a
+                          key={rep.id}
+                          href={rep.reader_url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center justify-between p-2 rounded-lg bg-slate-900/80 hover:bg-slate-800 border border-slate-800 hover:border-emerald-700/60 text-xs text-slate-200 transition-all group"
+                        >
+                          <span className="font-medium group-hover:text-emerald-400 transition-colors truncate">
+                            {rep.title}
+                          </span>
+                          <ExternalLink className="w-3 h-3 text-slate-500 group-hover:text-emerald-400 shrink-0" />
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
 
             {/* Data Provenance & Legal Context Box */}
             <div className="bg-[#0b0e17] rounded-xl p-3 border border-slate-800 space-y-2">

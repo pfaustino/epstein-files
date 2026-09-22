@@ -10,6 +10,7 @@ interface NetworkGraphProps {
   onSelectNode: (node: GraphNode | null) => void;
   filteredNodeIds: Set<string>;
   highlightPathNodeIds?: Set<string>;
+  extendedNetwork?: boolean;
 }
 
 // Global image cache for canvas avatar drawing
@@ -23,6 +24,7 @@ export const NetworkGraph: React.FC<NetworkGraphProps> = ({
   onSelectNode,
   filteredNodeIds,
   highlightPathNodeIds,
+  extendedNetwork = false,
 }) => {
   const fgRef = useRef<ForceGraphMethods>();
   const containerRef = useRef<HTMLDivElement>(null);
@@ -81,6 +83,9 @@ export const NetworkGraph: React.FC<NetworkGraphProps> = ({
     const visiblePersonIds = new Set<string>();
     visiblePersonIds.add('jeffrey-epstein');
     graphData.nodes.forEach(n => {
+      if (!extendedNetwork && n.is_extended) {
+        return;
+      }
       if (filteredNodeIds.has(n.id)) {
         visiblePersonIds.add(n.id);
       }
@@ -89,6 +94,7 @@ export const NetworkGraph: React.FC<NetworkGraphProps> = ({
     // Find active orgs and locations that have edges to at least one visible person
     const connectedAuxNodeIds = new Set<string>();
     graphData.edges.forEach(e => {
+      if (!extendedNetwork && e.is_extended) return;
       const sourceId = typeof e.source === 'object' ? (e.source as GraphNode).id : e.source;
       const targetId = typeof e.target === 'object' ? (e.target as GraphNode).id : e.target;
       
@@ -100,10 +106,14 @@ export const NetworkGraph: React.FC<NetworkGraphProps> = ({
       }
     });
 
-    const isUnfiltered = filteredNodeIds.size >= graphData.nodes.filter(n => n.type === 'person').length;
+    const isUnfiltered =
+      filteredNodeIds.size >=
+      graphData.nodes.filter(n => n.type === 'person' && (extendedNetwork || !n.is_extended)).length;
     const visibleNodeIdSet = new Set<string>();
 
     graphData.nodes.forEach(n => {
+      if (!extendedNetwork && n.is_extended) return;
+
       if (n.id === 'jeffrey-epstein' || visiblePersonIds.has(n.id)) {
         visibleNodeIdSet.add(n.id);
       } else if (n.type === 'organization' || n.type === 'location') {
@@ -116,6 +126,7 @@ export const NetworkGraph: React.FC<NetworkGraphProps> = ({
     const visibleNodes = graphData.nodes.filter(n => visibleNodeIdSet.has(n.id));
 
     const visibleEdges = graphData.edges.filter(e => {
+      if (!extendedNetwork && e.is_extended) return false;
       const sourceId = typeof e.source === 'object' ? (e.source as GraphNode).id : e.source;
       const targetId = typeof e.target === 'object' ? (e.target as GraphNode).id : e.target;
       return visibleNodeIdSet.has(sourceId) && visibleNodeIdSet.has(targetId);
@@ -125,7 +136,7 @@ export const NetworkGraph: React.FC<NetworkGraphProps> = ({
       nodes: visibleNodes,
       links: visibleEdges,
     };
-  }, [graphData, filteredNodeIds]);
+  }, [graphData, filteredNodeIds, extendedNetwork]);
 
   // Configure D3 Forces: Repulsion, Link Distances, and Non-Overlapping Collision
   useEffect(() => {

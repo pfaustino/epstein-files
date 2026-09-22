@@ -1,0 +1,1610 @@
+[
+  {
+    "path": "art/ART_INVESTIGATION_COMPLETE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8afc8711084d333ea5ac36df9d544be062be86a8",
+    "size": 106375,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/8afc8711084d333ea5ac36df9d544be062be86a8"
+  },
+  {
+    "path": "art/ART_INVESTIGATION_OCR_IMAGES.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "58d174ce8980bbc3fc46f0e3714d67b8ec030f95",
+    "size": 55778,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/58d174ce8980bbc3fc46f0e3714d67b8ec030f95"
+  },
+  {
+    "path": "art/ART_INVESTIGATION_REDACTIONS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "48f56a7d943a75635fb7c2a9a74417fb880f3bc1",
+    "size": 52512,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/48f56a7d943a75635fb7c2a9a74417fb880f3bc1"
+  },
+  {
+    "path": "art/ART_INVESTIGATION_WEB_RESEARCH.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1ec7679a9e041ca7531101190214d8fe7489ae7e",
+    "size": 62803,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/1ec7679a9e041ca7531101190214d8fe7489ae7e"
+  },
+  {
+    "path": "audits/FACTUAL_ACCURACY_AUDIT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7cedc3118e0a515068ee7f283258c318281e87d5",
+    "size": 152561,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/7cedc3118e0a515068ee7f283258c318281e87d5"
+  },
+  {
+    "path": "audits/PAGE_COUNT_AUDIT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3a7ecfecd84c9150abe1baaeab71d781ae0d12fd",
+    "size": 1210506,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/3a7ecfecd84c9150abe1baaeab71d781ae0d12fd"
+  },
+  {
+    "path": "audits/README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "14c2735be8c599114b2454fa22a5f52b0028ba22",
+    "size": 1811,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/14c2735be8c599114b2454fa22a5f52b0028ba22"
+  },
+  {
+    "path": "congressional/CONGRESSIONAL_ADDENDUM.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "55dd4f3f8c0c9d7c2cb0de26590477b186398929",
+    "size": 14154,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/55dd4f3f8c0c9d7c2cb0de26590477b186398929"
+  },
+  {
+    "path": "congressional/CONGRESSIONAL_FOLLOWUP_NEW_FINDINGS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "39a961b464967ea03201b66a836e19c568f7e564",
+    "size": 29198,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/39a961b464967ea03201b66a836e19c568f7e564"
+  },
+  {
+    "path": "congressional/CONGRESSIONAL_READING_GUIDE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dea39c632352320932b2a13a8a0f19b227d9bc87",
+    "size": 35313,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/dea39c632352320932b2a13a8a0f19b227d9bc87"
+  },
+  {
+    "path": "congressional/CONGRESSIONAL_SUBPOENA_GUIDE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "38010022cb38079107bdf09827fb52a24f58f77b",
+    "size": 214351,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/38010022cb38079107bdf09827fb52a24f58f77b"
+  },
+  {
+    "path": "congressional/CONGRESS_RAW_EFTA_LIST.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0ea976a9f9ffc9a63c2392e3377814de397a729b",
+    "size": 109283,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/0ea976a9f9ffc9a63c2392e3377814de397a729b"
+  },
+  {
+    "path": "congressional/DEPOSITION_ANALYSIS_INDYKE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d08d4e6531865e40aa6b56fa34114ee6a9a9b1ac",
+    "size": 35615,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/d08d4e6531865e40aa6b56fa34114ee6a9a9b1ac"
+  },
+  {
+    "path": "congressional/DEPOSITION_ANALYSIS_KAHN.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "db81a2f29810beb71d79d535f87b891d715f6d8d",
+    "size": 41395,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/db81a2f29810beb71d79d535f87b891d715f6d8d"
+  },
+  {
+    "path": "congressional/DEPOSITION_ANALYSIS_NOEL.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be3daeb577494075b103f18cb2da06f0dbd60255",
+    "size": 51668,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/be3daeb577494075b103f18cb2da06f0dbd60255"
+  },
+  {
+    "path": "congressional/WHAT_CONGRESS_SAID_ABOUT_THE_EPSTEIN_FILES.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "248d14c2c7f41a03acda5c54c3b5e993525061d2",
+    "size": 1020224,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/248d14c2c7f41a03acda5c54c3b5e993525061d2"
+  },
+  {
+    "path": "congressional/WITNESS_BRIEF_INDYKE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a7fd5121ef1f32800dac24064f74293d434f9773",
+    "size": 50615,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/a7fd5121ef1f32800dac24064f74293d434f9773"
+  },
+  {
+    "path": "congressional/WITNESS_BRIEF_KAHN.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "43c8b7d53d615145b147c26f6e8541344401b9a2",
+    "size": 32663,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/43c8b7d53d615145b147c26f6e8541344401b9a2"
+  },
+  {
+    "path": "congressional/WITNESS_BRIEF_KELLEN.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6f7904851f0e2168488f71c785722b3323cdfc93",
+    "size": 26017,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/6f7904851f0e2168488f71c785722b3323cdfc93"
+  },
+  {
+    "path": "congressional/WITNESS_BRIEF_LUTNICK.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2dfb77edbcb102ee2466e5c8d85730cff75aa31c",
+    "size": 68232,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/2dfb77edbcb102ee2466e5c8d85730cff75aa31c"
+  },
+  {
+    "path": "congressional/WITNESS_BRIEF_NOEL.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cc31354714359891e04b416c321d8153e11f4eea",
+    "size": 41313,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/cc31354714359891e04b416c321d8153e11f4eea"
+  },
+  {
+    "path": "congressional/WITNESS_BRIEF_WAITT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ba7cd4859e6f5ff032f8c95c36e81769890149ec",
+    "size": 70378,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/ba7cd4859e6f5ff032f8c95c36e81769890149ec"
+  },
+  {
+    "path": "congressional/congressional_priority_list.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2ddfd4e79f43a92913bc18d1edfd154a6b07566c",
+    "size": 34844,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/2ddfd4e79f43a92913bc18d1edfd154a6b07566c"
+  },
+  {
+    "path": "evidence/1B136_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9377c66c0a25ae3199f4d0ed29d06d62b4d574d5",
+    "size": 35839,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/9377c66c0a25ae3199f4d0ed29d06d62b4d574d5"
+  },
+  {
+    "path": "evidence/BLACKOUT_PERIOD_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0a1d4d0224de2f1c933e3d4d19c6482ca5ad7a9d",
+    "size": 55216,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/0a1d4d0224de2f1c933e3d4d19c6482ca5ad7a9d"
+  },
+  {
+    "path": "evidence/CORRUPTED_PDF_FORENSICS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a4c389b66b531903741878902591f4ac58df352f",
+    "size": 11770,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/a4c389b66b531903741878902591f4ac58df352f"
+  },
+  {
+    "path": "evidence/DEFECTIVE_REDACTIONS_PUBLIC_GUIDE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2ceeaf3a8862e197375900f7562431bdba6b8558",
+    "size": 10010,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/2ceeaf3a8862e197375900f7562431bdba6b8558"
+  },
+  {
+    "path": "evidence/DEFECTIVE_REDACTIONS_TECHNICAL_REPORT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "752a5336b6f8565b3f075eec69466b683ce94738",
+    "size": 14584,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/752a5336b6f8565b3f075eec69466b683ce94738"
+  },
+  {
+    "path": "evidence/DEVICE_FORENSICS_COMPLETE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "70434dd1f01b76eb7fd17cebfed5b5b6b2a6ce6c",
+    "size": 59589,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/70434dd1f01b76eb7fd17cebfed5b5b6b2a6ce6c"
+  },
+  {
+    "path": "evidence/EFTA00004800_DEEP_DIVE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4bb10ad065b32b8a008ab402e0b336f0fa470a07",
+    "size": 32743,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/4bb10ad065b32b8a008ab402e0b336f0fa470a07"
+  },
+  {
+    "path": "evidence/EVIDENCE_COMPILATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cc4e3704a292f389333b8b00921c3ff1ad3e86db",
+    "size": 18740,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/cc4e3704a292f389333b8b00921c3ff1ad3e86db"
+  },
+  {
+    "path": "evidence/FOUR_CHAN_PARAMEDIC_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0b43d9ef79a2bf15de460f8c30ca8f6281d6d5ce",
+    "size": 39457,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/0b43d9ef79a2bf15de460f8c30ca8f6281d6d5ce"
+  },
+  {
+    "path": "evidence/GABRIELLA_RICO_JIMENEZ_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "85b7d48acecf9b9a1fffeebffe4d479fe108c12a",
+    "size": 19078,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/85b7d48acecf9b9a1fffeebffe4d479fe108c12a"
+  },
+  {
+    "path": "evidence/MAXWELL_FIREARMS_LICENSE_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6ea6fac78270ddaf4d76090d896cbd36b039cd11",
+    "size": 39990,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/6ea6fac78270ddaf4d76090d896cbd36b039cd11"
+  },
+  {
+    "path": "evidence/MCC_INMATE_WITNESS_INTERVIEWS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "657d093d43afc76422dd72a34e606bd9de2e8073",
+    "size": 32480,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/657d093d43afc76422dd72a34e606bd9de2e8073"
+  },
+  {
+    "path": "evidence/ONLINE_EVIDENCE_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4cf96a30aa2ecc5425432d15784bcf9372ba2de0",
+    "size": 44586,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/4cf96a30aa2ecc5425432d15784bcf9372ba2de0"
+  },
+  {
+    "path": "evidence/PHONE_RECORDS_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "86f20bad60fcc76a5a465412f1fa3ad34c89bdce",
+    "size": 30065,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/86f20bad60fcc76a5a465412f1fa3ad34c89bdce"
+  },
+  {
+    "path": "evidence/PLIST_FORENSIC_SEARCH.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4bbc854e53a282282ad0c9ecf11421370ed05694",
+    "size": 31124,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/4bbc854e53a282282ad0c9ecf11421370ed05694"
+  },
+  {
+    "path": "evidence/PLIST_REDACTED_EMAILS_DEEP_DIVE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "907857aee6501573ac6a588ecc11899db443f23c",
+    "size": 64365,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/907857aee6501573ac6a588ecc11899db443f23c"
+  },
+  {
+    "path": "evidence/PLIST_TIMESTAMP_TRANSACTION_CORRELATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "58d402f010c104d0deaff530668fe2d47254a519",
+    "size": 37711,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/58d402f010c104d0deaff530668fe2d47254a519"
+  },
+  {
+    "path": "evidence/VICTIM_JOURNAL_CORROBORATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "08060ecc4d2a80a9bcbb8bb4c1a31b0036d7a042",
+    "size": 46474,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/08060ecc4d2a80a9bcbb8bb4c1a31b0036d7a042"
+  },
+  {
+    "path": "financial/CRYPTO_NETWORK_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2c1b39eeaccc111e84233b6f3dee26409d760946",
+    "size": 36987,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/2c1b39eeaccc111e84233b6f3dee26409d760946"
+  },
+  {
+    "path": "financial/DILORIO_APOLLO_WHISTLEBLOWER.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "97fafa8ce1db6a2c6508c2419cbb7ee08a6011a9",
+    "size": 41013,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/97fafa8ce1db6a2c6508c2419cbb7ee08a6011a9"
+  },
+  {
+    "path": "financial/FORENSIC_ACCT_1_HAZE_DRAWDOWN.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "200384df13683beb1b998a25727da8cae4bc49ee",
+    "size": 54932,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/200384df13683beb1b998a25727da8cae4bc49ee"
+  },
+  {
+    "path": "financial/FORENSIC_ACCT_2_MONEY_SOURCES.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "282934f971e395fffe4efac27694b4481f3e2c12",
+    "size": 43812,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/282934f971e395fffe4efac27694b4481f3e2c12"
+  },
+  {
+    "path": "financial/FORENSIC_ACCT_3_INTER_ENTITY_FLOWS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "59daf59083eca803351905c9f339f074c557869a",
+    "size": 59885,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/59daf59083eca803351905c9f339f074c557869a"
+  },
+  {
+    "path": "financial/FORENSIC_ACCT_4_JABWCPA_INSTITUTION1.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8837560b2be3223e492ba9cb92d9f7327ddce0bd",
+    "size": 35646,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/8837560b2be3223e492ba9cb92d9f7327ddce0bd"
+  },
+  {
+    "path": "financial/FORENSIC_ACCT_5_CALENDAR_CORRELATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7fb8f85ec409e2ed450ba0a3a43a53f19be98927",
+    "size": 62423,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/7fb8f85ec409e2ed450ba0a3a43a53f19be98927"
+  },
+  {
+    "path": "financial/FORENSIC_ACCT_6_POST_DEATH_ASSETS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6aa6063b4808bb93d6b6af613192800a8dc29932",
+    "size": 50692,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/6aa6063b4808bb93d6b6af613192800a8dc29932"
+  },
+  {
+    "path": "financial/INVESTIGATION_2_DB_KYC_BREACH.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "77b3f7a637585b3efa4e92daf96bc02dc47843e6",
+    "size": 49935,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/77b3f7a637585b3efa4e92daf96bc02dc47843e6"
+  },
+  {
+    "path": "financial/INVESTIGATION_3_HAZE_TRUST_AML.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2a6a88717e460cde7392e941b18d6fe5025678cd",
+    "size": 43571,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/2a6a88717e460cde7392e941b18d6fe5025678cd"
+  },
+  {
+    "path": "financial/INVESTIGATION_4_2018_WIRE_RECIPIENTS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9040d61766a11d84a0b2fa96bd106817389dc361",
+    "size": 40294,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/9040d61766a11d84a0b2fa96bd106817389dc361"
+  },
+  {
+    "path": "financial/INVESTIGATION_7_BARRETT_REPORTS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4ce98b72e83e520767303b399b19ec15215fcad5",
+    "size": 55957,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/4ce98b72e83e520767303b399b19ec15215fcad5"
+  },
+  {
+    "path": "financial/LUXURY_PURCHASES_ANALYSIS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ea3c1f0e858f05c44cc4732a771bf8cf9e64d273",
+    "size": 49140,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/ea3c1f0e858f05c44cc4732a771bf8cf9e64d273"
+  },
+  {
+    "path": "financial/SHELL_ENTITY_DARK_MONEY_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8af30a0fdd219ab715daaedd566f23f6f384d4a5",
+    "size": 64163,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/8af30a0fdd219ab715daaedd566f23f6f384d4a5"
+  },
+  {
+    "path": "financial/SHELL_ENTITY_MAP.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "45c52c06c376d55f4e26e33d1219a9602b997a9b",
+    "size": 32964,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/45c52c06c376d55f4e26e33d1219a9602b997a9b"
+  },
+  {
+    "path": "financial/STABLECOIN_BLUEPRINT_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3422961f83fe39bb3d15652974eb2b8ee5f2c380",
+    "size": 37654,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/3422961f83fe39bb3d15652974eb2b8ee5f2c380"
+  },
+  {
+    "path": "financial/TRANSACTION_CHAIN_AUCTION_TO_DESTINATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5791ea35d2c1b95eca4b67cdded9729d7a333718",
+    "size": 55416,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/5791ea35d2c1b95eca4b67cdded9729d7a333718"
+  },
+  {
+    "path": "financial/TRANSACTION_CHAIN_BLACK_ART_MACHINE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b20bbd63cf1c0b91c8df821d05883433ca1d6af8",
+    "size": 77547,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/b20bbd63cf1c0b91c8df821d05883433ca1d6af8"
+  },
+  {
+    "path": "financial/TRANSACTION_CHAIN_THIRD_PARTY_ART.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fe2f7bffe1457fbac47ba4a6856910d019208df8",
+    "size": 87891,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/fe2f7bffe1457fbac47ba4a6856910d019208df8"
+  },
+  {
+    "path": "financial/WECHSLER_BLACK_TRUST_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b7aa570e29d801d2fcdf9ef676d6cc8a702128a9",
+    "size": 45047,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/b7aa570e29d801d2fcdf9ef676d6cc8a702128a9"
+  },
+  {
+    "path": "financial/WOW_GOLD_IGE_BANNON_SEARCH.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1161443e1921d72657f7a53ef01c9a5a72b27374",
+    "size": 20925,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/1161443e1921d72657f7a53ef01c9a5a72b27374"
+  },
+  {
+    "path": "government-officials/DEMOCRAT_HOUSE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dfda902d2d0250db0936c97aec45267f77d8034e",
+    "size": 28657,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/dfda902d2d0250db0936c97aec45267f77d8034e"
+  },
+  {
+    "path": "government-officials/DEMOCRAT_SENATE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c0de90af345a3ad4fc235f8c6a488d88f1818bed",
+    "size": 8669,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/c0de90af345a3ad4fc235f8c6a488d88f1818bed"
+  },
+  {
+    "path": "government-officials/EXECUTIVE_BRANCH.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "afec466b6271ae15ad3a77b30ff5cd9d05a2d82c",
+    "size": 99540,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/afec466b6271ae15ad3a77b30ff5cd9d05a2d82c"
+  },
+  {
+    "path": "government-officials/INDEPENDENT_SENATE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5c0f066e02313ca68682fa1044a2df89f1997e61",
+    "size": 1956,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/5c0f066e02313ca68682fa1044a2df89f1997e61"
+  },
+  {
+    "path": "government-officials/JUDICIAL_BRANCH.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "402241726dd2ef4f6c59e888871b85a86be7947f",
+    "size": 21708,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/402241726dd2ef4f6c59e888871b85a86be7947f"
+  },
+  {
+    "path": "government-officials/REPUBLICAN_HOUSE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d212aaf4b24448c90dd7708f31fdc30235fa0f02",
+    "size": 24777,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/d212aaf4b24448c90dd7708f31fdc30235fa0f02"
+  },
+  {
+    "path": "government-officials/REPUBLICAN_SENATE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f4c778a9c0fbd6a1af92bf757fddda51b393c9a1",
+    "size": 11437,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/f4c778a9c0fbd6a1af92bf757fddda51b393c9a1"
+  },
+  {
+    "path": "individuals/ALEXANDER_WANDTKE_NSALEM_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bff792a7d2ea1f3eb227918977364f67871fa736",
+    "size": 55442,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/bff792a7d2ea1f3eb227918977364f67871fa736"
+  },
+  {
+    "path": "individuals/BARNABY_MARSH_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2a92447b507dec32df54dec9fb7369aa527bfde4",
+    "size": 22790,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/2a92447b507dec32df54dec9fb7369aa527bfde4"
+  },
+  {
+    "path": "individuals/BILL_CLINTON_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a438ce1dd3ef43c71bdc3d79a3aaa7db47e23b6b",
+    "size": 52331,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/a438ce1dd3ef43c71bdc3d79a3aaa7db47e23b6b"
+  },
+  {
+    "path": "individuals/DONALD_TRUMP_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6e927bb780f3e5118be726bc428782d3baa0ac60",
+    "size": 56065,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/6e927bb780f3e5118be726bc428782d3baa0ac60"
+  },
+  {
+    "path": "individuals/DUBAI_SULAYEM_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "89dd6ebfe44bd3155b9cdad6ea7c6faff254b7b5",
+    "size": 75744,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/89dd6ebfe44bd3155b9cdad6ea7c6faff254b7b5"
+  },
+  {
+    "path": "individuals/EMAD_HANNA_HBRK_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dea2c61475a24892d0e0cc7bb92a279ea4d1539e",
+    "size": 40021,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/dea2c61475a24892d0e0cc7bb92a279ea4d1539e"
+  },
+  {
+    "path": "individuals/EMMY_TAYLER_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1dcc693fd5c6bbc936fb28b836a449189712612f",
+    "size": 30742,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/1dcc693fd5c6bbc936fb28b836a449189712612f"
+  },
+  {
+    "path": "individuals/GARY_KING_CHARTER_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "44847ce2141869d7a30ec6c8440baa3df286383c",
+    "size": 75850,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/44847ce2141869d7a30ec6c8440baa3df286383c"
+  },
+  {
+    "path": "individuals/INVESTIGATION_1_BARR_NTOC.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3ea88f022eca62e006336418a21cf8605c5bd3f8",
+    "size": 33009,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/3ea88f022eca62e006336418a21cf8605c5bd3f8"
+  },
+  {
+    "path": "individuals/INVESTIGATION_5_MAXWELL_SSN.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "db4fbca87194cfcb105bcc490097db19428e89ef",
+    "size": 37211,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/db4fbca87194cfcb105bcc490097db19428e89ef"
+  },
+  {
+    "path": "individuals/INVESTIGATION_6_LEON_BLACK.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "96b2c55e8e88fe18b46fa41b44d8cdc975b204b1",
+    "size": 51208,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/96b2c55e8e88fe18b46fa41b44d8cdc975b204b1"
+  },
+  {
+    "path": "individuals/INVESTIGATION_8_UNEXPLORED_NAMES.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "def2dc44ca02bbe247cf3238c3be09c38edc7353",
+    "size": 57574,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/def2dc44ca02bbe247cf3238c3be09c38edc7353"
+  },
+  {
+    "path": "individuals/JACQUI_SAFRA_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b61f0657d2bc54000e84e73e70c92ed812815937",
+    "size": 27789,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/b61f0657d2bc54000e84e73e70c92ed812815937"
+  },
+  {
+    "path": "individuals/JES_STALEY_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "beba6d99964c3d4237a521ba1a407f56a51670a9",
+    "size": 31359,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/beba6d99964c3d4237a521ba1a407f56a51670a9"
+  },
+  {
+    "path": "individuals/JUNKERMANN_MC2_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "90dca2969122250183e3b44ab7bbccb3ac51984e",
+    "size": 51971,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/90dca2969122250183e3b44ab7bbccb3ac51984e"
+  },
+  {
+    "path": "individuals/KARYNA_SHULIAK_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "adaa6caeba0698fff10bd91af70fe7866d60fe4f",
+    "size": 82193,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/adaa6caeba0698fff10bd91af70fe7866d60fe4f"
+  },
+  {
+    "path": "individuals/KHANNA_SIX_NAMES_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "aeee77eee1acea4e3354ff90b8ee3630c537c5a9",
+    "size": 56936,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/aeee77eee1acea4e3354ff90b8ee3630c537c5a9"
+  },
+  {
+    "path": "individuals/LEON_BLACK_PROSECUTION_FAILURE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "709c6147946f6e99d0a0e20774588a4b89f9a9c3",
+    "size": 16151,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/709c6147946f6e99d0a0e20774588a4b89f9a9c3"
+  },
+  {
+    "path": "individuals/LUTNICK_DUBIN_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b9a6d101211e687e37afa1126c3e7334d9b6ad65",
+    "size": 42682,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/b9a6d101211e687e37afa1126c3e7334d9b6ad65"
+  },
+  {
+    "path": "individuals/MARCINKOVA_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ac40c735135706ab3a1672bbcca4e7be04737b43",
+    "size": 52781,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/ac40c735135706ab3a1672bbcca4e7be04737b43"
+  },
+  {
+    "path": "individuals/MAXWELL_ARRANGED_WOMEN_POWERFUL_MEN.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3d69ebc71b7ee2b5d9778a8df92f51cdf5a4d6ae",
+    "size": 27611,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/3d69ebc71b7ee2b5d9778a8df92f51cdf5a4d6ae"
+  },
+  {
+    "path": "individuals/MEDICAL_PROFESSIONALS_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "873180daaad0b1fc6db2ba39d06f2c5898b36ced",
+    "size": 91719,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/873180daaad0b1fc6db2ba39d06f2c5898b36ced"
+  },
+  {
+    "path": "individuals/MICHAEL_WOLFF_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b8508e1084707d73303c66845200e66bb8e6490f",
+    "size": 49288,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/b8508e1084707d73303c66845200e66bb8e6490f"
+  },
+  {
+    "path": "individuals/MITCHELL_CASCADE_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0152233556ccb80ee74546b597511dd8831e0d3d",
+    "size": 65307,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/0152233556ccb80ee74546b597511dd8831e0d3d"
+  },
+  {
+    "path": "individuals/OHIO_NODE_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "45c0c07be3fa0fe7698d864d90b2d4e52ebee8b5",
+    "size": 50910,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/45c0c07be3fa0fe7698d864d90b2d4e52ebee8b5"
+  },
+  {
+    "path": "individuals/PLASKETT_EPSTEIN_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "914f4b5fd4cb506f8527379fc291e1cf3e42e5d0",
+    "size": 42354,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/914f4b5fd4cb506f8527379fc291e1cf3e42e5d0"
+  },
+  {
+    "path": "individuals/PRINCE_ANDREW_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be5fc6790f454df454d04e947898568c7a583d6a",
+    "size": 37583,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/be5fc6790f454df454d04e947898568c7a583d6a"
+  },
+  {
+    "path": "individuals/PSEUDONYM_CODENAME_REGISTRY.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6033307c89633c95377c762b27a93a52403067cc",
+    "size": 129201,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/6033307c89633c95377c762b27a93a52403067cc"
+  },
+  {
+    "path": "individuals/ROBERT_TRIVERS_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "53261020dae7d97ce63eeb1725bff67295bc8214",
+    "size": 59191,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/53261020dae7d97ce63eeb1725bff67295bc8214"
+  },
+  {
+    "path": "individuals/ROED_LARSEN_FAMILY_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ce1a45baf02159bbb68c8dea5b76634e014ae45d",
+    "size": 54237,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/ce1a45baf02159bbb68c8dea5b76634e014ae45d"
+  },
+  {
+    "path": "individuals/RONALD_LAUDER_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e997bc4f348bb67e47deb8f9052323c19251e621",
+    "size": 30240,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/e997bc4f348bb67e47deb8f9052323c19251e621"
+  },
+  {
+    "path": "individuals/ROTHSCHILD_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "42e1cb2cd33cafefbd711ddd187c9d5ea3902e2d",
+    "size": 50382,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/42e1cb2cd33cafefbd711ddd187c9d5ea3902e2d"
+  },
+  {
+    "path": "individuals/RUEMMLER_DEEP_DIVE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6ead1a7b20ee0dbe20488cc88d7df8230b16c3b5",
+    "size": 50868,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/6ead1a7b20ee0dbe20488cc88d7df8230b16c3b5"
+  },
+  {
+    "path": "individuals/RUSSIAN_WOMAN_SCOTT_IDENTIFICATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8e8269f6420e1f8666adc093f235d9ceaaf1e0a4",
+    "size": 28802,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/8e8269f6420e1f8666adc093f235d9ceaaf1e0a4"
+  },
+  {
+    "path": "individuals/SENATOR_MITCHELL_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7acff1bd61d95303f5d5a524185413181dae0801",
+    "size": 58993,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/7acff1bd61d95303f5d5a524185413181dae0801"
+  },
+  {
+    "path": "individuals/SHAHER_ABDULHAK_MR_EVIL_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d6cb2e6ad6548c8eca2189b2fa307d6775264d6e",
+    "size": 33394,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/d6cb2e6ad6548c8eca2189b2fa307d6775264d6e"
+  },
+  {
+    "path": "individuals/TIM_COLLINS_BANKING_NETWORK.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0c0ae8e57701aa1bdcf657fc3d50f37e741bb584",
+    "size": 33261,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/0c0ae8e57701aa1bdcf657fc3d50f37e741bb584"
+  },
+  {
+    "path": "individuals/UNNAMED_PERSONS_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a0060e7107f1fa60afde8f32265b7567011c427c",
+    "size": 40080,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/a0060e7107f1fa60afde8f32265b7567011c427c"
+  },
+  {
+    "path": "individuals/WILLIAM_BARR_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a2b77e0e0a0bdca2e701462c90129d80e34d5d2b",
+    "size": 45833,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/a2b77e0e0a0bdca2e701462c90129d80e34d5d2b"
+  },
+  {
+    "path": "individuals/WILL_FORD_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "62f3c105b4912dcfc14d2c544ce93e9b48cae65e",
+    "size": 37451,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/62f3c105b4912dcfc14d2c544ce93e9b48cae65e"
+  },
+  {
+    "path": "individuals/scratchpad_maxwell_external_procurement_pipeline.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d60161ba3edc82d2c2bcced2b1f24ed65ce4b5bf",
+    "size": 35371,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/d60161ba3edc82d2c2bcced2b1f24ed65ce4b5bf"
+  },
+  {
+    "path": "institutional/CBP_CORRUPTION_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "73f1bef27a0dbeeb6b61ac669a28b4448493a794",
+    "size": 45406,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/73f1bef27a0dbeeb6b61ac669a28b4448493a794"
+  },
+  {
+    "path": "institutional/CBP_RUEMMLER_REMAINING_LEADS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f3b09e95df5ae80128381dad48f346c2519239bb",
+    "size": 36593,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/f3b09e95df5ae80128381dad48f346c2519239bb"
+  },
+  {
+    "path": "institutional/DEATH_INVESTIGATION_DOCUMENT_REMOVAL.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fcc10a3ffeebe3dec1ecc22809b484bc8368387d",
+    "size": 45127,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/fcc10a3ffeebe3dec1ecc22809b484bc8368387d"
+  },
+  {
+    "path": "institutional/DEA_OCDETF_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e63b7840a957dc99e93959e996b85e1b9749bef4",
+    "size": 27783,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/e63b7840a957dc99e93959e996b85e1b9749bef4"
+  },
+  {
+    "path": "institutional/DOJ_DOCUMENT_ALTERATION_FORENSICS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0468ea072e941f2157051acebb2a901d51ef9e84",
+    "size": 84149,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/0468ea072e941f2157051acebb2a901d51ef9e84"
+  },
+  {
+    "path": "institutional/DOJ_DOCUMENT_REMOVAL_AUDIT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1366a8ed0e4cbf92753763efc6f37160b930b0d2",
+    "size": 65981,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/1366a8ed0e4cbf92753763efc6f37160b930b0d2"
+  },
+  {
+    "path": "institutional/DS12_EXPANSION_ANALYSIS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3a78bbf871c236a930aa1fcc23c793d4796af39f",
+    "size": 40960,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/3a78bbf871c236a930aa1fcc23c793d4796af39f"
+  },
+  {
+    "path": "institutional/EPSTEIN_STORAGE_UNITS_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "227c079858dc89255fb7d13d4ef4d0f7e592c16a",
+    "size": 39400,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/227c079858dc89255fb7d13d4ef4d0f7e592c16a"
+  },
+  {
+    "path": "institutional/FBI_302_MISSING_SERIALS_DOSSIER.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e999e2683fa17d53fbcb3fc30f440e5c6d88f437",
+    "size": 25450,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/e999e2683fa17d53fbcb3fc30f440e5c6d88f437"
+  },
+  {
+    "path": "institutional/GERMAN_FINANCIAL_NETWORK.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "607795cba6ec00551976430b7ccb4a1c9b7d53a5",
+    "size": 55039,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/607795cba6ec00551976430b7ccb4a1c9b7d53a5"
+  },
+  {
+    "path": "institutional/HELPFULEXPERTS_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1df1800dd0b04a01e6044e7936cbb782ad1b04cc",
+    "size": 26813,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/1df1800dd0b04a01e6044e7936cbb782ad1b04cc"
+  },
+  {
+    "path": "institutional/ITALIAN_CONNECTIONS_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6e8ba8e4fa8d3f135ac943e60505cb7cd1bb8df6",
+    "size": 63259,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/6e8ba8e4fa8d3f135ac943e60505cb7cd1bb8df6"
+  },
+  {
+    "path": "institutional/LAWYERS_LITIGATION_INDEX.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b5a6b83a56fd1626b53f310da5e69d9e921f5e4b",
+    "size": 52596,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/b5a6b83a56fd1626b53f310da5e69d9e921f5e4b"
+  },
+  {
+    "path": "institutional/MIDNIGHT_911_CALL_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7adb5cb55e72833f7216bbe85bf993cd872519f1",
+    "size": 19653,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/7adb5cb55e72833f7216bbe85bf993cd872519f1"
+  },
+  {
+    "path": "institutional/OPERATION_CHAIN_REACTION_PART2.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a59ed192276868a9b7e87a2565827e74ea10c199",
+    "size": 57722,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/a59ed192276868a9b7e87a2565827e74ea10c199"
+  },
+  {
+    "path": "institutional/PROSECUTION_FAILURES_ANALYSIS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "383c2c0489cb3aa18c1fc60aa42860d0db2a6d24",
+    "size": 51258,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/383c2c0489cb3aa18c1fc60aa42860d0db2a6d24"
+  },
+  {
+    "path": "institutional/QTASK_EPSTEIN_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd8b90b16827abb1542616ea2e593a20e52b8702",
+    "size": 33265,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/cd8b90b16827abb1542616ea2e593a20e52b8702"
+  },
+  {
+    "path": "institutional/SECONDARY_BATES_STAMP_ANALYSIS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb7472d4807f8b7e64ab1249b2f718ac39cdf116",
+    "size": 13899,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/eb7472d4807f8b7e64ab1249b2f718ac39cdf116"
+  },
+  {
+    "path": "institutional/STT_AVIATION_INFRASTRUCTURE_CONTROL.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "824fcbc58792551111719344a4ed3aefe693545d",
+    "size": 30766,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/824fcbc58792551111719344a4ed3aefe693545d"
+  },
+  {
+    "path": "institutional/USVI_FINANCIAL_SERVICES_LEGISLATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3e26879263fca90d7a595ec380c1bfd356de9027",
+    "size": 19584,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/3e26879263fca90d7a595ec380c1bfd356de9027"
+  },
+  {
+    "path": "institutional/VILLA_ARABESQUE_BOEING_727_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6e1ffdfe9b36e91cb2f82ba73ac30488a66f516a",
+    "size": 21111,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/6e1ffdfe9b36e91cb2f82ba73ac30488a66f516a"
+  },
+  {
+    "path": "institutional/ZORRO_RANCH_INVESTIGATION_HALT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e5293b08499af30e9a5bda8c8fc5110447ed9231",
+    "size": 17414,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/e5293b08499af30e9a5bda8c8fc5110447ed9231"
+  },
+  {
+    "path": "institutional/ZORRO_RANCH_INVESTIGATION_PART2.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "957edaa6b659ae9c01379b1e392b80a10631c3de",
+    "size": 60082,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/957edaa6b659ae9c01379b1e392b80a10631c3de"
+  },
+  {
+    "path": "intelligence/FBI_INTELLIGENCE_INVESTIGATIONS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bc42a694c2bb0360a5fe2a8ed4f67355d2d0a1e0",
+    "size": 64716,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/bc42a694c2bb0360a5fe2a8ed4f67355d2d0a1e0"
+  },
+  {
+    "path": "intelligence/ISRAELI_INTELLIGENCE_DEEP_DIVE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b33989adda39dd3a62bab1092283eb09e5080b1c",
+    "size": 62592,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/b33989adda39dd3a62bab1092283eb09e5080b1c"
+  },
+  {
+    "path": "intelligence/ISRAEL_DEEP_DIVE_V2.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2ee6d58ca4a880127780cdfbdfc2d096851720cd",
+    "size": 85164,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/2ee6d58ca4a880127780cdfbdfc2d096851720cd"
+  },
+  {
+    "path": "intelligence/NO_KINGS_ROYALTY_WORLD_LEADERS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "05d9d20c2c24c209219c411003fff2e5ed0dffaa",
+    "size": 39436,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/05d9d20c2c24c209219c411003fff2e5ed0dffaa"
+  },
+  {
+    "path": "intelligence/POWER_OVERLAP_SEALED_FILINGS_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "265ef6efd4b157f634c2bd353cf71139e6bc524a",
+    "size": 76456,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/265ef6efd4b157f634c2bd353cf71139e6bc524a"
+  },
+  {
+    "path": "internet-theories/CONSPIRACY_THEORY_SEARCH_MISC.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "318bad96cb371c473fa560881f5daa6395a06148",
+    "size": 48056,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/318bad96cb371c473fa560881f5daa6395a06148"
+  },
+  {
+    "path": "internet-theories/CONSPIRACY_THEORY_SEARCH_OCCULT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "87425ac1802f9fa3e49c8a7a26044127ae31067c",
+    "size": 39275,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/87425ac1802f9fa3e49c8a7a26044127ae31067c"
+  },
+  {
+    "path": "internet-theories/CONSPIRACY_THEORY_SEARCH_PIZZAGATE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8f00fc72e36d3b84d9a207940c7639cf337fbdd8",
+    "size": 46096,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/8f00fc72e36d3b84d9a207940c7639cf337fbdd8"
+  },
+  {
+    "path": "methodology/CLAUDE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5559d5b27f5969288b92958bd8d586f9eb1fe70f",
+    "size": 9253,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/5559d5b27f5969288b92958bd8d586f9eb1fe70f"
+  },
+  {
+    "path": "methodology/CORPUS_INVENTORY.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "78872a81b45cbe31d7763fb54ca98cd663ac1583",
+    "size": 13523,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/78872a81b45cbe31d7763fb54ca98cd663ac1583"
+  },
+  {
+    "path": "methodology/DATA_QUALITY_AUDIT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "90f6eb35c7c96ce27094d493768d66f7c8391fbe",
+    "size": 18981,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/90f6eb35c7c96ce27094d493768d66f7c8391fbe"
+  },
+  {
+    "path": "methodology/DEC2025_REDACTION_COMPARISON.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "9b30b9c881d9a13cbc89a69cc9e79d6ca01b8e16",
+    "size": 27293,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/9b30b9c881d9a13cbc89a69cc9e79d6ca01b8e16"
+  },
+  {
+    "path": "methodology/DEFECTIVE_REDACTION_FINDINGS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "833d3e79fff671d8c4000c2b8e91b552647db606",
+    "size": 4331,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/833d3e79fff671d8c4000c2b8e91b552647db606"
+  },
+  {
+    "path": "methodology/EVIDENCE_RELIABILITY_AUDIT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d26afec9fc2caf1a7876c53c5603fe5ac7a17ba8",
+    "size": 34951,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/d26afec9fc2caf1a7876c53c5603fe5ac7a17ba8"
+  },
+  {
+    "path": "methodology/HIDDEN_TEXT_COMPLETE_REVIEW.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a17a3c880b380c94b588c3fe36da952944d6f6f8",
+    "size": 83015,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/a17a3c880b380c94b588c3fe36da952944d6f6f8"
+  },
+  {
+    "path": "methodology/LEAD_VERIFICATION_PART1.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "49914def47d63b0f14af5b6d0f7aaf0668320b11",
+    "size": 48375,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/49914def47d63b0f14af5b6d0f7aaf0668320b11"
+  },
+  {
+    "path": "methodology/LEAD_VERIFICATION_PART2.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e893447e86010bc7c80cea7a1a6acca5c7c37abf",
+    "size": 43363,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/e893447e86010bc7c80cea7a1a6acca5c7c37abf"
+  },
+  {
+    "path": "methodology/LEAD_VERIFICATION_REPORT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d3031fe05c0e1d23957891088445c367f13415b7",
+    "size": 35581,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/d3031fe05c0e1d23957891088445c367f13415b7"
+  },
+  {
+    "path": "methodology/METHODOLOGY.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4207242bdc2ca3a0446cafd012bf76909edcb939",
+    "size": 10328,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/4207242bdc2ca3a0446cafd012bf76909edcb939"
+  },
+  {
+    "path": "methodology/MISSING_EFTA_ANALYSIS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b9bd88b6cfd733aa7d7138c22d9e21425d9164a7",
+    "size": 34402,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/b9bd88b6cfd733aa7d7138c22d9e21425d9164a7"
+  },
+  {
+    "path": "methodology/REDACTION_ASYMMETRY_ANALYSIS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1cf16ab8d7440c45dad07bfd316e423548c5e02a",
+    "size": 15820,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/1cf16ab8d7440c45dad07bfd316e423548c5e02a"
+  },
+  {
+    "path": "methodology/REDACTION_TEXT_LAYER_ANALYSIS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "73a3e86fff7efb1e22b19b54c25445afb9da53f9",
+    "size": 19179,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/73a3e86fff7efb1e22b19b54c25445afb9da53f9"
+  },
+  {
+    "path": "methodology/WRITING_GUIDE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "577526848fdbad10f9a7e04f23cd76cc6a7530ce",
+    "size": 4653,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/577526848fdbad10f9a7e04f23cd76cc6a7530ce"
+  },
+  {
+    "path": "overview/ANALYSIS_SUMMARY.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0047bbe22b5ef40dd650f9c3115ff0bc44e6a7f1",
+    "size": 7664,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/0047bbe22b5ef40dd650f9c3115ff0bc44e6a7f1"
+  },
+  {
+    "path": "overview/FINAL_INVESTIGATION_REPORT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "93dd5fbec484430319591bb89be05514a126c0b3",
+    "size": 409823,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/93dd5fbec484430319591bb89be05514a126c0b3"
+  },
+  {
+    "path": "overview/INSTITUTIONAL_FAILURE_NARRATIVE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "111ab30b9de7b763ee31f6989ceac8a8ed79ee1c",
+    "size": 86496,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/111ab30b9de7b763ee31f6989ceac8a8ed79ee1c"
+  },
+  {
+    "path": "overview/MASTER_REPORT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "18bbf2e8a95f84337d9df4c2d847cd137957d756",
+    "size": 87325,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/18bbf2e8a95f84337d9df4c2d847cd137957d756"
+  },
+  {
+    "path": "overview/PHASE1_GAP_DETECTION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "daeed74abcc0053d32979b232665bde6abe74bf1",
+    "size": 59799,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/daeed74abcc0053d32979b232665bde6abe74bf1"
+  },
+  {
+    "path": "overview/PHASE2_LEVER_TRACEBACK.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "703dcee364d6a4405152917e2c26050083559237",
+    "size": 56160,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/703dcee364d6a4405152917e2c26050083559237"
+  },
+  {
+    "path": "overview/PHASE3_HIDDEN_DOMAINS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "996545356be3d7443faa09b4df1288edd108d9ff",
+    "size": 40627,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/996545356be3d7443faa09b4df1288edd108d9ff"
+  },
+  {
+    "path": "overview/PHASE4_BRIEFING_KIT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fea38b9179b9f0a7ab27a7b61c54a56cf1eebac3",
+    "size": 44388,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/fea38b9179b9f0a7ab27a7b61c54a56cf1eebac3"
+  },
+  {
+    "path": "overview/SESSION9_MASTER_FINDINGS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e6f835cadc3225d5f5cd63736c47d9c15f94251b",
+    "size": 113756,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/e6f835cadc3225d5f5cd63736c47d9c15f94251b"
+  },
+  {
+    "path": "overview/UNEXPLORED_DOCUMENT_MINING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a8e5e7e9646f69218e9891e65f860615b53d1817",
+    "size": 50107,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/a8e5e7e9646f69218e9891e65f860615b53d1817"
+  },
+  {
+    "path": "pqg_lines_of_investigation/00_INDEX.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d17928be93a61285bc4819e6f4e910abcbc6989d",
+    "size": 8409,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/d17928be93a61285bc4819e6f4e910abcbc6989d"
+  },
+  {
+    "path": "pqg_lines_of_investigation/01_TEMPORAL_BLACKOUT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "10707157c9e3cffca701def160e8601865dd59c8",
+    "size": 23815,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/10707157c9e3cffca701def160e8601865dd59c8"
+  },
+  {
+    "path": "pqg_lines_of_investigation/02_REDACTED_TARGETS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fb31fe57a00c7ccb338704a4b364754c35d7b1bf",
+    "size": 23561,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/fb31fe57a00c7ccb338704a4b364754c35d7b1bf"
+  },
+  {
+    "path": "pqg_lines_of_investigation/03_TECH_COMPANY_GAPS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f47b33dda5e9f10d8f1a27d0e3a1233544ea609a",
+    "size": 17282,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/f47b33dda5e9f10d8f1a27d0e3a1233544ea609a"
+  },
+  {
+    "path": "pqg_lines_of_investigation/04_TRAVEL_RECORDS_GAP.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "974d9dce7dfc8c6c3009402acb20b077ab4bce53",
+    "size": 21042,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/974d9dce7dfc8c6c3009402acb20b077ab4bce53"
+  },
+  {
+    "path": "pqg_lines_of_investigation/05_DEUTSCHE_BANK_COMPLIANCE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b62c4fda0912c3536c054b8b82c7f730db184ec4",
+    "size": 13831,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/b62c4fda0912c3536c054b8b82c7f730db184ec4"
+  },
+  {
+    "path": "pqg_lines_of_investigation/06_FINANCIAL_NO_RETURNS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be641ec12f56ee3b44d297c6bf2faeb6dd476df3",
+    "size": 17298,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/be641ec12f56ee3b44d297c6bf2faeb6dd476df3"
+  },
+  {
+    "path": "pqg_lines_of_investigation/07_INDIVIDUAL_SUBPOENAS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cf47a24f60405199bfe5d5a84dcda7546bd6ec06",
+    "size": 16019,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/cf47a24f60405199bfe5d5a84dcda7546bd6ec06"
+  },
+  {
+    "path": "pqg_lines_of_investigation/08_CRYPTO_DEAD_END.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b6f346452ee377aad5f3c845b5b22af8d5ebca67",
+    "size": 12017,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/b6f346452ee377aad5f3c845b5b22af8d5ebca67"
+  },
+  {
+    "path": "pqg_lines_of_investigation/09_CORRECTIONAL_DEATH_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "437842a439d88fc943ae31bbe51a1bbe897e73c3",
+    "size": 19137,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/437842a439d88fc943ae31bbe51a1bbe897e73c3"
+  },
+  {
+    "path": "pqg_lines_of_investigation/10_SCOPE_EVOLUTION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6d0cfd397b9addb98e5763379e5ef4e8c8e07233",
+    "size": 20142,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/6d0cfd397b9addb98e5763379e5ef4e8c8e07233"
+  },
+  {
+    "path": "raw-dataset-analysis/DS10_COMPLETE_FINDINGS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dab26caacb027554aee771f347e16076049b9ea8",
+    "size": 17670,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/dab26caacb027554aee771f347e16076049b9ea8"
+  },
+  {
+    "path": "raw-dataset-analysis/DS10_COMPREHENSIVE_NAME_SEARCH.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7f42aa492ce46c2cba3c4340c6af1e2fd7842bfa",
+    "size": 35384,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/7f42aa492ce46c2cba3c4340c6af1e2fd7842bfa"
+  },
+  {
+    "path": "raw-dataset-analysis/DS10_ENTITY_EXTRACTION_REPORT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "39b71bfef650b5c317652d0bbff83938ba015d2d",
+    "size": 444354,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/39b71bfef650b5c317652d0bbff83938ba015d2d"
+  },
+  {
+    "path": "raw-dataset-analysis/DS10_FORENSIC_ANALYSIS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8f24a6746a6a63e2742bdf2f5173628b427e2a7d",
+    "size": 50993,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/8f24a6746a6a63e2742bdf2f5173628b427e2a7d"
+  },
+  {
+    "path": "raw-dataset-analysis/DS10_INTERIM_FINDINGS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "168179779cde02cf23abde9e9db051d75fef764a",
+    "size": 10438,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/168179779cde02cf23abde9e9db051d75fef764a"
+  },
+  {
+    "path": "raw-dataset-analysis/DS10_KEY_DOCUMENTS_DEEP_DIVE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "43897e5f4a215ce81b89db7d1f64de490abd06e7",
+    "size": 84873,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/43897e5f4a215ce81b89db7d1f64de490abd06e7"
+  },
+  {
+    "path": "raw-dataset-analysis/DS10_RECONSTRUCTED_PAGES.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "44854690cb99dd0b3090ec463c526c708793e8a1",
+    "size": 235945,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/44854690cb99dd0b3090ec463c526c708793e8a1"
+  },
+  {
+    "path": "raw-dataset-analysis/DS8_CONTENT_SURVEY.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2273de27c15b178a3512afb983fdba5b27125f80",
+    "size": 39631,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/2273de27c15b178a3512afb983fdba5b27125f80"
+  },
+  {
+    "path": "raw-dataset-analysis/DS8_MEDIA_CATALOG.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6d70e7b945b38f3877962ca15d3c95978a88381c",
+    "size": 17475,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/6d70e7b945b38f3877962ca15d3c95978a88381c"
+  },
+  {
+    "path": "raw-dataset-analysis/DS8_NEW_LEADS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e3ea7d615125155c274dcf8f8fdee3f99224aad1",
+    "size": 58883,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/e3ea7d615125155c274dcf8f8fdee3f99224aad1"
+  },
+  {
+    "path": "raw-dataset-analysis/DS8_VERIFICATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cc19715315eae07411d93f995983c5be4bfbf3a4",
+    "size": 28563,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/cc19715315eae07411d93f995983c5be4bfbf3a4"
+  },
+  {
+    "path": "recovered_corrupted_pdfs/README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e375a1f3dcdbe02cfdc0dc908382167e577878c8",
+    "size": 20888,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/e375a1f3dcdbe02cfdc0dc908382167e577878c8"
+  },
+  {
+    "path": "scientists/BIOTECH_SCIENCE_NETWORK_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3567af645b9a940b9f51a0c3ed4a761fcadf31d7",
+    "size": 64605,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/3567af645b9a940b9f51a0c3ed4a761fcadf31d7"
+  },
+  {
+    "path": "scientists/DAVID_SHAW_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b0c7acce0c59681c8155473025da39243e9b2ea6",
+    "size": 53575,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/b0c7acce0c59681c8155473025da39243e9b2ea6"
+  },
+  {
+    "path": "scientists/SCIENCE_NETWORK_COMPREHENSIVE_AUDIT.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f3cf5c4322f0a3149786fefc9705ee4bd446ce97",
+    "size": 37810,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/f3cf5c4322f0a3149786fefc9705ee4bd446ce97"
+  },
+  {
+    "path": "social-networks/GEFFEN_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "466c641f1f32c0ce254b91bc9cb2771b2631a91d",
+    "size": 31636,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/466c641f1f32c0ce254b91bc9cb2771b2631a91d"
+  },
+  {
+    "path": "social-networks/KOTICK_ACTIVISION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "392cdb85a5326cdccd334dbcc9f1576c46cd3fc6",
+    "size": 18776,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/392cdb85a5326cdccd334dbcc9f1576c46cd3fc6"
+  },
+  {
+    "path": "social-networks/PEGGY_SIEGAL_PIPELINE.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "63f050c7e10b34b386bfa51192b0bccc2344582c",
+    "size": 22142,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/63f050c7e10b34b386bfa51192b0bccc2344582c"
+  },
+  {
+    "path": "social-networks/PIGOZZI_EDGE_FOUNDATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "68829b385804bb7eb7e0491d2eb549dd1c1219f0",
+    "size": 26487,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/68829b385804bb7eb7e0491d2eb549dd1c1219f0"
+  },
+  {
+    "path": "social-networks/REUBEN_BROTHERS_SIREN_CHERNOY.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0c8cd485377a6cc4b89e4c97aa8e58bc1cbf35eb",
+    "size": 21523,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/0c8cd485377a6cc4b89e4c97aa8e58bc1cbf35eb"
+  },
+  {
+    "path": "social-networks/ST_BARTHS_2010_GUEST_LIST.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "64131e2de2d721fe83e7d901ca73d84dc63568dc",
+    "size": 29526,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/64131e2de2d721fe83e7d901ca73d84dc63568dc"
+  },
+  {
+    "path": "victims/TRAFFICKING_ROUTES_INVESTIGATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0c277ea9861d98f1ef02b9c0a3825ac61c2bba7a",
+    "size": 59570,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/0c277ea9861d98f1ef02b9c0a3825ac61c2bba7a"
+  },
+  {
+    "path": "victims/VICTIM_CENSUS.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "10c3b239c340f7d5602347e30fe56e02d53739ae",
+    "size": 30828,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/10c3b239c340f7d5602347e30fe56e02d53739ae"
+  },
+  {
+    "path": "victims/VICTIM_LEADS_VERIFICATION.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6ff0f04f4a612acfb047070e69324400466c8872",
+    "size": 43264,
+    "url": "https://api.github.com/repos/rhowardstone/Epstein-research/git/blobs/6ff0f04f4a612acfb047070e69324400466c8872"
+  }
+]

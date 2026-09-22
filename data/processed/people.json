@@ -64,7 +64,15 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "linked_reports": [
+      {
+        "id": "individuals_alexander-wandtke-nsalem-investigation",
+        "title": "Alexander Wandtke Nsalem Investigation",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/ALEXANDER_WANDTKE_NSALEM_INVESTIGATION.html"
+      }
+    ]
   },
   {
     "id": "allen",
@@ -444,7 +452,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "axel",
@@ -661,7 +672,15 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "linked_reports": [
+      {
+        "id": "overview_phase2-lever-traceback",
+        "title": "Phase2 Lever Traceback",
+        "category": "overview",
+        "reader_url": "https://epstein-data.com/reports/overview/PHASE2_LEVER_TRACEBACK.html"
+      }
+    ]
   },
   {
     "id": "band",
@@ -747,7 +766,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": null,
+    "efta_citations": []
   },
   {
     "id": "bannon",
@@ -822,7 +844,18 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": [],
+    "linked_reports": [
+      {
+        "id": "financial_wow-gold-ige-bannon-search",
+        "title": "Wow Gold Ige Bannon Search",
+        "category": "financial",
+        "reader_url": "https://epstein-data.com/reports/financial/WOW_GOLD_IGE_BANNON_SEARCH.html"
+      }
+    ]
   },
   {
     "id": "barak",
@@ -912,7 +945,12 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 7,
+    "fbi_notes": "Breakfast meeting scheduled with Epstein per calendar (EFTA02154241)",
+    "efta_citations": [
+      "EFTA02154241"
+    ]
   },
   {
     "id": "barrack",
@@ -992,7 +1030,12 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 4,
+    "fbi_notes": "Scheduling communication for meetings (EFTA02176329)",
+    "efta_citations": [
+      "EFTA02176329"
+    ]
   },
   {
     "id": "belyakov",
@@ -1180,7 +1223,36 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 14,
+    "fbi_notes": null,
+    "efta_citations": [],
+    "linked_reports": [
+      {
+        "id": "individuals_investigation-6-leon-black",
+        "title": "Investigation 6 Leon Black",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/INVESTIGATION_6_LEON_BLACK.html"
+      },
+      {
+        "id": "individuals_leon-black-prosecution-failure",
+        "title": "Leon Black Prosecution Failure",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/LEON_BLACK_PROSECUTION_FAILURE.html"
+      },
+      {
+        "id": "financial_transaction-chain-black-art-machine",
+        "title": "Transaction Chain Black Art Machine",
+        "category": "financial",
+        "reader_url": "https://epstein-data.com/reports/financial/TRANSACTION_CHAIN_BLACK_ART_MACHINE.html"
+      },
+      {
+        "id": "financial_wechsler-black-trust-investigation",
+        "title": "Wechsler Black Trust Investigation",
+        "category": "financial",
+        "reader_url": "https://epstein-data.com/reports/financial/WECHSLER_BLACK_TRUST_INVESTIGATION.html"
+      }
+    ]
   },
   {
     "id": "blaine",
@@ -1570,16 +1642,16 @@
   },
   {
     "id": "brende",
-    "name": "Børge Brende",
+    "name": "B\u00f8rge Brende",
     "anchor": "Brende",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Børge_Brende",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/B\u00f8rge_Brende",
     "image_thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/B%C3%B8rge_Brende.jpg/250px-B%C3%B8rge_Brende.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "image_full": "https://upload.wikimedia.org/wikipedia/commons/7/79/B%C3%B8rge_Brende.jpg",
     "image_caption": null,
     "category_tag": "politician",
     "sector": "Politics, Government & Diplomacy",
     "profession_summary": "CEO of the World Economic Forum",
-    "full_text": "Børge Brende is the CEO of the World Economic Forum who exchanged more than 120 emails and text messages with Epstein, and was a guest at several dinners at Epstein's townhouse in New York City. A photograph shows Brende at Epstein's New York home together with Steve Bannon and Terje Rød-Larsen, by whom Brende stated he was introduced to Epstein.",
+    "full_text": "B\u00f8rge Brende is the CEO of the World Economic Forum who exchanged more than 120 emails and text messages with Epstein, and was a guest at several dinners at Epstein's townhouse in New York City. A photograph shows Brende at Epstein's New York home together with Steve Bannon and Terje R\u00f8d-Larsen, by whom Brende stated he was introduced to Epstein.",
     "connection_to_epstein": {
       "relationship_types": [
         "Intermediary / Introduced Others",
@@ -1600,7 +1672,7 @@
       "island_status": "None",
       "island_notes": null,
       "townhouse_status": "Referenced",
-      "townhouse_notes": "Børge Brende is the CEO of the World Economic Forum who exchanged more than 120 emails and text messages with Epstein, and was a guest at several dinners at Epstein's townhouse in New York City.",
+      "townhouse_notes": "B\u00f8rge Brende is the CEO of the World Economic Forum who exchanged more than 120 emails and text messages with Epstein, and was a guest at several dinners at Epstein's townhouse in New York City.",
       "palm_beach_status": "None",
       "palm_beach_notes": null,
       "zorro_ranch_status": "None",
@@ -1621,8 +1693,8 @@
         "target_name": "Steve Bannon"
       },
       {
-        "target_id": "rød-larsen",
-        "target_name": "Terje Rød-Larsen"
+        "target_id": "r\u00f8d-larsen",
+        "target_name": "Terje R\u00f8d-Larsen"
       }
     ],
     "aliases": [],
@@ -1851,7 +1923,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "brunel",
@@ -1919,7 +1994,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "indicted_co_conspirator",
     "legal_standing_label": "Indicted Co-Conspirator",
-    "legal_details": "Former modeling agency chief (Karin Models/MC2); indicted in Paris (Dec 2020) on charges of rape of minors and sexual assault; found dead in prison cell (Feb 2022)."
+    "legal_details": "Former modeling agency chief (Karin Models/MC2); indicted in Paris (Dec 2020) on charges of rape of minors and sexual assault; found dead in prison cell (Feb 2022).",
+    "efta_mentions": 0,
+    "fbi_notes": null,
+    "efta_citations": []
   },
   {
     "id": "bryan",
@@ -2116,7 +2194,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 2,
+    "fbi_notes": null,
+    "efta_citations": []
   },
   {
     "id": "candy",
@@ -2297,7 +2378,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "chopra",
@@ -2367,7 +2451,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "church",
@@ -2437,7 +2524,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "churkin",
@@ -2586,7 +2676,20 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 12,
+    "fbi_notes": "Named in FBI PROMINENT NAMES briefing; FBI noted not a victim in case; allegation of orgy invitation (not attended)",
+    "efta_citations": [
+      "EFTA01660636"
+    ],
+    "linked_reports": [
+      {
+        "id": "individuals_bill-clinton-investigation",
+        "title": "Bill Clinton Investigation",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/BILL_CLINTON_INVESTIGATION.html"
+      }
+    ]
   },
   {
     "id": "copperfield",
@@ -2689,7 +2792,7 @@
     "category_tag": null,
     "sector": "Finance, Business & Real Estate",
     "profession_summary": "Francisco D'Agostino is a businessman",
-    "full_text": "Francisco D'Agostino is a businessman. From 2012–2018, he visited Epstein on his island and in New York, shared political intelligence, proposed business deals, introduced him to powerful Venezuelan figures, and inquired about some \"water gazelle\" he met on the island. On D'Agostino's advice, Epstein purchased at least $4.5 million in PDVSA bonds. By 2019, the US Treasury scrutinized D'Agostino for trying to evade US sanctions on PVDSA and Venezuelan oil.",
+    "full_text": "Francisco D'Agostino is a businessman. From 2012\u20132018, he visited Epstein on his island and in New York, shared political intelligence, proposed business deals, introduced him to powerful Venezuelan figures, and inquired about some \"water gazelle\" he met on the island. On D'Agostino's advice, Epstein purchased at least $4.5 million in PDVSA bonds. By 2019, the US Treasury scrutinized D'Agostino for trying to evade US sanctions on PVDSA and Venezuelan oil.",
     "connection_to_epstein": {
       "relationship_types": [
         "Business / Investment Partner",
@@ -2710,7 +2813,7 @@
     },
     "property_visits": {
       "island_status": "Visited",
-      "island_notes": "From 2012–2018, he visited Epstein on his island and in New York, shared political intelligence, proposed business deals, introduced him to powerful Venezuelan figures, and inquired about some \"water gazelle\" he met on the island.",
+      "island_notes": "From 2012\u20132018, he visited Epstein on his island and in New York, shared political intelligence, proposed business deals, introduced him to powerful Venezuelan figures, and inquired about some \"water gazelle\" he met on the island.",
       "townhouse_status": "None",
       "townhouse_notes": null,
       "palm_beach_status": "None",
@@ -2890,7 +2993,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "accused_or_sued",
     "legal_standing_label": "Accused in Filings / Defamation Settlement",
-    "legal_details": "Accused of sexual misconduct in Virginia Giuffre's 2014 court filings; vigorously denied claims and countersued; resolved in 2022 with Giuffre acknowledging she may have mistaken him for someone else."
+    "legal_details": "Accused of sexual misconduct in Virginia Giuffre's 2014 court filings; vigorously denied claims and countersued; resolved in 2022 with Giuffre acknowledging she may have mistaken him for someone else.",
+    "efta_mentions": 7,
+    "fbi_notes": null,
+    "efta_citations": []
   },
   {
     "id": "drokova",
@@ -3084,7 +3190,20 @@
     "legal_context": "Named in Files",
     "legal_standing": "accused_or_sued",
     "legal_standing_label": "Named in Sworn Deposition (Denied)",
-    "legal_details": "Named in Virginia Giuffre's unsealed 2016 deposition; spokesperson vigorously denied all allegations; no criminal or civil charges ever filed."
+    "legal_details": "Named in Virginia Giuffre's unsealed 2016 deposition; spokesperson vigorously denied all allegations; no criminal or civil charges ever filed.",
+    "efta_mentions": 2,
+    "fbi_notes": null,
+    "efta_citations": [
+      "EFTA02731082"
+    ],
+    "linked_reports": [
+      {
+        "id": "individuals_lutnick-dubin-investigation",
+        "title": "Lutnick Dubin Investigation",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/LUTNICK_DUBIN_INVESTIGATION.html"
+      }
+    ]
   },
   {
     "id": "edwardepstein",
@@ -3097,7 +3216,7 @@
     "category_tag": null,
     "sector": "Entertainment, Arts & Media",
     "profession_summary": "Edward Jay Epstein (no relation to Jeffrey Epstein) was an investigative journalist",
-    "full_text": "Edward Jay Epstein (no relation to Jeffrey Epstein) was an investigative journalist. His first contact with Jeffrey Epstein was from 1987–1989, when he wrote about what he believed were fraud and other instances of legal market manipulation. He identified Jeffrey as a grifter and fabulist without naming him, and Jeffrey broke contact afterward. Twenty-four years later, Jeffrey Epstein contacted Ed Epstein again, inviting him to tea to discuss an article Ed wrote about Nabokov, and an AI project named Sophia. David Hanson and Ben Goertzel both worked on the Sophia robot and solicited significant funding from Jeffrey Epstein.",
+    "full_text": "Edward Jay Epstein (no relation to Jeffrey Epstein) was an investigative journalist. His first contact with Jeffrey Epstein was from 1987\u20131989, when he wrote about what he believed were fraud and other instances of legal market manipulation. He identified Jeffrey as a grifter and fabulist without naming him, and Jeffrey broke contact afterward. Twenty-four years later, Jeffrey Epstein contacted Ed Epstein again, inviting him to tea to discuss an article Ed wrote about Nabokov, and an AI project named Sophia. David Hanson and Ben Goertzel both worked on the Sophia robot and solicited significant funding from Jeffrey Epstein.",
     "connection_to_epstein": {
       "relationship_types": [
         "Financial / Funding Recipient"
@@ -3162,7 +3281,33 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "linked_reports": [
+      {
+        "id": "individuals_plaskett-epstein-investigation",
+        "title": "Plaskett Epstein Investigation",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/PLASKETT_EPSTEIN_INVESTIGATION.html"
+      },
+      {
+        "id": "institutional_epstein-storage-units-investigation",
+        "title": "Epstein Storage Units Investigation",
+        "category": "institutional",
+        "reader_url": "https://epstein-data.com/reports/institutional/EPSTEIN_STORAGE_UNITS_INVESTIGATION.html"
+      },
+      {
+        "id": "institutional_qtask-epstein-investigation",
+        "title": "Qtask Epstein Investigation",
+        "category": "institutional",
+        "reader_url": "https://epstein-data.com/reports/institutional/QTASK_EPSTEIN_INVESTIGATION.html"
+      },
+      {
+        "id": "congressional_what-congress-said-about-the-epstein-files",
+        "title": "What Congress Said About the Epstein Files",
+        "category": "congressional",
+        "reader_url": "https://epstein-data.com/reports/congressional/WHAT_CONGRESS_SAID_ABOUT_THE_EPSTEIN_FILES.html"
+      }
+    ]
   },
   {
     "id": "farkas",
@@ -3234,7 +3379,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "ferguson",
@@ -3311,7 +3459,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": null,
+    "efta_citations": []
   },
   {
     "id": "bill-gates",
@@ -3418,7 +3569,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 1,
+    "fbi_notes": null,
+    "efta_citations": []
   },
   {
     "id": "gelernter",
@@ -3499,7 +3653,7 @@
     "category_tag": null,
     "sector": "Finance, Business & Real Estate",
     "profession_summary": "Gordon Getty is the billionaire heir of the Getty Oil fortune",
-    "full_text": "Gordon Getty is the billionaire heir of the Getty Oil fortune. He often funded Robert Trivers' research, and Trivers introduced Getty to Epstein. When learning of Epstein's criminal conviction, Getty commiserated and pointed to his own scandal (a secret second family). Getty and Epstein corresponded and spent time together from 2013–2018.",
+    "full_text": "Gordon Getty is the billionaire heir of the Getty Oil fortune. He often funded Robert Trivers' research, and Trivers introduced Getty to Epstein. When learning of Epstein's criminal conviction, Getty commiserated and pointed to his own scandal (a secret second family). Getty and Epstein corresponded and spent time together from 2013\u20132018.",
     "connection_to_epstein": {
       "relationship_types": [
         "Financial / Funding Recipient",
@@ -3632,7 +3786,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "josh-harris",
@@ -3645,7 +3802,7 @@
     "category_tag": null,
     "sector": "Finance, Business & Real Estate",
     "profession_summary": "Josh Harris co-founded Apollo Global Management and Harris Blitzer Sports & Entertainment",
-    "full_text": "Josh Harris co-founded Apollo Global Management and Harris Blitzer Sports & Entertainment. The American billionaire corresponded with Epstein from 2013–2016. Emails show that Harris met Epstein, Gates, and Ron Baron at Epstein's New York home in 2014. Harris denied having had a relationship with Epstein.",
+    "full_text": "Josh Harris co-founded Apollo Global Management and Harris Blitzer Sports & Entertainment. The American billionaire corresponded with Epstein from 2013\u20132016. Emails show that Harris met Epstein, Gates, and Ron Baron at Epstein's New York home in 2014. Harris denied having had a relationship with Epstein.",
     "connection_to_epstein": {
       "relationship_types": [
         "Mentioned in Court Files / Email Archive"
@@ -3709,7 +3866,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "hawking",
@@ -3856,7 +4016,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "jack-horner",
@@ -4006,20 +4169,23 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "jagland",
-    "name": "Thorbjørn Jagland",
+    "name": "Thorbj\u00f8rn Jagland",
     "anchor": "Jagland",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Thorbjørn_Jagland",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Thorbj\u00f8rn_Jagland",
     "image_thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Thorbj%C3%B8rn_Jagland_2016_%28cropped%29.jpg/250px-Thorbj%C3%B8rn_Jagland_2016_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "image_full": "https://upload.wikimedia.org/wikipedia/commons/9/96/Thorbj%C3%B8rn_Jagland_2016_%28cropped%29.jpg",
     "image_caption": null,
     "category_tag": null,
     "sector": "Politics, Government & Diplomacy",
     "profession_summary": "Norwegian politician",
-    "full_text": "Thorbjørn Jagland is a Norwegian politician who served as prime minister from 1996 to 1997. In a 2014 email to Epstein, Jagland had planned a family trip to Little Saint James island, while he was secretary general of the Council of Europe. The trip was eventually cancelled. Jagland was also the head of the Nobel Committee when he exchanged emails with Epstein. Norwegian Prime Minister Jonas Gahr Støre said Jagland had exercised \"poor judgement\". Epstein told Jagland that he could advise Putin on how to talk with Trump. After the Council of Europe lifted his diplomatic immunity, in February 2026 Jagland was charged with \"gross corruption\" over his links to Epstein by Norway's Økokrim prosecution service.",
+    "full_text": "Thorbj\u00f8rn Jagland is a Norwegian politician who served as prime minister from 1996 to 1997. In a 2014 email to Epstein, Jagland had planned a family trip to Little Saint James island, while he was secretary general of the Council of Europe. The trip was eventually cancelled. Jagland was also the head of the Nobel Committee when he exchanged emails with Epstein. Norwegian Prime Minister Jonas Gahr St\u00f8re said Jagland had exercised \"poor judgement\". Epstein told Jagland that he could advise Putin on how to talk with Trump. After the Council of Europe lifted his diplomatic immunity, in February 2026 Jagland was charged with \"gross corruption\" over his links to Epstein by Norway's \u00d8kokrim prosecution service.",
     "connection_to_epstein": {
       "relationship_types": [
         "Mentioned in Court Files / Email Archive"
@@ -4106,7 +4272,7 @@
     "category_tag": null,
     "sector": "Politics, Government & Diplomacy",
     "profession_summary": "John de Jongh Jr. is an American businessman and former governor of...",
-    "full_text": "John de Jongh Jr. is an American businessman and former governor of the United States Virgin Islands (2007–2015). Emails in the files show that from 2008 to 2009 Epstein paid the tuition for John de Jongh's children. The tuition invoices covered multiple universities and excluded room and board. After his wife, Cecile de Jongh, thanked Epstein in June 2009, Epstein described the payments as \"a treat\" and said \"Its [sic] as if i [sic] had my own kids in college.\" Epstein also paid college tuition for a student identified as \"Thomas\", who was identified as the son of Jeanne Brennan Wiebracht, John de Jongh's former campaign accountant.",
+    "full_text": "John de Jongh Jr. is an American businessman and former governor of the United States Virgin Islands (2007\u20132015). Emails in the files show that from 2008 to 2009 Epstein paid the tuition for John de Jongh's children. The tuition invoices covered multiple universities and excluded room and board. After his wife, Cecile de Jongh, thanked Epstein in June 2009, Epstein described the payments as \"a treat\" and said \"Its [sic] as if i [sic] had my own kids in college.\" Epstein also paid college tuition for a student identified as \"Thomas\", who was identified as the son of Jeanne Brennan Wiebracht, John de Jongh's former campaign accountant.",
     "connection_to_epstein": {
       "relationship_types": [
         "Mentioned in Court Files / Email Archive"
@@ -4292,7 +4458,18 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": [],
+    "linked_reports": [
+      {
+        "id": "individuals_junkermann-mc2-investigation",
+        "title": "Junkermann Mc2 Investigation",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/JUNKERMANN_MC2_INVESTIGATION.html"
+      }
+    ]
   },
   {
     "id": "juul",
@@ -4305,7 +4482,7 @@
     "category_tag": null,
     "sector": "Politics, Government & Diplomacy",
     "profession_summary": "Mona Juul is a Norwegian diplomat, former permanent representative to the United...",
-    "full_text": "Mona Juul is a Norwegian diplomat, former permanent representative to the United Nations, and wife of Terje Rød-Larsen. Juul resigned her position as ambassador to Jordan and Iraq on February 9, 2026, over her \"serious failure of judgement\" in her ties to Epstein.",
+    "full_text": "Mona Juul is a Norwegian diplomat, former permanent representative to the United Nations, and wife of Terje R\u00f8d-Larsen. Juul resigned her position as ambassador to Jordan and Iraq on February 9, 2026, over her \"serious failure of judgement\" in her ties to Epstein.",
     "connection_to_epstein": {
       "relationship_types": [
         "Mentioned in Court Files / Email Archive"
@@ -4342,8 +4519,8 @@
     ],
     "connected_individuals": [
       {
-        "target_id": "rød-larsen",
-        "target_name": "Terje Rød-Larsen"
+        "target_id": "r\u00f8d-larsen",
+        "target_name": "Terje R\u00f8d-Larsen"
       }
     ],
     "aliases": [],
@@ -4640,7 +4817,7 @@
     "category_tag": null,
     "sector": "Politics, Government & Diplomacy",
     "profession_summary": "lawyer and politician",
-    "full_text": "Gary King is a lawyer and politician who was the attorney general of New Mexico from 2007–2015, and a nominee for New Mexico governor in 2014. Epstein purchased his Zorro Ranch from King's father, Governor Bruce King, in 1993.\n\nGary King nurtured a relationship with Epstein through private dinners and visits to Epstein's New Mexico ranch. Epstein made financial contributions to King's political campaigns from the early 1990s through at least 2014, sometimes funneling money through companies to avoid press coverage of the donations while King was running on the issue of prosecuting child sex offenders, and King flew on Epstein's private jet. King stated he didn't remember meeting Epstein, and didn't know the jet was his.",
+    "full_text": "Gary King is a lawyer and politician who was the attorney general of New Mexico from 2007\u20132015, and a nominee for New Mexico governor in 2014. Epstein purchased his Zorro Ranch from King's father, Governor Bruce King, in 1993.\n\nGary King nurtured a relationship with Epstein through private dinners and visits to Epstein's New Mexico ranch. Epstein made financial contributions to King's political campaigns from the early 1990s through at least 2014, sometimes funneling money through companies to avoid press coverage of the donations while King was running on the issue of prosecuting child sex offenders, and King flew on Epstein's private jet. King stated he didn't remember meeting Epstein, and didn't know the jet was his.",
     "connection_to_epstein": {
       "relationship_types": [
         "Professional Service Provider",
@@ -4670,7 +4847,7 @@
       "palm_beach_status": "None",
       "palm_beach_notes": null,
       "zorro_ranch_status": "Referenced",
-      "zorro_ranch_notes": "Gary King is a lawyer and politician who was the attorney general of New Mexico from 2007–2015, and a nominee for New Mexico governor in 2014.",
+      "zorro_ranch_notes": "Gary King is a lawyer and politician who was the attorney general of New Mexico from 2007\u20132015, and a nominee for New Mexico governor in 2014.",
       "paris_status": "None",
       "paris_notes": null,
       "any_property_visited_or_offered": false
@@ -4705,7 +4882,33 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "linked_reports": [
+      {
+        "id": "individuals_gary-king-charter-investigation",
+        "title": "Gary King Charter Investigation",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/GARY_KING_CHARTER_INVESTIGATION.html"
+      },
+      {
+        "id": "individuals_tim-collins-banking-network",
+        "title": "Tim Collins Banking Network",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/TIM_COLLINS_BANKING_NETWORK.html"
+      },
+      {
+        "id": "intelligence_no-kings-royalty-world-leaders",
+        "title": "No Kings Royalty World Leaders",
+        "category": "intelligence",
+        "reader_url": "https://epstein-data.com/reports/intelligence/NO_KINGS_ROYALTY_WORLD_LEADERS.html"
+      },
+      {
+        "id": "victims_trafficking-routes-investigation",
+        "title": "Trafficking Routes Investigation",
+        "category": "victims",
+        "reader_url": "https://epstein-data.com/reports/victims/TRAFFICKING_ROUTES_INVESTIGATION.html"
+      }
+    ]
   },
   {
     "id": "kosslyn",
@@ -4786,7 +4989,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "kotick",
@@ -4850,7 +5056,18 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": [],
+    "linked_reports": [
+      {
+        "id": "social-networks_kotick-activision",
+        "title": "Kotick Activision",
+        "category": "social-networks",
+        "reader_url": "https://epstein-data.com/reports/social-networks/KOTICK_ACTIVISION.html"
+      }
+    ]
   },
   {
     "id": "krauss",
@@ -4931,7 +5148,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "robert-lawrence-kuhn",
@@ -4998,17 +5218,17 @@
     "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
   },
   {
-    "id": "lajčák",
-    "name": "Miroslav Lajčák",
-    "anchor": "Lajčák",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Miroslav_Lajčák",
+    "id": "laj\u010d\u00e1k",
+    "name": "Miroslav Laj\u010d\u00e1k",
+    "anchor": "Laj\u010d\u00e1k",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Miroslav_Laj\u010d\u00e1k",
     "image_thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/In%C4%81ra_M%C5%ABrniece_tiekas_ar_Slov%C4%81kijas_%C4%81rlietu_ministru_%2849467915657%29_%28cropped%29.jpg/250px-In%C4%81ra_M%C5%ABrniece_tiekas_ar_Slov%C4%81kijas_%C4%81rlietu_ministru_%2849467915657%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "image_full": "https://upload.wikimedia.org/wikipedia/commons/1/1f/In%C4%81ra_M%C5%ABrniece_tiekas_ar_Slov%C4%81kijas_%C4%81rlietu_ministru_%2849467915657%29_%28cropped%29.jpg",
     "image_caption": null,
     "category_tag": null,
     "sector": "Politics, Government & Diplomacy",
     "profession_summary": "former President of the United Nations General Assembly with",
-    "full_text": "Miroslav Lajčák is a former President of the United Nations General Assembly with whom Epstein exchanged emails between 2017 and 2019. In one email, Lajčák asked Epstein to introduce him to young girls and to participate in Epstein's private games. Photographs showed them in Vienna and Bratislava. Lajčák and Epstein discussed expanding the establishment of a network of far-right political groups in Europe. Lajčák stepped down from his position as national security advisor after the release of his emails with Epstein.",
+    "full_text": "Miroslav Laj\u010d\u00e1k is a former President of the United Nations General Assembly with whom Epstein exchanged emails between 2017 and 2019. In one email, Laj\u010d\u00e1k asked Epstein to introduce him to young girls and to participate in Epstein's private games. Photographs showed them in Vienna and Bratislava. Laj\u010d\u00e1k and Epstein discussed expanding the establishment of a network of far-right political groups in Europe. Laj\u010d\u00e1k stepped down from his position as national security advisor after the release of his emails with Epstein.",
     "connection_to_epstein": {
       "relationship_types": [
         "Mentioned in Court Files / Email Archive"
@@ -5172,7 +5392,7 @@
     "category_tag": null,
     "sector": "Politics, Government & Diplomacy",
     "profession_summary": "Caroline Lang [fr] is a French film producer and the daughter of...",
-    "full_text": "Caroline Lang [fr] is a French film producer and the daughter of politician Jack Lang. The 2026 Epstein files release revealed that she was co-owner, with Epstein, of Prytanee LLC, a company based in the US Virgin Islands, which she had failed to declare to the tax authorities. She was also named as a recipient of US $5 million in Epstein's will, though she denied all knowledge of it. After the documents were made public and prosecutors opened a financial investigation for tax fraud and money laundering into Lang and her father, she resigned from the Syndicat des producteurs indépendants [fr], a French industry association for independent film-makers.",
+    "full_text": "Caroline Lang [fr] is a French film producer and the daughter of politician Jack Lang. The 2026 Epstein files release revealed that she was co-owner, with Epstein, of Prytanee LLC, a company based in the US Virgin Islands, which she had failed to declare to the tax authorities. She was also named as a recipient of US $5 million in Epstein's will, though she denied all knowledge of it. After the documents were made public and prosecutors opened a financial investigation for tax fraud and money laundering into Lang and her father, she resigned from the Syndicat des producteurs ind\u00e9pendants [fr], a French industry association for independent film-makers.",
     "connection_to_epstein": {
       "relationship_types": [
         "Mentioned in Court Files / Email Archive"
@@ -5246,7 +5466,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "jack-lang",
@@ -5391,7 +5614,15 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "linked_reports": [
+      {
+        "id": "individuals_ronald-lauder-investigation",
+        "title": "Ronald Lauder Investigation",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/RONALD_LAUDER_INVESTIGATION.html"
+      }
+    ]
   },
   {
     "id": "julian-leese",
@@ -5545,7 +5776,7 @@
     "category_tag": null,
     "sector": "Finance, Business & Real Estate",
     "profession_summary": "Shelley Anne Lewis reportedly is the daughter of the founder of the...",
-    "full_text": "Shelley Anne Lewis reportedly is the daughter of the founder of the Cash Generator pawnbroking chain. She was working for Christie's auction house in New York when she met Epstein. They had a relationship from 1999–2002 and remained in contact until at least 2018. Her relationship with Epstein overlapped with the time Giuffre alleged she was coerced into having sex with Andrew Mountbatten-Windsor, and so in 2018 Maxwell and Epstein discussed asking her to serve as a witness for them.",
+    "full_text": "Shelley Anne Lewis reportedly is the daughter of the founder of the Cash Generator pawnbroking chain. She was working for Christie's auction house in New York when she met Epstein. They had a relationship from 1999\u20132002 and remained in contact until at least 2018. Her relationship with Epstein overlapped with the time Giuffre alleged she was coerced into having sex with Andrew Mountbatten-Windsor, and so in 2018 Maxwell and Epstein discussed asking her to serve as a witness for them.",
     "connection_to_epstein": {
       "relationship_types": [
         "Mentioned in Court Files / Email Archive"
@@ -5693,7 +5924,24 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 5,
+    "fbi_notes": "Named in FBI PROMINENT NAMES briefing; alleged financial crimes connection; neighboring property transaction",
+    "efta_citations": [],
+    "linked_reports": [
+      {
+        "id": "individuals_lutnick-dubin-investigation",
+        "title": "Lutnick Dubin Investigation",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/LUTNICK_DUBIN_INVESTIGATION.html"
+      },
+      {
+        "id": "congressional_witness-brief-lutnick",
+        "title": "Witness Brief Lutnick",
+        "category": "congressional",
+        "reader_url": "https://epstein-data.com/reports/congressional/WITNESS_BRIEF_LUTNICK.html"
+      }
+    ]
   },
   {
     "id": "magnani",
@@ -5785,7 +6033,7 @@
     "category_tag": null,
     "sector": "Politics, Government & Diplomacy",
     "profession_summary": "Peter Mandelson, Lord Mandelson is a British former politician and diplomat",
-    "full_text": "Peter Mandelson, Lord Mandelson is a British former politician and diplomat. Between 2003-4, three $25,000 payments referencing Mandelson were sent from Epstein's JP Morgan account. Mandelson stated he had no record or recollection of receiving the sums, and did not know whether the documents were authentic. In 2009, documents show Epstein sent £10,000 (~ $15578) to Mandelson's husband. While Epstein was serving jail term, Mandelson asked to stay at one of his properties. In June 2009, Mandelson allegedly leaked to Epstein a Downing Street asset sales proposal and tax policy plans. A December 2009 email from Mandelson suggested JPMorgan Chase boss Jamie Dimon should \"mildly threaten\" Alistair Darling over a bankers' tax by referring to US banks as buyers of UK gilts, as well as investment plans in London. Mandelson stands accused of lobbying the US government in 2010 to water down proposed restrictions on US bank trading, on behalf of Epstein and Jes Staley. On March 31, 2010, Mandelson allegedly forwarded meeting minutes between Darling and the National Economic Council director, Larry Summers, five minutes after receiving them. The following day, Mandelson met Summers and forwarded Epstein the meeting minutes after he received them. On May 9, 2010, Mandelson gave Epstein advance notice of a €500bn bailout from the EU to save the euro. The next day, Mandelson emailed Epstein saying \"finally got him to go today\", with Gordon Brown resigning a day later. Files releases included a redacted image of Mandelson in his underwear standing next to an unidentified woman; Mandelson said he could not place it. In September 2025, Mandelson was dismissed as the UK's ambassador to the US. In response to the document release, Mandelson stated he had been \"wrong\" to continue his association with Epstein, and apologised \"unequivocally to the women and girls who suffered\". In February 2026, Mandelson was forced to resign from the Labour Party and House of Lords. On 23 February, Mandelson was arrested on suspicion of misconduct in public office.",
+    "full_text": "Peter Mandelson, Lord Mandelson is a British former politician and diplomat. Between 2003-4, three $25,000 payments referencing Mandelson were sent from Epstein's JP Morgan account. Mandelson stated he had no record or recollection of receiving the sums, and did not know whether the documents were authentic. In 2009, documents show Epstein sent \u00a310,000 (~ $15578) to Mandelson's husband. While Epstein was serving jail term, Mandelson asked to stay at one of his properties. In June 2009, Mandelson allegedly leaked to Epstein a Downing Street asset sales proposal and tax policy plans. A December 2009 email from Mandelson suggested JPMorgan Chase boss Jamie Dimon should \"mildly threaten\" Alistair Darling over a bankers' tax by referring to US banks as buyers of UK gilts, as well as investment plans in London. Mandelson stands accused of lobbying the US government in 2010 to water down proposed restrictions on US bank trading, on behalf of Epstein and Jes Staley. On March 31, 2010, Mandelson allegedly forwarded meeting minutes between Darling and the National Economic Council director, Larry Summers, five minutes after receiving them. The following day, Mandelson met Summers and forwarded Epstein the meeting minutes after he received them. On May 9, 2010, Mandelson gave Epstein advance notice of a \u20ac500bn bailout from the EU to save the euro. The next day, Mandelson emailed Epstein saying \"finally got him to go today\", with Gordon Brown resigning a day later. Files releases included a redacted image of Mandelson in his underwear standing next to an unidentified woman; Mandelson said he could not place it. In September 2025, Mandelson was dismissed as the UK's ambassador to the US. In response to the document release, Mandelson stated he had been \"wrong\" to continue his association with Epstein, and apologised \"unequivocally to the women and girls who suffered\". In February 2026, Mandelson was forced to resign from the Labour Party and House of Lords. On 23 February, Mandelson was arrested on suspicion of misconduct in public office.",
     "connection_to_epstein": {
       "relationship_types": [
         "Mentioned in Court Files / Email Archive"
@@ -5920,7 +6168,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "mapp",
@@ -6065,7 +6316,18 @@
     "legal_context": "Named in Files",
     "legal_standing": "npa_co_conspirator",
     "legal_standing_label": "2008 NPA Named Co-Conspirator",
-    "legal_details": "Named as a potential co-conspirator in the 2008 federal NPA; identified in police reports and victim depositions as participating in sexual abuse."
+    "legal_details": "Named as a potential co-conspirator in the 2008 federal NPA; identified in police reports and victim depositions as participating in sexual abuse.",
+    "efta_mentions": 0,
+    "fbi_notes": null,
+    "efta_citations": [],
+    "linked_reports": [
+      {
+        "id": "individuals_marcinkova-investigation",
+        "title": "Marcinkova Investigation",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/MARCINKOVA_INVESTIGATION.html"
+      }
+    ]
   },
   {
     "id": "ghislaine-maxwell",
@@ -6132,7 +6394,36 @@
     "legal_context": "Named in Files",
     "legal_standing": "convicted_co_conspirator",
     "legal_standing_label": "Convicted Co-Conspirator",
-    "legal_details": "Convicted in federal court (SDNY, Dec 2021) on 5 felony counts including sex trafficking of a minor and conspiracy; sentenced to 20 years in federal prison."
+    "legal_details": "Convicted in federal court (SDNY, Dec 2021) on 5 felony counts including sex trafficking of a minor and conspiracy; sentenced to 20 years in federal prison.",
+    "efta_mentions": 181,
+    "fbi_notes": null,
+    "efta_citations": [],
+    "linked_reports": [
+      {
+        "id": "individuals_investigation-5-maxwell-ssn",
+        "title": "Investigation 5 Maxwell Ssn",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/INVESTIGATION_5_MAXWELL_SSN.html"
+      },
+      {
+        "id": "individuals_maxwell-arranged-women-powerful-men",
+        "title": "Maxwell Arranged Women Powerful Men",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/MAXWELL_ARRANGED_WOMEN_POWERFUL_MEN.html"
+      },
+      {
+        "id": "individuals_scratchpad-maxwell-external-procurement-pipeline",
+        "title": "Scratchpad Maxwell External Procurement Pipeline",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/scratchpad_maxwell_external_procurement_pipeline.html"
+      },
+      {
+        "id": "evidence_maxwell-firearms-license-investigation",
+        "title": "Maxwell Firearms License Investigation",
+        "category": "evidence",
+        "reader_url": "https://epstein-data.com/reports/evidence/MAXWELL_FIREARMS_LICENSE_INVESTIGATION.html"
+      }
+    ]
   },
   {
     "id": "robert-maxwell",
@@ -6145,7 +6436,7 @@
     "category_tag": null,
     "sector": "Politics, Government & Diplomacy",
     "profession_summary": "Robert Maxwell was a Czechoslovak-born British-French media proprietor and politician",
-    "full_text": "Robert Maxwell was a Czechoslovak-born British-French media proprietor and politician. Epstein wrote an email speculating about the circumstances surrounding Maxwell's 1991 death, alleging that Maxwell was a spy working for Mossad and was killed because he attempted to blackmail the agency for £400 million, threatening to reveal his spy activity if not paid.",
+    "full_text": "Robert Maxwell was a Czechoslovak-born British-French media proprietor and politician. Epstein wrote an email speculating about the circumstances surrounding Maxwell's 1991 death, alleging that Maxwell was a spy working for Mossad and was killed because he attempted to blackmail the agency for \u00a3400 million, threatening to reveal his spy activity if not paid.",
     "connection_to_epstein": {
       "relationship_types": [
         "Mentioned in Court Files / Email Archive"
@@ -6196,7 +6487,33 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "linked_reports": [
+      {
+        "id": "individuals_investigation-5-maxwell-ssn",
+        "title": "Investigation 5 Maxwell Ssn",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/INVESTIGATION_5_MAXWELL_SSN.html"
+      },
+      {
+        "id": "individuals_maxwell-arranged-women-powerful-men",
+        "title": "Maxwell Arranged Women Powerful Men",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/MAXWELL_ARRANGED_WOMEN_POWERFUL_MEN.html"
+      },
+      {
+        "id": "individuals_scratchpad-maxwell-external-procurement-pipeline",
+        "title": "Scratchpad Maxwell External Procurement Pipeline",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/scratchpad_maxwell_external_procurement_pipeline.html"
+      },
+      {
+        "id": "evidence_maxwell-firearms-license-investigation",
+        "title": "Maxwell Firearms License Investigation",
+        "category": "evidence",
+        "reader_url": "https://epstein-data.com/reports/evidence/MAXWELL_FIREARMS_LICENSE_INVESTIGATION.html"
+      }
+    ]
   },
   {
     "id": "matthew-menchel",
@@ -6209,7 +6526,7 @@
     "category_tag": null,
     "sector": "Law, Law Enforcement & Legal Defense",
     "profession_summary": "chief criminal prosecutor",
-    "full_text": "Matthew Menchel was the chief criminal prosecutor who spearheaded Epstein's 2007 sweetheart deal, after which he left the Department of Justice and continued to befriend Epstein. They exchanged emails from 2010–2018 and shared multiple dinners and meetings. Some of these contacts included Epstein requesting advice or legal representation from Menchel in other legal disputes.",
+    "full_text": "Matthew Menchel was the chief criminal prosecutor who spearheaded Epstein's 2007 sweetheart deal, after which he left the Department of Justice and continued to befriend Epstein. They exchanged emails from 2010\u20132018 and shared multiple dinners and meetings. Some of these contacts included Epstein requesting advice or legal representation from Menchel in other legal disputes.",
     "connection_to_epstein": {
       "relationship_types": [
         "Business / Investment Partner",
@@ -6426,7 +6743,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "accused_or_sued",
     "legal_standing_label": "Named in Sworn Deposition (Deceased)",
-    "legal_details": "Named in Virginia Giuffre's unsealed 2016 deposition as having been directed to him at Little St. James; Minsky's family and estate strongly denied; deceased in 2016."
+    "legal_details": "Named in Virginia Giuffre's unsealed 2016 deposition as having been directed to him at Little St. James; Minsky's family and estate strongly denied; deceased in 2016.",
+    "efta_mentions": 10,
+    "fbi_notes": null,
+    "efta_citations": []
   },
   {
     "id": "mitchell",
@@ -6439,7 +6759,7 @@
     "category_tag": null,
     "sector": "Politics, Government & Diplomacy",
     "profession_summary": "George J",
-    "full_text": "George J. Mitchell is an American politician, diplomat, and lawyer. A 2003 handwritten letter in Epstein's \"birthday book \"showed the former U.S. Senate majority leader describing his friendship with Epstein as \"a blessing.\" Documents released in January 2026 showed a continued relationship between Mitchell and Epstein following Epstein's 2008 conviction, including emails and scheduled appointments; a November 2013 email listed \"10:30am Appt w/Senator George Mitchell\". The files also contained references to an allegation by Virginia Giuffre, first made in a May 2016 deposition, that Ghislaine Maxwell had directed her to have sex with Mitchell.\n\nA spokesperson for Mitchell stated that he never met, spoke to, or had any contact with Giuffre or any underage girls, and that the allegation was based on mistaken identity. Following the document release, the US–Ireland Alliance announced it would remove Mitchell's name from the George J. Mitchell Scholarship Program.",
+    "full_text": "George J. Mitchell is an American politician, diplomat, and lawyer. A 2003 handwritten letter in Epstein's \"birthday book \"showed the former U.S. Senate majority leader describing his friendship with Epstein as \"a blessing.\" Documents released in January 2026 showed a continued relationship between Mitchell and Epstein following Epstein's 2008 conviction, including emails and scheduled appointments; a November 2013 email listed \"10:30am Appt w/Senator George Mitchell\". The files also contained references to an allegation by Virginia Giuffre, first made in a May 2016 deposition, that Ghislaine Maxwell had directed her to have sex with Mitchell.\n\nA spokesperson for Mitchell stated that he never met, spoke to, or had any contact with Giuffre or any underage girls, and that the allegation was based on mistaken identity. Following the document release, the US\u2013Ireland Alliance announced it would remove Mitchell's name from the George J. Mitchell Scholarship Program.",
     "connection_to_epstein": {
       "relationship_types": [
         "Social Acquaintance / Guest"
@@ -6521,7 +6841,21 @@
     "legal_context": "Named in Files",
     "legal_standing": "accused_or_sued",
     "legal_standing_label": "Named in Sworn Deposition (Denied)",
-    "legal_details": "Former Senate Majority Leader named in Virginia Giuffre's unsealed 2016 deposition; vigorously denied all allegations; no charges ever filed."
+    "legal_details": "Former Senate Majority Leader named in Virginia Giuffre's unsealed 2016 deposition; vigorously denied all allegations; no charges ever filed.",
+    "linked_reports": [
+      {
+        "id": "individuals_mitchell-cascade-investigation",
+        "title": "Mitchell Cascade Investigation",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/MITCHELL_CASCADE_INVESTIGATION.html"
+      },
+      {
+        "id": "individuals_senator-mitchell-investigation",
+        "title": "Senator Mitchell Investigation",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/SENATOR_MITCHELL_INVESTIGATION.html"
+      }
+    ]
   },
   {
     "id": "mwb60",
@@ -6808,7 +7142,7 @@
     "category_tag": null,
     "sector": "Royalty & Aristocracy",
     "profession_summary": "Andrew Mountbatten-Windsor is a member of the British royal family and former...",
-    "full_text": "Andrew Mountbatten-Windsor is a member of the British royal family and former Duke of York. In a 2010 email exchange, Epstein offered to introduce then-Prince Andrew to a 26-year-old Russian woman, to which he replied he would be \"delighted\" to meet her. The same exchange showed the former royal inviting Epstein to have dinner at Buckingham Palace; it is unclear whether such a visit occurred. Epstein and Mountbatten-Windsor were pictured walking together in Central Park three months later; Mountbatten-Windsor had claimed he travelled to the US to end his friendship with Epstein in person in light of his conviction. The former royal was photographed with a woman lying on the ground in three undated photos. A photo showing Virginia Giuffre, Andrew, and Ghislaine Maxwell, which had been disputed by Andrew and Maxwell, appears to have been referenced in a 2015 email. Emails appear to show that between 2010–11, Andrew may have shared confidential information with Epstein about his official work as UK trade envoy. In 2025, Mountbatten-Windsor was stripped of his titles and evicted from his royal residence. In February 2026, Andrew was arrested on suspicion of misconduct in public office. He was released from custody, without being charged, and remains under investigation.",
+    "full_text": "Andrew Mountbatten-Windsor is a member of the British royal family and former Duke of York. In a 2010 email exchange, Epstein offered to introduce then-Prince Andrew to a 26-year-old Russian woman, to which he replied he would be \"delighted\" to meet her. The same exchange showed the former royal inviting Epstein to have dinner at Buckingham Palace; it is unclear whether such a visit occurred. Epstein and Mountbatten-Windsor were pictured walking together in Central Park three months later; Mountbatten-Windsor had claimed he travelled to the US to end his friendship with Epstein in person in light of his conviction. The former royal was photographed with a woman lying on the ground in three undated photos. A photo showing Virginia Giuffre, Andrew, and Ghislaine Maxwell, which had been disputed by Andrew and Maxwell, appears to have been referenced in a 2015 email. Emails appear to show that between 2010\u201311, Andrew may have shared confidential information with Epstein about his official work as UK trade envoy. In 2025, Mountbatten-Windsor was stripped of his titles and evicted from his royal residence. In February 2026, Andrew was arrested on suspicion of misconduct in public office. He was released from custody, without being charged, and remains under investigation.",
     "connection_to_epstein": {
       "relationship_types": [
         "Social Acquaintance / Guest"
@@ -6907,7 +7241,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "accused_or_sued",
     "legal_standing_label": "Named in Deposition / Sued for Assault",
-    "legal_details": "Sued by Virginia Giuffre for battery and intentional infliction of emotional distress; settled out of court (Feb 2022) for an estimated $16M; stripped of royal military titles."
+    "legal_details": "Sued by Virginia Giuffre for battery and intentional infliction of emotional distress; settled out of court (Feb 2022) for an estimated $16M; stripped of royal military titles.",
+    "efta_mentions": 14,
+    "fbi_notes": null,
+    "efta_citations": []
   },
   {
     "id": "mugabe",
@@ -7066,7 +7403,12 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 6,
+    "fbi_notes": "Named in single unverified NTOC anonymous tip only; no corroboration; FBI could not follow up (no contact info)",
+    "efta_citations": [
+      "EFTA01660636"
+    ]
   },
   {
     "id": "kimbal-musk",
@@ -7152,7 +7494,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "myhrvold",
@@ -7223,7 +7568,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "neilson",
@@ -7457,7 +7805,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "nowak",
@@ -7529,20 +7880,23 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "pastrana-arango",
-    "name": "Andrés Pastrana Arango",
+    "name": "Andr\u00e9s Pastrana Arango",
     "anchor": "Pastrana_Arango",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Andrés_Pastrana_Arango",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Andr\u00e9s_Pastrana_Arango",
     "image_thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Andres_Pastrana_Arango_%282001%29.jpg/250px-Andres_Pastrana_Arango_%282001%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "image_full": "https://upload.wikimedia.org/wikipedia/commons/7/78/Andres_Pastrana_Arango_%282001%29.jpg",
     "image_caption": null,
     "category_tag": null,
     "sector": "Politics, Government & Diplomacy",
-    "profession_summary": "Andrés Pastrana Arango was President of Colombia from 1998 to 2002",
-    "full_text": "Andrés Pastrana Arango was President of Colombia from 1998 to 2002. According to flight logs from Epstein's private jet, Pastrana was present on a flight from Carabobo, Venezuela, to Nassau, the Bahamas, in 2003. Upon the release of the logs in 2019, Pastrana admitted to having flown with Epstein to the Bahamas for a stop-over, claiming their final destination was Havana, Cuba, at the invitation of Fidel Castro. A photograph showed Pastrana and Ghislaine Maxwell wearing Colombian Aerospace Force uniforms.",
+    "profession_summary": "Andr\u00e9s Pastrana Arango was President of Colombia from 1998 to 2002",
+    "full_text": "Andr\u00e9s Pastrana Arango was President of Colombia from 1998 to 2002. According to flight logs from Epstein's private jet, Pastrana was present on a flight from Carabobo, Venezuela, to Nassau, the Bahamas, in 2003. Upon the release of the logs in 2019, Pastrana admitted to having flown with Epstein to the Bahamas for a stop-over, claiming their final destination was Havana, Cuba, at the invitation of Fidel Castro. A photograph showed Pastrana and Ghislaine Maxwell wearing Colombian Aerospace Force uniforms.",
     "connection_to_epstein": {
       "relationship_types": [
         "Mentioned in Court Files / Email Archive"
@@ -7685,7 +8039,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "jean-pigozzi",
@@ -7753,7 +8110,15 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "linked_reports": [
+      {
+        "id": "social-networks_pigozzi-edge-foundation",
+        "title": "Pigozzi Edge Foundation",
+        "category": "social-networks",
+        "reader_url": "https://epstein-data.com/reports/social-networks/PIGOZZI_EDGE_FOUNDATION.html"
+      }
+    ]
   },
   {
     "id": "pinker",
@@ -8076,7 +8441,15 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "linked_reports": [
+      {
+        "id": "individuals_plaskett-epstein-investigation",
+        "title": "Plaskett Epstein Investigation",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/PLASKETT_EPSTEIN_INVESTIGATION.html"
+      }
+    ]
   },
   {
     "id": "poole",
@@ -8664,7 +9037,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "ratner",
@@ -8800,17 +9176,17 @@
     "legal_details": "Former NM Governor named in Virginia Giuffre's unsealed 2016 deposition; denied all allegations prior to his death in 2023; no charges ever filed."
   },
   {
-    "id": "rød-larsen",
-    "name": "Terje Rød-Larsen",
-    "anchor": "Rød-Larsen",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Terje_Rød-Larsen",
+    "id": "r\u00f8d-larsen",
+    "name": "Terje R\u00f8d-Larsen",
+    "anchor": "R\u00f8d-Larsen",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Terje_R\u00f8d-Larsen",
     "image_thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Terje_R%C3%B8d-Larsen_and_Lee_Grant_%2834151122080%29_%28R%C3%B8d-Larsen_cropped%29.jpg/250px-Terje_R%C3%B8d-Larsen_and_Lee_Grant_%2834151122080%29_%28R%C3%B8d-Larsen_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "image_full": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Terje_R%C3%B8d-Larsen_and_Lee_Grant_%2834151122080%29_%28R%C3%B8d-Larsen_cropped%29.jpg",
     "image_caption": null,
     "category_tag": null,
     "sector": "Politics, Government & Diplomacy",
-    "profession_summary": "Terje Rød-Larsen is a Norwegian former diplomat, politician, and sociologist",
-    "full_text": "Terje Rød-Larsen is a Norwegian former diplomat, politician, and sociologist. The Epstein files indicated that each of Terje Rød-Larsen's children were to be given $5 million in Epstein's will. In a statement, Rød-Larsen's wife Mona Juul said that the family had not been aware of the contents of the will before the document release, and declined to comment further. Within the files, Rød-Larsen described Epstein as \"my best friend\" and \"a thoroughly good human being\". Larsen had introduced Epstein to Jean Todt.",
+    "profession_summary": "Terje R\u00f8d-Larsen is a Norwegian former diplomat, politician, and sociologist",
+    "full_text": "Terje R\u00f8d-Larsen is a Norwegian former diplomat, politician, and sociologist. The Epstein files indicated that each of Terje R\u00f8d-Larsen's children were to be given $5 million in Epstein's will. In a statement, R\u00f8d-Larsen's wife Mona Juul said that the family had not been aware of the contents of the will before the document release, and declined to comment further. Within the files, R\u00f8d-Larsen described Epstein as \"my best friend\" and \"a thoroughly good human being\". Larsen had introduced Epstein to Jean Todt.",
     "connection_to_epstein": {
       "relationship_types": [
         "Intermediary / Introduced Others"
@@ -9024,7 +9400,15 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "linked_reports": [
+      {
+        "id": "individuals_rothschild-investigation",
+        "title": "Rothschild Investigation",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/ROTHSCHILD_INVESTIGATION.html"
+      }
+    ]
   },
   {
     "id": "lynn-forester-de-rothschild",
@@ -9113,7 +9497,15 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "linked_reports": [
+      {
+        "id": "individuals_rothschild-investigation",
+        "title": "Rothschild Investigation",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/ROTHSCHILD_INVESTIGATION.html"
+      }
+    ]
   },
   {
     "id": "nouriel-roubini",
@@ -9321,7 +9713,7 @@
     "category_tag": null,
     "sector": "Politics, Government & Diplomacy",
     "profession_summary": "Kathryn Ruemmler is a former White House Counsel under Barack Obama, and...",
-    "full_text": "Kathryn Ruemmler is a former White House Counsel under Barack Obama, and as of 2026 general counsel of Goldman Sachs. The two were introduced in 2014 by Epstein's lawyer, Reid Weingarten. From then on documents Epstein sent gifts to Ruemmler. The two corresponded regularly. In 2015, Epstein asked her about the legalities of prostitution and consent for minors; she replied that they could not. In 2018, Epstein invited Ruemmler, Lajčák, and Bannon. When Epstein was arrested in July 2019, she was one of the three people he called. Ruemmler stated that her relationship with Epstein was professional, and expressed regret knowing him, and sympathy for his victims. She later resigned from Goldman Sachs, with four months notice.",
+    "full_text": "Kathryn Ruemmler is a former White House Counsel under Barack Obama, and as of 2026 general counsel of Goldman Sachs. The two were introduced in 2014 by Epstein's lawyer, Reid Weingarten. From then on documents Epstein sent gifts to Ruemmler. The two corresponded regularly. In 2015, Epstein asked her about the legalities of prostitution and consent for minors; she replied that they could not. In 2018, Epstein invited Ruemmler, Laj\u010d\u00e1k, and Bannon. When Epstein was arrested in July 2019, she was one of the three people he called. Ruemmler stated that her relationship with Epstein was professional, and expressed regret knowing him, and sympathy for his victims. She later resigned from Goldman Sachs, with four months notice.",
     "connection_to_epstein": {
       "relationship_types": [
         "Intermediary / Introduced Others",
@@ -9409,7 +9801,24 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": [],
+    "linked_reports": [
+      {
+        "id": "individuals_ruemmler-deep-dive",
+        "title": "Ruemmler Deep Dive",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/RUEMMLER_DEEP_DIVE.html"
+      },
+      {
+        "id": "institutional_cbp-ruemmler-remaining-leads",
+        "title": "CBP Ruemmler Remaining Leads",
+        "category": "institutional",
+        "reader_url": "https://epstein-data.com/reports/institutional/CBP_RUEMMLER_REMAINING_LEADS.html"
+      }
+    ]
   },
   {
     "id": "schoen",
@@ -9581,7 +9990,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "mwcxm",
@@ -9731,7 +10143,7 @@
     "category_tag": null,
     "sector": "Healthcare & Medicine",
     "profession_summary": "Dr. Rony Shimony was Epstein's cardiologist and he also socialized with Epstein...",
-    "full_text": "Dr. Rony Shimony was Epstein's cardiologist and he also socialized with Epstein in his New York mansion. He and Eva Andersson Dubin helped Epstein investigate how to buy ambulances for his New Mexico and Little Saint James properties. More notably, Epstein connected Shimony with Thorbjørn Jagland and paid for his visit, and connected him with Leon Black.",
+    "full_text": "Dr. Rony Shimony was Epstein's cardiologist and he also socialized with Epstein in his New York mansion. He and Eva Andersson Dubin helped Epstein investigate how to buy ambulances for his New Mexico and Little Saint James properties. More notably, Epstein connected Shimony with Thorbj\u00f8rn Jagland and paid for his visit, and connected him with Leon Black.",
     "connection_to_epstein": {
       "relationship_types": [
         "Mentioned in Court Files / Email Archive"
@@ -9773,7 +10185,7 @@
       },
       {
         "target_id": "jagland",
-        "target_name": "Thorbjørn Jagland"
+        "target_name": "Thorbj\u00f8rn Jagland"
       }
     ],
     "aliases": [],
@@ -9857,7 +10269,18 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 112,
+    "fbi_notes": "ds10_trust_docs",
+    "efta_citations": [],
+    "linked_reports": [
+      {
+        "id": "individuals_karyna-shuliak-investigation",
+        "title": "Karyna Shuliak Investigation",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/KARYNA_SHULIAK_INVESTIGATION.html"
+      }
+    ]
   },
   {
     "id": "siad",
@@ -9931,7 +10354,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "siegal",
@@ -9995,7 +10421,18 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": [],
+    "linked_reports": [
+      {
+        "id": "social-networks_peggy-siegal-pipeline",
+        "title": "Peggy Siegal Pipeline",
+        "category": "social-networks",
+        "reader_url": "https://epstein-data.com/reports/social-networks/PEGGY_SIEGAL_PIPELINE.html"
+      }
+    ]
   },
   {
     "id": "anastasiya-siroochenko",
@@ -10071,9 +10508,9 @@
   },
   {
     "id": "princess-sofia",
-    "name": "Princess Sofia, Duchess of Värmland",
+    "name": "Princess Sofia, Duchess of V\u00e4rmland",
     "anchor": "Princess_Sofia",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Princess_Sofia,_Duchess_of_Värmland",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Princess_Sofia,_Duchess_of_V\u00e4rmland",
     "image_thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Princess_Sofia_-_Portrait_2016.jpg/250px-Princess_Sofia_-_Portrait_2016.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "image_full": "https://upload.wikimedia.org/wikipedia/commons/9/93/Princess_Sofia_-_Portrait_2016.jpg",
     "image_caption": null,
@@ -10311,7 +10748,18 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 14,
+    "fbi_notes": null,
+    "efta_citations": [],
+    "linked_reports": [
+      {
+        "id": "individuals_jes-staley-investigation",
+        "title": "Jes Staley Investigation",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/JES_STALEY_INVESTIGATION.html"
+      }
+    ]
   },
   {
     "id": "starr",
@@ -10458,7 +10906,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "bin-sulayem",
@@ -10560,7 +11011,15 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "linked_reports": [
+      {
+        "id": "individuals_dubai-sulayem-investigation",
+        "title": "Dubai Sulayem Investigation",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/DUBAI_SULAYEM_INVESTIGATION.html"
+      }
+    ]
   },
   {
     "id": "summers",
@@ -10643,7 +11102,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 25,
+    "fbi_notes": null,
+    "efta_citations": []
   },
   {
     "id": "tarnita",
@@ -10806,7 +11268,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "thirsk",
@@ -10941,7 +11406,15 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "linked_reports": [
+      {
+        "id": "methodology_writing-guide",
+        "title": "Writing Guide",
+        "category": "methodology",
+        "reader_url": "https://epstein-data.com/reports/methodology/WRITING_GUIDE.html"
+      }
+    ]
   },
   {
     "id": "tisch",
@@ -11024,7 +11497,7 @@
     "category_tag": null,
     "sector": "Politics, Government & Diplomacy",
     "profession_summary": "Jean Todt is a French motor racing executive, former president of FIA,...",
-    "full_text": "Jean Todt is a French motor racing executive, former president of FIA, and UN Special Envoy. Todt visited Epstein's home in 2017. They had been introduced by Terje Rød-Larsen, who wrote to Epstein: \"Think it could be useful for you to meet Jean Todt... Call him and invite him for coffee.\" After the meeting, Epstein emailed Eduardo Teodorani, Italian Chamber of Commerce and Industry chairman for the UK, saying that Todt was an \"odd guy\".",
+    "full_text": "Jean Todt is a French motor racing executive, former president of FIA, and UN Special Envoy. Todt visited Epstein's home in 2017. They had been introduced by Terje R\u00f8d-Larsen, who wrote to Epstein: \"Think it could be useful for you to meet Jean Todt... Call him and invite him for coffee.\" After the meeting, Epstein emailed Eduardo Teodorani, Italian Chamber of Commerce and Industry chairman for the UK, saying that Todt was an \"odd guy\".",
     "connection_to_epstein": {
       "relationship_types": [
         "Intermediary / Introduced Others"
@@ -11064,8 +11537,8 @@
     ],
     "connected_individuals": [
       {
-        "target_id": "rød-larsen",
-        "target_name": "Terje Rød-Larsen"
+        "target_id": "r\u00f8d-larsen",
+        "target_name": "Terje R\u00f8d-Larsen"
       }
     ],
     "aliases": [],
@@ -11171,7 +11644,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "trivers",
@@ -11247,7 +11723,18 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": [],
+    "linked_reports": [
+      {
+        "id": "individuals_robert-trivers-investigation",
+        "title": "Robert Trivers Investigation",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/ROBERT_TRIVERS_INVESTIGATION.html"
+      }
+    ]
   },
   {
     "id": "donald-trump",
@@ -11323,7 +11810,20 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 16,
+    "fbi_notes": "Named in FBI PROMINENT NAMES briefing; victim allegations of sexual abuse",
+    "efta_citations": [
+      "EFTA01660636"
+    ],
+    "linked_reports": [
+      {
+        "id": "individuals_donald-trump-investigation",
+        "title": "Donald Trump Investigation",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/DONALD_TRUMP_INVESTIGATION.html"
+      }
+    ]
   },
   {
     "id": "mwdos",
@@ -11745,7 +12245,12 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 4,
+    "fbi_notes": "Named in FBI PROMINENT NAMES briefing; victim allegation of financial/personal relationship",
+    "efta_citations": [
+      "EFTA01660636"
+    ]
   },
   {
     "id": "nathan-wolfe",
@@ -11811,7 +12316,10 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
   },
   {
     "id": "wolff",
@@ -11882,7 +12390,18 @@
     "legal_context": "Named in Files",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": [],
+    "linked_reports": [
+      {
+        "id": "individuals_michael-wolff-investigation",
+        "title": "Michael Wolff Investigation",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/MICHAEL_WOLFF_INVESTIGATION.html"
+      }
+    ]
   },
   {
     "id": "zuckerberg",
@@ -11974,7 +12493,7 @@
     "category_tag": null,
     "sector": "Finance, Business & Real Estate",
     "profession_summary": "Mortimer Zuckerman is a billionaire media proprietor",
-    "full_text": "Mortimer Zuckerman is a billionaire media proprietor. He signed Epstein's 2003 birthday book and partnered with Epstein in 2003–2004 in media ventures. Between 2013 and 2015 he paid Epstein millions for estate planning and financial services. After a 2015 meeting, Epstein urged Zuckerman to enter a guardianship or conservatorship.",
+    "full_text": "Mortimer Zuckerman is a billionaire media proprietor. He signed Epstein's 2003 birthday book and partnered with Epstein in 2003\u20132004 in media ventures. Between 2013 and 2015 he paid Epstein millions for estate planning and financial services. After a 2015 meeting, Epstein urged Zuckerman to enter a guardianship or conservatorship.",
     "connection_to_epstein": {
       "relationship_types": [
         "Client (Hired Epstein)",
@@ -12051,7 +12570,7 @@
     "category_tag": null,
     "sector": "Entertainment, Arts & Media",
     "profession_summary": "Founder of Elite Model Management",
-    "full_text": "The Guardian alleged that John Casablancas, founder of Elite Model Management, was connected to Jeffrey Epstein, and, according to a 2019 lawsuit, he had sent a 15-year-old female model in 1990 to meet a photographer later identified as Epstein, who sexually assaulted her. The newspaper had earlier published an obituary stating, \"Casablancas was frank about his personal preference for girls of only just legal age – 'child women'.\"",
+    "full_text": "The Guardian alleged that John Casablancas, founder of Elite Model Management, was connected to Jeffrey Epstein, and, according to a 2019 lawsuit, he had sent a 15-year-old female model in 1990 to meet a photographer later identified as Epstein, who sexually assaulted her. The newspaper had earlier published an obituary stating, \"Casablancas was frank about his personal preference for girls of only just legal age \u2013 'child women'.\"",
     "connection_to_epstein": {
       "relationship_types": [
         "Mentioned in Court Files / Email Archive"
@@ -12436,7 +12955,7 @@
     "image_caption": null,
     "category_tag": null,
     "sector": "Finance, Business & Real Estate",
-    "profession_summary": "Major Wall Street financial institution (banked Epstein 1998–2013)",
+    "profession_summary": "Major Wall Street financial institution (banked Epstein 1998\u20132013)",
     "full_text": "The U.S. government sued JP Morgan Chase Bank in 2022, alleging that JP Morgan \"facilitated, sustained, and concealed the human trafficking network operated by Jeffrey Epstein.\" A related class action alleged that the bank assisted in the structuring of Epstein's withdrawals of large amounts of cash.",
     "connection_to_epstein": {
       "relationship_types": [
@@ -12494,7 +13013,21 @@
     "legal_context": "Key Associated Financial Institution",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "linked_reports": [
+      {
+        "id": "individuals_tim-collins-banking-network",
+        "title": "Tim Collins Banking Network",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/TIM_COLLINS_BANKING_NETWORK.html"
+      },
+      {
+        "id": "pqg_lines_of_investigation_05-deutsche-bank-compliance",
+        "title": "05 Deutsche Bank Compliance",
+        "category": "pqg_lines_of_investigation",
+        "reader_url": "https://epstein-data.com/reports/pqg_lines_of_investigation/05_DEUTSCHE_BANK_COMPLIANCE.html"
+      }
+    ]
   },
   {
     "id": "deutsche-bank",
@@ -12506,7 +13039,7 @@
     "image_caption": null,
     "category_tag": null,
     "sector": "Finance, Business & Real Estate",
-    "profession_summary": "German multinational investment bank (banked Epstein 2013–2018 post-conviction)",
+    "profession_summary": "German multinational investment bank (banked Epstein 2013\u20132018 post-conviction)",
     "full_text": "The U.S. government sued JP Morgan Chase Bank in 2022, alleging that JP Morgan \"facilitated, sustained, and concealed the human trafficking network operated by Jeffrey Epstein.\" A related class action alleged that the bank assisted in the structuring of Epstein's withdrawals of large amounts of cash.",
     "connection_to_epstein": {
       "relationship_types": [
@@ -12567,7 +13100,24 @@
     "legal_context": "Key Associated Financial Institution",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": "ds10",
+    "efta_citations": [],
+    "linked_reports": [
+      {
+        "id": "individuals_tim-collins-banking-network",
+        "title": "Tim Collins Banking Network",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/TIM_COLLINS_BANKING_NETWORK.html"
+      },
+      {
+        "id": "pqg_lines_of_investigation_05-deutsche-bank-compliance",
+        "title": "05 Deutsche Bank Compliance",
+        "category": "pqg_lines_of_investigation",
+        "reader_url": "https://epstein-data.com/reports/pqg_lines_of_investigation/05_DEUTSCHE_BANK_COMPLIANCE.html"
+      }
+    ]
   },
   {
     "id": "valar-ventures-and-carbyne",
@@ -12800,7 +13350,7 @@
     "image_caption": null,
     "category_tag": null,
     "sector": "Law, Law Enforcement & Legal Defense",
-    "profession_summary": "Law enforcement agency conducting 2005–2006 investigation into Epstein",
+    "profession_summary": "Law enforcement agency conducting 2005\u20132006 investigation into Epstein",
     "full_text": "Epstein donated money to the Palm Beach Police Department, which they returned following his conviction.",
     "connection_to_epstein": {
       "relationship_types": [
@@ -12859,7 +13409,7 @@
     "category_tag": null,
     "sector": "Victims, Plaintiffs & Witnesses",
     "profession_summary": "Lead plaintiff in Giuffre v. Maxwell and victims' rights advocate",
-    "full_text": "Virginia Giuffre (née Roberts, identified as Jane Doe 102 / 003 in court filings) is the primary plaintiff in the landmark defamation suit Giuffre v. Maxwell (15-cv-07433-LAP). She alleged she was recruited from Mar-a-Lago at age 16 and trafficked by Epstein and Ghislaine Maxwell to prominent figures including Prince Andrew and Alan Dershowitz. Her legal actions led directly to the unsealing of over 2,000 pages of court dockets and deposition exhibits in 2024.",
+    "full_text": "Virginia Giuffre (n\u00e9e Roberts, identified as Jane Doe 102 / 003 in court filings) is the primary plaintiff in the landmark defamation suit Giuffre v. Maxwell (15-cv-07433-LAP). She alleged she was recruited from Mar-a-Lago at age 16 and trafficked by Epstein and Ghislaine Maxwell to prominent figures including Prince Andrew and Alan Dershowitz. Her legal actions led directly to the unsealing of over 2,000 pages of court dockets and deposition exhibits in 2024.",
     "connection_to_epstein": {
       "relationship_types": [
         "Mentioned in Court Files / Email Archive"
@@ -13001,7 +13551,18 @@
     "legal_context": "Executive Assistant / 2008 NPA Signatory",
     "legal_standing": "npa_co_conspirator",
     "legal_standing_label": "2008 NPA Named Co-Conspirator",
-    "legal_details": "Named as a potential co-conspirator in the controversial 2008 federal Non-Prosecution Agreement; accused in sworn victim testimony of scheduling and managing victims."
+    "legal_details": "Named as a potential co-conspirator in the controversial 2008 federal Non-Prosecution Agreement; accused in sworn victim testimony of scheduling and managing victims.",
+    "efta_mentions": 0,
+    "fbi_notes": null,
+    "efta_citations": [],
+    "linked_reports": [
+      {
+        "id": "congressional_witness-brief-kellen",
+        "title": "Witness Brief Kellen",
+        "category": "congressional",
+        "reader_url": "https://epstein-data.com/reports/congressional/WITNESS_BRIEF_KELLEN.html"
+      }
+    ]
   },
   {
     "id": "lesley-groff",
@@ -13065,7 +13626,10 @@
     "legal_context": "Executive Assistant / 2008 NPA Signatory",
     "legal_standing": "npa_co_conspirator",
     "legal_standing_label": "2008 NPA Named Co-Conspirator",
-    "legal_details": "Epstein's longtime executive secretary in NY; named in 2008 NPA; accused in victim civil claims of booking travel for minors; denied all wrongdoing."
+    "legal_details": "Epstein's longtime executive secretary in NY; named in 2008 NPA; accused in victim civil claims of booking travel for minors; denied all wrongdoing.",
+    "efta_mentions": 1008,
+    "fbi_notes": null,
+    "efta_citations": []
   },
   {
     "id": "johanna-sjoberg",
@@ -13221,7 +13785,10 @@
     "legal_context": "Household Staff (Head Butler / Property Manager)",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 1,
+    "fbi_notes": null,
+    "efta_citations": []
   },
   {
     "id": "alfredo-rodriguez",
@@ -13234,7 +13801,7 @@
     "category_tag": null,
     "sector": "Epstein Inner Circle & Staff",
     "profession_summary": "Palm Beach security guard and author of handwritten contact notes",
-    "full_text": "Alfredo Rodriguez was a security guard and butler at Epstein's Palm Beach estate in 2004–2005. During the initial police investigation, Rodriguez compiled a handwritten journal documenting names, telephone numbers, and notes about visitors to the estate. The journal later became a key exhibit in federal and civil litigation.",
+    "full_text": "Alfredo Rodriguez was a security guard and butler at Epstein's Palm Beach estate in 2004\u20132005. During the initial police investigation, Rodriguez compiled a handwritten journal documenting names, telephone numbers, and notes about visitors to the estate. The journal later became a key exhibit in federal and civil litigation.",
     "connection_to_epstein": {
       "relationship_types": [
         "Professional Service Provider"
@@ -13284,7 +13851,12 @@
     "legal_context": "Household Staff / Note Author",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 7,
+    "fbi_notes": "Former Epstein employee; convicted of obstruction; source of black book",
+    "efta_citations": [
+      "EFTA01660623"
+    ]
   },
   {
     "id": "david-rodgers",
@@ -13344,7 +13916,7 @@
     "citations": [
       {
         "ref_id": "rodgers-flight-logs-exhibit",
-        "label": "David Rodgers Flight Manifest Exhibit (1991–2006)"
+        "label": "David Rodgers Flight Manifest Exhibit (1991\u20132006)"
       }
     ],
     "source_dataset": "court_does_and_flights",
@@ -13442,7 +14014,10 @@
     "legal_context": "Longtime Corporate Pilot",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 90,
+    "fbi_notes": null,
+    "efta_citations": []
   },
   {
     "id": "tony-blair",
@@ -13576,7 +14151,7 @@
     "citations": [
       {
         "ref_id": "sjoberg-depo-2024",
-        "label": "Deposition of Johanna Sjoberg, pp. 166–167 (Unsealed Jan 2024)"
+        "label": "Deposition of Johanna Sjoberg, pp. 166\u2013167 (Unsealed Jan 2024)"
       }
     ],
     "source_dataset": "court_does_and_flights",
@@ -14052,7 +14627,18 @@
     "legal_context": "Personal Assistant to Maxwell",
     "legal_standing": "social_or_professional",
     "legal_standing_label": "Social / Institutional Association",
-    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
+    "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+    "efta_mentions": 0,
+    "fbi_notes": null,
+    "efta_citations": [],
+    "linked_reports": [
+      {
+        "id": "individuals_emmy-tayler-investigation",
+        "title": "Emmy Tayler Investigation",
+        "category": "individuals",
+        "reader_url": "https://epstein-data.com/reports/individuals/EMMY_TAYLER_INVESTIGATION.html"
+      }
+    ]
   },
   {
     "id": "adriana-ross",

@@ -73,6 +73,15 @@ export interface PersonRecord {
   legal_standing?: LegalStanding;
   legal_standing_label?: string;
   legal_details?: string;
+  efta_mentions?: number;
+  fbi_notes?: string;
+  efta_citations?: string[];
+  linked_reports?: Array<{
+    id: string;
+    title: string;
+    category: string;
+    reader_url: string;
+  }>;
 }
 
 export interface GraphNode {
@@ -99,6 +108,7 @@ export interface GraphNode {
   legal_standing?: LegalStanding;
   legal_standing_label?: string;
   legal_details?: string;
+  is_extended?: boolean;
   x?: number;
   y?: number;
   vx?: number;
@@ -120,6 +130,14 @@ export interface GraphEdge {
   weight: number;
   status?: string;
   notes?: string;
+  is_extended?: boolean;
+  email_count?: number;
+  sent_count?: number;
+  received_count?: number;
+  date_start?: string;
+  date_end?: string;
+  bates_citation?: string;
+  communication_notes?: string;
 }
 
 export interface GraphData {
@@ -145,10 +163,39 @@ export interface FilterState {
   flewPlaneOnly: boolean;
   visitedTownhouseOnly: boolean;
   post2008Only: boolean;
+  extendedNetwork?: boolean;
 }
 
 export type ViewMode = 'graph' | 'directory' | 'pathfinder';
-export type ActiveTab = 'core' | 'black_book' | 'flights' | 'court_does';
+export type ActiveTab = 'core' | 'black_book' | 'flights' | 'court_does' | 'efta_reports';
+
+// --- EFTA Datasets & Forensic Reports Types ---
+export interface EftaDataset {
+  dataset: number;
+  name: string;
+  efta_start: number;
+  efta_end: number;
+  efta_start_formatted: string;
+  efta_end_formatted: string;
+  url_template: string;
+  description: string;
+  doc_count: number;
+  sample_pdf_url: string;
+}
+
+export interface EftaReport {
+  id: string;
+  path: string;
+  filename: string;
+  title: string;
+  category: string;
+  category_label: string;
+  category_order: number;
+  github_url: string;
+  raw_url: string;
+  reader_url: string;
+  size: number;
+}
 
 // --- Black Book Types ---
 export interface BlackBookPhone {

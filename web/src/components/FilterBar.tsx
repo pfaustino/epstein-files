@@ -11,6 +11,7 @@ import {
   ArrowRight,
   ShieldAlert,
   Scale,
+  Globe,
 } from 'lucide-react';
 import { FilterState, PersonRecord } from '../types';
 
@@ -201,7 +202,8 @@ export const FilterBar: React.FC<FilterBarProps> = ({
     filters.visitedIslandOnly ||
     filters.flewPlaneOnly ||
     filters.visitedTownhouseOnly ||
-    filters.post2008Only;
+    filters.post2008Only ||
+    Boolean(filters.extendedNetwork);
 
   const resetFilters = () => {
     setFilters({
@@ -214,6 +216,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
       flewPlaneOnly: false,
       visitedTownhouseOnly: false,
       post2008Only: false,
+      extendedNetwork: false,
     });
     setIsDropdownOpen(false);
   };
@@ -377,6 +380,20 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           >
             <AlertTriangle className="w-3.5 h-3.5 text-amber-400" />
             <span>Post-2008 Ties Only</span>
+          </button>
+
+          {/* Extended Forensic Network (606 Entities) */}
+          <button
+            onClick={() => setFilters(prev => ({ ...prev, extendedNetwork: !prev.extendedNetwork }))}
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border transition-all ${
+              filters.extendedNetwork
+                ? 'bg-purple-600 text-white border-purple-400 shadow-md shadow-purple-600/30 font-semibold'
+                : 'bg-slate-900/70 text-slate-300 border-slate-800 hover:border-purple-800/80 hover:text-purple-300'
+            }`}
+            title="Expand graph to include 606 entities and 2,302 forensic relationships from DOJ EFTA release"
+          >
+            <Globe className="w-3.5 h-3.5 text-purple-400" />
+            <span>Extended Network (606)</span>
           </button>
 
           {/* Reset Filters button */}
