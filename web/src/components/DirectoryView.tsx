@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
-import { Palmtree, Plane, Building2, Users, ArrowUpDown } from 'lucide-react';
+import { Palmtree, Plane, Building2, Users, ArrowUpDown, ShieldAlert } from 'lucide-react';
 import { PersonRecord, GraphNode } from '../types';
-import { SECTOR_COLORS } from './FilterBar';
+import { SECTOR_COLORS, LEGAL_STANDING_CONFIG } from './FilterBar';
 
 interface DirectoryViewProps {
   people: PersonRecord[];
@@ -9,16 +9,33 @@ interface DirectoryViewProps {
   filteredIds: Set<string>;
 }
 
+const LEGAL_PRIORITY: Record<string, number> = {
+  convicted_co_conspirator: 1,
+  indicted_co_conspirator: 2,
+  npa_co_conspirator: 3,
+  accused_or_sued: 4,
+  victim_or_witness: 5,
+  legal_or_investigative: 6,
+  social_or_professional: 7,
+};
+
 export const DirectoryView: React.FC<DirectoryViewProps> = ({
   people,
   onSelectPerson,
   filteredIds,
 }) => {
-  const [sortBy, setSortBy] = useState<'name' | 'connections' | 'citations'>('name');
+  const [sortBy, setSortBy] = useState<'name' | 'connections' | 'citations' | 'legal'>('name');
 
   const visiblePeople = useMemo(() => {
     const list = people.filter(p => filteredIds.has(p.id));
     return list.sort((a, b) => {
+      if (sortBy === 'legal') {
+        const aStand = a.legal_standing || 'social_or_professional';
+        const bStand = b.legal_standing || 'social_or_professional';
+        const priorityDiff = (LEGAL_PRIORITY[aStand] || 7) - (LEGAL_PRIORITY[bStand] || 7);
+        if (priorityDiff !== 0) return priorityDiff;
+        return a.name.localeCompare(b.name);
+      }
       if (sortBy === 'connections') {
         return b.connected_individuals.length - a.connected_individuals.length;
       }
@@ -43,11 +60,22 @@ export const DirectoryView: React.FC<DirectoryViewProps> = ({
         </div>
 
         {/* Sort Options */}
-        <div className="flex items-center gap-2 bg-slate-900/90 border border-slate-800 p-1 rounded-xl text-xs">
+        <div className="flex flex-wrap items-center gap-1.5 bg-slate-900/90 border border-slate-800 p-1 rounded-xl text-xs">
           <span className="text-slate-400 pl-2 flex items-center gap-1">
             <ArrowUpDown className="w-3.5 h-3.5" />
             Sort:
           </span>
+          <button
+            onClick={() => setSortBy('legal')}
+            className={`px-2.5 py-1 rounded-lg transition-all flex items-center gap-1 ${
+              sortBy === 'legal'
+                ? 'bg-red-600 text-white font-medium shadow-md shadow-red-600/30'
+                : 'text-slate-400 hover:text-white'
+            }`}
+          >
+            <ShieldAlert className="w-3 h-3 text-red-300" />
+            <span>Accused First</span>
+          </button>
           <button
             onClick={() => setSortBy('name')}
             className={`px-2.5 py-1 rounded-lg transition-all ${
@@ -83,6 +111,7 @@ export const DirectoryView: React.FC<DirectoryViewProps> = ({
             text: 'text-slate-300',
             border: 'border-slate-700',
           };
+          const standingCfg = LEGAL_STANDING_CONFIG[p.legal_standing || 'social_or_professional'];
 
           return (
             <div
@@ -101,9 +130,20 @@ export const DirectoryView: React.FC<DirectoryViewProps> = ({
                   size: 20,
                   degree: p.connected_individuals.length,
                   bio: p.full_text,
+                  legal_standing: p.legal_standing,
+                  legal_standing_label: p.legal_standing_label,
+                  legal_details: p.legal_details,
                 })
               }
-              className="bg-[#0e111a] hover:bg-[#141926] border border-slate-800/80 hover:border-cyan-700/60 rounded-2xl p-4 cursor-pointer transition-all duration-200 group flex flex-col justify-between shadow-lg hover:shadow-cyan-950/20"
+              className={`bg-[#0e111a] hover:bg-[#141926] border rounded-2xl p-4 cursor-pointer transition-all duration-200 group flex flex-col justify-between shadow-lg hover:shadow-cyan-950/20 ${
+                p.legal_standing === 'convicted_co_conspirator' ||
+                p.legal_standing === 'indicted_co_conspirator'
+                  ? 'border-red-800/60 hover:border-red-500'
+                  : p.legal_standing === 'npa_co_conspirator' ||
+                    p.legal_standing === 'accused_or_sued'
+                  ? 'border-amber-800/50 hover:border-amber-500'
+                  : 'border-slate-800/80 hover:border-cyan-700/60'
+              }`}
             >
               {/* Card Top */}
               <div>
@@ -134,8 +174,31 @@ export const DirectoryView: React.FC<DirectoryViewProps> = ({
                     </p>
 
                     <div className="flex flex-wrap items-center gap-1.5 mt-2">
+                      {/* Legal Standing Badge */}
+                      {standingCfg && (
+                        <span
+                          className={`text-[9.5px] font-semibold px-2 py-0.5 rounded-full border truncate max-w-[170px] ${
+                            p.legal_standing === 'convicted_co_conspirator' ||
+                            p.legal_standing === 'indicted_co_conspirator'
+                              ? 'bg-red-950/80 text-red-300 border-red-700/80 shadow-sm shadow-red-900/40'
+                              : p.legal_standing === 'npa_co_conspirator'
+                              ? 'bg-orange-950/80 text-orange-300 border-orange-700/80'
+                              : p.legal_standing === 'accused_or_sued'
+                              ? 'bg-amber-950/80 text-amber-300 border-amber-700/80'
+                              : p.legal_standing === 'victim_or_witness'
+                              ? 'bg-emerald-950/80 text-emerald-300 border-emerald-700/80'
+                              : p.legal_standing === 'legal_or_investigative'
+                              ? 'bg-slate-800/80 text-slate-300 border-slate-700'
+                              : 'bg-slate-900/60 text-slate-400 border-slate-800'
+                          }`}
+                          title={p.legal_standing_label}
+                        >
+                          {standingCfg.shortLabel || p.legal_standing_label}
+                        </span>
+                      )}
+
                       <span
-                        className={`text-[9.5px] font-semibold px-2 py-0.2 rounded-full border truncate max-w-[150px] ${sectorStyle.bg} ${sectorStyle.text} ${sectorStyle.border}`}
+                        className={`text-[9.5px] font-semibold px-2 py-0.5 rounded-full border truncate max-w-[140px] ${sectorStyle.bg} ${sectorStyle.text} ${sectorStyle.border}`}
                       >
                         {p.sector}
                       </span>

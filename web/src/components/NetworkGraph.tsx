@@ -328,6 +328,38 @@ export const NetworkGraph: React.FC<NetworkGraphProps> = ({
         ctx.lineWidth = isTarget ? 3.5 : 2;
         ctx.strokeStyle = isTarget ? '#ffffff' : node.color || '#64748b';
         ctx.stroke();
+
+        // Legal Standing indicator ring (Outer halo)
+        const ls = node.legal_standing;
+        if (ls === 'convicted_co_conspirator' || ls === 'indicted_co_conspirator') {
+          // Intense crimson halo ring for convicted/indicted
+          ctx.beginPath();
+          ctx.arc(node.x, node.y, r + 4.5, 0, 2 * Math.PI, false);
+          ctx.lineWidth = 3;
+          ctx.strokeStyle = '#ef4444';
+          ctx.stroke();
+        } else if (ls === 'npa_co_conspirator') {
+          // Orange ring for 2008 NPA immunity named co-conspirators
+          ctx.beginPath();
+          ctx.arc(node.x, node.y, r + 4, 0, 2 * Math.PI, false);
+          ctx.lineWidth = 2.5;
+          ctx.strokeStyle = '#f97316';
+          ctx.stroke();
+        } else if (ls === 'accused_or_sued') {
+          // Amber ring for sworn deposition accused / civilly sued
+          ctx.beginPath();
+          ctx.arc(node.x, node.y, r + 4, 0, 2 * Math.PI, false);
+          ctx.lineWidth = 2.5;
+          ctx.strokeStyle = '#eab308';
+          ctx.stroke();
+        } else if (ls === 'victim_or_witness') {
+          // Emerald ring for victims & whistleblowers
+          ctx.beginPath();
+          ctx.arc(node.x, node.y, r + 4, 0, 2 * Math.PI, false);
+          ctx.lineWidth = 2.5;
+          ctx.strokeStyle = '#10b981';
+          ctx.stroke();
+        }
       }
 
       // Draw label below node if zoomed in or highlighted
@@ -338,16 +370,31 @@ export const NetworkGraph: React.FC<NetworkGraphProps> = ({
         const labelY = node.y + r + 8 / globalScale;
 
         // Label pill background
-        ctx.fillStyle = 'rgba(9, 10, 15, 0.85)';
+        ctx.fillStyle = 'rgba(9, 10, 15, 0.9)';
         ctx.beginPath();
         ctx.roundRect(
-          node.x - textWidth / 2 - 4,
+          node.x - textWidth / 2 - 5,
           labelY - 5 / globalScale,
-          textWidth + 8,
-          10 / globalScale + 3,
+          textWidth + 10,
+          10 / globalScale + 4,
           3
         );
         ctx.fill();
+
+        const ls = node.legal_standing;
+        if (ls === 'convicted_co_conspirator' || ls === 'indicted_co_conspirator') {
+          ctx.strokeStyle = '#ef4444aa';
+          ctx.lineWidth = 1;
+          ctx.stroke();
+        } else if (ls === 'npa_co_conspirator' || ls === 'accused_or_sued') {
+          ctx.strokeStyle = '#eab308aa';
+          ctx.lineWidth = 1;
+          ctx.stroke();
+        } else if (ls === 'victim_or_witness') {
+          ctx.strokeStyle = '#10b981aa';
+          ctx.lineWidth = 1;
+          ctx.stroke();
+        }
 
         ctx.fillStyle = isTarget ? '#38bdf8' : isPath ? '#38bdf8' : '#f1f5f9';
         ctx.textAlign = 'center';
@@ -509,7 +556,20 @@ export const NetworkGraph: React.FC<NetworkGraphProps> = ({
       </div>
 
       {/* Graph Legend / Help Indicator */}
-      <div className="absolute top-4 right-4 hidden md:flex items-center gap-3 bg-[#0f131d]/85 backdrop-blur-md px-3.5 py-1.5 rounded-xl border border-slate-800/80 text-[11px] text-slate-400 z-10 shadow-lg">
+      <div className="absolute top-4 right-4 hidden md:flex flex-wrap items-center gap-3 bg-[#0f131d]/90 backdrop-blur-md px-3.5 py-1.5 rounded-xl border border-slate-800/80 text-[11px] text-slate-400 z-10 shadow-lg">
+        <div className="flex items-center gap-1.5">
+          <span className="w-2.5 h-2.5 rounded-full border-2 border-red-500 bg-red-950/60 inline-block"></span>
+          <span className="text-red-300">Convicted / Indicted</span>
+        </div>
+        <div className="flex items-center gap-1.5">
+          <span className="w-2.5 h-2.5 rounded-full border-2 border-amber-500 bg-amber-950/60 inline-block"></span>
+          <span className="text-amber-300">NPA / Accused</span>
+        </div>
+        <div className="flex items-center gap-1.5">
+          <span className="w-2.5 h-2.5 rounded-full border-2 border-emerald-500 bg-emerald-950/60 inline-block"></span>
+          <span className="text-emerald-300">Victim / Witness</span>
+        </div>
+        <div className="h-3 w-px bg-slate-700"></div>
         <div className="flex items-center gap-1.5">
           <span className="w-2.5 h-2.5 rounded-full bg-rose-500 inline-block shadow-sm shadow-rose-500/50"></span>
           <span>Properties</span>

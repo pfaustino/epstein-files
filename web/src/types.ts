@@ -38,6 +38,15 @@ export interface FlightLogs {
   flight_notes: string | null;
 }
 
+export type LegalStanding =
+  | 'convicted_co_conspirator'
+  | 'indicted_co_conspirator'
+  | 'npa_co_conspirator'
+  | 'accused_or_sued'
+  | 'victim_or_witness'
+  | 'legal_or_investigative'
+  | 'social_or_professional';
+
 export interface PersonRecord {
   id: string;
   name: string;
@@ -61,6 +70,9 @@ export interface PersonRecord {
   source_dataset?: 'files_list' | 'connections_article' | 'court_does_and_flights';
   source_label?: string;
   legal_context?: string;
+  legal_standing?: LegalStanding;
+  legal_standing_label?: string;
+  legal_details?: string;
 }
 
 export interface GraphNode {
@@ -84,6 +96,9 @@ export interface GraphNode {
   source_dataset?: 'files_list' | 'connections_article' | 'court_does_and_flights';
   source_label?: string;
   legal_context?: string;
+  legal_standing?: LegalStanding;
+  legal_standing_label?: string;
+  legal_details?: string;
   x?: number;
   y?: number;
   vx?: number;
@@ -124,6 +139,8 @@ export interface FilterState {
   searchQuery: string;
   selectedSectors: string[];
   selectedSources: string[];
+  selectedLegalStandings: string[];
+  accusedOnly: boolean;
   visitedIslandOnly: boolean;
   flewPlaneOnly: boolean;
   visitedTownhouseOnly: boolean;

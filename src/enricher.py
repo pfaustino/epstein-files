@@ -133,6 +133,122 @@ ALIASES = {
     "Deutsche Bank": ["Deutsche"],
 }
 
+# Legal Standing & Evidentiary Role Registry
+LEGAL_STANDING_REGISTRY: Dict[str, Dict[str, str]] = {
+    # 1. Convicted Co-Conspirators
+    "Jeffrey Epstein": {
+        "standing": "convicted_co_conspirator",
+        "label": "Convicted Co-Conspirator",
+        "details": "Convicted in Florida (2008) for procurement of minors for prostitution; indicted in SDNY (2019) for federal sex trafficking conspiracy; died in federal custody.",
+    },
+    "Ghislaine Maxwell": {
+        "standing": "convicted_co_conspirator",
+        "label": "Convicted Co-Conspirator",
+        "details": "Convicted in federal court (SDNY, Dec 2021) on 5 felony counts including sex trafficking of a minor and conspiracy; sentenced to 20 years in federal prison.",
+    },
+
+    # 2. Indicted Co-Conspirators
+    "Jean-Luc Brunel": {
+        "standing": "indicted_co_conspirator",
+        "label": "Indicted Co-Conspirator",
+        "details": "Former modeling agency chief (Karin Models/MC2); indicted in Paris (Dec 2020) on charges of rape of minors and sexual assault; found dead in prison cell (Feb 2022).",
+    },
+
+    # 3. 2008 Federal Non-Prosecution Agreement (NPA) Named Potential Co-Conspirators
+    "Sarah Kellen": {
+        "standing": "npa_co_conspirator",
+        "label": "2008 NPA Named Co-Conspirator",
+        "details": "Named as a potential co-conspirator in the controversial 2008 federal Non-Prosecution Agreement; accused in sworn victim testimony of scheduling and managing victims.",
+    },
+    "Nadia Marcinko": {
+        "standing": "npa_co_conspirator",
+        "label": "2008 NPA Named Co-Conspirator",
+        "details": "Named as a potential co-conspirator in the 2008 federal NPA; identified in police reports and victim depositions as participating in sexual abuse.",
+    },
+    "Adriana Ross": {
+        "standing": "npa_co_conspirator",
+        "label": "2008 NPA Named Co-Conspirator",
+        "details": "Former model and assistant named as an unindicted potential co-conspirator granted blanket immunity under the 2008 Florida NPA.",
+    },
+    "Lesley Groff": {
+        "standing": "npa_co_conspirator",
+        "label": "2008 NPA Named Co-Conspirator",
+        "details": "Epstein's longtime executive secretary in NY; named in 2008 NPA; accused in victim civil claims of booking travel for minors; denied all wrongdoing.",
+    },
+
+    # 4. Directly Accused in Depositions / Sued for Sexual Assault
+    "Andrew Mountbatten-Windsor": {
+        "standing": "accused_or_sued",
+        "label": "Named in Deposition / Sued for Assault",
+        "details": "Sued by Virginia Giuffre for battery and intentional infliction of emotional distress; settled out of court (Feb 2022) for an estimated $16M; stripped of royal military titles.",
+    },
+    "Alan Dershowitz": {
+        "standing": "accused_or_sued",
+        "label": "Accused in Filings / Defamation Settlement",
+        "details": "Accused of sexual misconduct in Virginia Giuffre's 2014 court filings; vigorously denied claims and countersued; resolved in 2022 with Giuffre acknowledging she may have mistaken him for someone else.",
+    },
+    "Glenn Dubin": {
+        "standing": "accused_or_sued",
+        "label": "Named in Sworn Deposition (Denied)",
+        "details": "Named in Virginia Giuffre's unsealed 2016 deposition; spokesperson vigorously denied all allegations; no criminal or civil charges ever filed.",
+    },
+    "Bill Richardson": {
+        "standing": "accused_or_sued",
+        "label": "Named in Sworn Deposition (Denied)",
+        "details": "Former NM Governor named in Virginia Giuffre's unsealed 2016 deposition; denied all allegations prior to his death in 2023; no charges ever filed.",
+    },
+    "George J. Mitchell": {
+        "standing": "accused_or_sued",
+        "label": "Named in Sworn Deposition (Denied)",
+        "details": "Former Senate Majority Leader named in Virginia Giuffre's unsealed 2016 deposition; vigorously denied all allegations; no charges ever filed.",
+    },
+    "Marvin Minsky": {
+        "standing": "accused_or_sued",
+        "label": "Named in Sworn Deposition (Deceased)",
+        "details": "Named in Virginia Giuffre's unsealed 2016 deposition as having been directed to him at Little St. James; Minsky's family and estate strongly denied; deceased in 2016.",
+    },
+
+    # 5. Victims, Plaintiffs & Whistleblowers
+    "Virginia Giuffre": {
+        "standing": "victim_or_witness",
+        "label": "Victim, Plaintiff & Key Accuser",
+        "details": "Primary plaintiff in Giuffre v. Maxwell and Giuffre v. Prince Andrew; founder of Victims Refuse Silence; key witness whose unsealed filings exposed the network.",
+    },
+    "Johanna Sjoberg": {
+        "standing": "victim_or_witness",
+        "label": "Victim & Key Deposition Witness",
+        "details": "Deposed in Giuffre v. Maxwell; testified regarding encounters with Prince Andrew at the NY townhouse, puppet incident, and recruitment by Maxwell.",
+    },
+
+    # 6. Legal Defense, Counsel & Law Enforcement
+    "Ken Starr": {
+        "standing": "legal_or_investigative",
+        "label": "Defense Counsel / Former Solicitor General",
+        "details": "Part of Epstein's 2007-2008 defense legal team that negotiated the controversial federal Non-Prosecution Agreement with Alexander Acosta.",
+    },
+    "Matthew Menchel": {
+        "standing": "legal_or_investigative",
+        "label": "Epstein Criminal Defense Counsel",
+        "details": "Criminal defense attorney who represented Epstein during the Florida state and federal investigations.",
+    },
+    "David Schoen": {
+        "standing": "legal_or_investigative",
+        "label": "Epstein Defense Counsel",
+        "details": "Criminal defense attorney who met with Epstein shortly before his death in August 2019 to discuss taking over his federal defense.",
+    },
+    "Grady Judd": {
+        "standing": "legal_or_investigative",
+        "label": "Law Enforcement / Sheriff",
+        "details": "Polk County Sheriff who was a prominent public commentator and law enforcement figure regarding the handling of the 2008 Florida case.",
+    },
+    "Carol Montgomery": {
+        "standing": "legal_or_investigative",
+        "label": "Legal / Court Reporter",
+        "details": "Deposition and courtroom reporter involved in transcribing proceedings related to the civil cases.",
+    },
+}
+
+
 
 def extract_profession_and_sector(name: str, text: str, category_tag: Optional[str]) -> Tuple[str, str]:
     """Extract a concise profession summary and standardized sector."""
@@ -534,6 +650,12 @@ def run():
         source_label = r.get("source_label", "Wikipedia: Named in Files")
         legal_context = r.get("legal_context", "Named in Files")
 
+        standing_info = LEGAL_STANDING_REGISTRY.get(name, {
+            "standing": "social_or_professional",
+            "label": "Social / Institutional Association",
+            "details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
+        })
+
         enriched = {
             "id": r["id"],
             "name": name,
@@ -557,12 +679,18 @@ def run():
             "source_dataset": source_dataset,
             "source_label": source_label,
             "legal_context": legal_context,
+            "legal_standing": standing_info["standing"],
+            "legal_standing_label": standing_info["label"],
+            "legal_details": standing_info["details"],
         }
         enriched_records.append(enriched)
 
         flattened_rows.append({
             "id": r["id"],
             "name": name,
+            "legal_standing": standing_info["standing"],
+            "legal_standing_label": standing_info["label"],
+            "legal_details": standing_info["details"],
             "source_dataset": source_dataset,
             "source_label": source_label,
             "legal_context": legal_context,

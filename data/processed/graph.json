@@ -17,6 +17,9 @@
       "size": 35,
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Mugshot_of_Jeffrey_Epstein_in_2009.jpg/250px-Mugshot_of_Jeffrey_Epstein_in_2009.jpg",
       "description": "Financier and convicted sex offender who cultivated ties with influential figures.",
+      "legal_standing": "convicted_co_conspirator",
+      "legal_standing_label": "Convicted Co-Conspirator",
+      "legal_details": "Convicted in Florida (2008) for procurement of minors for prostitution; indicted in SDNY (2019) for federal sex trafficking conspiracy; died in federal custody.",
       "degree": 191
     },
     {
@@ -28,16 +31,6 @@
       "size": 26,
       "description": "Epstein's private 70-acre island in the US Virgin Islands.",
       "degree": 21
-    },
-    {
-      "id": "loc-palm-beach",
-      "label": "Palm Beach Mansion",
-      "type": "location",
-      "category": "Property / Location",
-      "color": "#d97706",
-      "size": 26,
-      "description": "Epstein's waterfront estate at 358 El Brillo Way, Palm Beach, Florida.",
-      "degree": 14
     },
     {
       "id": "loc-zorro-ranch",
@@ -58,6 +51,16 @@
       "size": 26,
       "description": "Epstein's luxury apartment on Avenue Foch in Paris, France.",
       "degree": 2
+    },
+    {
+      "id": "loc-palm-beach",
+      "label": "Palm Beach Mansion",
+      "type": "location",
+      "category": "Property / Location",
+      "color": "#d97706",
+      "size": 26,
+      "description": "Epstein's waterfront estate at 358 El Brillo Way, Palm Beach, Florida.",
+      "degree": 14
     },
     {
       "id": "loc-nyc-townhouse",
@@ -250,6 +253,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -271,6 +277,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 6
     },
     {
@@ -292,6 +301,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 4
     },
     {
@@ -313,6 +325,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -334,6 +349,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 1
     },
     {
@@ -355,6 +373,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -376,6 +397,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 4
     },
     {
@@ -397,6 +421,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -418,6 +445,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 4
     },
     {
@@ -439,6 +469,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -460,6 +493,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 7
     },
     {
@@ -481,6 +517,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 9
     },
     {
@@ -502,6 +541,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 4
     },
     {
@@ -523,6 +565,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -544,6 +589,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 11
     },
     {
@@ -565,6 +613,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -586,6 +637,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -607,6 +661,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 1
     },
     {
@@ -628,6 +685,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 5
     },
     {
@@ -649,6 +709,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -670,6 +733,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -691,6 +757,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 1
     },
     {
@@ -712,6 +781,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -733,6 +805,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 5
     },
     {
@@ -754,6 +829,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "indicted_co_conspirator",
+      "legal_standing_label": "Indicted Co-Conspirator",
+      "legal_details": "Former modeling agency chief (Karin Models/MC2); indicted in Paris (Dec 2020) on charges of rape of minors and sexual assault; found dead in prison cell (Feb 2022).",
       "degree": 6
     },
     {
@@ -775,6 +853,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -796,6 +877,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -817,6 +901,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -838,6 +925,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 1
     },
     {
@@ -859,6 +949,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 4
     },
     {
@@ -880,6 +973,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -901,6 +997,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -922,6 +1021,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -947,6 +1049,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 12
     },
     {
@@ -968,6 +1073,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -989,6 +1097,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -1010,6 +1121,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -1031,6 +1145,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "accused_or_sued",
+      "legal_standing_label": "Accused in Filings / Defamation Settlement",
+      "legal_details": "Accused of sexual misconduct in Virginia Giuffre's 2014 court filings; vigorously denied claims and countersued; resolved in 2022 with Giuffre acknowledging she may have mistaken him for someone else.",
       "degree": 8
     },
     {
@@ -1052,6 +1169,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -1073,6 +1193,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "accused_or_sued",
+      "legal_standing_label": "Named in Sworn Deposition (Denied)",
+      "legal_details": "Named in Virginia Giuffre's unsealed 2016 deposition; spokesperson vigorously denied all allegations; no criminal or civil charges ever filed.",
       "degree": 7
     },
     {
@@ -1094,6 +1217,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -1115,6 +1241,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 4
     },
     {
@@ -1136,6 +1265,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -1161,6 +1293,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 7
     },
     {
@@ -1182,6 +1317,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -1203,6 +1341,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -1224,6 +1365,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -1245,6 +1389,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 4
     },
     {
@@ -1266,6 +1413,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -1287,6 +1437,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 5
     },
     {
@@ -1308,6 +1461,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -1329,6 +1485,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 7
     },
     {
@@ -1352,6 +1511,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 4
     },
     {
@@ -1373,6 +1535,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -1394,6 +1559,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "legal_or_investigative",
+      "legal_standing_label": "Law Enforcement / Sheriff",
+      "legal_details": "Polk County Sheriff who was a prominent public commentator and law enforcement figure regarding the handling of the 2008 Florida case.",
       "degree": 2
     },
     {
@@ -1415,6 +1583,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -1436,6 +1607,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -1457,6 +1631,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 6
     },
     {
@@ -1478,6 +1655,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 5
     },
     {
@@ -1503,6 +1683,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -1524,6 +1707,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -1545,6 +1731,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 4
     },
     {
@@ -1566,6 +1755,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 1
     },
     {
@@ -1587,6 +1779,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 6
     },
     {
@@ -1608,6 +1803,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -1629,6 +1827,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -1650,6 +1851,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -1671,6 +1875,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -1692,6 +1899,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 4
     },
     {
@@ -1713,6 +1923,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -1734,6 +1947,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -1755,6 +1971,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -1776,6 +1995,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -1797,6 +2019,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -1818,6 +2043,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 5
     },
     {
@@ -1839,6 +2067,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 7
     },
     {
@@ -1860,6 +2091,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -1881,6 +2115,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "npa_co_conspirator",
+      "legal_standing_label": "2008 NPA Named Co-Conspirator",
+      "legal_details": "Named as a potential co-conspirator in the 2008 federal NPA; identified in police reports and victim depositions as participating in sexual abuse.",
       "degree": 4
     },
     {
@@ -1902,6 +2139,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "convicted_co_conspirator",
+      "legal_standing_label": "Convicted Co-Conspirator",
+      "legal_details": "Convicted in federal court (SDNY, Dec 2021) on 5 felony counts including sex trafficking of a minor and conspiracy; sentenced to 20 years in federal prison.",
       "degree": 15
     },
     {
@@ -1923,6 +2163,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -1944,6 +2187,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "legal_or_investigative",
+      "legal_standing_label": "Epstein Criminal Defense Counsel",
+      "legal_details": "Criminal defense attorney who represented Epstein during the Florida state and federal investigations.",
       "degree": 1
     },
     {
@@ -1965,6 +2211,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -1986,6 +2235,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "accused_or_sued",
+      "legal_standing_label": "Named in Sworn Deposition (Deceased)",
+      "legal_details": "Named in Virginia Giuffre's unsealed 2016 deposition as having been directed to him at Little St. James; Minsky's family and estate strongly denied; deceased in 2016.",
       "degree": 3
     },
     {
@@ -2007,6 +2259,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "accused_or_sued",
+      "legal_standing_label": "Named in Sworn Deposition (Denied)",
+      "legal_details": "Former Senate Majority Leader named in Virginia Giuffre's unsealed 2016 deposition; vigorously denied all allegations; no charges ever filed.",
       "degree": 5
     },
     {
@@ -2031,6 +2286,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 1
     },
     {
@@ -2052,6 +2310,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "legal_or_investigative",
+      "legal_standing_label": "Legal / Court Reporter",
+      "legal_details": "Deposition and courtroom reporter involved in transcribing proceedings related to the civil cases.",
       "degree": 2
     },
     {
@@ -2073,6 +2334,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -2094,6 +2358,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 5
     },
     {
@@ -2118,6 +2385,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "accused_or_sued",
+      "legal_standing_label": "Named in Deposition / Sued for Assault",
+      "legal_details": "Sued by Virginia Giuffre for battery and intentional infliction of emotional distress; settled out of court (Feb 2022) for an estimated $16M; stripped of royal military titles.",
       "degree": 13
     },
     {
@@ -2139,6 +2409,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -2160,6 +2433,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -2181,6 +2457,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -2202,6 +2481,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -2223,6 +2505,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -2244,6 +2529,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -2265,6 +2553,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 6
     },
     {
@@ -2286,6 +2577,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 5
     },
     {
@@ -2307,6 +2601,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 4
     },
     {
@@ -2328,6 +2625,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -2349,6 +2649,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -2370,6 +2673,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 8
     },
     {
@@ -2391,6 +2697,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -2412,6 +2721,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -2433,6 +2745,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -2454,6 +2769,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -2475,6 +2793,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 4
     },
     {
@@ -2496,6 +2817,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -2517,6 +2841,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 4
     },
     {
@@ -2538,6 +2865,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -2559,6 +2889,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -2580,6 +2913,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -2601,6 +2937,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 4
     },
     {
@@ -2622,6 +2961,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -2643,6 +2985,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "accused_or_sued",
+      "legal_standing_label": "Named in Sworn Deposition (Denied)",
+      "legal_details": "Former NM Governor named in Virginia Giuffre's unsealed 2016 deposition; denied all allegations prior to his death in 2023; no charges ever filed.",
       "degree": 1
     },
     {
@@ -2664,6 +3009,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -2685,6 +3033,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -2706,6 +3057,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -2727,6 +3081,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 6
     },
     {
@@ -2748,6 +3105,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 1
     },
     {
@@ -2769,6 +3129,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -2790,6 +3153,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -2811,6 +3177,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 4
     },
     {
@@ -2832,6 +3201,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "legal_or_investigative",
+      "legal_standing_label": "Epstein Defense Counsel",
+      "legal_details": "Criminal defense attorney who met with Epstein shortly before his death in August 2019 to discuss taking over his federal defense.",
       "degree": 2
     },
     {
@@ -2853,6 +3225,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 6
     },
     {
@@ -2874,6 +3249,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -2895,6 +3273,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 1
     },
     {
@@ -2916,6 +3297,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 4
     },
     {
@@ -2937,6 +3321,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 4
     },
     {
@@ -2958,6 +3345,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -2979,6 +3369,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -3000,6 +3393,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -3024,6 +3420,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 1
     },
     {
@@ -3045,6 +3444,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 7
     },
     {
@@ -3066,6 +3468,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -3087,6 +3492,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "legal_or_investigative",
+      "legal_standing_label": "Defense Counsel / Former Solicitor General",
+      "legal_details": "Part of Epstein's 2007-2008 defense legal team that negotiated the controversial federal Non-Prosecution Agreement with Alexander Acosta.",
       "degree": 2
     },
     {
@@ -3108,6 +3516,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -3132,6 +3543,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 4
     },
     {
@@ -3153,6 +3567,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -3174,6 +3591,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -3195,6 +3615,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 5
     },
     {
@@ -3216,6 +3639,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -3237,6 +3663,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -3258,6 +3687,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 1
     },
     {
@@ -3279,6 +3711,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -3300,6 +3735,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -3321,6 +3759,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -3346,6 +3787,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 7
     },
     {
@@ -3367,6 +3811,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 1
     },
     {
@@ -3388,6 +3835,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 1
     },
     {
@@ -3409,6 +3859,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -3430,6 +3883,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 1
     },
     {
@@ -3451,6 +3907,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 4
     },
     {
@@ -3472,6 +3931,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 6
     },
     {
@@ -3493,6 +3955,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -3514,6 +3979,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -3535,6 +4003,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 4
     },
     {
@@ -3556,6 +4027,9 @@
       "source_dataset": "files_list",
       "source_label": "Wikipedia: Named in Files",
       "legal_context": "Named in Files",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -3579,6 +4053,9 @@
       "source_dataset": "connections_article",
       "source_label": "Wikipedia: Connections",
       "legal_context": "Documented Modeling Agency Connection",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -3602,6 +4079,9 @@
       "source_dataset": "connections_article",
       "source_label": "Wikipedia: Connections",
       "legal_context": "Financial / Grant Recipient",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 4
     },
     {
@@ -3623,6 +4103,9 @@
       "source_dataset": "connections_article",
       "source_label": "Wikipedia: Connections",
       "legal_context": "Public Affairs / Social Connection",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -3644,6 +4127,9 @@
       "source_dataset": "connections_article",
       "source_label": "Wikipedia: Connections",
       "legal_context": "Documented Modeling Agency Connection",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -3665,6 +4151,9 @@
       "source_dataset": "connections_article",
       "source_label": "Wikipedia: Connections",
       "legal_context": "White House Visitor Logs / Intermediary",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 4
     },
     {
@@ -3690,6 +4179,9 @@
       "source_dataset": "connections_article",
       "source_label": "Wikipedia: Connections & Orgs",
       "legal_context": "Key Associated Financial Institution",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -3713,6 +4205,9 @@
       "source_dataset": "connections_article",
       "source_label": "Wikipedia: Connections & Orgs",
       "legal_context": "Key Associated Financial Institution",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -3734,6 +4229,9 @@
       "source_dataset": "connections_article",
       "source_label": "Wikipedia: Connections & Orgs",
       "legal_context": "Investment & Venture Connection",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 4
     },
     {
@@ -3755,6 +4253,9 @@
       "source_dataset": "connections_article",
       "source_label": "Wikipedia: Connections & Orgs",
       "legal_context": "Epstein-Funded Academic Center",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 4
     },
     {
@@ -3776,6 +4277,9 @@
       "source_dataset": "connections_article",
       "source_label": "Wikipedia: Connections & Orgs",
       "legal_context": "Donation Recipient",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -3797,6 +4301,9 @@
       "source_dataset": "connections_article",
       "source_label": "Wikipedia: Connections & Orgs",
       "legal_context": "Investigative Agency / Returned Donations",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 1
     },
     {
@@ -3822,6 +4329,9 @@
       "source_dataset": "court_does_and_flights",
       "source_label": "Court Dockets & Flight Logs",
       "legal_context": "Civil Plaintiff & Key Accuser (Jane Doe 102)",
+      "legal_standing": "victim_or_witness",
+      "legal_standing_label": "Victim, Plaintiff & Key Accuser",
+      "legal_details": "Primary plaintiff in Giuffre v. Maxwell and Giuffre v. Prince Andrew; founder of Victims Refuse Silence; key witness whose unsealed filings exposed the network.",
       "degree": 9
     },
     {
@@ -3846,6 +4356,9 @@
       "source_dataset": "court_does_and_flights",
       "source_label": "Court Dockets & Flight Logs",
       "legal_context": "Executive Assistant / 2008 NPA Signatory",
+      "legal_standing": "npa_co_conspirator",
+      "legal_standing_label": "2008 NPA Named Co-Conspirator",
+      "legal_details": "Named as a potential co-conspirator in the controversial 2008 federal Non-Prosecution Agreement; accused in sworn victim testimony of scheduling and managing victims.",
       "degree": 6
     },
     {
@@ -3867,6 +4380,9 @@
       "source_dataset": "court_does_and_flights",
       "source_label": "Court Dockets & Flight Logs",
       "legal_context": "Executive Assistant / 2008 NPA Signatory",
+      "legal_standing": "npa_co_conspirator",
+      "legal_standing_label": "2008 NPA Named Co-Conspirator",
+      "legal_details": "Epstein's longtime executive secretary in NY; named in 2008 NPA; accused in victim civil claims of booking travel for minors; denied all wrongdoing.",
       "degree": 4
     },
     {
@@ -3888,6 +4404,9 @@
       "source_dataset": "court_does_and_flights",
       "source_label": "Court Dockets & Flight Logs",
       "legal_context": "Deposition Witness",
+      "legal_standing": "victim_or_witness",
+      "legal_standing_label": "Victim & Key Deposition Witness",
+      "legal_details": "Deposed in Giuffre v. Maxwell; testified regarding encounters with Prince Andrew at the NY townhouse, puppet incident, and recruitment by Maxwell.",
       "degree": 12
     },
     {
@@ -3909,6 +4428,9 @@
       "source_dataset": "court_does_and_flights",
       "source_label": "Court Dockets & Flight Logs",
       "legal_context": "Household Staff (Head Butler / Property Manager)",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 8
     },
     {
@@ -3930,6 +4452,9 @@
       "source_dataset": "court_does_and_flights",
       "source_label": "Court Dockets & Flight Logs",
       "legal_context": "Household Staff / Note Author",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 2
     },
     {
@@ -3954,6 +4479,9 @@
       "source_dataset": "court_does_and_flights",
       "source_label": "Court Dockets & Flight Logs",
       "legal_context": "Chief Pilot / Flight Manifest Keeper",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 5
     },
     {
@@ -3978,6 +4506,9 @@
       "source_dataset": "court_does_and_flights",
       "source_label": "Court Dockets & Flight Logs",
       "legal_context": "Longtime Corporate Pilot",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 11
     },
     {
@@ -4001,6 +4532,9 @@
       "source_dataset": "court_does_and_flights",
       "source_label": "Court Dockets & Flight Logs",
       "legal_context": "Government Figure / Meeting Mention",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -4022,6 +4556,9 @@
       "source_dataset": "court_does_and_flights",
       "source_label": "Court Dockets & Flight Logs",
       "legal_context": "Deposition Mention (No Misconduct Alleged)",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 4
     },
     {
@@ -4043,6 +4580,9 @@
       "source_dataset": "court_does_and_flights",
       "source_label": "Court Dockets & Flight Logs",
       "legal_context": "Incidental Deposition Questioning (No Misconduct Alleged)",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -4064,6 +4604,9 @@
       "source_dataset": "court_does_and_flights",
       "source_label": "Court Dockets & Flight Logs",
       "legal_context": "Flight Manifest Passenger (2002 Africa Trip)",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -4085,6 +4628,9 @@
       "source_dataset": "court_does_and_flights",
       "source_label": "Court Dockets & Flight Logs",
       "legal_context": "Flight Manifest Passenger",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 1
     },
     {
@@ -4106,6 +4652,9 @@
       "source_dataset": "court_does_and_flights",
       "source_label": "Court Dockets & Flight Logs",
       "legal_context": "Incidental Deposition Questioning (No Misconduct Alleged)",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -4127,6 +4676,9 @@
       "source_dataset": "court_does_and_flights",
       "source_label": "Court Dockets & Flight Logs",
       "legal_context": "Incidental Deposition Questioning (No Misconduct Alleged)",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -4148,6 +4700,9 @@
       "source_dataset": "court_does_and_flights",
       "source_label": "Court Dockets & Flight Logs",
       "legal_context": "Incidental Deposition Questioning (No Misconduct Alleged)",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 3
     },
     {
@@ -4169,6 +4724,9 @@
       "source_dataset": "court_does_and_flights",
       "source_label": "Court Dockets & Flight Logs",
       "legal_context": "Personal Assistant to Maxwell",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / Institutional Association",
+      "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
       "degree": 6
     },
     {
@@ -4190,6 +4748,9 @@
       "source_dataset": "court_does_and_flights",
       "source_label": "Court Dockets & Flight Logs",
       "legal_context": "Assistant / 2008 NPA Signatory",
+      "legal_standing": "npa_co_conspirator",
+      "legal_standing_label": "2008 NPA Named Co-Conspirator",
+      "legal_details": "Former model and assistant named as an unindicted potential co-conspirator granted blanket immunity under the 2008 Florida NPA.",
       "degree": 5
     }
   ],
@@ -4198,16 +4759,6 @@
       "id": "epstein-owns-loc-little-saint-james",
       "source": "jeffrey-epstein",
       "target": "loc-little-saint-james",
-      "type": "OWNS_PROPERTY",
-      "label": "Owned / Controlled",
-      "style": "solid",
-      "color": "#9ca3af",
-      "weight": 2
-    },
-    {
-      "id": "epstein-owns-loc-palm-beach",
-      "source": "jeffrey-epstein",
-      "target": "loc-palm-beach",
       "type": "OWNS_PROPERTY",
       "label": "Owned / Controlled",
       "style": "solid",
@@ -4228,6 +4779,16 @@
       "id": "epstein-owns-loc-paris",
       "source": "jeffrey-epstein",
       "target": "loc-paris",
+      "type": "OWNS_PROPERTY",
+      "label": "Owned / Controlled",
+      "style": "solid",
+      "color": "#9ca3af",
+      "weight": 2
+    },
+    {
+      "id": "epstein-owns-loc-palm-beach",
+      "source": "jeffrey-epstein",
+      "target": "loc-palm-beach",
       "type": "OWNS_PROPERTY",
       "label": "Owned / Controlled",
       "style": "solid",

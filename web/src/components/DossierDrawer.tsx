@@ -14,9 +14,11 @@ import {
   CheckCircle2,
   HelpCircle,
   Ban,
+  ShieldAlert,
+  Scale,
 } from 'lucide-react';
 import { PersonRecord, GraphNode } from '../types';
-import { SECTOR_COLORS } from './FilterBar';
+import { SECTOR_COLORS, LEGAL_STANDING_CONFIG } from './FilterBar';
 
 interface DossierDrawerProps {
   selectedNode: GraphNode | null;
@@ -42,6 +44,9 @@ export const DossierDrawer: React.FC<DossierDrawerProps> = ({
         activeBg: 'bg-slate-700 text-white',
       }
     : null;
+
+  const standingKey = personRecord?.legal_standing || selectedNode.legal_standing;
+  const standingCfg = standingKey ? LEGAL_STANDING_CONFIG[standingKey] : null;
 
   return (
     <aside className="fixed inset-y-0 right-0 w-full sm:w-[460px] bg-[#0c0f18]/95 backdrop-blur-xl border-l border-slate-800/80 shadow-2xl z-30 flex flex-col transition-all duration-300">
@@ -99,8 +104,25 @@ export const DossierDrawer: React.FC<DossierDrawerProps> = ({
               {selectedNode.profession || selectedNode.description || 'Public Figure'}
             </p>
 
-            {/* Sector & Era Badges */}
+            {/* Sector, Legal & Era Badges */}
             <div className="flex flex-wrap items-center gap-1.5 mt-2.5">
+              {standingCfg && (
+                <span
+                  className={`text-[10px] font-bold px-2 py-0.5 rounded-full border ${
+                    standingKey === 'convicted_co_conspirator' || standingKey === 'indicted_co_conspirator'
+                      ? 'bg-red-950/80 text-red-300 border-red-600'
+                      : standingKey === 'npa_co_conspirator'
+                      ? 'bg-orange-950/80 text-orange-300 border-orange-600'
+                      : standingKey === 'accused_or_sued'
+                      ? 'bg-amber-950/80 text-amber-300 border-amber-600'
+                      : standingKey === 'victim_or_witness'
+                      ? 'bg-emerald-950/80 text-emerald-300 border-emerald-600'
+                      : 'bg-slate-800 text-slate-300 border-slate-700'
+                  }`}
+                >
+                  {standingCfg.shortLabel}
+                </span>
+              )}
               {selectedNode.sector && sectorStyle && (
                 <span
                   className={`text-[10px] font-semibold px-2 py-0.5 rounded-full border ${sectorStyle.bg} ${sectorStyle.text} ${sectorStyle.border}`}
@@ -126,6 +148,62 @@ export const DossierDrawer: React.FC<DossierDrawerProps> = ({
         {/* If Person Record is available */}
         {personRecord && (
           <>
+            {/* Legal Standing & Allegation Status Card */}
+            <div
+              className={`rounded-xl p-3.5 border space-y-2.5 transition-all ${
+                personRecord.legal_standing === 'convicted_co_conspirator' ||
+                personRecord.legal_standing === 'indicted_co_conspirator'
+                  ? 'bg-red-950/30 border-red-700/80 shadow-lg shadow-red-950/30'
+                  : personRecord.legal_standing === 'npa_co_conspirator'
+                  ? 'bg-orange-950/30 border-orange-700/80 shadow-lg shadow-orange-950/30'
+                  : personRecord.legal_standing === 'accused_or_sued'
+                  ? 'bg-amber-950/30 border-amber-700/80 shadow-lg shadow-amber-950/30'
+                  : personRecord.legal_standing === 'victim_or_witness'
+                  ? 'bg-emerald-950/30 border-emerald-700/80 shadow-lg shadow-emerald-950/30'
+                  : personRecord.legal_standing === 'legal_or_investigative'
+                  ? 'bg-slate-900/60 border-slate-700/80'
+                  : 'bg-slate-900/40 border-slate-800/80'
+              }`}
+            >
+              <div className="flex items-center justify-between">
+                <span className="text-xs font-bold uppercase tracking-wider text-slate-300 flex items-center gap-1.5">
+                  <Scale className="w-3.5 h-3.5 text-cyan-400" />
+                  Legal Standing
+                </span>
+                <span
+                  className={`text-[10.5px] font-bold px-2 py-0.5 rounded-full border ${
+                    personRecord.legal_standing === 'convicted_co_conspirator' ||
+                    personRecord.legal_standing === 'indicted_co_conspirator'
+                      ? 'bg-red-950 text-red-300 border-red-600'
+                      : personRecord.legal_standing === 'npa_co_conspirator'
+                      ? 'bg-orange-950 text-orange-300 border-orange-600'
+                      : personRecord.legal_standing === 'accused_or_sued'
+                      ? 'bg-amber-950 text-amber-300 border-amber-600'
+                      : personRecord.legal_standing === 'victim_or_witness'
+                      ? 'bg-emerald-950 text-emerald-300 border-emerald-600'
+                      : personRecord.legal_standing === 'legal_or_investigative'
+                      ? 'bg-slate-800 text-slate-300 border-slate-600'
+                      : 'bg-slate-800/80 text-slate-400 border-slate-700'
+                  }`}
+                >
+                  {personRecord.legal_standing_label || 'Social / Professional Association'}
+                </span>
+              </div>
+
+              {/* Evidentiary Details */}
+              {personRecord.legal_details ? (
+                <div className="text-xs text-slate-200 bg-black/40 p-2.5 rounded-lg border border-slate-800/80 leading-relaxed font-sans">
+                  {personRecord.legal_details}
+                </div>
+              ) : (
+                <div className="text-xs text-slate-400 bg-black/30 p-2.5 rounded-lg border border-slate-800/60 leading-relaxed">
+                  {personRecord.legal_standing === 'social_or_professional'
+                    ? 'Social, academic, or professional acquaintance. No criminal accusation, co-conspirator indictment, or civil battery suit was filed against this individual in connection with the Epstein investigation.'
+                    : 'Evidentiary status recorded in court dockets and public disclosures.'}
+                </div>
+              )}
+            </div>
+
             {/* Data Provenance & Legal Context Box */}
             <div className="bg-[#0b0e17] rounded-xl p-3 border border-slate-800 space-y-2">
               <div className="flex items-center justify-between">

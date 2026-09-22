@@ -85,6 +85,9 @@ def build_graph() -> Dict[str, Any]:
         "size": 35,
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Mugshot_of_Jeffrey_Epstein_in_2009.jpg/250px-Mugshot_of_Jeffrey_Epstein_in_2009.jpg",
         "description": "Financier and convicted sex offender who cultivated ties with influential figures.",
+        "legal_standing": "convicted_co_conspirator",
+        "legal_standing_label": "Convicted Co-Conspirator",
+        "legal_details": "Convicted in Florida (2008) for procurement of minors for prostitution; indicted in SDNY (2019) for federal sex trafficking conspiracy; died in federal custody.",
     }
     nodes.append(hub_node)
     node_ids.add("jeffrey-epstein")
@@ -175,6 +178,9 @@ def build_graph() -> Dict[str, Any]:
             "source_dataset": p.get("source_dataset", "files_list"),
             "source_label": p.get("source_label", "Wikipedia: Named in Files"),
             "legal_context": p.get("legal_context", "Named in Files"),
+            "legal_standing": p.get("legal_standing", "social_or_professional"),
+            "legal_standing_label": p.get("legal_standing_label", "Social / Institutional Association"),
+            "legal_details": p.get("legal_details", ""),
         })
         node_ids.add(pid)
 

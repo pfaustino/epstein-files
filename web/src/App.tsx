@@ -48,6 +48,8 @@ export const App: React.FC = () => {
     searchQuery: '',
     selectedSectors: [],
     selectedSources: [],
+    selectedLegalStandings: [],
+    accusedOnly: false,
     visitedIslandOnly: false,
     flewPlaneOnly: false,
     visitedTownhouseOnly: false,
@@ -84,6 +86,16 @@ export const App: React.FC = () => {
     return counts;
   }, [peopleData]);
 
+  // Legal standing counts
+  const legalStandingCounts = useMemo(() => {
+    const counts: Record<string, number> = {};
+    peopleData.forEach(p => {
+      const ls = p.legal_standing || 'social_or_professional';
+      counts[ls] = (counts[ls] || 0) + 1;
+    });
+    return counts;
+  }, [peopleData]);
+
   // Filtered Person IDs based on active filters
   const filteredPersonIds = useMemo(() => {
     const query = filters.searchQuery.trim().toLowerCase();
@@ -113,6 +125,28 @@ export const App: React.FC = () => {
 
           // Sector filter
           if (filters.selectedSectors.length > 0 && !filters.selectedSectors.includes(p.sector)) {
+            return false;
+          }
+
+          // Accused & Co-conspirators filter
+          const pStanding = p.legal_standing || 'social_or_professional';
+          if (filters.accusedOnly) {
+            const accusedStandings = [
+              'convicted_co_conspirator',
+              'indicted_co_conspirator',
+              'npa_co_conspirator',
+              'accused_or_sued',
+            ];
+            if (!accusedStandings.includes(pStanding)) {
+              return false;
+            }
+          }
+
+          // Legal standing multi-select filter
+          if (
+            filters.selectedLegalStandings.length > 0 &&
+            !filters.selectedLegalStandings.includes(pStanding)
+          ) {
             return false;
           }
 
@@ -215,6 +249,7 @@ export const App: React.FC = () => {
             setFilters={setFilters}
             sectorCounts={sectorCounts}
             sourceCounts={sourceCounts}
+            legalStandingCounts={legalStandingCounts}
             totalFiltered={filteredPersonIds.size}
             totalPeople={peopleData.length}
             allPeople={peopleData}

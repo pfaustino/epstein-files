@@ -1,5 +1,17 @@
 import React, { useState, useRef, useEffect, useMemo } from 'react';
-import { Search, X, Palmtree, Plane, Building2, AlertTriangle, RotateCcw, User, ArrowRight } from 'lucide-react';
+import {
+  Search,
+  X,
+  Palmtree,
+  Plane,
+  Building2,
+  AlertTriangle,
+  RotateCcw,
+  User,
+  ArrowRight,
+  ShieldAlert,
+  Scale,
+} from 'lucide-react';
 import { FilterState, PersonRecord } from '../types';
 
 interface FilterBarProps {
@@ -7,11 +19,74 @@ interface FilterBarProps {
   setFilters: React.Dispatch<React.SetStateAction<FilterState>>;
   sectorCounts: Record<string, number>;
   sourceCounts: Record<string, number>;
+  legalStandingCounts?: Record<string, number>;
   totalFiltered: number;
   totalPeople: number;
   allPeople: PersonRecord[];
   onSelectPerson: (person: PersonRecord) => void;
 }
+
+export const LEGAL_STANDING_CONFIG: Record<
+  string,
+  { label: string; shortLabel: string; bg: string; text: string; border: string; activeBg: string }
+> = {
+  convicted_co_conspirator: {
+    label: '🚨 Convicted Co-Conspirator',
+    shortLabel: '🚨 Convicted',
+    bg: 'bg-red-950/50',
+    text: 'text-red-400',
+    border: 'border-red-700/70',
+    activeBg: 'bg-red-600 text-white border-red-500 shadow-md shadow-red-600/30',
+  },
+  indicted_co_conspirator: {
+    label: '⚖️ Indicted Co-Conspirator',
+    shortLabel: '⚖️ Indicted',
+    bg: 'bg-rose-950/50',
+    text: 'text-rose-400',
+    border: 'border-rose-700/70',
+    activeBg: 'bg-rose-600 text-white border-rose-500 shadow-md shadow-rose-600/30',
+  },
+  npa_co_conspirator: {
+    label: '📜 2008 NPA Immunity',
+    shortLabel: '📜 NPA Named',
+    bg: 'bg-orange-950/50',
+    text: 'text-orange-400',
+    border: 'border-orange-700/70',
+    activeBg: 'bg-orange-600 text-white border-orange-500 shadow-md shadow-orange-600/30',
+  },
+  accused_or_sued: {
+    label: '⚠️ Deposition Accused / Civilly Sued',
+    shortLabel: '⚠️ Accused / Sued',
+    bg: 'bg-amber-950/50',
+    text: 'text-amber-400',
+    border: 'border-amber-700/70',
+    activeBg: 'bg-amber-600 text-white border-amber-500 shadow-md shadow-amber-600/30',
+  },
+  victim_or_witness: {
+    label: '🛡️ Victim & Witness',
+    shortLabel: '🛡️ Victim / Witness',
+    bg: 'bg-emerald-950/50',
+    text: 'text-emerald-400',
+    border: 'border-emerald-700/70',
+    activeBg: 'bg-emerald-600 text-white border-emerald-500 shadow-md shadow-emerald-600/30',
+  },
+  legal_or_investigative: {
+    label: '🏛️ Legal Defense & Counsel',
+    shortLabel: '🏛️ Counsel / Legal',
+    bg: 'bg-slate-800/60',
+    text: 'text-slate-300',
+    border: 'border-slate-700/60',
+    activeBg: 'bg-slate-600 text-white border-slate-500 shadow-md',
+  },
+  social_or_professional: {
+    label: 'ℹ️ Social / Contact (No Allegation)',
+    shortLabel: 'ℹ️ Social Contact',
+    bg: 'bg-slate-900/60',
+    text: 'text-slate-400',
+    border: 'border-slate-800',
+    activeBg: 'bg-slate-700 text-white border-slate-600',
+  },
+};
 
 export const SECTOR_COLORS: Record<string, { bg: string; text: string; border: string; activeBg: string }> = {
   'Politics, Government & Diplomacy': { bg: 'bg-blue-950/40', text: 'text-blue-400', border: 'border-blue-800/50', activeBg: 'bg-blue-600 text-white' },
@@ -31,6 +106,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
   setFilters,
   sectorCounts,
   sourceCounts,
+  legalStandingCounts,
   totalFiltered,
   totalPeople,
   allPeople,
@@ -38,6 +114,17 @@ export const FilterBar: React.FC<FilterBarProps> = ({
 }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const searchContainerRef = useRef<HTMLDivElement>(null);
+
+  // Total count of accused / co-conspirators
+  const accusedTotalCount = useMemo(() => {
+    if (!legalStandingCounts) return 0;
+    return (
+      (legalStandingCounts['convicted_co_conspirator'] || 0) +
+      (legalStandingCounts['indicted_co_conspirator'] || 0) +
+      (legalStandingCounts['npa_co_conspirator'] || 0) +
+      (legalStandingCounts['accused_or_sued'] || 0)
+    );
+  }, [legalStandingCounts]);
 
   // Close dropdown on outside click
   useEffect(() => {
@@ -93,10 +180,24 @@ export const FilterBar: React.FC<FilterBarProps> = ({
     });
   };
 
+  const toggleLegalStanding = (standingKey: string) => {
+    setFilters(prev => {
+      const exists = prev.selectedLegalStandings.includes(standingKey);
+      return {
+        ...prev,
+        selectedLegalStandings: exists
+          ? prev.selectedLegalStandings.filter(s => s !== standingKey)
+          : [...prev.selectedLegalStandings, standingKey],
+      };
+    });
+  };
+
   const isFiltered =
     Boolean(filters.searchQuery) ||
     filters.selectedSectors.length > 0 ||
     filters.selectedSources.length > 0 ||
+    filters.selectedLegalStandings.length > 0 ||
+    filters.accusedOnly ||
     filters.visitedIslandOnly ||
     filters.flewPlaneOnly ||
     filters.visitedTownhouseOnly ||
@@ -107,6 +208,8 @@ export const FilterBar: React.FC<FilterBarProps> = ({
       searchQuery: '',
       selectedSectors: [],
       selectedSources: [],
+      selectedLegalStandings: [],
+      accusedOnly: false,
       visitedIslandOnly: false,
       flewPlaneOnly: false,
       visitedTownhouseOnly: false,
@@ -206,6 +309,23 @@ export const FilterBar: React.FC<FilterBarProps> = ({
 
         {/* Quick Attribute Toggles */}
         <div className="flex flex-wrap items-center gap-2">
+          {/* Accused & Co-Conspirators Primary Filter */}
+          <button
+            onClick={() => setFilters(prev => ({ ...prev, accusedOnly: !prev.accusedOnly }))}
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold border transition-all ${
+              filters.accusedOnly
+                ? 'bg-red-600 text-white border-red-400 shadow-md shadow-red-600/40 ring-1 ring-red-400'
+                : 'bg-red-950/40 text-red-300 border-red-900/60 hover:bg-red-900/40 hover:border-red-600/60'
+            }`}
+            title="Filter to convicted, indicted, 2008 NPA immunity, or civilly sued/accused figures"
+          >
+            <ShieldAlert className="w-3.5 h-3.5 text-red-400" />
+            <span>🚨 Accused & Co-Conspirators</span>
+            <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-black/40 font-mono font-bold text-red-200">
+              {accusedTotalCount}
+            </span>
+          </button>
+
           {/* Island Filter */}
           <button
             onClick={() => setFilters(prev => ({ ...prev, visitedIslandOnly: !prev.visitedIslandOnly }))}
@@ -272,7 +392,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
         </div>
       </div>
 
-      {/* Middle row: Dataset Source Filters */}
+      {/* Middle row 1: Dataset Source Filters */}
       <div className="flex flex-wrap items-center gap-2 pt-1.5 border-t border-slate-800/40">
         <span className="text-[11px] font-medium text-slate-400 uppercase tracking-wider mr-1">
           Sources:
@@ -337,6 +457,38 @@ export const FilterBar: React.FC<FilterBarProps> = ({
             {sourceCounts.court_does_and_flights || 18}
           </span>
         </button>
+      </div>
+
+      {/* Middle row 2: Legal Standing & Evidentiary Role Filters */}
+      <div className="flex flex-wrap items-center gap-1.5 pt-1.5 border-t border-slate-800/40">
+        <span className="text-[11px] font-medium text-slate-400 uppercase tracking-wider mr-1 flex items-center gap-1">
+          <Scale className="w-3.5 h-3.5 text-slate-400" />
+          Legal Role:
+        </span>
+        {Object.entries(LEGAL_STANDING_CONFIG).map(([standingKey, cfg]) => {
+          const count = legalStandingCounts ? legalStandingCounts[standingKey] || 0 : 0;
+          const isSelected = filters.selectedLegalStandings.includes(standingKey);
+          return (
+            <button
+              key={standingKey}
+              onClick={() => toggleLegalStanding(standingKey)}
+              className={`flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-medium border transition-all ${
+                isSelected
+                  ? cfg.activeBg
+                  : `${cfg.bg} ${cfg.text} ${cfg.border} hover:brightness-125`
+              }`}
+            >
+              <span>{cfg.label}</span>
+              <span
+                className={`text-[10px] px-1.5 rounded-full font-mono ${
+                  isSelected ? 'bg-black/40 text-white' : 'bg-slate-900/80 text-slate-400'
+                }`}
+              >
+                {count}
+              </span>
+            </button>
+          );
+        })}
       </div>
 
       {/* Bottom row: Sector Pill Buttons */}
