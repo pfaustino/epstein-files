@@ -207,15 +207,50 @@ export interface PassengerLeaderboardItem {
   has_core_dossier: boolean;
 }
 
+export interface AirportInfo {
+  code: string;
+  name: string;
+  city: string;
+  state: string;
+  country: string;
+  lat: number;
+  lon: number;
+  hub_type: 'island_gateway' | 'townhouse_gateway' | 'palmbeach_gateway' | 'ranch_gateway' | 'wexner_hq' | 'paris_gateway' | 'london_gateway' | 'standard';
+  departures: number;
+  arrivals: number;
+  total_traffic: number;
+}
+
+export interface FlightRoute {
+  id: string;
+  origin: string;
+  destination: string;
+  origin_name: string;
+  dest_name: string;
+  origin_city: string;
+  dest_city: string;
+  origin_coords: [number, number];
+  dest_coords: [number, number];
+  flight_count: number;
+  is_island_route: boolean;
+  top_passengers: { name: string; count: number }[];
+  passengers: string[];
+  flight_ids: string[];
+}
+
 export interface FlightManifestsData {
   metadata: {
     source: string;
     total_flights: number;
     total_passengers_tracked: number;
+    total_airports_mapped?: number;
+    total_routes_mapped?: number;
     top_destinations: { destination: string; flights: number }[];
   };
   flights: FlightRecord[];
   passengers_leaderboard: PassengerLeaderboardItem[];
+  airports?: AirportInfo[];
+  routes?: FlightRoute[];
 }
 
 // --- Court Does Types ---

@@ -46,6 +46,21 @@ AIRPORT_MAPPINGS = {
     "MYNN": "Nassau, Bahamas",
 }
 
+AIRPORTS_RAW_PATH = Path("data/raw/airports_raw.json")
+
+SPECIAL_AIRPORTS_OVERRIDE = {
+    "TIST": {"code": "TIST", "name": "Cyril E. King Airport (St. Thomas)", "city": "St. Thomas", "state": "USVI", "country": "VI", "lat": 18.3373, "lon": -64.9734, "hub_type": "island_gateway"},
+    "STT": {"code": "STT", "name": "Cyril E. King Airport (St. Thomas)", "city": "St. Thomas", "state": "USVI", "country": "VI", "lat": 18.3373, "lon": -64.9734, "hub_type": "island_gateway"},
+    "TEB": {"code": "TEB", "name": "Teterboro Airport", "city": "Teterboro (NYC)", "state": "NJ", "country": "US", "lat": 40.8501, "lon": -74.0608, "hub_type": "townhouse_gateway"},
+    "PBI": {"code": "PBI", "name": "Palm Beach International Airport", "city": "Palm Beach", "state": "FL", "country": "US", "lat": 26.6832, "lon": -80.0956, "hub_type": "palmbeach_gateway"},
+    "SAF": {"code": "SAF", "name": "Santa Fe Regional Airport", "city": "Santa Fe (Zorro Ranch)", "state": "NM", "country": "US", "lat": 35.6171, "lon": -106.089, "hub_type": "ranch_gateway"},
+    "CMH": {"code": "CMH", "name": "John Glenn Columbus International", "city": "Columbus (Wexner HQ)", "state": "OH", "country": "US", "lat": 39.998, "lon": -82.8919, "hub_type": "wexner_hq"},
+    "LFPB": {"code": "LFPB", "name": "Paris-Le Bourget Airport", "city": "Paris (Avenue Foch)", "state": "IDF", "country": "FR", "lat": 48.9694, "lon": 2.4414, "hub_type": "paris_gateway"},
+    "EGGW": {"code": "EGGW", "name": "London Luton Airport", "city": "London", "state": "ENG", "country": "GB", "lat": 51.8747, "lon": -0.3683, "hub_type": "london_gateway"},
+    "AHN": {"code": "AHN", "name": "Athens Ben Epps Airport", "city": "Athens", "state": "GA", "country": "US", "lat": 33.9519, "lon": -83.3263, "hub_type": "standard"},
+    "ANH": {"code": "ANH", "name": "Athens Ben Epps Airport", "city": "Athens", "state": "GA", "country": "US", "lat": 33.9519, "lon": -83.3263, "hub_type": "standard"},
+}
+
 
 def build_core_lookup(people: List[Dict[str, Any]]) -> Dict[str, Dict[str, str]]:
     """Build normalized lookup for core people."""
@@ -262,11 +277,121 @@ def run():
 
     leaderboard.sort(key=lambda x: x["flight_count"], reverse=True)
 
+    # Load raw airports database
+    airports_db: Dict[str, Any] = {}
+    if AIRPORTS_RAW_PATH.exists():
+        with open(AIRPORTS_RAW_PATH, "r", encoding="utf-8") as f:
+            airports_db = json.load(f)
+
+    def resolve_airport(c: str) -> Optional[Dict[str, Any]]:
+        code_clean = c.strip().upper()
+        if code_clean in SPECIAL_AIRPORTS_OVERRIDE:
+            return SPECIAL_AIRPORTS_OVERRIDE[code_clean].copy()
+        ap = airports_db.get(code_clean) or airports_db.get("K" + code_clean) or airports_db.get("M" + code_clean) or airports_db.get("T" + code_clean)
+        if not ap:
+            for k, v in airports_db.items():
+                if v.get("iata") == code_clean:
+                    ap = v
+                    break
+        if ap and ap.get("lat") and ap.get("lon"):
+            return {
+                "code": code_clean,
+                "name": ap.get("name", code_clean),
+                "city": ap.get("city", ""),
+                "state": ap.get("state", ""),
+                "country": ap.get("country", ""),
+                "lat": float(ap["lat"]),
+                "lon": float(ap["lon"]),
+                "hub_type": "standard",
+            }
+        return None
+
+    def extract_airport_codes(raw: str) -> List[str]:
+        if not raw or not isinstance(raw, str):
+            return []
+        return re.findall(r"[A-Z]{3,4}", raw.upper())
+
+    # Build airports catalog and routes map
+    airports_catalog: Dict[str, Dict[str, Any]] = {}
+    routes_map: Dict[str, Dict[str, Any]] = defaultdict(lambda: {
+        "flight_count": 0,
+        "passengers": defaultdict(int),
+        "flight_ids": [],
+    })
+
+    for fl in flights:
+        from_raw = fl["route"]["from"]
+        to_raw = fl["route"]["to"]
+        from_codes = extract_airport_codes(from_raw)
+        to_codes = extract_airport_codes(to_raw)
+
+        if from_codes and to_codes:
+            orig_code = from_codes[0]
+            dest_code = to_codes[-1]
+
+            orig_info = resolve_airport(orig_code)
+            dest_info = resolve_airport(dest_code)
+
+            if orig_info and dest_info:
+                if orig_code not in airports_catalog:
+                    orig_info["departures"] = 0
+                    orig_info["arrivals"] = 0
+                    orig_info["total_traffic"] = 0
+                    airports_catalog[orig_code] = orig_info
+                if dest_code not in airports_catalog:
+                    dest_info["departures"] = 0
+                    dest_info["arrivals"] = 0
+                    dest_info["total_traffic"] = 0
+                    airports_catalog[dest_code] = dest_info
+
+                airports_catalog[orig_code]["departures"] += 1
+                airports_catalog[orig_code]["total_traffic"] += 1
+                airports_catalog[dest_code]["arrivals"] += 1
+                airports_catalog[dest_code]["total_traffic"] += 1
+
+                route_key = f"{orig_code}->{dest_code}"
+                r_entry = routes_map[route_key]
+                r_entry["flight_count"] += 1
+                r_entry["flight_ids"].append(fl["id"])
+                for p in fl["passengers"]:
+                    r_entry["passengers"][p["name"]] += 1
+
+    # Format routes list
+    routes_list = []
+    for route_key, r_data in routes_map.items():
+        orig_code, dest_code = route_key.split("->")
+        orig_info = airports_catalog[orig_code]
+        dest_info = airports_catalog[dest_code]
+
+        is_island = orig_info["hub_type"] == "island_gateway" or dest_info["hub_type"] == "island_gateway"
+        top_p = sorted(r_data["passengers"].items(), key=lambda x: x[1], reverse=True)[:5]
+
+        routes_list.append({
+            "id": f"route-{orig_code}-{dest_code}",
+            "origin": orig_code,
+            "destination": dest_code,
+            "origin_name": orig_info["name"],
+            "dest_name": dest_info["name"],
+            "origin_city": orig_info["city"],
+            "dest_city": dest_info["city"],
+            "origin_coords": [orig_info["lat"], orig_info["lon"]],
+            "dest_coords": [dest_info["lat"], dest_info["lon"]],
+            "flight_count": r_data["flight_count"],
+            "is_island_route": is_island,
+            "top_passengers": [{"name": p[0], "count": p[1]} for p in top_p],
+            "passengers": list(r_data["passengers"].keys()),
+            "flight_ids": r_data["flight_ids"][:30],
+        })
+
+    routes_list.sort(key=lambda x: x["flight_count"], reverse=True)
+
     output_payload = {
         "metadata": {
             "source": "Pilot Flight Logs (Dave Rodgers & Larry Visoski Manifests)",
             "total_flights": len(flights),
             "total_passengers_tracked": len(leaderboard),
+            "total_airports_mapped": len(airports_catalog),
+            "total_routes_mapped": len(routes_list),
             "top_destinations": sorted(
                 [{"destination": k, "flights": v} for k, v in destination_counts.items() if k != "Unknown"],
                 key=lambda x: x["flights"],
@@ -275,6 +400,8 @@ def run():
         },
         "flights": flights,
         "passengers_leaderboard": leaderboard,
+        "airports": list(airports_catalog.values()),
+        "routes": routes_list,
     }
 
     OUTPUT_FLIGHTS_PATH.parent.mkdir(parents=True, exist_ok=True)

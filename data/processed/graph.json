@@ -20,24 +20,14 @@
       "degree": 191
     },
     {
-      "id": "loc-paris",
-      "label": "Paris Apartment (Avenue Foch)",
+      "id": "loc-little-saint-james",
+      "label": "Little Saint James (Private Island)",
       "type": "location",
       "category": "Property / Location",
-      "color": "#7c3aed",
+      "color": "#dc2626",
       "size": 26,
-      "description": "Epstein's luxury apartment on Avenue Foch in Paris, France.",
-      "degree": 2
-    },
-    {
-      "id": "loc-nyc-townhouse",
-      "label": "NYC Townhouse (Herbert N. Straus House)",
-      "type": "location",
-      "category": "Property / Location",
-      "color": "#ea580c",
-      "size": 26,
-      "description": "Epstein's 7-story, 28,000 sq ft mansion at 9 East 71st St, Manhattan.",
-      "degree": 13
+      "description": "Epstein's private 70-acre island in the US Virgin Islands.",
+      "degree": 21
     },
     {
       "id": "loc-palm-beach",
@@ -60,14 +50,24 @@
       "degree": 7
     },
     {
-      "id": "loc-little-saint-james",
-      "label": "Little Saint James (Private Island)",
+      "id": "loc-paris",
+      "label": "Paris Apartment (Avenue Foch)",
       "type": "location",
       "category": "Property / Location",
-      "color": "#dc2626",
+      "color": "#7c3aed",
       "size": 26,
-      "description": "Epstein's private 70-acre island in the US Virgin Islands.",
-      "degree": 21
+      "description": "Epstein's luxury apartment on Avenue Foch in Paris, France.",
+      "degree": 2
+    },
+    {
+      "id": "loc-nyc-townhouse",
+      "label": "NYC Townhouse (Herbert N. Straus House)",
+      "type": "location",
+      "category": "Property / Location",
+      "color": "#ea580c",
+      "size": 26,
+      "description": "Epstein's 7-story, 28,000 sq ft mansion at 9 East 71st St, Manhattan.",
+      "degree": 13
     },
     {
       "id": "org-united-nations",
@@ -4195,19 +4195,9 @@
   ],
   "edges": [
     {
-      "id": "epstein-owns-loc-paris",
+      "id": "epstein-owns-loc-little-saint-james",
       "source": "jeffrey-epstein",
-      "target": "loc-paris",
-      "type": "OWNS_PROPERTY",
-      "label": "Owned / Controlled",
-      "style": "solid",
-      "color": "#9ca3af",
-      "weight": 2
-    },
-    {
-      "id": "epstein-owns-loc-nyc-townhouse",
-      "source": "jeffrey-epstein",
-      "target": "loc-nyc-townhouse",
+      "target": "loc-little-saint-james",
       "type": "OWNS_PROPERTY",
       "label": "Owned / Controlled",
       "style": "solid",
@@ -4235,9 +4225,19 @@
       "weight": 2
     },
     {
-      "id": "epstein-owns-loc-little-saint-james",
+      "id": "epstein-owns-loc-paris",
       "source": "jeffrey-epstein",
-      "target": "loc-little-saint-james",
+      "target": "loc-paris",
+      "type": "OWNS_PROPERTY",
+      "label": "Owned / Controlled",
+      "style": "solid",
+      "color": "#9ca3af",
+      "weight": 2
+    },
+    {
+      "id": "epstein-owns-loc-nyc-townhouse",
+      "source": "jeffrey-epstein",
+      "target": "loc-nyc-townhouse",
       "type": "OWNS_PROPERTY",
       "label": "Owned / Controlled",
       "style": "solid",

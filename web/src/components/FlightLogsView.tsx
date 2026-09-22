@@ -1,22 +1,35 @@
 import React, { useState, useMemo } from 'react';
-import { Plane, Search, Calendar, Users, MapPin, ExternalLink, Sparkles, Filter, ChevronLeft, ChevronRight, UserCheck, Award } from 'lucide-react';
-import { FlightManifestsData, FlightRecord, PassengerLeaderboardItem } from '../types';
+import { Plane, Search, Calendar, Users, MapPin, ExternalLink, Sparkles, Filter, ChevronLeft, ChevronRight, UserCheck, Award, Map as MapIcon } from 'lucide-react';
+import { FlightManifestsData, FlightRecord, PassengerLeaderboardItem, FlightRoute } from '../types';
+import { FlightRouteMap } from './FlightRouteMap';
 
 interface FlightLogsViewProps {
   data: FlightManifestsData;
   onSelectCorePerson: (personId: string) => void;
 }
 
-type FlightSubView = 'manifests' | 'leaderboard';
+type FlightSubView = 'map' | 'leaderboard' | 'manifests';
 
 const PAGE_SIZE = 30;
 
 export const FlightLogsView: React.FC<FlightLogsViewProps> = ({ data, onSelectCorePerson }) => {
-  const [subView, setSubView] = useState<FlightSubView>('leaderboard');
+  const [subView, setSubView] = useState<FlightSubView>('map');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedRoute, setSelectedRoute] = useState('ALL');
   const [coreOnly, setCoreOnly] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
+
+  const handleSelectAirport = (airportCode: string) => {
+    setSelectedRoute(airportCode);
+    setSubView('manifests');
+    setCurrentPage(1);
+  };
+
+  const handleSelectRoute = (route: FlightRoute | null) => {
+    if (route) {
+      setSelectedRoute(route.destination);
+    }
+  };
 
   // Filter flights for manifest table
   const filteredFlights = useMemo(() => {
@@ -85,24 +98,42 @@ export const FlightLogsView: React.FC<FlightLogsViewProps> = ({ data, onSelectCo
       <div className="bg-slate-900/80 border-b border-slate-800 px-4 sm:px-6 py-3 shrink-0">
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-3">
           <div>
-            <h2 className="text-sm font-bold text-white flex items-center gap-2">
+            <h2 className="text-sm font-bold text-white flex flex-wrap items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-sky-400"></span>
               Pilot Flight Logs & Aviation Manifests
               <span className="text-xs font-mono px-2 py-0.5 rounded bg-sky-950 text-sky-300 border border-sky-800/60">
                 {data.metadata.total_flights} Recorded Flights
               </span>
               <span className="text-xs font-mono px-2 py-0.5 rounded bg-cyan-950 text-cyan-300 border border-cyan-800/60">
-                {data.metadata.total_passengers_tracked} Unique Passengers
+                {data.metadata.total_passengers_tracked} Passengers
+              </span>
+              <span className="text-xs font-mono px-2 py-0.5 rounded bg-rose-950 text-rose-300 border border-rose-800/60">
+                {data.metadata.total_airports_mapped || (data.airports ? data.airports.length : 88)} Airports
+              </span>
+              <span className="text-xs font-mono px-2 py-0.5 rounded bg-emerald-950 text-emerald-300 border border-emerald-800/60">
+                {data.metadata.total_routes_mapped || (data.routes ? data.routes.length : 222)} Routes Mapped
               </span>
             </h2>
             <p className="text-xs text-slate-400 mt-0.5">
-              Flight logs kept by pilots Dave Rodgers and Larry Visoski for Epstein's private aircraft (including Boeing 727 "Lolita Express" and Gulfstream jets).
+              Flight logs kept by pilots Dave Rodgers and Larry Visoski for Epstein's private fleet (Boeing 727 "Lolita Express" N908JE, Gulfstreams N474AW & N351DY, Bell Helicopter).
             </p>
           </div>
 
           {/* Sub-view Switcher & Core Toggle */}
           <div className="flex items-center gap-2 shrink-0">
             <div className="flex items-center bg-slate-950 p-1 rounded-xl border border-slate-800">
+              <button
+                onClick={() => setSubView('map')}
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+                  subView === 'map'
+                    ? 'bg-sky-600 text-white shadow-md shadow-sky-600/30'
+                    : 'text-slate-400 hover:text-white'
+                }`}
+              >
+                <MapIcon className="w-3.5 h-3.5" />
+                <span>Interactive Route Map</span>
+              </button>
+
               <button
                 onClick={() => setSubView('leaderboard')}
                 className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
@@ -150,7 +181,9 @@ export const FlightLogsView: React.FC<FlightLogsViewProps> = ({ data, onSelectCo
             <input
               type="text"
               placeholder={
-                subView === 'leaderboard'
+                subView === 'map'
+                  ? 'Filter routes by passenger, city, code...'
+                  : subView === 'leaderboard'
                   ? 'Search passenger name, route...'
                   : 'Search flight date, tail #, passenger...'
               }
@@ -181,13 +214,32 @@ export const FlightLogsView: React.FC<FlightLogsViewProps> = ({ data, onSelectCo
                 <option value="TEB">Teterboro / NYC Area (TEB)</option>
                 <option value="SAF">Santa Fe / Zorro Ranch (SAF)</option>
                 <option value="LFPB">Paris-Le Bourget (LFPB)</option>
+                <option value="CMH">Columbus / Wexner HQ (CMH)</option>
+                <option value="EGSS">London Stansted (EGSS)</option>
+                <option value="IAD">Washington Dulles (IAD)</option>
+                <option value="BOS">Boston Logan (BOS)</option>
+                <option value="MIA">Miami International (MIA)</option>
+                <option value="SJU">San Juan, Puerto Rico (SJU)</option>
+                {selectedRoute !== 'ALL' && !['TIST', 'PBI', 'TEB', 'SAF', 'LFPB', 'CMH', 'EGSS', 'IAD', 'BOS', 'MIA', 'SJU'].includes(selectedRoute) && (
+                  <option value={selectedRoute}>{selectedRoute} (Selected)</option>
+                )}
               </select>
+              {selectedRoute !== 'ALL' && (
+                <button
+                  onClick={() => setSelectedRoute('ALL')}
+                  className="text-[11px] text-sky-400 hover:text-sky-300 underline font-mono"
+                >
+                  Clear filter
+                </button>
+              )}
             </div>
           )}
 
           {/* Result counter */}
           <div className="text-xs text-slate-400 ml-auto font-mono">
-            {subView === 'leaderboard'
+            {subView === 'map'
+              ? `Displaying ${(data.routes || []).length} routes across ${(data.airports || []).length} airports`
+              : subView === 'leaderboard'
               ? `Showing ${filteredLeaderboard.length} of ${data.passengers_leaderboard.length} passengers`
               : `Showing ${paginatedFlights.length} of ${filteredFlights.length} flights`}
           </div>
@@ -195,8 +247,21 @@ export const FlightLogsView: React.FC<FlightLogsViewProps> = ({ data, onSelectCo
       </div>
 
       {/* Main Content Area */}
-      <div className="flex-1 overflow-y-auto p-4 sm:p-6">
-        {subView === 'leaderboard' ? (
+      {subView === 'map' ? (
+        <div className="flex-1 w-full h-full relative overflow-hidden">
+          <FlightRouteMap
+            airports={data.airports || []}
+            routes={data.routes || []}
+            searchQuery={searchQuery}
+            coreOnly={coreOnly}
+            onSelectAirport={handleSelectAirport}
+            onSelectRoute={handleSelectRoute}
+            onSelectCorePerson={onSelectCorePerson}
+          />
+        </div>
+      ) : (
+        <div className="flex-1 overflow-y-auto p-4 sm:p-6">
+          {subView === 'leaderboard' ? (
           /* --- Sub-View 1: Passenger Leaderboard --- */
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {filteredLeaderboard.map((item, rank) => (
@@ -416,7 +481,8 @@ export const FlightLogsView: React.FC<FlightLogsViewProps> = ({ data, onSelectCo
             )}
           </div>
         )}
-      </div>
+        </div>
+      )}
     </div>
   );
 };
