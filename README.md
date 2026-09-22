@@ -1,22 +1,56 @@
-# Epstein Files - Investigative Knowledge Graph & Data Pipeline
+# Epstein Files — Investigative Knowledge Graph & Multi-Source Explorer
 
-A structured data extraction, entity resolution, and network graph generator for the individuals named in the Epstein documents, court exhibits, and reliable investigative archives.
+[![Deploy to GitHub Pages](https://github.com/pfaustino/epstein-files/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/pfaustino/epstein-files/actions/workflows/deploy-pages.yml)
 
-Data sourced from [Wikipedia: List of people named in the Epstein files](https://en.wikipedia.org/wiki/List_of_people_named_in_the_Epstein_files), enriched with standardized taxonomies, cross-references, property visit tracking, and flight log data.
+An interactive, multi-dimensional investigative suite and knowledge graph platform for exploring connections between individuals named across the Jeffrey Epstein documents, court exhibits (*Giuffre v. Maxwell*), flight manifests, and the "Little Black Book".
+
+🌐 **Live Demo:** [https://pfaustino.github.io/epstein-files/](https://pfaustino.github.io/epstein-files/)
 
 ---
 
-## 📊 Dataset Overview
+## 📑 The 4 Dedicated Investigative Tabs
 
-| Metric | Count |
-| :--- | :--- |
-| **Total Named Individuals** | **157** |
-| **Individuals with Portrait Photos** | **109** (69.4%) |
-| **Individuals Linked to Wikipedia Pages** | **141** (89.8%) |
-| **Standardized Sectors** | **8** |
-| **Total Graph Nodes** | **181** (157 People + 18 Organizations + 5 Locations + 1 Central Hub) |
-| **Total Graph Edges** | **426** (including 57 direct person-to-person peer connections) |
-| **Document Citations Tracked** | **449** |
+```
+Universal Navigation Header
+├── 🌐 Tab 1: Core Network       (186 Detailed Dossiers & 2D Physics Knowledge Graph)
+├── 📖 Tab 2: The Black Book      (2,327 Address Book Directory Contacts with A–Z Jump)
+├── ✈️ Tab 3: Flight Logs         (559 Recorded Flight Legs & 181-Passenger Leaderboard)
+└── ⚖️ Tab 4: Court Does (1–187)  (Judicial Docket Index with Preska Unsealing Rulings)
+```
+
+1. **🌐 Core Network Explorer (186 Profiles & Hub)**
+   - Interactive 2D physics-based force-directed knowledge graph (210 nodes, 564 edges, 105 mutual peer ties).
+   - Avatar portraits, sector color rings, and property nodes (*Little Saint James*, *NYC Townhouse*, *Palm Beach*, *Zorro Ranch*, *Paris*).
+   - Sub-views: Toggle between interactive **Graph View** and **Directory Grid**.
+   - **Degrees of Separation Path Finder**: Breadth-First Search (BFS) finding shortest connection chains between any two figures.
+   - **Rich Slide-Over Dossiers**: High-res portraits, cited court quotes, property visits, flight metrics, and 1-click peer navigation.
+
+2. **📖 The Black Book (2,327 Contacts across 95 Pages)**
+   - Digital address book interface modeled after the 95-page contact book seized by the FBI.
+   - **Alphabetical A–Z Quick Jump Bar**: One click to jump directly to any letter.
+   - **Search & Category Filters**: Search names, phone numbers, addresses, and notes across Personal, Commercial, Domestic Staff, Massage/Spa, Aviation, Politics, Royalty, and Medical contacts.
+   - **1-Click Cross-Linking**: 114 entries matched to core figures (*Trump*, *Clinton*, *Maxwell*, *Campbell*, *Baldwin*, *Dershowitz*, *Wexner*, *Barak*, *Spacey*, etc.) feature a glowing button: **"View Full Dossier in Core Network"**.
+
+3. **✈️ Flight Manifests & Pilot Logs (559 Flights)**
+   - **Passenger Leaderboard**: Ranks 181 passengers by total recorded flight count (*Epstein* 419, *Maxwell* 207, *Dawn Devito* 37, *Sophie Biddle* 32, *Doug Band*, *Clinton*, *Prince Andrew*, *Brunel*, etc.) with flight date spans, frequent flight legs, and co-passenger analysis.
+   - **Flight Manifests Table**: Detailed log table with airport/route filters (*St. Thomas / Island*, *Palm Beach*, *Teterboro / NYC*, *Santa Fe / Ranch*, *Paris*), flight dates, tail numbers, and full passenger rosters.
+   - Clickable passenger pills link directly to Core Network dossiers.
+
+4. **⚖️ Court Does (1–187): Giuffre v. Maxwell**
+   - Complete index of all 187 pseudonymous Does evaluated by U.S. District Judge Loretta A. Preska (Doc 1320).
+   - **Status Filtering**: Toggle between **Unsealed & Identified** (181 Does) and **Protected / Maintained Under Seal** (6 Does preserved to protect minor victim safety and privacy).
+   - Shows Judge Preska's balancing rationale, docket numbers, and 1-click links to core dossiers for identified figures (*Giuffre, Sjoberg, Maxwell, Andrew, Kellen, Groff, Alessi, Rodgers, Visoski, Clinton, Dershowitz, the Dubins*, etc.).
+
+---
+
+## 📊 Dataset Summary
+
+| Dataset / Tab | Total Count | Primary Source | UI View Type |
+| :--- | :---: | :--- | :--- |
+| **🌐 Core Network** | **186** | Wikipedia Files & Connections, High-Profile Court Mentions | 2D Force-Directed Graph + Directory Grid |
+| **📖 The Black Book** | **2,327** | Leaked 95-Page Address Book (`epsteinsblackbook.com`) | A–Z Address Book Cards + Search |
+| **✈️ Flight Logs** | **559 Flights / 181 Passengers** | Pilot Manifests (Dave Rodgers & Larry Visoski) | Leaderboard + Flight Manifest Table |
+| **⚖️ Court Does** | **187 Does** | *Giuffre v. Maxwell* (Doc 1320 Unsealing Orders) | Judicial Index Cards + Seal Statuses |
 
 ---
 
@@ -24,153 +58,64 @@ Data sourced from [Wikipedia: List of people named in the Epstein files](https:/
 
 ```
 epstein-files/
-├── main.py                     # One-click end-to-end pipeline runner
-├── pyproject.toml              # Dependencies managed via uv
-├── .gitignore
+├── .github/workflows/
+│   └── deploy-pages.yml                # Automatic build & deploy to GitHub Pages
+├── main.py                             # 8-step automated data pipeline orchestrator
+├── pyproject.toml                      # Python dependencies (BeautifulSoup, pandas, httpx)
 ├── src/
-│   ├── scraper.py              # Fetches and parses Wikipedia HTML into raw records
-│   ├── enricher.py             # Entity extraction, sectors, eras, and properties
-│   └── export_graph.py         # Formats nodes & edges for Cytoscape / Force-Graph
+│   ├── scraper.py                      # Scrapes Wikipedia: List of people named in Epstein files
+│   ├── connections_scraper.py          # Scrapes Wikipedia: Connections of Jeffrey Epstein
+│   ├── court_and_flight_records.py     # Ingests Giuffre v. Maxwell court dockets & flight manifests
+│   ├── enricher.py                     # Unifies 3 raw sources, aliases, sectors, eras, and mutual peer ties
+│   ├── export_graph.py                 # Graph export with degree centrality and node/edge schemas
+│   ├── black_book_loader.py            # Processes 2,327 address book entries from FBI files
+│   ├── flight_logs_loader.py           # Processes 559 flight records and passenger rankings
+│   └── court_does_loader.py            # Indexes 187 Court Does from Judge Preska's orders
 ├── data/
-│   ├── raw/
-│   │   ├── wikipedia_page.html       # Cached Wikipedia page HTML
-│   │   └── parsed_people_raw.json    # Intermediate raw parsed entities
-│   └── processed/
-│       ├── people.json         # Rich hierarchical JSON with all fields & citations
-│       ├── people.csv          # Tabular dataset for Excel, DuckDB, or Pandas
-│       └── graph.json          # Ready-to-visualize network graph (nodes & edges)
-└── README.md
+│   ├── raw/                            # Cached HTML and source JSON
+│   └── processed/                      # Output JSON & CSV files
+└── web/                                # React 19 + TypeScript + Vite 6 + Tailwind CSS app
+    ├── src/
+    │   ├── types.ts                    # TypeScript schemas for all 4 datasets
+    │   ├── App.tsx                     # Top-level state & cross-tab navigation
+    │   ├── components/
+    │   │   ├── Header.tsx              # Universal 4-tab header
+    │   │   ├── FilterBar.tsx           # Sector & dataset multi-pill filters
+    │   │   ├── NetworkGraph.tsx        # 2D canvas physics graph
+    │   │   ├── DirectoryView.tsx       # Core directory card catalog
+    │   │   ├── DossierDrawer.tsx       # Slide-over biographical dossier
+    │   │   ├── PathFinderModal.tsx     # Degrees of separation shortest-path finder
+    │   │   ├── BlackBookView.tsx       # A–Z digital address book
+    │   │   ├── FlightLogsView.tsx      # Manifests & passenger leaderboard
+    │   │   └── CourtDoesView.tsx       # Judicial Does index (1–187)
+    │   └── data/                       # Bundled datasets (people, graph, black_book, flights, does)
+    └── package.json
 ```
 
 ---
 
-## 🧬 Extracted Data Fields
+## 🚀 Quick Start & Local Setup
 
-### Core Person Attributes
-- **`id`**: Unique kebab-case slug (e.g. `woody-allen`, `leon-black`).
-- **`name`**: Full name of the individual.
-- **`sector`**: Standardized sector classification:
-  - `Politics, Government & Diplomacy` (38)
-  - `Academia, Science & Research` (31)
-  - `Finance, Business & Real Estate` (30)
-  - `Entertainment, Arts & Media` (20)
-  - `Royalty & Aristocracy` (20)
-  - `Law, Law Enforcement & Legal Defense` (7)
-  - `Healthcare & Medicine` (6)
-  - `Tech, Crypto & Venture Capital` (5)
-- **`profession_summary`**: Concise title or role (e.g. *"Professor of Biology at Columbia University"*, *"Former Prime Minister of Israel"*).
-- **`wikipedia_url`**: Direct link to their standalone Wikipedia biography.
-- **`image_thumb` & `image_full`**: Wikimedia Commons thumbnail and full-resolution portrait image URLs.
-- **`citations_count` & `citations`**: Source footnotes referencing court exhibits, investigative articles, and legal filings.
-
-### 1. Connection to Epstein
-- **`primary_connection_type`**: Primary nature of the relationship:
-  - `Client (Hired Epstein)`: Paid Epstein for tax/estate/financial management (e.g. Leon Black, Leslie Wexner).
-  - `Professional Service Provider`: Hired by Epstein (e.g. doctors, lawyers, pilots).
-  - `Financial / Funding Recipient`: Received donations, grants, or seed investments (e.g. MIT Media Lab, Harvard, Blockstream).
-  - `Business / Investment Partner`: Co-investors, deal partners, corporate ties.
-  - `Intermediary / Introduced Others`: Facilitated introductions to officials or other high-profile figures.
-  - `Social Acquaintance / Guest`: Dinners, parties, social correspondence.
-  - `Mentioned in Court Files / Email Archive`: Documented in unsealed depositions.
-- **`era`**: Connection timeframe:
-  - `Post-2008 Only`: Interactions began or continued *after* Epstein's 2008 Florida conviction (critical for public scrutiny).
-  - `Both Pre- & Post-2008`: Longstanding ties spanning decades.
-  - `Pre-2008 Only`: Interactions confined to before the 2008 conviction.
-
-### 2. Properties & Island Activities
-- **Little Saint James (Private Island, USVI)**:
-  - `Visited`: Confirmed visit or multiple trips.
-  - `Invited`: Formally invited.
-  - `Denied`: Explicitly denied visiting.
-- **NYC Townhouse (Herbert N. Straus House, 9 E 71st St, Manhattan)**:
-  - Dinners, overnight stays, meetings.
-- **Palm Beach Waterfront Estate (Florida)**:
-  - Extended stays, visits, medical/administrative visits.
-- **Zorro Ranch (Stanley, New Mexico)**:
-  - Guest rooms, scientific retreats, vacation visits.
-- **Paris Apartment (Avenue Foch)**:
-  - Lent to associates, stays.
-
-### 3. Flight Logs & Private Aircraft
-- **`flew_private_plane`**: Boolean flag indicating travel on Epstein's aircraft (*"Lolita Express"* / Boeing 727 / Gulfstream).
-- **`flight_count_estimate`**: Documented trip counts (e.g. Doug Band: >35 flights; Jean-Luc Brunel: 25 flights; Eva Andersson-Dubin: 18 flights; Bill Clinton: 16 flights).
-- **`flight_notes`**: Direct textual evidence snippet.
-
-### 4. Cross-Referenced Entities
-- **Connected Individuals (`connected_people`)**: Mutual connections, joint meetings, and introductions between figures on the list.
-- **Affiliated Organizations**: Linked universities (Harvard, MIT, Columbia, Bard), corporations (Apollo, JPMorgan, Blockstream, Palantir), and government bodies.
-
----
-
-## 🚀 Quick Start & Usage
-
-### Prerequisites
-- Python 3.12+
-- [uv](https://docs.astral.sh/uv/) (fast Python package installer & runner)
-
-### Running the Pipeline
-To run the entire pipeline end-to-end:
+### 1. Run the Python Data Pipeline
 ```bash
-uv run python main.py
+# Requires Python 3.12+ (or uv)
+python main.py
 ```
 
-### Running Individual Steps
-1. **Scraper**:
-   ```bash
-   uv run python src/scraper.py
-   ```
-2. **Enricher**:
-   ```bash
-   uv run python src/enricher.py
-   ```
-3. **Graph Exporter**:
-   ```bash
-   uv run python src/export_graph.py
-   ```
+### 2. Run the Web App Locally
+```bash
+cd web
+npm install
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 🕸 Graph Data Schema (`graph.json`)
-
-The output `data/processed/graph.json` conforms to standard force-directed graph formats:
-
-```json
-{
-  "nodes": [
-    {
-      "id": "woody-allen",
-      "label": "Woody Allen",
-      "type": "person",
-      "category": "Entertainment, Arts & Media",
-      "color": "#ec4899",
-      "size": 19,
-      "degree": 5,
-      "image": "https://upload.wikimedia.org/...",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Woody_Allen"
-    },
-    {
-      "id": "loc-little-saint-james",
-      "label": "Little Saint James (Private Island)",
-      "type": "location",
-      "color": "#dc2626",
-      "size": 26
-    }
-  ],
-  "edges": [
-    {
-      "id": "peer-woody-allen-larry-summers",
-      "source": "woody-allen",
-      "target": "larry-summers",
-      "type": "PEER_CONNECTION",
-      "label": "Mentioned / Connected",
-      "color": "#38bdf8",
-      "weight": 2
-    }
-  ]
-}
-```
+## ⚖️ Legal & Journalistic Disclaimer
+Inclusion of any individual's name in released court files, depositions, address books, or flight manifests does not imply wrongdoing, illegality, or complicity. The records encompass alleged victims, accusers, witnesses, medical personnel, legal defense counsel, household employees, aviation staff, and casual acquaintances alongside investigative subjects. Figures appearing in depositions purely as incidental questions (e.g. witnesses confirming they never met them) are prominently flagged with disclaimer notices.
 
 ---
 
-## ⚖️ Journalistic & Legal Notice
-Inclusion in released court files, flight manifests, or this dataset does not inherently establish illegal conduct or personal misconduct. Context matters: the files contain victims, accusers, witnesses, medical professionals, legal defense counsel, employees, and social acquaintances alongside investigative subjects.
+## 📄 License
+MIT License.
