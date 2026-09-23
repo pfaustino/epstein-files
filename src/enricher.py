@@ -49,6 +49,7 @@ KNOWN_ORGS = {
     "Paul Weiss": ["Paul Weiss", "Paul, Weiss"],
     "FIRST Robotics": ["FIRST", "FIRST Robotics"],
     "DEKA Research": ["DEKA"],
+    "Virgin Group": ["Virgin Group", "Virgin Atlantic", "Virgin", "Necker Island"],
 }
 
 # Explicit sector overrides for prominent figures
@@ -59,6 +60,7 @@ SECTOR_OVERRIDES = {
     "Howard Lutnick": "Politics, Government & Diplomacy",
     "Robert Mugabe": "Politics, Government & Diplomacy",
     "John Phelan": "Politics, Government & Diplomacy",
+    "Richard Branson": "Finance, Business & Real Estate",
     "Alan Dershowitz": "Law, Law Enforcement & Legal Defense",
     "Ken Starr": "Law, Law Enforcement & Legal Defense",
     "Matthew Menchel": "Law, Law Enforcement & Legal Defense",
@@ -129,6 +131,7 @@ ALIASES = {
     "Tony Blair": ["Prime Minister Blair"],
     "John Casablancas": ["Casablancas"],
     "Murray Gell-Mann": ["Gell-Mann"],
+    "Richard Branson": ["Sir Richard Branson", "Branson"],
     "JP Morgan Chase Bank": ["JPMorgan", "J.P. Morgan", "JPMorgan Chase"],
     "Deutsche Bank": ["Deutsche"],
 }
@@ -245,6 +248,13 @@ LEGAL_STANDING_REGISTRY: Dict[str, Dict[str, str]] = {
         "standing": "legal_or_investigative",
         "label": "Legal / Court Reporter",
         "details": "Deposition and courtroom reporter involved in transcribing proceedings related to the civil cases.",
+    },
+
+    # 7. Social / PR Advice (Explicit Disclaimer)
+    "Richard Branson": {
+        "standing": "social_or_professional",
+        "label": "Social / PR Advice (No Misconduct)",
+        "details": "Named in unsealed 2026 email disclosures as having met with Epstein and offered PR advice post-2008 conviction; listed in Black Book. A spokesperson stated the correspondence was limited and that Branson severed contact upon learning the extent of Epstein's crimes.",
     },
 }
 

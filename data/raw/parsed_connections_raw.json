@@ -316,6 +316,30 @@
     "legal_context": "White House Visitor Logs / Intermediary"
   },
   {
+    "id": "richard-branson",
+    "name": "Richard Branson",
+    "anchor": "Richard_Branson",
+    "category_tag": null,
+    "sector": "Finance, Business & Real Estate",
+    "profession_summary": "British billionaire entrepreneur and co-founder of Virgin Group",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Branson",
+    "image_thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Richard_Branson_March_2015.jpg/250px-Richard_Branson_March_2015.jpg",
+    "image_full": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Richard_Branson_March_2015.jpg/250px-Richard_Branson_March_2015.jpg",
+    "image_caption": null,
+    "paragraphs": [
+      "Sir Richard Branson is a British billionaire entrepreneur and co-founder of the Virgin Group. In unsealed 2026 Department of Justice disclosures and court exhibits, email correspondence revealed that Epstein met with Branson and received public relations advice from him following Epstein's 2008 Florida conviction.",
+      "In one email exchange regarding visits to their respective Caribbean islands, Branson invited Epstein to visit and wrote 'bring your harem'. Branson's contact details and multiple private telephone numbers were also recorded in Epstein's 95-page address book ('The Black Book', page 7).",
+      "A spokesperson for Branson stated that the 'harem' phrase was intended facetiously, that Branson had only met Epstein on a few occasions in public and social settings, and that he had severed contact after learning the full extent of Epstein's crimes."
+    ],
+    "full_text": "Sir Richard Branson is a British billionaire entrepreneur and co-founder of the Virgin Group. In unsealed 2026 Department of Justice disclosures and court exhibits, email correspondence revealed that Epstein met with Branson and received public relations advice from him following Epstein's 2008 Florida conviction.\n\nIn one email exchange regarding visits to their respective Caribbean islands, Branson invited Epstein to visit and wrote 'bring your harem'. Branson's contact details and multiple private telephone numbers were also recorded in Epstein's 95-page address book ('The Black Book', page 7).\n\nA spokesperson for Branson stated that the 'harem' phrase was intended facetiously, that Branson had only met Epstein on a few occasions in public and social settings, and that he had severed contact after learning the full extent of Epstein's crimes.",
+    "links": [],
+    "citations": [],
+    "citations_count": 0,
+    "source_dataset": "connections_article",
+    "source_label": "Wikipedia: Connections",
+    "legal_context": "Documented PR Advice / Black Book"
+  },
+  {
     "id": "jp-morgan-chase-bank",
     "name": "JP Morgan Chase Bank",
     "anchor": "JP_Morgan_Chase_Bank",

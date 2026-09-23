@@ -113,6 +113,20 @@ ADDITIONAL_PEOPLE = [
         "image_thumb": None,
         "legal_context": "White House Visitor Logs / Intermediary",
     },
+    {
+        "name": "Richard Branson",
+        "anchor": "Richard_Branson",
+        "sector": "Finance, Business & Real Estate",
+        "profession_summary": "British billionaire entrepreneur and co-founder of Virgin Group",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Branson",
+        "image_thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Richard_Branson_March_2015.jpg/250px-Richard_Branson_March_2015.jpg",
+        "legal_context": "Documented PR Advice / Black Book",
+        "custom_paragraphs": [
+            "Sir Richard Branson is a British billionaire entrepreneur and co-founder of the Virgin Group. In unsealed 2026 Department of Justice disclosures and court exhibits, email correspondence revealed that Epstein met with Branson and received public relations advice from him following Epstein's 2008 Florida conviction.",
+            "In one email exchange regarding visits to their respective Caribbean islands, Branson invited Epstein to visit and wrote 'bring your harem'. Branson's contact details and multiple private telephone numbers were also recorded in Epstein's 95-page address book ('The Black Book', page 7).",
+            "A spokesperson for Branson stated that the 'harem' phrase was intended facetiously, that Branson had only met Epstein on a few occasions in public and social settings, and that he had severed contact after learning the full extent of Epstein's crimes.",
+        ],
+    },
 ]
 
 # Key institutions profiled in Connections article
@@ -182,28 +196,32 @@ def parse_connections_records(html: str) -> List[Dict[str, Any]]:
     # 1. Process People
     for person_meta in ADDITIONAL_PEOPLE:
         name = person_meta["name"]
-        h4 = soup.find(lambda el: el.name == "h4" and name in el.get_text())
         paras = []
         citations = []
         links = []
-        if h4:
-            sec = h4.find_parent("section")
-            if sec:
-                p_tags = sec.find_all("p")
-                paras = [clean_paragraph_text(p) for p in p_tags if clean_paragraph_text(p)]
-                for p in p_tags:
-                    for sup in p.find_all("sup", class_="reference"):
-                        cite_a = sup.find("a")
-                        if cite_a:
-                            citations.append({
-                                "ref_id": cite_a.get("href", "").lstrip("#"),
-                                "label": cite_a.get_text(strip=True),
-                            })
-                    for a in p.find_all("a", href=True):
-                        href = a["href"]
-                        lt = a.get_text(separator=" ", strip=True)
-                        if not re.match(r"^\[\d+\]$", lt):
-                            links.append({"text": lt, "href": href})
+
+        if person_meta.get("custom_paragraphs"):
+            paras = person_meta["custom_paragraphs"]
+        else:
+            h4 = soup.find(lambda el: el.name == "h4" and name in el.get_text())
+            if h4:
+                sec = h4.find_parent("section")
+                if sec:
+                    p_tags = sec.find_all("p")
+                    paras = [clean_paragraph_text(p) for p in p_tags if clean_paragraph_text(p)]
+                    for p in p_tags:
+                        for sup in p.find_all("sup", class_="reference"):
+                            cite_a = sup.find("a")
+                            if cite_a:
+                                citations.append({
+                                    "ref_id": cite_a.get("href", "").lstrip("#"),
+                                    "label": cite_a.get_text(strip=True),
+                                })
+                        for a in p.find_all("a", href=True):
+                            href = a["href"]
+                            lt = a.get_text(separator=" ", strip=True)
+                            if not re.match(r"^\[\d+\]$", lt):
+                                links.append({"text": lt, "href": href})
 
         full_text = "\n\n".join(paras) if paras else f"{name} is documented in Wikipedia's analysis of Jeffrey Epstein's network."
         records.append({

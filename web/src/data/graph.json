@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "total_nodes": 210,
-    "total_edges": 564,
-    "people_count": 186,
-    "organization_count": 18,
+    "total_nodes": 212,
+    "total_edges": 581,
+    "people_count": 187,
+    "organization_count": 19,
     "location_count": 5,
     "peer_connection_count": 105
   },
@@ -20,7 +20,29 @@
       "legal_standing": "convicted_co_conspirator",
       "legal_standing_label": "Convicted Co-Conspirator",
       "legal_details": "Convicted in Florida (2008) for procurement of minors for prostitution; indicted in SDNY (2019) for federal sex trafficking conspiracy; died in federal custody.",
-      "degree": 191,
+      "degree": 192,
+      "is_extended": false
+    },
+    {
+      "id": "loc-little-saint-james",
+      "label": "Little Saint James (Private Island)",
+      "type": "location",
+      "category": "Property / Location",
+      "color": "#dc2626",
+      "size": 26,
+      "description": "Epstein's private 70-acre island in the US Virgin Islands.",
+      "degree": 21,
+      "is_extended": false
+    },
+    {
+      "id": "loc-palm-beach",
+      "label": "Palm Beach Mansion",
+      "type": "location",
+      "category": "Property / Location",
+      "color": "#d97706",
+      "size": 26,
+      "description": "Epstein's waterfront estate at 358 El Brillo Way, Palm Beach, Florida.",
+      "degree": 14,
       "is_extended": false
     },
     {
@@ -57,35 +79,13 @@
       "is_extended": false
     },
     {
-      "id": "loc-palm-beach",
-      "label": "Palm Beach Mansion",
-      "type": "location",
-      "category": "Property / Location",
-      "color": "#d97706",
-      "size": 26,
-      "description": "Epstein's waterfront estate at 358 El Brillo Way, Palm Beach, Florida.",
-      "degree": 14,
-      "is_extended": false
-    },
-    {
-      "id": "loc-little-saint-james",
-      "label": "Little Saint James (Private Island)",
-      "type": "location",
-      "category": "Property / Location",
-      "color": "#dc2626",
-      "size": 26,
-      "description": "Epstein's private 70-acre island in the US Virgin Islands.",
-      "degree": 21,
-      "is_extended": false
-    },
-    {
       "id": "org-united-nations",
       "label": "United Nations",
       "type": "organization",
       "category": "Organization / Institution",
       "color": "#6366f1",
       "size": 18,
-      "degree": 141,
+      "degree": 142,
       "is_extended": false
     },
     {
@@ -186,6 +186,16 @@
       "color": "#6366f1",
       "size": 18,
       "degree": 1,
+      "is_extended": false
+    },
+    {
+      "id": "org-virgin-group",
+      "label": "Virgin Group",
+      "type": "organization",
+      "category": "Organization / Institution",
+      "color": "#6366f1",
+      "size": 18,
+      "degree": 15,
       "is_extended": false
     },
     {
@@ -905,7 +915,7 @@
       "legal_standing": "social_or_professional",
       "legal_standing_label": "Social / Institutional Association",
       "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
-      "degree": 3,
+      "degree": 4,
       "is_extended": false
     },
     {
@@ -1005,7 +1015,7 @@
       "legal_standing": "social_or_professional",
       "legal_standing_label": "Social / Institutional Association",
       "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
-      "degree": 4,
+      "degree": 5,
       "is_extended": false
     },
     {
@@ -1615,7 +1625,7 @@
       "legal_standing": "social_or_professional",
       "legal_standing_label": "Social / Institutional Association",
       "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
-      "degree": 2,
+      "degree": 3,
       "is_extended": false
     },
     {
@@ -1969,7 +1979,7 @@
       "legal_standing": "social_or_professional",
       "legal_standing_label": "Social / Institutional Association",
       "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
-      "degree": 3,
+      "degree": 4,
       "is_extended": false
     },
     {
@@ -2194,7 +2204,7 @@
       "legal_standing": "social_or_professional",
       "legal_standing_label": "Social / Institutional Association",
       "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
-      "degree": 2,
+      "degree": 3,
       "is_extended": false
     },
     {
@@ -2344,7 +2354,7 @@
       "legal_standing": "accused_or_sued",
       "legal_standing_label": "Named in Sworn Deposition (Deceased)",
       "legal_details": "Named in Virginia Giuffre's unsealed 2016 deposition as having been directed to him at Little St. James; Minsky's family and estate strongly denied; deceased in 2016.",
-      "degree": 3,
+      "degree": 4,
       "is_extended": false
     },
     {
@@ -2369,7 +2379,7 @@
       "legal_standing": "accused_or_sued",
       "legal_standing_label": "Named in Sworn Deposition (Denied)",
       "legal_details": "Former Senate Majority Leader named in Virginia Giuffre's unsealed 2016 deposition; vigorously denied all allegations; no charges ever filed.",
-      "degree": 5,
+      "degree": 6,
       "is_extended": false
     },
     {
@@ -2500,7 +2510,7 @@
       "legal_standing": "accused_or_sued",
       "legal_standing_label": "Named in Deposition / Sued for Assault",
       "legal_details": "Sued by Virginia Giuffre for battery and intentional infliction of emotional distress; settled out of court (Feb 2022) for an estimated $16M; stripped of royal military titles.",
-      "degree": 13,
+      "degree": 14,
       "is_extended": false
     },
     {
@@ -2550,7 +2560,7 @@
       "legal_standing": "social_or_professional",
       "legal_standing_label": "Social / Institutional Association",
       "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
-      "degree": 3,
+      "degree": 4,
       "is_extended": false
     },
     {
@@ -2600,7 +2610,7 @@
       "legal_standing": "social_or_professional",
       "legal_standing_label": "Social / Institutional Association",
       "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
-      "degree": 3,
+      "degree": 4,
       "is_extended": false
     },
     {
@@ -2825,7 +2835,7 @@
       "legal_standing": "social_or_professional",
       "legal_standing_label": "Social / Institutional Association",
       "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
-      "degree": 2,
+      "degree": 3,
       "is_extended": false
     },
     {
@@ -2875,7 +2885,7 @@
       "legal_standing": "social_or_professional",
       "legal_standing_label": "Social / Institutional Association",
       "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
-      "degree": 2,
+      "degree": 3,
       "is_extended": false
     },
     {
@@ -4343,6 +4353,34 @@
       "is_extended": false
     },
     {
+      "id": "richard-branson",
+      "label": "Richard Branson",
+      "type": "person",
+      "category": "Finance, Business & Real Estate",
+      "profession": "British billionaire entrepreneur and co-founder of Virgin Group",
+      "sector": "Finance, Business & Real Estate",
+      "era": "Post-2008 Only",
+      "aliases": [
+        "Sir Richard Branson",
+        "Branson"
+      ],
+      "primary_connection": "Business / Investment Partner",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Richard_Branson_March_2015.jpg/250px-Richard_Branson_March_2015.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Branson",
+      "color": "#f59e0b",
+      "size": 15,
+      "citations_count": 0,
+      "bio": "Sir Richard Branson is a British billionaire entrepreneur and co-founder of the Virgin Group. In unsealed 2026 Department of Justice disclosures and court exhibits, email correspondence revealed that Epstein met with Branson and received public relations advice from him following Epstein's 2008 Florida conviction.\n\nIn one email exchange regarding visits to their respective Caribbean islands, Branson invited Epstein to visit and wrote 'bring your harem'. Branson's contact details and multiple private telephone numbers were also recorded in Epstein's 95-page address book ('The Black Book', page 7).\n\nA spokesperson for Branson stated that the 'harem' phrase was intended facetiously, that Branson had only met Epstein on a few occasions in public and social settings, and that he had severed contact after learning the full extent of Epstein's crimes.",
+      "source_dataset": "connections_article",
+      "source_label": "Wikipedia: Connections",
+      "legal_context": "Documented PR Advice / Black Book",
+      "legal_standing": "social_or_professional",
+      "legal_standing_label": "Social / PR Advice (No Misconduct)",
+      "legal_details": "Named in unsealed 2026 email disclosures as having met with Epstein and offered PR advice post-2008 conviction; listed in Black Book. A spokesperson stated the correspondence was limited and that Branson severed contact upon learning the extent of Epstein's crimes.",
+      "degree": 3,
+      "is_extended": false
+    },
+    {
       "id": "jp-morgan-chase-bank",
       "label": "JP Morgan Chase Bank",
       "type": "person",
@@ -4524,7 +4562,7 @@
       "legal_standing": "victim_or_witness",
       "legal_standing_label": "Victim, Plaintiff & Key Accuser",
       "legal_details": "Primary plaintiff in Giuffre v. Maxwell and Giuffre v. Prince Andrew; founder of Victims Refuse Silence; key witness whose unsealed filings exposed the network.",
-      "degree": 9,
+      "degree": 10,
       "is_extended": false
     },
     {
@@ -4935,7 +4973,7 @@
       "legal_standing": "social_or_professional",
       "legal_standing_label": "Social / Institutional Association",
       "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged.",
-      "degree": 6,
+      "degree": 7,
       "is_extended": false
     },
     {
@@ -12916,22 +12954,6 @@
       "is_extended": true
     },
     {
-      "id": "efta-richard-branson",
-      "label": "Richard Branson",
-      "type": "person",
-      "sector": "Forensic Associates & EFTA Entities",
-      "profession": "Forensic Entity",
-      "era": "EFTA Declassified",
-      "image": null,
-      "color": "#64748b",
-      "size": 14,
-      "degree": 1,
-      "bio": "Entity identified in DOJ EFTA declassified files with 0 mentions.",
-      "legal_standing": "social_or_professional",
-      "legal_standing_label": "\u2139\ufe0f EFTA Forensic Entity",
-      "is_extended": true
-    },
-    {
       "id": "efta-greg-wyler",
       "label": "Greg Wyler",
       "type": "person",
@@ -13542,6 +13564,28 @@
   ],
   "edges": [
     {
+      "id": "epstein-owns-loc-little-saint-james",
+      "source": "jeffrey-epstein",
+      "target": "loc-little-saint-james",
+      "type": "OWNS_PROPERTY",
+      "label": "Owned / Controlled",
+      "style": "solid",
+      "color": "#9ca3af",
+      "weight": 2,
+      "is_extended": false
+    },
+    {
+      "id": "epstein-owns-loc-palm-beach",
+      "source": "jeffrey-epstein",
+      "target": "loc-palm-beach",
+      "type": "OWNS_PROPERTY",
+      "label": "Owned / Controlled",
+      "style": "solid",
+      "color": "#9ca3af",
+      "weight": 2,
+      "is_extended": false
+    },
+    {
       "id": "epstein-owns-loc-zorro-ranch",
       "source": "jeffrey-epstein",
       "target": "loc-zorro-ranch",
@@ -13567,28 +13611,6 @@
       "id": "epstein-owns-loc-nyc-townhouse",
       "source": "jeffrey-epstein",
       "target": "loc-nyc-townhouse",
-      "type": "OWNS_PROPERTY",
-      "label": "Owned / Controlled",
-      "style": "solid",
-      "color": "#9ca3af",
-      "weight": 2,
-      "is_extended": false
-    },
-    {
-      "id": "epstein-owns-loc-palm-beach",
-      "source": "jeffrey-epstein",
-      "target": "loc-palm-beach",
-      "type": "OWNS_PROPERTY",
-      "label": "Owned / Controlled",
-      "style": "solid",
-      "color": "#9ca3af",
-      "weight": 2,
-      "is_extended": false
-    },
-    {
-      "id": "epstein-owns-loc-little-saint-james",
-      "source": "jeffrey-epstein",
-      "target": "loc-little-saint-james",
       "type": "OWNS_PROPERTY",
       "label": "Owned / Controlled",
       "style": "solid",
@@ -14456,6 +14478,16 @@
       "is_extended": false
     },
     {
+      "id": "bryan-org-virgin-group",
+      "source": "bryan",
+      "target": "org-virgin-group",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1,
+      "is_extended": false
+    },
+    {
       "id": "burns-to-epstein",
       "source": "burns",
       "target": "jeffrey-epstein",
@@ -14561,6 +14593,16 @@
       "id": "chomsky-org-united-nations",
       "source": "chomsky",
       "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1,
+      "is_extended": false
+    },
+    {
+      "id": "chomsky-org-virgin-group",
+      "source": "chomsky",
+      "target": "org-virgin-group",
       "type": "AFFILIATED_WITH",
       "label": "Affiliated",
       "color": "#818cf8",
@@ -15412,6 +15454,16 @@
       "is_extended": false
     },
     {
+      "id": "de-jongh-org-virgin-group",
+      "source": "de-jongh",
+      "target": "org-virgin-group",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1,
+      "is_extended": false
+    },
+    {
       "id": "judd-to-epstein",
       "source": "judd",
       "target": "jeffrey-epstein",
@@ -15862,6 +15914,16 @@
       "is_extended": false
     },
     {
+      "id": "caroline-lang-org-virgin-group",
+      "source": "caroline-lang",
+      "target": "org-virgin-group",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1,
+      "is_extended": false
+    },
+    {
       "id": "jack-lang-to-epstein",
       "source": "jack-lang",
       "target": "jeffrey-epstein",
@@ -16161,6 +16223,16 @@
       "is_extended": false
     },
     {
+      "id": "mapp-org-virgin-group",
+      "source": "mapp",
+      "target": "org-virgin-group",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1,
+      "is_extended": false
+    },
+    {
       "id": "marcinko-to-epstein",
       "source": "marcinko",
       "target": "jeffrey-epstein",
@@ -16342,6 +16414,16 @@
       "is_extended": false
     },
     {
+      "id": "minsky-org-virgin-group",
+      "source": "minsky",
+      "target": "org-virgin-group",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1,
+      "is_extended": false
+    },
+    {
       "id": "mitchell-to-epstein",
       "source": "mitchell",
       "target": "jeffrey-epstein",
@@ -16380,6 +16462,16 @@
       "id": "mitchell-org-united-nations",
       "source": "mitchell",
       "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1,
+      "is_extended": false
+    },
+    {
+      "id": "mitchell-org-virgin-group",
+      "source": "mitchell",
+      "target": "org-virgin-group",
       "type": "AFFILIATED_WITH",
       "label": "Affiliated",
       "color": "#818cf8",
@@ -16550,6 +16642,16 @@
       "is_extended": false
     },
     {
+      "id": "mountbatten-windsor-org-virgin-group",
+      "source": "mountbatten-windsor",
+      "target": "org-virgin-group",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1,
+      "is_extended": false
+    },
+    {
       "id": "peer-mountbatten-windsor-ghislaine-maxwell",
       "source": "mountbatten-windsor",
       "target": "ghislaine-maxwell",
@@ -16621,6 +16723,16 @@
       "is_extended": false
     },
     {
+      "id": "musk-org-virgin-group",
+      "source": "musk",
+      "target": "org-virgin-group",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1,
+      "is_extended": false
+    },
+    {
       "id": "kimbal-musk-to-epstein",
       "source": "kimbal-musk",
       "target": "jeffrey-epstein",
@@ -16675,6 +16787,16 @@
       "id": "myhrvold-org-united-nations",
       "source": "myhrvold",
       "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1,
+      "is_extended": false
+    },
+    {
+      "id": "myhrvold-org-virgin-group",
+      "source": "myhrvold",
+      "target": "org-virgin-group",
       "type": "AFFILIATED_WITH",
       "label": "Affiliated",
       "color": "#818cf8",
@@ -17053,6 +17175,16 @@
       "is_extended": false
     },
     {
+      "id": "alberto-pinto-and-linda-pinto-org-virgin-group",
+      "source": "alberto-pinto-and-linda-pinto",
+      "target": "org-virgin-group",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1,
+      "is_extended": false
+    },
+    {
       "id": "peer-alberto-pinto-and-linda-pinto-ghislaine-maxwell",
       "source": "alberto-pinto-and-linda-pinto",
       "target": "ghislaine-maxwell",
@@ -17116,6 +17248,16 @@
       "id": "plaskett-org-mit",
       "source": "plaskett",
       "target": "org-mit",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1,
+      "is_extended": false
+    },
+    {
+      "id": "plaskett-org-virgin-group",
+      "source": "plaskett",
+      "target": "org-virgin-group",
       "type": "AFFILIATED_WITH",
       "label": "Affiliated",
       "color": "#818cf8",
@@ -18986,6 +19128,43 @@
       "is_extended": false
     },
     {
+      "id": "richard-branson-to-epstein",
+      "source": "richard-branson",
+      "target": "jeffrey-epstein",
+      "type": "ORBIT_TIE",
+      "label": "Business / Investment Partner",
+      "era": "Post-2008 Only",
+      "channels": [
+        "Email",
+        "Text / Phone",
+        "In-Person Meetings"
+      ],
+      "style": "solid",
+      "color": "#f59e0b",
+      "weight": 1,
+      "is_extended": false
+    },
+    {
+      "id": "richard-branson-org-united-nations",
+      "source": "richard-branson",
+      "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1,
+      "is_extended": false
+    },
+    {
+      "id": "richard-branson-org-virgin-group",
+      "source": "richard-branson",
+      "target": "org-virgin-group",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1,
+      "is_extended": false
+    },
+    {
       "id": "jp-morgan-chase-bank-to-epstein",
       "source": "jp-morgan-chase-bank",
       "target": "jeffrey-epstein",
@@ -19236,6 +19415,16 @@
       "id": "virginia-giuffre-org-united-nations",
       "source": "virginia-giuffre",
       "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1,
+      "is_extended": false
+    },
+    {
+      "id": "virginia-giuffre-org-virgin-group",
+      "source": "virginia-giuffre",
+      "target": "org-virgin-group",
       "type": "AFFILIATED_WITH",
       "label": "Affiliated",
       "color": "#818cf8",
@@ -20089,6 +20278,16 @@
       "id": "emmy-tayler-org-united-nations",
       "source": "emmy-tayler",
       "target": "org-united-nations",
+      "type": "AFFILIATED_WITH",
+      "label": "Affiliated",
+      "color": "#818cf8",
+      "weight": 1,
+      "is_extended": false
+    },
+    {
+      "id": "emmy-tayler-org-virgin-group",
+      "source": "emmy-tayler",
+      "target": "org-virgin-group",
       "type": "AFFILIATED_WITH",
       "label": "Affiliated",
       "color": "#818cf8",

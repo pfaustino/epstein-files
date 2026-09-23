@@ -3,7 +3,7 @@
     "source": "Epstein's Address Book (The 'Little Black Book')",
     "total_entries": 2327,
     "total_pages": 95,
-    "matched_core_figures": 114
+    "matched_core_figures": 115
   },
   "entries": [
     {
@@ -3995,9 +3995,9 @@
         "London"
       ],
       "notes": [],
-      "matched_person_id": null,
-      "matched_person_name": null,
-      "has_core_dossier": false
+      "matched_person_id": "richard-branson",
+      "matched_person_name": "Richard Branson",
+      "has_core_dossier": true
     },
     {
       "id": "007_briatore_flavio",

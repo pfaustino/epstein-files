@@ -12,17 +12,17 @@ An interactive, multi-dimensional investigative suite and knowledge graph platfo
 
 ```
 Universal Navigation Header
-├── 🌐 Tab 1: Core Network       (186 Detailed Dossiers, 606 Extended Entities & 2D Physics Graph)
+├── 🌐 Tab 1: Core Network       (187 Detailed Dossiers, 606 Extended Entities & 2D Physics Graph)
 ├── 📖 Tab 2: The Black Book      (2,327 Address Book Directory Contacts with A–Z Jump)
 ├── ✈️ Tab 3: Flight Logs         (559 Recorded Flight Legs, Interactive Route Map & Leaderboard)
 ├── ⚖️ Tab 4: Court Does (1–187)  (Judicial Docket Index with Preska Unsealing Rulings)
 └── 📑 Tab 5: EFTA Archives       (201 Topical Investigation Reports & 12 DOJ EFTA Datasets)
 ```
 
-1. **🌐 Core Network Explorer (186 Curated Profiles + 606 Extended Forensic Entities)**
+1. **🌐 Core Network Explorer (187 Curated Profiles + 606 Extended Forensic Entities)**
    - Interactive 2D physics-based force-directed knowledge graph with dynamic edge communication counts (emails, sent/received ratios, EFTA Bates stamps).
    - Avatar portraits, sector color rings, legal standing halo indicators (*Convicted*, *Indicted*, *NPA Co-Conspirator*, *Accused/Sued*, *Witness/Deponent*, *Social/Professional*).
-   - **Extended Network Toggle (`🌐 Extended Network (606)`)**: Seamlessly expand the graph from the curated 186 figures to the full 606 forensic entity network with 2,302 relationships.
+   - **Extended Network Toggle (`🌐 Extended Network (606)`)**: Seamlessly expand the graph from the curated 187 figures to the full 606 forensic entity network with 2,302 relationships.
    - **Degrees of Separation Path Finder**: Breadth-First Search (BFS) finding shortest connection chains between any two figures.
    - **Rich Slide-Over Dossiers**: High-res portraits, cited court quotes, property visits, flight metrics, and official **DOJ EFTA Forensic Records** with Bates document citations linking directly to `justice.gov`.
 
@@ -30,7 +30,7 @@ Universal Navigation Header
    - Digital address book interface modeled after the 95-page contact book seized by the FBI.
    - **Alphabetical A–Z Quick Jump Bar**: One click to jump directly to any letter.
    - **Search & Category Filters**: Search names, phone numbers, addresses, and notes across Personal, Commercial, Domestic Staff, Massage/Spa, Aviation, Politics, Royalty, and Medical contacts.
-   - **1-Click Cross-Linking**: 114 entries matched to core figures (*Trump*, *Clinton*, *Maxwell*, *Campbell*, *Baldwin*, *Dershowitz*, *Wexner*, *Barak*, *Spacey*, etc.) feature a glowing button: **"View Full Dossier in Core Network"**.
+   - **1-Click Cross-Linking**: 115 entries matched to core figures (*Trump*, *Clinton*, *Maxwell*, *Branson*, *Campbell*, *Baldwin*, *Dershowitz*, *Wexner*, *Barak*, *Spacey*, etc.) feature a glowing button: **"View Full Dossier in Core Network"**.
 
 3. **✈️ Flight Manifests & Route Visualizer (559 Flights)**
    - **Interactive Route Map**: Geographic Leaflet visualization displaying real flight paths connecting hubs (*St. Thomas/Island*, *Palm Beach*, *Teterboro/NYC*, *Santa Fe/Ranch*, *Paris*, etc.) with curvature offsets for round trips and in-map leg inspection.
@@ -53,7 +53,7 @@ Universal Navigation Header
 
 | Dataset / Tab | Total Count | Primary Source | UI View Type |
 | :--- | :---: | :--- | :--- |
-| **🌐 Core Network** | **186 Curated (606 Extended)** | Wikipedia Files & Connections, DOJ Forensic KG | 2D Force-Directed Graph + Directory Grid |
+| **🌐 Core Network** | **187 Curated (606 Extended)** | Wikipedia Files & Connections, DOJ Forensic KG | 2D Force-Directed Graph + Directory Grid |
 | **📖 The Black Book** | **2,327** | Leaked 95-Page Address Book (`epsteinsblackbook.com`) | A–Z Address Book Cards + Search |
 | **✈️ Flight Logs** | **559 Flights / 181 Passengers** | Pilot Manifests (Dave Rodgers & Larry Visoski) | Interactive Route Map + Leaderboard + Manifests |
 | **⚖️ Court Does** | **187 Does** | *Giuffre v. Maxwell* (Doc 1320 Unsealing Orders) | Judicial Index Cards + Seal Statuses |

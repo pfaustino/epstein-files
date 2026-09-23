@@ -2042,7 +2042,8 @@
     },
     "affiliated_organizations": [
       "MIT",
-      "United Nations"
+      "United Nations",
+      "Virgin Group"
     ],
     "connected_individuals": [],
     "aliases": [],
@@ -2321,7 +2322,8 @@
       "flight_notes": "An undated photograph showed Chomsky seated next to Epstein on a plane."
     },
     "affiliated_organizations": [
-      "United Nations"
+      "United Nations",
+      "Virgin Group"
     ],
     "connected_individuals": [
       {
@@ -4310,7 +4312,8 @@
       "flight_notes": null
     },
     "affiliated_organizations": [
-      "United Nations"
+      "United Nations",
+      "Virgin Group"
     ],
     "connected_individuals": [],
     "aliases": [],
@@ -5425,7 +5428,8 @@
       "flight_notes": null
     },
     "affiliated_organizations": [
-      "United Nations"
+      "United Nations",
+      "Virgin Group"
     ],
     "connected_individuals": [
       {
@@ -6220,7 +6224,8 @@
       "flight_notes": null
     },
     "affiliated_organizations": [
-      "United Nations"
+      "United Nations",
+      "Virgin Group"
     ],
     "connected_individuals": [],
     "aliases": [],
@@ -6714,7 +6719,8 @@
       "flight_notes": null
     },
     "affiliated_organizations": [
-      "United Nations"
+      "United Nations",
+      "Virgin Group"
     ],
     "connected_individuals": [
       {
@@ -6800,7 +6806,8 @@
     "affiliated_organizations": [
       "FIRST Robotics",
       "MIT",
-      "United Nations"
+      "United Nations",
+      "Virgin Group"
     ],
     "connected_individuals": [
       {
@@ -7181,7 +7188,8 @@
       "flight_notes": null
     },
     "affiliated_organizations": [
-      "United Nations"
+      "United Nations",
+      "Virgin Group"
     ],
     "connected_individuals": [
       {
@@ -7371,7 +7379,8 @@
     },
     "affiliated_organizations": [
       "FIRST Robotics",
-      "United Nations"
+      "United Nations",
+      "Virgin Group"
     ],
     "connected_individuals": [],
     "aliases": [],
@@ -7552,7 +7561,8 @@
     },
     "affiliated_organizations": [
       "Microsoft",
-      "United Nations"
+      "United Nations",
+      "Virgin Group"
     ],
     "connected_individuals": [],
     "aliases": [],
@@ -8262,7 +8272,9 @@
       "flight_count_estimate": null,
       "flight_notes": null
     },
-    "affiliated_organizations": [],
+    "affiliated_organizations": [
+      "Virgin Group"
+    ],
     "connected_individuals": [
       {
         "target_id": "ghislaine-maxwell",
@@ -8420,7 +8432,8 @@
       "flight_notes": null
     },
     "affiliated_organizations": [
-      "MIT"
+      "MIT",
+      "Virgin Group"
     ],
     "connected_individuals": [
       {
@@ -12946,6 +12959,76 @@
     "legal_details": "Named in files, flight manifests, address book, or deposition testimony. No sexual misconduct or criminal complicity has been alleged or charged."
   },
   {
+    "id": "richard-branson",
+    "name": "Richard Branson",
+    "anchor": "Richard_Branson",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Richard_Branson",
+    "image_thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Richard_Branson_March_2015.jpg/250px-Richard_Branson_March_2015.jpg",
+    "image_full": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Richard_Branson_March_2015.jpg/250px-Richard_Branson_March_2015.jpg",
+    "image_caption": null,
+    "category_tag": null,
+    "sector": "Finance, Business & Real Estate",
+    "profession_summary": "British billionaire entrepreneur and co-founder of Virgin Group",
+    "full_text": "Sir Richard Branson is a British billionaire entrepreneur and co-founder of the Virgin Group. In unsealed 2026 Department of Justice disclosures and court exhibits, email correspondence revealed that Epstein met with Branson and received public relations advice from him following Epstein's 2008 Florida conviction.\n\nIn one email exchange regarding visits to their respective Caribbean islands, Branson invited Epstein to visit and wrote 'bring your harem'. Branson's contact details and multiple private telephone numbers were also recorded in Epstein's 95-page address book ('The Black Book', page 7).\n\nA spokesperson for Branson stated that the 'harem' phrase was intended facetiously, that Branson had only met Epstein on a few occasions in public and social settings, and that he had severed contact after learning the full extent of Epstein's crimes.",
+    "connection_to_epstein": {
+      "relationship_types": [
+        "Business / Investment Partner",
+        "Social Acquaintance / Guest"
+      ],
+      "primary_nature": "Business / Investment Partner",
+      "era": "Post-2008 Only",
+      "has_pre_2008_ties": false,
+      "has_post_2008_ties": true,
+      "years_mentioned": [
+        2008,
+        2026
+      ],
+      "interaction_channels": [
+        "Email",
+        "Text / Phone",
+        "In-Person Meetings"
+      ]
+    },
+    "property_visits": {
+      "island_status": "None",
+      "island_notes": null,
+      "townhouse_status": "None",
+      "townhouse_notes": null,
+      "palm_beach_status": "None",
+      "palm_beach_notes": null,
+      "zorro_ranch_status": "None",
+      "zorro_ranch_notes": null,
+      "paris_status": "None",
+      "paris_notes": null,
+      "any_property_visited_or_offered": false
+    },
+    "flight_logs": {
+      "flew_on_private_plane": false,
+      "flight_count_estimate": null,
+      "flight_notes": null
+    },
+    "affiliated_organizations": [
+      "United Nations",
+      "Virgin Group"
+    ],
+    "connected_individuals": [],
+    "aliases": [
+      "Sir Richard Branson",
+      "Branson"
+    ],
+    "citations_count": 0,
+    "citations": [],
+    "source_dataset": "connections_article",
+    "source_label": "Wikipedia: Connections",
+    "legal_context": "Documented PR Advice / Black Book",
+    "legal_standing": "social_or_professional",
+    "legal_standing_label": "Social / PR Advice (No Misconduct)",
+    "legal_details": "Named in unsealed 2026 email disclosures as having met with Epstein and offered PR advice post-2008 conviction; listed in Black Book. A spokesperson stated the correspondence was limited and that Branson severed contact upon learning the extent of Epstein's crimes.",
+    "efta_mentions": 0,
+    "fbi_notes": "communications_db",
+    "efta_citations": []
+  },
+  {
     "id": "jp-morgan-chase-bank",
     "name": "JP Morgan Chase Bank",
     "anchor": "JP_Morgan_Chase_Bank",
@@ -13442,7 +13525,8 @@
       "flight_notes": "Extensively documented across David Rodgers' flight logs between 2000 and 2002."
     },
     "affiliated_organizations": [
-      "United Nations"
+      "United Nations",
+      "Virgin Group"
     ],
     "connected_individuals": [
       {
@@ -14606,7 +14690,8 @@
       "flight_notes": "Accompanied Maxwell on international and domestic flights."
     },
     "affiliated_organizations": [
-      "United Nations"
+      "United Nations",
+      "Virgin Group"
     ],
     "connected_individuals": [
       {
